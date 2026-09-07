@@ -1,0 +1,948 @@
+{
+  "id": "warfare",
+  "meta": {
+    "title": "Christianity vs Islam: better rules of warfare?",
+    "thesis": "Comparing scriptural norms, classical just-war / siyar traditions, and historical practice, which faith's warfare ethic better constrains violence and protects non-combatants?",
+    "purpose": "Steelman just war, crusading history, Qur'anic jihad limits, and classical offensive jihad. Separate Jesus' personal ethic, Christendom law, Muhammad as statesman, and modern misuse.",
+    "warning": "Define the comparison class: Jesus' sayings vs Muhammad's campaigns? Aquinas vs al-Shaybani? Modern catechism vs ISIS proof-texts? Mixing levels is how both sides cheat.",
+    "chips": [
+      "ethics",
+      "history",
+      "just war",
+      "jihad",
+      "law"
+    ],
+    "labels": {
+      "christian": "Christian case",
+      "muslim": "Muslim case"
+    }
+  },
+  "definitions": [
+    {
+      "term": "Just war (ius ad bellum / in bello)",
+      "precise": "Western Christian-derived criteria for when war may be started and how it must be fought (legitimate authority, just cause, proportionality, discrimination, etc.).",
+      "not": "Not identical with everything done by Christian empires."
+    },
+    {
+      "term": "Jihad",
+      "precise": "Struggle; in law often includes armed jihad with rules (siyar). Must specify defensive, offensive, spiritual, or polemical misuse.",
+      "not": "Not a synonym for terrorism or for any Muslim violence."
+    },
+    {
+      "term": "Non-combatant immunity",
+      "precise": "Norm against intentionally targeting civilians, women, children, clergy, etc.",
+      "not": "Not the same as zero collateral damage in siege warfare."
+    },
+    {
+      "term": "Abrogation / naskh (in war verses)",
+      "precise": "Claim that later Medinan fighting verses supersede earlier restraint — contested in scope among Muslim scholars.",
+      "not": "Do not assume one popular 'sword verse abrogates all peace' meme settles fiqh."
+    },
+    {
+      "term": "Christendom vs Jesus' ethic",
+      "precise": "Distinguish the Sermon on the Mount's personal enemy-love from later Christian political theology authorizing force.",
+      "not": "Christians may not hide crusade history behind Matthew 5 without argument."
+    },
+    {
+      "term": "Siyar",
+      "precise": "Islamic international/military law genre (e.g. Shaybani) regulating war and peace.",
+      "not": "Not identical with every raid narrative in the sīrah."
+    }
+  ],
+  "arguments": [
+    {
+      "id": "jesus-enemy-love",
+      "rank": 1,
+      "cluster": "Founding ethic",
+      "title": "Jesus' enemy-love sets a higher bar than armed prophethood",
+      "type": "ethics + theology",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "The founder forbids retaliatory violence and loves enemies (Matt 5:38–48); Muhammad leads battles. The founding pattern favors Christianity.",
+        "case": "Matthew 26:52; John 18:36. Even when Christians later just-war theorize, the canonical center is non-vengeance. Comparative ethics starts with the founder.",
+        "sources": [
+          {
+            "label": "Matthew 5:38–48",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A38-48&version=NRSVUE"
+          },
+          {
+            "label": "Matthew 26:52",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+26%3A52&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "But I say to you, Love your enemies and pray for those who persecute you.",
+            "who": "Matthew 5:44",
+            "work": "Sermon on the Mount",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A44&version=NRSVUE"
+          },
+          {
+            "text": "Put your sword back into its place; for all who take the sword will perish by the sword.",
+            "who": "Matthew 26:52",
+            "work": "Gethsemane",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2026%3A52&version=NRSVUE"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Jesus' kingdom is 'not from this world' (John 18:36) — Christian readings split on whether that bans all state violence.",
+            "source": "John 18:36",
+            "label": "Jesus' kingdom is 'not from this world' (John 18:36) — Christian readings split on whether that bans all state violence.",
+            "note": "John 18:36"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Jesus' ethic addresses personal disciples under occupation; Muhammad receives rules for a polity facing war. Different roles, not moral failure — and OT holy war complicates Christian claims.",
+        "case": "Qur'an 22:39–40 permission to fight when expelled; 2:190 non-transgression. Luke 22:36 and OT conquest narratives show biblical tradition is not pacifist-only.",
+        "sources": [
+          {
+            "label": "Qur'an 22:39–40",
+            "url": "https://quran.com/22/39-40"
+          },
+          {
+            "label": "Qur'an 2:190",
+            "url": "https://quran.com/2/190"
+          },
+          {
+            "label": "Luke 22:36",
+            "url": "https://www.biblegateway.com/passage/?search=Luke+22%3A36&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Permission [to fight] has been given to those who are being fought, because they were wronged.",
+            "who": "Qur'an 22:39",
+            "work": "Permission verse",
+            "url": "https://quran.com/22/39"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Romans 13 and Luke 22:36 are used to show the NT is not simple pacifism.",
+            "source": "Rom 13:1–4; Luke 22:36",
+            "label": "Romans 13 and Luke 22:36 are used to show the NT is not simple pacifism.",
+            "note": "Rom 13:1–4; Luke 22:36"
+          },
+          {
+            "fact": "A prophet with political authority faces questions Jesus, in the Gospels, does not — apples to oranges unless you compare Constantine/just war to siyar.",
+            "source": "Genre/office argument",
+            "label": "A prophet with political authority faces questions Jesus, in the Gospels, does not — apples to oranges unless you compare Constantine/just war to siyar.",
+            "note": "Genre/office argument"
+          }
+        ]
+      },
+      "counter_to_christian": "Selective pacifism: ignore Joshua, Samuel, Revelation warfare imagery, and church history.",
+      "counter_to_muslim": "If roles differ, say so — but then don't claim moral equivalence of founding examples without argument.",
+      "crux": "Is the morally decisive datum the founder's personal violence profile or the mature legal ethic of each tradition?",
+      "debate_use": "Force agreement on comparison class before scoring 'better.'",
+      "why_it_matters": "Highest Christian moral altitude claim. If it is the ethic, armed prophethood looks like a downgrade. If it is interim pacifism, the NT church's later just war is the real comparator.",
+      "live": {
+        "if_they_say": "Jesus never fought, so Christianity is the peace religion.",
+        "you_say": "Jesus' personal nonviolence is real. Then ask what Christians did with armies for 1700 years, and whether the fair Islamic comparator is Muhammad in Medina or a village Sufi. Match offices: preacher vs statesman, or church vs umma.",
+        "dont_overclaim": "Don't erase Crusades. Don't erase Maghāzī."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "defensive-jihad",
+      "rank": 2,
+      "cluster": "Qur'anic norms",
+      "title": "Qur'anic fighting is primarily defensive and limited",
+      "type": "ethics + exegesis",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "9:5, 9:29, 8:39 and classical offensive jihad show expansionist religious war is structural, not a modern distortion.",
+        "case": "Sword-verse rhetoric in apologetics; Maghāzī literature; classical manuals on inviting then fighting unbelievers. 'Religion of peace' overclaims fail against sources.",
+        "sources": [
+          {
+            "label": "Qur'an 9:5",
+            "url": "https://quran.com/9/5"
+          },
+          {
+            "label": "Qur'an 9:29",
+            "url": "https://quran.com/9/29"
+          },
+          {
+            "label": "EJIL — Use of Force under Islamic Law",
+            "url": "https://academic.oup.com/ejil/article/24/1/343/438602"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "And when the sacred months have passed, then kill the polytheists wherever you find them…",
+            "who": "Qur'an 9:5",
+            "work": "Sword verse (as cited in critiques)",
+            "url": "https://quran.com/9/5"
+          },
+          {
+            "text": "Fight those who do not believe in Allah or in the Last Day… from those who were given the Book, until they give the jizya willingly while they are humbled.",
+            "who": "Qur'an 9:29",
+            "work": "People of the Book fighting verse",
+            "url": "https://quran.com/9/29"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Core permissions answer persecution and treaty-breaking; 2:190 and non-combatant hadiths constrain excess; extremist readings violate classical limits.",
+        "case": "Tafsir tying 9:5 to specific hostile polytheist groups after pilgrimage season; hadith forbidding killing women/children. Modern Muslim majorities reject ISIS proof-texting.",
+        "sources": [
+          {
+            "label": "Qur'an 2:190",
+            "url": "https://quran.com/2/190"
+          },
+          {
+            "label": "Tafheem on 2:190",
+            "url": "https://islamicstudies.info/tafheem.php?sura=2&verse=190"
+          },
+          {
+            "label": "First Things — Challenging Radical Islam",
+            "url": "https://firstthings.com/challenging-radical-islam/"
+          },
+          {
+            "label": "Firestone, Jihad (OUP)",
+            "url": "https://global.oup.com/academic/product/jihad-9780195125805"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Fight in the way of Allah those who fight you but do not transgress. Indeed, Allah does not like transgressors.",
+            "who": "Qur'an 2:190",
+            "work": "Limitation verse",
+            "url": "https://quran.com/2/190"
+          },
+          {
+            "text": "There is no compulsion in religion.",
+            "who": "Qur'an 2:256",
+            "work": "Prooftext against forced conversion",
+            "url": "https://quran.com/2/256"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Asbāb al-nuzūl for 9:5 typically tie it to treaty-breaking pagans, not a timeless 'kill all unbelievers' license — fight the tafsīr, don't ignore 9:5.",
+            "source": "Classical tafsīr of Sūrat al-Tawba",
+            "label": "Asbāb al-nuzūl for 9:5 typically tie it to treaty-breaking pagans, not a timeless 'kill all unbelievers' license — fight the tafsīr, don't ignore 9:5.",
+            "note": "Classical tafsīr of Sūrat al-Tawba"
+          },
+          {
+            "fact": "Reuven Firestone and others: Qur'anic war verses are historically layered, not a single slogan.",
+            "source": "Firestone, Jihad: The Origin of Holy War in Islam",
+            "label": "Reuven Firestone and others: Qur'anic war verses are historically layered, not a single slogan.",
+            "note": "Firestone, Jihad: The Origin of Holy War in Islam"
+          }
+        ]
+      },
+      "counter_to_christian": "Quoting 9:5 without asbāb al-nuzūl and without 9:6 safe-conduct is proof-text abuse.",
+      "counter_to_muslim": "Classical offensive jihad theories exist; 'only defensive' is not the whole heritage.",
+      "crux": "Do Medinan war verses authorize enduring offensive holy war or context-bound defense under limits?",
+      "debate_use": "Put 2:190 and 9:5 side by side; demand a reconciliation theory from both.",
+      "why_it_matters": "Street slogan vs 9:5/9:29. Definitions of 'defensive' decide the round.",
+      "counters": [
+        {
+          "against": "Christian 9:5 isolated",
+          "claim": "Islam's last word is 'kill the polytheists.'",
+          "reply": "Read 9:4–7 (treaty-keepers excepted) and 2:190. Then compare herem texts in Joshua. Isolation is a method both sides abuse."
+        }
+      ],
+      "live": {
+        "if_they_say": "9:5 abrogates all peaceful verses.",
+        "you_say": "Abrogation is a real classical theory — don't deny it. Then ask which legal school, whether 9:5 is bound to ḥudaybiya-breakers, and what 9:6 (granting asylum) is doing in the same passage.",
+        "dont_overclaim": "Don't pretend 9:5 is a greeting-card. Don't pretend 2:256 deleted 9:29 from fiqh."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "noncombatants",
+      "rank": 3,
+      "cluster": "In bello",
+      "title": "Non-combatant protections",
+      "type": "ethics + law",
+      "popularity": "High",
+      "christian": {
+        "claim": "Just-war discrimination and modern Christian teaching (e.g. CCC) clearly forbid targeting civilians; Islamic sources include harsher siege/slavery outcomes in practice.",
+        "case": "Aquinas ST II-II; CCC 2302–2317. Christians argue their mature doctrine aligns with Geneva-like norms more cleanly.",
+        "sources": [
+          {
+            "label": "CCC 2302–2317 (safeguarding peace)",
+            "url": "https://www.vatican.va/archive/ENG0015/__P81.HTM"
+          },
+          {
+            "label": "Aquinas on war (New Advent)",
+            "url": "https://www.newadvent.org/summa/3040.htm"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Augustine and later Aquinas distinguish just cause from right conduct (jus ad bellum / jus in bello).",
+            "who": "Just-war tradition (summary)",
+            "work": "Aquinas, ST II-II q.40",
+            "url": "https://www.newadvent.org/summa/3040.htm"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Prophetic instructions forbid killing women, children, and often monks/hermits; mutilation and treachery banned — a robust in-bello ethic early in history.",
+        "case": "Abu Bakr's reported directives; hadith collections on non-killing of non-combatants. Christendom's massacres (Jerusalem 1099 etc.) undercut moral superiority narratives.",
+        "sources": [
+          {
+            "label": "Sahih Muslim 1744a (women/children)",
+            "url": "https://sunnah.com/muslim:1744a"
+          },
+          {
+            "label": "Yaqeen — Jihad, War & Peace (overview papers)",
+            "url": "https://yaqeeninstitute.org/"
+          },
+          {
+            "label": "Sahih Bukhari — killing women/children",
+            "url": "https://sunnah.com/bukhari:3014"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Do not kill a woman, nor a child, nor an old man, nor cut down fruit trees…",
+            "who": "Abū Bakr's reported instructions to armies (standard siyar citation)",
+            "work": "Transmitted in siyar / tārīkh collections; wording varies by report",
+            "url": "https://shamela.ws/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Prophetic hadith against killing women and children in combat is a mainstream siyar building block.",
+            "source": "Bukhari 3014–3015 area; Muslim 1744",
+            "label": "Prophetic hadith against killing women and children in combat is a mainstream siyar building block.",
+            "note": "Bukhari 3014–3015 area; Muslim 1744"
+          }
+        ]
+      },
+      "counter_to_christian": "Crusades, wars of religion, and colonial violence are part of the Christian record.",
+      "counter_to_muslim": "Siege practice, enslavement of captives, and some ridda/khawārij treatments complicate the soft reading.",
+      "crux": "Whose official norms better protect civilians — and how much do historical crimes discount the norms?",
+      "debate_use": "Score norms and history on separate ballots.",
+      "why_it_matters": "Conduct of war is where both traditions have usable law and ugly history.",
+      "live": {
+        "if_they_say": "Islam has no civilian protection.",
+        "you_say": "Siyar texts do. Then both of you have to survive your own history: Maghāzī raids, Crusader massacres, 20th-c. bombing. Law on the page vs practice is the shared human problem.",
+        "dont_overclaim": "Don't cite ISIS as 'the' fiqh. Don't cite a just-war manual as 'the' Crusades."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "just-war-tradition",
+      "rank": 4,
+      "cluster": "Legal traditions",
+      "title": "Just war vs siyar as legal achievements",
+      "type": "law + history",
+      "popularity": "High",
+      "christian": {
+        "claim": "Augustine–Aquinas–Vitoria–Grotius trajectory developed criteria that shaped modern international law; that is a major moral-intellectual achievement.",
+        "case": "Legitimate authority, just cause, right intention, last resort, proportionality. Muslims may parallel this, but Christian genealogy of ius gentium is historically central.",
+        "sources": [
+          {
+            "label": "SEP — War",
+            "url": "https://plato.stanford.edu/entries/war/"
+          },
+          {
+            "label": "Aquinas ST II-II Q.40",
+            "url": "https://www.newadvent.org/summa/3040.htm"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Siyar developed rules of treaties, safe-conduct (amān), and categories of combatants centuries before Westphalia; Islamic law is not a late borrower of restraint.",
+        "case": "Shaybani's Siyar; amān in 9:6; treaty of Hudaybiyya as precedent. Comparative legal history is not a Christian monopoly.",
+        "sources": [
+          {
+            "label": "Qur'an 9:6 (safe-conduct)",
+            "url": "https://quran.com/9/6"
+          },
+          {
+            "label": "EJIL Islamic use of force",
+            "url": "https://academic.oup.com/ejil/article/24/1/343/438602"
+          },
+          {
+            "label": "Khadduri, The Islamic Law of Nations",
+            "url": "https://press.jhu.edu/books/title/1671/islamic-law-nations"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Majid Khadduri's translation of Shaybānī is the usual English gateway to classical siyar.",
+            "source": "The Islamic Law of Nations",
+            "label": "Majid Khadduri's translation of Shaybānī is the usual English gateway to classical siyar.",
+            "note": "The Islamic Law of Nations"
+          }
+        ]
+      },
+      "counter_to_christian": "Just war also rationalized conquest; genealogy ≠ moral purity.",
+      "counter_to_muslim": "Classical dār al-Islām / dār al-ḥarb frames can encode permanent hostility.",
+      "crux": "Which legal tradition better institutionalizes restraint as law rather than as piety alone?",
+      "debate_use": "Compare Aquinas article and a siyar ruling side by side on civilian targeting.",
+      "why_it_matters": "Adult comparison: Aquinas vs Shaybānī, not Jesus-the-pacifist vs a YouTube clip of 9:5.",
+      "live": {
+        "if_they_say": "Only Christians invented just war.",
+        "you_say": "Just-war vocabulary is Latin-Christian. Limitation-of-war as law is not unique. Compare Shaybānī and Aquinas on cause, authority, and noncombatants — then score.",
+        "dont_overclaim": "Don't baptize either tradition as the Geneva Conventions."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "apostasy-blasphemy-war",
+      "rank": 5,
+      "cluster": "Adjacent coercion",
+      "title": "Religious coercion adjacent to warfare ethics",
+      "type": "ethics + law",
+      "popularity": "High",
+      "christian": {
+        "claim": "NT lacks a death penalty for apostasy; classical ridda law and blasphemy violence worsen Islam's overall force-ethic score.",
+        "case": "Bukhari 6922 vs John 6:66–67 freedom to walk away. Even if war rules are comparable, internal coercion matters.",
+        "sources": [
+          {
+            "label": "Sahih al-Bukhari 6922",
+            "url": "https://sunnah.com/bukhari:6922"
+          },
+          {
+            "label": "John 6:66–69",
+            "url": "https://www.biblegateway.com/passage/?search=John+6%3A66-69&version=NRSVUE"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Deut 13 and later Christendom's heresy laws are the Christian skeleton in this closet.",
+            "source": "Deut 13",
+            "label": "Deut 13 and later Christendom's heresy laws are the Christian skeleton in this closet.",
+            "note": "Deut 13"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "2:256 no compulsion; many modern scholars reject capital apostasy for private belief; Christian history of heresy executions undercuts uniqueness claims.",
+        "case": "Ridda wars read as political rebellion; Inquisition/heresy laws show Christian polities also fused religion and lethal force.",
+        "sources": [
+          {
+            "label": "Qur'an 2:256",
+            "url": "https://quran.com/2/256"
+          },
+          {
+            "label": "Qur'an 18:29",
+            "url": "https://quran.com/18/29"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Classical ridda/hiraba and sabb al-rasūl rulings are the Islamic skeleton.",
+            "source": "Fiqh manuals; Bukhari 6922 area",
+            "label": "Classical ridda/hiraba and sabb al-rasūl rulings are the Islamic skeleton.",
+            "note": "Fiqh manuals; Bukhari 6922 area"
+          }
+        ]
+      },
+      "counter_to_christian": "Christendom enforced orthodoxy with violence for centuries.",
+      "counter_to_muslim": "Reformist rejection of apostasy death is not identical with classical consensus.",
+      "crux": "Should warfare ethics scoring include domestic religious coercion laws?",
+      "debate_use": "If motion is 'rules of warfare,' park apostasy unless opponent opens it.",
+      "why_it_matters": "Where warfare ethics bleeds into liberty of conscience.",
+      "live": {
+        "if_they_say": "Islam kills apostates, Christianity doesn't.",
+        "you_say": "Classical fiqh often does prescribe death for apostasy. Christian history often did too. The live question is which scriptures still authorize it as a religious good, and who reformed.",
+        "dont_overclaim": "Don't pretend all Muslim states apply hudud. Don't pretend the Inquisition is a cartoon with no bodies."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "ot-holy-war",
+      "rank": 6,
+      "cluster": "Scripture symmetry",
+      "title": "Old Testament ḥērem vs Qur'anic jihad",
+      "type": "ethics + scripture",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "OT ḥērem is covenantal-historical and not the church's marching orders; the NT reframes enemy treatment. Islam's war texts remain operative law in classical fiqh.",
+        "case": "Hermeneutical discontinuity: Joshua ≠ Jesus' mission. Muslim abrogation theories keep fighting verses live in a way Christian supersession of ḥērem does not.",
+        "sources": [
+          {
+            "label": "Deuteronomy 20",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+20&version=NRSVUE"
+          },
+          {
+            "label": "Matthew 5 enemy love",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A43-48&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "They devoted to destruction by the edge of the sword all in the city, both men and women, young and old, oxen, sheep, and donkeys.",
+            "who": "Joshua 6:21",
+            "work": "Jericho ḥērem",
+            "url": "https://www.biblegateway.com/passage/?search=Joshua%206%3A21&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "If Christians own the whole Bible, ḥērem is harsher than Qur'anic rules; special pleading about 'that was then' must be available to Muslims too.",
+        "case": "1 Samuel 15; Deut 20. Comparative scripture ethics cannot baptize OT violence while essentializing Qur'an 9.",
+        "sources": [
+          {
+            "label": "1 Samuel 15",
+            "url": "https://www.biblegateway.com/passage/?search=1+Samuel+15&version=NRSVUE"
+          },
+          {
+            "label": "Qur'an 2:190–193",
+            "url": "https://quran.com/2/190-193"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "If OT ḥērem is 'old covenant,' say what moral rule makes Qur'anic jihad still live while Joshua is dead.",
+            "source": "Hermeneutics demand",
+            "label": "If OT ḥērem is 'old covenant,' say what moral rule makes Qur'anic jihad still live while Joshua is dead.",
+            "note": "Hermeneutics demand"
+          }
+        ]
+      },
+      "counter_to_christian": "Marcionism is heresy — the OT remains Christian scripture.",
+      "counter_to_muslim": "Symmetry requires Muslims to allow Christian progressive revelation arguments.",
+      "crux": "May each side restrict operative war ethics to later revelation/hermeneutics?",
+      "debate_use": "Demand parallel hermeneutical rules before comparing bloodiest texts.",
+      "why_it_matters": "Best Muslim tu quoque. Christians must have a theology of herem, not a memory-hole.",
+      "live": {
+        "if_they_say": "The Qur'an is uniquely violent.",
+        "you_say": "Open Joshua 6 and 1 Samuel 15. Then discuss covenant, typology, and whether Muhammad's wars look more like Joshua, like David, or like Augustine. Isolation is not a method.",
+        "dont_overclaim": "Don't say Joshua didn't happen as a moral free pass. Don't say 9:5 is just like a psalm of lament."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "crusades-colonialism",
+      "rank": 7,
+      "cluster": "History",
+      "title": "Crusades, colonialism, and Maghāzī",
+      "type": "history",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "Crusades are often politically complex and not simple 'kill all Muslims' doctrine; Islamic conquests and slave-raiding likewise. Founder-level ethics still differ.",
+        "case": "Acknowledge sins of Christendom while arguing they violate Jesus more clearly than expansionist jihad violates Muhammad's model.",
+        "sources": [
+          {
+            "label": "CCC on peace / unjust war themes",
+            "url": "https://www.vatican.va/archive/ENG0015/__P81.HTM"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Crusader massacres and later colonial wars under Christian symbols destroy claims of uniquely peaceful Christian civilization.",
+        "case": "Jerusalem 1099 narratives; Reconquista; modern wars. Moral scoreboards that ignore Christian violence are apologetic, not historical.",
+        "sources": [
+          {
+            "label": "Internet Medieval Sourcebook — Crusades",
+            "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+          }
+        ]
+      },
+      "counter_to_christian": "If practice can indict Islam, it can indict Christianity.",
+      "counter_to_muslim": "If practice can indict Christianity, cite Islamic conquest violence too.",
+      "crux": "Do historical crimes refute a tradition's rules, or only its faithfulness?",
+      "debate_use": "Propose: norms 50%, founder 30%, civilizational practice 20% — then argue weights.",
+      "why_it_matters": "History dump round. Force a metric: founding texts vs later empires.",
+      "live": {
+        "if_they_say": "Christianity is Crusades and colonialism.",
+        "you_say": "Those are Christian-world crimes. Maghāzī, ridda, futūḥ, and later sultanates are Muslim-world wars. Score founders, classical law, and modern outcomes separately or you are just trading body counts.",
+        "dont_overclaim": "Don't excuse atrocity as 'context' only for your side."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "prisoners-spoils",
+      "rank": 8,
+      "cluster": "In bello",
+      "title": "Prisoners, spoils, and slavery in war",
+      "type": "ethics + law",
+      "popularity": "High",
+      "christian": {
+        "claim": "Regulating slavery and sex with captives (e.g. debates on mā malakat aymānukum) is a moral deficit relative to Gospel trajectory toward liberation.",
+        "case": "Qur'an 33:50; 4:24 debates; classical fiqh on captives. Christians argue NT seedbed abolishes the category over time more cleanly.",
+        "sources": [
+          {
+            "label": "Qur'an 4:24",
+            "url": "https://quran.com/4/24"
+          },
+          {
+            "label": "Philemon (status of Onesimus)",
+            "url": "https://www.biblegateway.com/passage/?search=Philemon+1&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Islam regulated and incentivized manumission in a slave economy universal to late antiquity; Christian canon also assumes slavery (Eph 6; Col 3).",
+        "case": "90:13; 24:33. Comparative ancient ethics: both inherit slavery; Islam's war-captive rules are of their time, not uniquely evil.",
+        "sources": [
+          {
+            "label": "Qur'an 90:12–13",
+            "url": "https://quran.com/90/12-13"
+          },
+          {
+            "label": "Ephesians 6:5–9",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A5-9&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "So when you meet those who disbelieve [in battle], strike [their] necks until, when you have inflicted slaughter upon them, then secure their bonds, and either [confer] favor afterwards or ransom [them]…",
+            "who": "Qur'an 47:4",
+            "work": "Prisoners: grace or ransom",
+            "url": "https://quran.com/47/4"
+          }
+        ]
+      },
+      "counter_to_christian": "Christian slaveholding lasted into modernity with biblical defense.",
+      "counter_to_muslim": "Regulation is not abolition; moral progress claims need clear trajectory.",
+      "crux": "Is regulating war-captive slavery better, worse, or equal to NT household codes?",
+      "debate_use": "Keep this argument from swallowing the whole warfare motion — timebox it.",
+      "why_it_matters": "Q 47:4, 8:41, 33:50 vs NT silence / later church practice.",
+      "live": {
+        "if_they_say": "Islam legalized war-booty and concubinage.",
+        "you_say": "8:41 and 4:24 are in the book — grant the texts. Then compare OT spoils (Num 31) and Christian just-war ransom practice. The distinctive Islamic fight is whether those rules remain exemplary.",
+        "dont_overclaim": "Don't deny the verses. Don't pretend medieval Christians had clean hands on captives."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "terrorism-takfir",
+      "rank": 9,
+      "cluster": "Modern misuse",
+      "title": "Modern terrorism and proof-texting",
+      "type": "ethics + contemporary",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "Jihadist groups cite mainstream-accessible texts; the recurrence suggests a textual vulnerability Christianity's NT center lacks.",
+        "case": "9:5/9:29 in extremist literature. Christian terrorists usually contradict Jesus more blatantly.",
+        "sources": [
+          {
+            "label": "Qur'an 9:5; 9:29",
+            "url": "https://quran.com/9/5"
+          },
+          {
+            "label": "NAMB — Islam and Violence",
+            "url": "https://www.namb.net/apologetics/resource/islam-and-violence/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Graeme Wood's ISIS analysis: they were following a coherent extreme reading, not 'no Islam.'",
+            "source": "Wood, What ISIS Really Wants / The Way of the Strangers",
+            "label": "Graeme Wood's ISIS analysis: they were following a coherent extreme reading, not 'no Islam.'",
+            "note": "Wood, What ISIS Really Wants / The Way of the Strangers"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Takfīrī terrorism violates siyar, targets civilians, and is condemned by mainstream scholars; guilt by extremist citation is like blaming Jesus for KKK misuse of the Bible.",
+        "case": "Open letters against ISIS; classical conditions for jihad (authority, non-combatant rules). Method: misuse ≠ meaning.",
+        "sources": [
+          {
+            "label": "Letter to Baghdadi (Open Letter)",
+            "url": "https://www.lettertobaghdadi.com/"
+          },
+          {
+            "label": "Qur'an 5:32",
+            "url": "https://quran.com/5/32"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Mainstream fiqh: targeting civilians, breaking oaths, and indiscriminate takfir are ḥarām; Khawārij are the classical warning tale.",
+            "source": "Classical ḥudūd / siyar + modern marājiʿ statements",
+            "label": "Mainstream fiqh: targeting civilians, breaking oaths, and indiscriminate takfir are ḥarām; Khawārij are the classical warning tale.",
+            "note": "Classical ḥudūd / siyar + modern marājiʿ statements"
+          }
+        ]
+      },
+      "counter_to_christian": "Christian nationalist violence and crusader romanticism also cite scripture.",
+      "counter_to_muslim": "If mainstream classical law includes offensive jihad, 'extremist only' is incomplete.",
+      "crux": "Are jihadist readings parasitic distortions or one authentic classical option?",
+      "debate_use": "Ask for named madhhab positions, not only Twitter scholars.",
+      "why_it_matters": "Modern audiences start here. You still need a text-to-practice map.",
+      "live": {
+        "if_they_say": "ISIS is true Islam.",
+        "you_say": "They cited Islamic texts. So did their Muslim enemies. The adult move is: which reading is central vs extreme, and what does the same method do to Christian Reconstructionist violence.",
+        "dont_overclaim": "Don't say 'nothing to do with Islam.' Don't say 'this is all Muslims.'"
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "proportionality-treaties",
+      "rank": 10,
+      "cluster": "Qur'anic norms",
+      "title": "Treaties, reciprocity, and proportionality",
+      "type": "ethics",
+      "popularity": "Medium-high",
+      "christian": {
+        "claim": "Gospel enemy-love and just-war last resort/proportionality give a clearer path to stable peace than expansionist jihad frames.",
+        "case": "Romans 12:17–21; just-war manuals. Peace is not merely temporary hudna pending strength.",
+        "sources": [
+          {
+            "label": "Romans 12:17–21",
+            "url": "https://www.biblegateway.com/passage/?search=Romans+12%3A17-21&version=NRSVUE"
+          },
+          {
+            "label": "SEP War",
+            "url": "https://plato.stanford.edu/entries/war/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Pacta sunt servanda in just-war and in Grotius sits in a Christian-European legal story.",
+            "source": "Grotius, De jure belli",
+            "label": "Pacta sunt servanda in just-war and in Grotius sits in a Christian-European legal story.",
+            "note": "Grotius, De jure belli"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Qur'an commands fulfillment of covenants (9:4; 16:91) and incline to peace if enemy inclines (8:61); Hudaybiyya shows strategic peacemaking.",
+        "case": "Treaty ethics are central. 8:61 is a high-water mark for reciprocal de-escalation.",
+        "sources": [
+          {
+            "label": "Qur'an 8:61",
+            "url": "https://quran.com/8/61"
+          },
+          {
+            "label": "Qur'an 16:91",
+            "url": "https://quran.com/16/91"
+          },
+          {
+            "label": "Qur'an 9:4",
+            "url": "https://quran.com/9/4"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Excepted are those with whom you made a treaty among the polytheists and they have not been deficient toward you… so fulfill their treaty to its term.",
+            "who": "Qur'an 9:4",
+            "work": "Treaty-keeping beside 9:5",
+            "url": "https://quran.com/9/4"
+          }
+        ]
+      },
+      "counter_to_christian": "Christian states broke treaties constantly; norms ≠ compliance.",
+      "counter_to_muslim": "Debates on whether 8:61 is abrogated by later sūrah 9 must be faced honestly.",
+      "crux": "Is peace a stable end-state in each ethic, or a pause in religious struggle?",
+      "debate_use": "Ask both: name conditions for ending war permanently with a non-co-religionist state.",
+      "why_it_matters": "Where both can sound like Geneva — and both can be accused of bad faith.",
+      "live": {
+        "if_they_say": "Muslims may break any treaty with unbelievers.",
+        "you_say": "9:4 and 8:72 and the Constitution of Medina tradition cut against that slogan. Then discuss Hudaybiyyah and whether 'no compulsion' survives conquest. Slogans both ways are lazy.",
+        "dont_overclaim": "Don't ignore 9:1–15's treaty-break frame. Don't ignore Christian colonial treaty-breaking."
+      },
+      "importance": "Top 10"
+    }
+  ],
+  "materials": [],
+  "debates": [
+    {
+      "id": "wood-ally-violence",
+      "title": "Islam and violence debates (Wood / Ally pattern)",
+      "year": null,
+      "venue": "Public apologetics",
+      "participants": [
+        "David Wood",
+        "Shabir Ally"
+      ],
+      "sides": {
+        "christian": "David Wood",
+        "muslim": "Shabir Ally"
+      },
+      "motion": "Is Islam a religion of peace / how violent are the sources?",
+      "summary": "Wood stacks Medinan war texts and sīrah; Ally stresses context, defensive reading, and Christian violence history.",
+      "what_to_steal": [
+        "Always define jihad before quoting",
+        "Separate Muhammad's battles from ISIS",
+        "Bring OT ḥērem when sword verses appear"
+      ],
+      "links": [
+        {
+          "label": "EJIL academic framing",
+          "url": "https://academic.oup.com/ejil/article/24/1/343/438602"
+        }
+      ]
+    }
+  ],
+  "opponent_cards": [
+    {
+      "trigger": "Islam is a religion of peace — period",
+      "fast_answer": "Ask which texts and which legal school. Peaceful Muslims ≠ settled classical doctrine on offensive jihad.",
+      "follow_up": "Offer: many verses command restraint — and some authorize fighting. Both are in the sources.",
+      "sources": [
+        "https://quran.com/2/190",
+        "https://quran.com/9/29",
+        "EJIL article"
+      ]
+    },
+    {
+      "trigger": "Kill the pagans wherever you find them (9:5)",
+      "fast_answer": "Context: specific treaty-breakers after sacred months; 9:6 grants protection if they seek it. Still debate scope — but not a cartoon.",
+      "follow_up": "Ask if they apply the same literal forever-reading to Deut 20.",
+      "sources": [
+        "https://quran.com/9/5",
+        "https://quran.com/9/6"
+      ]
+    },
+    {
+      "trigger": "Jesus said turn the other cheek, so Christianity wins",
+      "fast_answer": "Personal ethic vs state ethic. Ask about just war, soldiers in NT, and OT. Comparison class matters.",
+      "follow_up": "Grant the Sermon's radicalness; then ask how Christian empires should be scored.",
+      "sources": [
+        "Matthew 5",
+        "CCC 2302–2317"
+      ]
+    },
+    {
+      "trigger": "Crusades prove Christianity is worse",
+      "fast_answer": "Crimes count against practice. They don't automatically make Qur'anic war rules gentler. Score both.",
+      "follow_up": "Ask for Islamic conquest counter-examples they accept as parallel.",
+      "sources": [
+        "Fordham crusades sourcebook"
+      ]
+    },
+    {
+      "trigger": "Jihad just means inner struggle",
+      "fast_answer": "Greater/lesser jihad rhetoric exists, but fiqh books regulate armed jihad extensively. Don't erase that.",
+      "follow_up": "Define which sense is used in tonight's motion.",
+      "sources": [
+        "EJIL",
+        "siyar overviews"
+      ]
+    },
+    {
+      "trigger": "Muhammad was a warlord, not a prophet",
+      "fast_answer": "That's a conclusion. First compare roles: Jesus non-state teacher vs Moses/David-like lawgiver-leader.",
+      "follow_up": "Ask if Moses fails the same test.",
+      "sources": [
+        "Qur'an 22:39",
+        "Exodus/Deuteronomy war laws"
+      ]
+    },
+    {
+      "trigger": "Just war is just Christian spin for violence",
+      "fast_answer": "It can be abused. It also supplies criteria to condemn abusive wars — including Christian ones.",
+      "follow_up": "Ask which criterion they reject: discrimination? proportionality?",
+      "sources": [
+        "https://plato.stanford.edu/entries/war/"
+      ]
+    },
+    {
+      "trigger": "Muslims must fight until all religion is for Allah (8:39)",
+      "fast_answer": "Exegetes dispute whether this means end persecution/fitnah or global forced conversion. Force a tafsir.",
+      "follow_up": "Pair with 2:256 and 8:61.",
+      "sources": [
+        "https://quran.com/8/39",
+        "https://quran.com/2/256",
+        "https://quran.com/8/61"
+      ]
+    },
+    {
+      "trigger": "Christianity caused more deaths in history",
+      "fast_answer": "Body-count debates depend on centuries, technology, and demography. Prefer norms + founder + representative law.",
+      "follow_up": "Refuse unfalsifiable genocide Olympics unless data standards are set.",
+      "sources": [
+        "Historical methodology caution"
+      ]
+    },
+    {
+      "trigger": "ISIS follows true Islam",
+      "fast_answer": "They claim to. Mainstream Open Letter and classical non-combatant rules say they don't. Ask for your opponent's usūl.",
+      "follow_up": "Still press classical offensive jihad if that's the real target.",
+      "sources": [
+        "https://www.lettertobaghdadi.com/"
+      ]
+    }
+  ],
+  "checklist": [
+    "Lock comparison class: founder / scripture / classical law / modern teaching",
+    "Prepare 60-second definitions: just war, jihad, non-combatant, abrogation",
+    "Master 2:190, 8:61, 9:5–6, 9:29 and Matt 5 / Matt 26:52",
+    "Prepare OT ḥērem symmetry move and Christian discontinuity reply",
+    "Separate in bello rules from ad bellum expansion questions",
+    "Decide concessions: Crusades; classical offensive jihad",
+    "Drill 10 opponent cards; first line live-ready",
+    "Bring Aquinas Q.40 + one siyar/EJIL receipt",
+    "Score norms and history separately in closing",
+    "No slogan closings: 'religion of peace' or 'Jesus vs warlord' without crux",
+    "Timebox slavery/apostasy digressions unless motion includes them",
+    "Ask opponent to state conditions for permanent peace with the other faith's polity"
+  ],
+  "positive_cases": {
+    "Christian podium": [
+      "Founder's enemy-love and rejection of sword-retaliation is a unique moral center",
+      "Just-war criteria (discrimination, proportionality, last resort) are a high legal achievement",
+      "NT lacks an apostolic program of religious conquest",
+      "Medinan expansionist texts and classical offensive jihad are structural challenges for Islam"
+    ],
+    "Muslim podium": [
+      "Early, explicit non-combatant protections and amān/treaty ethics",
+      "Permission to fight answers persecution; 2:190 and 8:61 constrain aggression",
+      "Siyar is a mature laws-of-war tradition, not chaos",
+      "Christian scripture and history contain ḥērem, crusade, and holy-war practice — no innocence narrative"
+    ],
+    "Unity / steelman": [
+      "Both traditions contain restraint norms and violent chapters — punish proof-texting",
+      "Agree on comparison class before scoring",
+      "Condemn civilian-targeting terrorism as betrayal of the best in both",
+      "Use legal classics (Aquinas, siyar) not only atrocity headlines"
+    ]
+  },
+  "bibliography": [
+    {
+      "tier": "Academic / legal",
+      "items": [
+        {
+          "label": "SEP — War",
+          "url": "https://plato.stanford.edu/entries/war/"
+        },
+        {
+          "label": "EJIL — Use of Force under Islamic Law",
+          "url": "https://academic.oup.com/ejil/article/24/1/343/438602"
+        },
+        {
+          "label": "Aquinas ST II-II Q.40",
+          "url": "https://www.newadvent.org/summa/3040.htm"
+        },
+        {
+          "label": "CCC 2302–2317",
+          "url": "https://www.vatican.va/archive/ENG0015/__P81.HTM"
+        }
+      ]
+    },
+    {
+      "tier": "Primary",
+      "items": [
+        {
+          "label": "Qur'an 2:190–193; 8:61; 9:5–6; 9:29; 22:39–40",
+          "url": "https://quran.com/2/190-193"
+        },
+        {
+          "label": "Matthew 5:38–48; 26:52",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A38-48&version=NRSVUE"
+        },
+        {
+          "label": "Sahih Muslim 1744a",
+          "url": "https://sunnah.com/muslim:1744a"
+        }
+      ]
+    },
+    {
+      "tier": "Contemporary",
+      "items": [
+        {
+          "label": "Letter to Baghdadi",
+          "url": "https://www.lettertobaghdadi.com/"
+        },
+        {
+          "label": "Tafheem 2:190",
+          "url": "https://islamicstudies.info/tafheem.php?sura=2&verse=190"
+        }
+      ]
+    }
+  ]
+}

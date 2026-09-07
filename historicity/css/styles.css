@@ -1,0 +1,449 @@
+:root {
+  --ink: #12171a;
+  --ink-soft: #2c353a;
+  --muted: #5a666c;
+  --paper: #eef2f4;
+  --line: #c5cfd4;
+  --brand: #0b3a34;
+  --bible: #1e3a5f;
+  --bible-bg: #e4ebf4;
+  --quran: #0f5c52;
+  --quran-bg: #dff0ed;
+  --warn: #6e2f45;
+  --warn-bg: #f3e6ea;
+  --crux: #254868;
+  --crux-bg: #e3ebf3;
+  --card: rgba(255, 255, 255, 0.72);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-ui: "DM Sans", system-ui, sans-serif;
+  --max: 880px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(1000px 420px at 0% -10%, #d5e4e6 0%, transparent 55%),
+    radial-gradient(800px 380px at 100% 0%, #d9e0e8 0%, transparent 50%),
+    var(--paper);
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+a {
+  color: var(--brand);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--warn);
+}
+
+.wrap {
+  width: min(100% - 2rem, var(--max));
+  margin-inline: auto;
+}
+
+.site-header {
+  padding: 1.75rem 0 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.brand {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 6vw, 2.8rem);
+  font-weight: 650;
+  letter-spacing: -0.03em;
+  color: var(--brand);
+  line-height: 1;
+}
+
+.brand small {
+  display: block;
+  margin-top: 0.35rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+
+.back {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+}
+
+.hero {
+  padding: 1.75rem 0 1rem;
+}
+
+.hero h1 {
+  margin: 0 0 0.7rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 3.8vw, 2rem);
+  font-weight: 550;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.thesis {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
+}
+
+.chip {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--muted);
+  padding: 0.28rem 0.65rem;
+  border-radius: 999px;
+}
+
+.warn-box {
+  margin: 1.1rem 0 1.4rem;
+  padding: 0.9rem 1rem;
+  background: var(--warn-bg);
+  border-left: 3px solid var(--warn);
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 0.65rem 0;
+  background: color-mix(in srgb, var(--paper) 88%, white);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+}
+
+.tabs button {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-soft);
+  padding: 0.42rem 0.7rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.tabs button[aria-selected="true"] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #f3faf8;
+}
+
+.panel {
+  display: none;
+  padding: 1.25rem 0 3rem;
+  animation: rise 350ms ease both;
+}
+
+.panel.active {
+  display: block;
+}
+
+.section-intro {
+  margin: 0 0 1rem;
+  font-family: var(--font-ui);
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.grid {
+  display: grid;
+  gap: 0.8rem;
+}
+
+details.card {
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.95rem 1rem;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary h2,
+summary h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  font-weight: 550;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.7rem;
+  margin-bottom: 0.3rem;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.body {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--line);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.two {
+  display: grid;
+  gap: 0.7rem;
+}
+
+@media (min-width: 720px) {
+  .two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.side {
+  border-radius: 8px;
+  padding: 0.8rem 0.9rem;
+}
+
+.side.bible {
+  background: var(--bible-bg);
+  border: 1px solid color-mix(in srgb, var(--bible) 22%, transparent);
+}
+
+.side.quran {
+  background: var(--quran-bg);
+  border: 1px solid color-mix(in srgb, var(--quran) 22%, transparent);
+}
+
+.side .label {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.side.bible .label {
+  color: var(--bible);
+}
+
+.side.quran .label {
+  color: var(--quran);
+}
+
+.side .claim {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  font-weight: 550;
+  line-height: 1.35;
+}
+
+.side .case,
+.prose {
+  margin: 0;
+  font-size: 0.93rem;
+  color: var(--ink-soft);
+}
+
+.list-clean {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.list-clean li + li {
+  margin-top: 0.25rem;
+}
+
+.receipts {
+  list-style: none;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.3rem;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+}
+
+.receipts a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.receipts a:hover {
+  text-decoration: underline;
+}
+
+.crux,
+.note,
+.use {
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+  font-size: 0.93rem;
+}
+
+.crux {
+  background: var(--crux-bg);
+  border: 1px solid color-mix(in srgb, var(--crux) 25%, transparent);
+  color: var(--crux);
+  font-family: var(--font-display);
+  font-weight: 550;
+}
+
+.note {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.use {
+  background: #fff8e8;
+  border: 1px solid #e2d3a8;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+}
+
+.def {
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+}
+
+.def h3 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.def .not {
+  margin: 0.45rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--warn);
+}
+
+.card-static {
+  border: 1px solid var(--line);
+  background: var(--card);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.card-static h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+}
+
+.card-static .trigger {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--warn);
+  margin-bottom: 0.35rem;
+}
+
+.check li {
+  margin-bottom: 0.4rem;
+}
+
+.pillars {
+  display: grid;
+  gap: 0.7rem;
+}
+
+@media (min-width: 720px) {
+  .pillars {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 1.25rem 0 2rem;
+  font-family: var(--font-ui);
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+  font-family: var(--font-ui);
+}
+
+.toolbar select,
+.toolbar button {
+  font: inherit;
+  font-size: 0.85rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  border-radius: 6px;
+  padding: 0.4rem 0.65rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(0.35rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

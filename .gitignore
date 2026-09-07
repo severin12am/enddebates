@@ -1,0 +1,29 @@
+# Local Netlify CLI cache
+.netlify/
+
+# Dependencies / caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*_accounts.json
+
+# Local media / work files (live desk is topics/ostrovsky/)
+_reel_frames/
+debate-video/
+*.mp4
+*.m4a
+*.wav
+*.webm
+
+# OS
+.DS_Store
+Thumbs.db

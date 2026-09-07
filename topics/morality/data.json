@@ -1,0 +1,1014 @@
+{
+  "id": "morality",
+  "meta": {
+    "title": "Christianity vs Islam: which is more moral?",
+    "thesis": "On foundations of ethics, salvation and moral motivation, love/justice balance, and exemplary moral psychology, which tradition offers the stronger moral vision?",
+    "purpose": "Map divine command, natural law, fitrah, golden rule, grace vs deeds, and prophet-as-example claims. Keep applied topics (war, women, slavery) as satellites — not the whole sky.",
+    "warning": "This motion becomes a laundry list of atrocities if you let it. Lock foundations first: What makes an act good? How are sinners restored? What is the highest virtue?",
+    "chips": [
+      "ethics",
+      "salvation",
+      "golden rule",
+      "fitrah",
+      "virtue"
+    ],
+    "labels": {
+      "christian": "Christian case",
+      "muslim": "Muslim case"
+    }
+  },
+  "definitions": [
+    {
+      "term": "Moral foundation",
+      "precise": "Meta-ethics: whether goodness is divine command, divine nature, fitrah/natural law, or consequential welfare.",
+      "not": "Not the same as 'which community commits fewer crimes today.'"
+    },
+    {
+      "term": "Salvation / moral repair",
+      "precise": "How a guilty person is put right with God and enabled to live rightly.",
+      "not": "Not only afterlife insurance — includes moral psychology."
+    },
+    {
+      "term": "Golden Rule",
+      "precise": "Treat others as you would be treated (Matt 7:12); analogues exist widely including Islamic reports.",
+      "not": "Not a full ethical system by itself (needs virtue, justice, truth)."
+    },
+    {
+      "term": "Fitrah",
+      "precise": "Qur'anic primordial human disposition oriented to God and moral recognition (30:30).",
+      "not": "Not identical with Rousseauian noble savage optimism."
+    },
+    {
+      "term": "Original sin / inherited guilt",
+      "precise": "Christian claim of Adamic fall affecting human nature/guilt (formulations vary by denomination).",
+      "not": "Not the claim that infants are as evil as war criminals in everyday rhetoric — define carefully."
+    },
+    {
+      "term": "Taqwā / agape",
+      "precise": "Islamic God-consciousness/piety; Christian self-giving love — candidate 'highest virtues.'",
+      "not": "Not interchangeable slogans; press behavioral content."
+    }
+  ],
+  "arguments": [
+    {
+      "id": "golden-rule",
+      "rank": 1,
+      "cluster": "Core maxims",
+      "title": "Golden Rule and universal love",
+      "type": "ethics",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "Jesus intensifies the Golden Rule with enemy-love and Good Samaritan universalism — a summit of moral teaching.",
+        "case": "Matt 7:12; 5:43–48; Luke 10. The scope (enemy) is the differentiator vs in-group ethics.",
+        "sources": [
+          {
+            "label": "Matthew 7:12",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+7%3A12&version=NRSVUE"
+          },
+          {
+            "label": "Matthew 5:43–48",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A43-48&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "In everything do to others as you would have them do to you; for this is the law and the prophets.",
+            "who": "Matthew 7:12",
+            "work": "Golden Rule",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%207%3A12&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Islam teaches reciprocal moral regard and prefers for others what one prefers for oneself (hadith); 60:8 justice to peaceful outsiders; enemy-love without justice can become moral absurdity.",
+        "case": "40 hadith Nawawi #13 analogues; 4:135 stand for justice even against yourselves. Christian history failed enemy-love constantly.",
+        "sources": [
+          {
+            "label": "Qur'an 4:135",
+            "url": "https://quran.com/4/135"
+          },
+          {
+            "label": "Qur'an 60:8",
+            "url": "https://quran.com/60/8"
+          },
+          {
+            "label": "Nawawi 40 Hadith (sunnah.com collections)",
+            "url": "https://sunnah.com/nawawi40"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "None of you [truly] believes until he loves for his brother what he loves for himself.",
+            "who": "Hadith (Bukhari 13 / Muslim 45)",
+            "work": "An-Nawawi's 40 hadith #13 tradition",
+            "url": "https://sunnah.com/bukhari:13"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Debate: does 'brother' mean fellow Muslim or any human? That scope fight is the round.",
+            "source": "Commentarial split",
+            "label": "Debate: does 'brother' mean fellow Muslim or any human? That scope fight is the round.",
+            "note": "Commentarial split"
+          }
+        ]
+      },
+      "counter_to_christian": "Enemy-love without public justice can enable oppression.",
+      "counter_to_muslim": "Reciprocity maxims are widespread; the Christian intensification is still a distinctive claim to answer.",
+      "crux": "Is enemy-love the moral summit or a category error about justice?",
+      "debate_use": "Ask both to apply their maxim to a violent persecutor and a peaceful heretic.",
+      "why_it_matters": "Shared moral core. Difference is often scope (enemy vs in-group) and enforcement.",
+      "live": {
+        "if_they_say": "Only Jesus taught the Golden Rule.",
+        "you_say": "The form is in Hillel, in Matthew 7, and in the īmān hadith. Fight scope (enemy, stranger, co-religionist) and whether law later narrows it.",
+        "dont_overclaim": "Don't claim unique copyright on reciprocity. Don't claim the hadith obviously includes enemies."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "grace-vs-deeds",
+      "rank": 2,
+      "cluster": "Moral repair",
+      "title": "Grace through Christ vs mercy, tawba, and deeds",
+      "type": "theology + ethics",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "Justification by grace through faith meets the moral demand of a holy God without crushing the sinner into despair or prideful self-salvation.",
+        "case": "Romans 3:21–26; Ephesians 2:8–10. Good works follow as fruit. Islam's scale imagery risks anxiety or self-righteousness without assurance.",
+        "sources": [
+          {
+            "label": "Romans 3:21–26",
+            "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A21-26&version=NRSVUE"
+          },
+          {
+            "label": "Ephesians 2:8–10",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians+2%3A8-10&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "For by grace you have been saved through faith, and this is not your own doing; it is the gift of God — not the result of works, so that no one may boast.",
+            "who": "Ephesians 2:8–9",
+            "work": "NT primary",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%202%3A8-9&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "God forgives by tawba and mercy without punishing an innocent substitute; 53:38–39 individual responsibility is the moral high ground.",
+        "case": "39:53; 2:286; 53:38–39. Penal substitution raises its own justice problem. Islam unites hope in rahma with real moral striving.",
+        "sources": [
+          {
+            "label": "Qur'an 39:53",
+            "url": "https://quran.com/39/53"
+          },
+          {
+            "label": "Qur'an 53:38–39",
+            "url": "https://quran.com/53/38-39"
+          },
+          {
+            "label": "Qur'an 2:286",
+            "url": "https://quran.com/2/286"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Then whoever does an atom's weight of good will see it, and whoever does an atom's weight of evil will see it.",
+            "who": "Qur'an 99:7–8",
+            "work": "Deeds matter",
+            "url": "https://quran.com/99"
+          },
+          {
+            "text": "Say, 'O My servants who have transgressed against themselves [by sinning], do not despair of the mercy of Allah. Indeed, Allah forgives all sins.'",
+            "who": "Qur'an 39:53",
+            "work": "Mercy without Calvary (Islamic reading)",
+            "url": "https://quran.com/39/53"
+          }
+        ]
+      },
+      "counter_to_christian": "Cheap grace critiques: does forensic justification undercut moral seriousness?",
+      "counter_to_muslim": "Without assurance structures, does mercy language still leave scrupulosity?",
+      "crux": "Is vicarious atonement a moral necessity or a moral scandal?",
+      "debate_use": "Ban 'works-righteousness' and 'license to sin' slogans until mechanisms are defined.",
+      "why_it_matters": "The salvation-moral psychology fight.",
+      "live": {
+        "if_they_say": "Islam is works-righteousness; Christianity is grace.",
+        "you_say": "Eph 2 is grace. James 2 is deeds. 99:7–8 is deeds. 39:53 is mercy. Both have grace-and-demand. The distinctive Christian claim is that grace is purchased at the cross; the distinctive Islamic claim is that it is not.",
+        "dont_overclaim": "Don't turn Muslims into Pelagians. Don't turn Christians into antinomians."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "original-sin",
+      "rank": 3,
+      "cluster": "Moral anthropology",
+      "title": "Fallen nature vs fitrah",
+      "type": "theology + ethics",
+      "popularity": "High",
+      "christian": {
+        "claim": "A sober doctrine of fallenness explains universal moral failure and the need for grace; naive fitrah optimism underestimates evil.",
+        "case": "Romans 3:9–20; Augustine vs Pelagius trajectory. Explains why education alone doesn't save societies.",
+        "sources": [
+          {
+            "label": "Romans 3:9–20",
+            "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A9-20&version=NRSVUE"
+          },
+          {
+            "label": "CCC on original sin",
+            "url": "https://www.vatican.va/archive/ENG0015/__P1C.HTM"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Therefore, just as sin came into the world through one man, and death came through sin, and so death spread to all because all have sinned…",
+            "who": "Romans 5:12",
+            "work": "Pauline Adam",
+            "url": "https://www.biblegateway.com/passage/?search=Romans%205%3A12&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Humans are born on fitrah; no inherited guilt. Moral failure is personal; this is fairer and psychologically healthier.",
+        "case": "30:30; 95:4; 2:286. Adam's slip is followed by forgiveness (2:37) without Augustinian guilt transfer.",
+        "sources": [
+          {
+            "label": "Qur'an 30:30",
+            "url": "https://quran.com/30/30"
+          },
+          {
+            "label": "Qur'an 2:37",
+            "url": "https://quran.com/2/37"
+          },
+          {
+            "label": "Qur'an 95:4",
+            "url": "https://quran.com/95/4"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "So it is no sin on you… And no bearer of burdens will bear the burden of another.",
+            "who": "Qur'an 53:38 (with 6:164)",
+            "work": "Anti-inherited-guilt prooftexts",
+            "url": "https://quran.com/53/38"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Fitrah hadith: every child is born on fitrah; parents judaize/christianize/magianize.",
+            "source": "Bukhari 1358",
+            "label": "Fitrah hadith: every child is born on fitrah; parents judaize/christianize/magianize.",
+            "note": "Bukhari 1358",
+            "url": "https://sunnah.com/bukhari:1358"
+          }
+        ]
+      },
+      "counter_to_christian": "Inherited guilt looks immoral to many consciences — press the justice intuition.",
+      "counter_to_muslim": "Fitrah must explain genocidal evil without becoming empty slogan.",
+      "crux": "Which anthropology better fits both human dignity and human atrocity?",
+      "debate_use": "Ask each side to explain a child soldier and a saint with their anthropology.",
+      "why_it_matters": "Anthropology fork: inherited guilt vs fitrah.",
+      "live": {
+        "if_they_say": "Islam denies sin, so it is naïve.",
+        "you_say": "Islam denies inherited guilt, not sin. 99:8 and the whole tawba system assume real evil. The fight is Adam's leak into babies, not whether people do wrong.",
+        "dont_overclaim": "Don't say Muslims think humans are angels. Don't say every Christian holds Augustinian mass damnation of infants."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "divine-command",
+      "rank": 4,
+      "cluster": "Meta-ethics",
+      "title": "Divine command, divine nature, and Euthyphro",
+      "type": "philosophy",
+      "popularity": "High",
+      "christian": {
+        "claim": "Goodness is anchored in God's nature; commands express that nature — escaping arbitrary voluntarism while retaining theonomy.",
+        "case": "Classical Christian theism / natural law (Aquinas). God cannot command genuine evil as evil.",
+        "sources": [
+          {
+            "label": "SEP — Theological Voluntarism",
+            "url": "https://plato.stanford.edu/entries/voluntarism-theological/"
+          },
+          {
+            "label": "SEP — Natural Law",
+            "url": "https://plato.stanford.edu/entries/natural-law-ethics/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Ashʿarī and Māturīdī spectra debate reason's grasp of good; still, God's command and hikmah frame ethics. Fitrah and ʿadl discourses answer Euthyphro without a Trinity ontology.",
+        "case": "Moral realism variants in kalām. Qur'an repeatedly appeals to reason and signs.",
+        "sources": [
+          {
+            "label": "Qur'an 16:90",
+            "url": "https://quran.com/16/90"
+          },
+          {
+            "label": "Qur'an 8:22",
+            "url": "https://quran.com/8/22"
+          },
+          {
+            "label": "SEP Theological Voluntarism",
+            "url": "https://plato.stanford.edu/entries/voluntarism-theological/"
+          }
+        ]
+      },
+      "counter_to_christian": "OT ḥērem commands pressure the 'God's nature = good' claim.",
+      "counter_to_muslim": "Hard ḥudūd and war permissions pressure pure rational moralism claims.",
+      "crux": "If God commands X, is X good because commanded, or commanded because good?",
+      "debate_use": "Force a Euthyphro horn pick from both speakers.",
+      "why_it_matters": "Euthyphro: is the good God's will or God's nature? Both get hit.",
+      "live": {
+        "if_they_say": "Your God could command evil and it would be good.",
+        "you_say": "That's Euthyphro for both. Ashʿarī voluntarism is the Islamic version critics name; DCT is the Christian version. Alternatives: Māturīdī/Muʿtazilī ʿadl; Thomist eternal law. Don't pretend only the other side has a raw-will God.",
+        "dont_overclaim": "Don't hang all of Islam on the most voluntarist kalam. Don't hang all of Christianity on the most voluntarist Protestant."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "prophet-example",
+      "rank": 5,
+      "cluster": "Moral exemplars",
+      "title": "Jesus vs Muhammad as moral exemplar",
+      "type": "ethics + history",
+      "popularity": "Very high",
+      "christian": {
+        "claim": "Jesus' sinlessness, non-retaliation, and cross-bearing love are a cleaner universal moral exemplar than a statesman-warrior prophet.",
+        "case": "1 Peter 2:21–23; Hebrews 4:15. Comparative ethics of founders is legitimate.",
+        "sources": [
+          {
+            "label": "1 Peter 2:21–23",
+            "url": "https://www.biblegateway.com/passage/?search=1+Peter+2%3A21-23&version=NRSVUE"
+          },
+          {
+            "label": "Hebrews 4:15",
+            "url": "https://www.biblegateway.com/passage/?search=Hebrews+4%3A15&version=NRSVUE"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Christian critique cluster: marriages (Zaynab, Aisha age debates), Banū Qurayza, enemies killed.",
+            "source": "Sīra/hadith file — handle with primary citations, not memes",
+            "label": "Christian critique cluster: marriages (Zaynab, Aisha age debates), Banū Qurayza, enemies killed.",
+            "note": "Sīra/hadith file — handle with primary citations, not memes"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Muhammad as uswa ḥasana completes moral example for personal and public life; Jesus' example alone underdetermines law for a society.",
+        "case": "33:21; 68:4. Mercy to enemies at Fatḥ Makkah narratives; orphan/poor care. Christians ignore OT warrior saints when convenient.",
+        "sources": [
+          {
+            "label": "Qur'an 33:21",
+            "url": "https://quran.com/33/21"
+          },
+          {
+            "label": "Qur'an 68:4",
+            "url": "https://quran.com/68/4"
+          },
+          {
+            "label": "Qur'an 21:107",
+            "url": "https://quran.com/21/107"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Muslim critique cluster: temple incident, 'I came not to bring peace but a sword' (Matt 10:34), later church violence in Jesus' name.",
+            "source": "Matt 10:34",
+            "label": "Muslim critique cluster: temple incident, 'I came not to bring peace but a sword' (Matt 10:34), later church violence in Jesus' name.",
+            "note": "Matt 10:34"
+          },
+          {
+            "fact": "Q 33:21: Muhammad as uswa ḥasana — the Islamic claim that his life is the pattern.",
+            "source": "https://quran.com/33/21",
+            "label": "Q 33:21: Muhammad as uswa ḥasana — the Islamic claim that his life is the pattern.",
+            "note": "https://quran.com/33/21"
+          }
+        ]
+      },
+      "counter_to_christian": "Role difference (non-state vs state) must be argued, not assumed as automatic win.",
+      "counter_to_muslim": "If uswa includes marriage/war rulings moderns flinch at, own the hard cases.",
+      "crux": "Should the ideal exemplar be a nonviolent sufferer or a just ruler-prophet?",
+      "debate_use": "Split personal ethics vs public ethics scoring.",
+      "why_it_matters": "Jesus vs Muhammad as moral exemplar — the personal file that audiences remember.",
+      "live": {
+        "if_they_say": "Muhammad's life is immoral; Jesus' is perfect.",
+        "you_say": "Split offices: itinerant preacher vs statesman. Then take one concrete file (e.g. treatment of enemies, marriage, wealth) with primary texts. Don't debate a cartoon vs a stained-glass window.",
+        "dont_overclaim": "Don't use unsourced Aisha-age slogans as if the isnād debate didn't exist. Don't pretend Matthew 10:34 is a pacifist fridge magnet."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "justice-mercy",
+      "rank": 6,
+      "cluster": "Virtue balance",
+      "title": "Justice and mercy balance",
+      "type": "ethics",
+      "popularity": "High",
+      "christian": {
+        "claim": "The cross is preached as justice and mercy meeting; social ethics inherit concern for the oppressed (prophetic OT + Jesus).",
+        "case": "Micah 6:8; Luke 4:18–19; Romans 3. Mercy without propitiation is cheap; justice without mercy is despair.",
+        "sources": [
+          {
+            "label": "Micah 6:8",
+            "url": "https://www.biblegateway.com/passage/?search=Micah+6%3A8&version=NRSVUE"
+          },
+          {
+            "label": "Romans 3:25–26",
+            "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A25-26&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "He has told you, O mortal, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God?",
+            "who": "Micah 6:8",
+            "work": "OT ethics summary Christians still claim",
+            "url": "https://www.biblegateway.com/passage/?search=Micah%206%3A8&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Allah's names join justice and mercy; Sharīʿa aims at maqāṣid (religion, life, intellect, lineage, property). Moral order is public, not only inner.",
+        "case": "16:90; 5:8. Credit systems that institutionalize zakat and ḥudūd as deterrence — with debate on scope.",
+        "sources": [
+          {
+            "label": "Qur'an 16:90",
+            "url": "https://quran.com/16/90"
+          },
+          {
+            "label": "Qur'an 5:8",
+            "url": "https://quran.com/5/8"
+          },
+          {
+            "label": "Yaqeen — maqasid / ethics papers",
+            "url": "https://yaqeeninstitute.org/"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Indeed, Allah commands justice and good conduct and giving to relatives and forbids immorality and bad conduct and oppression.",
+            "who": "Qur'an 16:90",
+            "work": "Often called the most comprehensive ethics verse",
+            "url": "https://quran.com/16/90"
+          }
+        ]
+      },
+      "counter_to_christian": "Atonement theory doesn't automatically yield just institutions.",
+      "counter_to_muslim": "Maqāṣid rhetoric can sanitize harsh rulings without argument.",
+      "crux": "Where should mercy override law, and who decides?",
+      "debate_use": "Give both a theft-by-starving-parent case; compare outcomes.",
+      "why_it_matters": "Both claim the balance; they locate it differently (cross vs sharīʿa ḥudūd + tawba).",
+      "live": {
+        "if_they_say": "Islam is justice without mercy; Christianity is mercy without justice.",
+        "you_say": "16:90 commands both. The cross claims both. Ḥudūd and hell doctrines are where each is accused of excess. Pick a concrete penalty, not a vibe.",
+        "dont_overclaim": "Don't erase rahma. Don't erase judgment in the NT."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "truthfulness",
+      "rank": 7,
+      "cluster": "Virtues",
+      "title": "Truth-telling and taqiyya polemics",
+      "type": "ethics",
+      "popularity": "Medium-high",
+      "christian": {
+        "claim": "Christian ethics binds truthfulness; polemical claims that Islam licenses systematic deception (taqiyya overstretch) raise trust problems — if true.",
+        "case": "Ephesians 4:25; John 8:44 as moral antithesis. Note: popular taqiyya claims often misrepresent specialized doctrines — steelman carefully.",
+        "sources": [
+          {
+            "label": "Ephesians 4:25",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians+4%3A25&version=NRSVUE"
+          },
+          {
+            "label": "Qur'an 16:106 (compulsion exception debates)",
+            "url": "https://quran.com/16/106"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Let your word be 'Yes, Yes' or 'No, No'; anything more than this comes from the evil one.",
+            "who": "Matthew 5:37",
+            "work": "NT primary",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A37&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Islam forbids lying as default; narrow exceptions under coercion or war stratagems exist in many traditions including biblical war ruses. Christian polemical overcharge is immoral.",
+        "case": "9:119 be with the truthful. Taqiyya primarily Shiʿi concealment under persecution — not Sunni 'lie to kafirs' license.",
+        "sources": [
+          {
+            "label": "Qur'an 9:119",
+            "url": "https://quran.com/9/119"
+          },
+          {
+            "label": "Qur'an 16:106",
+            "url": "https://quran.com/16/106"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Taqiyya in classical usage is primarily a Shīʿī survival doctrine under persecution, not a Sunni license to lie in daʿwa.",
+            "source": "Standard academic correction",
+            "label": "Taqiyya in classical usage is primarily a Shīʿī survival doctrine under persecution, not a Sunni license to lie in daʿwa.",
+            "note": "Standard academic correction"
+          },
+          {
+            "fact": "Q 16:106: exception under compulsion. Q 2:225 / oaths. Lying is generally ḥarām.",
+            "source": "https://quran.com/16/106",
+            "label": "Q 16:106: exception under compulsion. Q 2:225 / oaths. Lying is generally ḥarām.",
+            "note": "https://quran.com/16/106"
+          }
+        ]
+      },
+      "counter_to_christian": "Overplaying taqiyya is often just conspiracy ethics.",
+      "counter_to_muslim": "Clarify war deception ethics so they don't swallow ordinary civic life.",
+      "crux": "When, if ever, may the faithful deceive outsiders?",
+      "debate_use": "Define ordinary social ethics vs battlefield stratagem separately.",
+      "why_it_matters": "Taqiyya polemic vs NT 'let your yes be yes.'",
+      "live": {
+        "if_they_say": "Muslims are allowed to lie to infidels (taqiyya).",
+        "you_say": "That's usually a category error: taqiyya ≠ 'Islam means lying.' Ask for a Sunni usūl text that licenses daʿwa fraud. Then admit war-ruses exist in every tradition, including Joshua's spies.",
+        "dont_overclaim": "Don't say no Muslim ever lied in religion's name. Don't say taqiyya is the fifth pillar."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "sexual-ethics",
+      "rank": 8,
+      "cluster": "Applied satellites",
+      "title": "Sexual ethics as moral index",
+      "type": "ethics",
+      "popularity": "High",
+      "christian": {
+        "claim": "Jesus' marriage ethic and condemnation of lust form a demanding, egalitarian-leaning sexual morality (monogamy trajectory) superior to polygyny/concubinage permissions.",
+        "case": "Matt 5:27–32; 19:3–9. Links to women/slavery dossiers without swallowing the round.",
+        "sources": [
+          {
+            "label": "Matthew 5:27–32",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A27-32&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Islam's clear ḥalāl/ḥarām sexual boundaries protect family and reduce hypocrisy of Christian societies that preach purity while practicing chaos.",
+        "case": "17:32; 24:2–4. Lowering gaze for men and women. Practice gaps exist on both sides.",
+        "sources": [
+          {
+            "label": "Qur'an 17:32",
+            "url": "https://quran.com/17/32"
+          },
+          {
+            "label": "Qur'an 24:30–31",
+            "url": "https://quran.com/24/30-31"
+          }
+        ]
+      },
+      "counter_to_christian": "Church sex-abuse scandals devastate exemplar claims.",
+      "counter_to_muslim": "Classical concubinage remains a moral vulnerability in comparative ethics.",
+      "crux": "Clarity of boundaries vs equality within sexual ethics — which failure mode is worse?",
+      "debate_use": "Timebox to 3 minutes; point to women/slavery topics for depth.",
+      "why_it_matters": "Modern audience test; overlaps women/slavery.",
+      "live": {
+        "if_they_say": "Islam is sexually regressive; Christianity is not.",
+        "you_say": "Both restrict zina/fornication. Distinctive files: polygyny, concubinage, divorce, and LGBT. Distinctive Christian files: later church discipline and contemporary schism. Be specific or you're doing culture war, not ethics.",
+        "dont_overclaim": "Don't pretend all churches match 2026 campus norms. Don't pretend all fiqh matches Taliban policy."
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "forgiveness-practice",
+      "rank": 9,
+      "cluster": "Moral psychology",
+      "title": "Forgiveness as practiced virtue",
+      "type": "ethics",
+      "popularity": "High",
+      "christian": {
+        "claim": "Forgive as you are forgiven (Matt 6:12–15; 18:21–35) creates a distinctive moral psychology of release from vengeance.",
+        "case": "Parable of unforgiving servant. Cross as paradigm of forgiveness (Luke 23:34 tradition).",
+        "sources": [
+          {
+            "label": "Matthew 18:21–35",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+18%3A21-35&version=NRSVUE"
+          },
+          {
+            "label": "Matthew 6:12–15",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+6%3A12-15&version=NRSVUE"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "Then Peter came and said to him, 'Lord, if another member of the church sins against me, how often should I forgive? As many as seven times?' Jesus said to him, 'Not seven times, but, I tell you, seventy-seven times.'",
+            "who": "Matthew 18:21–22",
+            "work": "NT primary",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2018%3A21-22&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Qur'an repeatedly praises pardon and restraint of anger; forgiveness is virtuous without nullifying qiṣāṣ justice options for victims.",
+        "case": "3:134; 42:40; 24:22. Victim agency to forgive or claim justice is a moral design feature.",
+        "sources": [
+          {
+            "label": "Qur'an 3:134",
+            "url": "https://quran.com/3/134"
+          },
+          {
+            "label": "Qur'an 42:40",
+            "url": "https://quran.com/42/40"
+          },
+          {
+            "label": "Qur'an 24:22",
+            "url": "https://quran.com/24/22"
+          }
+        ],
+        "quotes": [
+          {
+            "text": "But whoever pardons and makes reconciliation — his reward is [due] from Allah.",
+            "who": "Qur'an 42:40",
+            "work": "Pardon preferred",
+            "url": "https://quran.com/42/40"
+          }
+        ]
+      },
+      "counter_to_christian": "Mandatory-feeling forgiveness can retraumatize victims if mishandled.",
+      "counter_to_muslim": "Qiṣāṣ cultures can entrench honor vengeance if mercy is under-taught.",
+      "crux": "How to honor victims while breaking revenge cycles?",
+      "debate_use": "Use a murder-of-family-member hypothetical for both systems.",
+      "why_it_matters": "Seventy times seven vs qiṣāṣ and pardon (2:178).",
+      "live": {
+        "if_they_say": "Islam is revenge religion; Christianity is forgiveness.",
+        "you_say": "Matthew 18 is radical. 42:40 and 2:178's pardon option are also real. Then look at qiṣāṣ and at Christian history's vendettas. Ideal vs institution.",
+        "dont_overclaim": "Don't turn qiṣāṣ into bloodlust. Don't turn 'forgive' into 'no criminal law.'"
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "universalizability",
+      "rank": 10,
+      "cluster": "Meta-ethics",
+      "title": "Universalizability and in-group morality",
+      "type": "philosophy + ethics",
+      "popularity": "High",
+      "christian": {
+        "claim": "Image of God in every person funds universal human rights grammar more naturally than covenant-community graded statuses.",
+        "case": "Gen 1:27; Acts 17:26. Historical failures abound; the conceptual resource remains potent.",
+        "sources": [
+          {
+            "label": "Genesis 1:27",
+            "url": "https://www.biblegateway.com/passage/?search=Genesis+1%3A27&version=NRSVUE"
+          },
+          {
+            "label": "UN UDHR (comparative modern grammar)",
+            "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "49:13 and shared Adamic origin ground dignity; moral duties are universal while ritual membership differs. Rights talk without God loses obligation.",
+        "case": "49:13; 17:70. Critique secular UDHR as borrowing monotheistic capital.",
+        "sources": [
+          {
+            "label": "Qur'an 49:13",
+            "url": "https://quran.com/49/13"
+          },
+          {
+            "label": "Qur'an 17:70",
+            "url": "https://quran.com/17/70"
+          }
+        ]
+      },
+      "counter_to_christian": "Imago Dei societies practiced graded rights for centuries.",
+      "counter_to_muslim": "Classical dhimma/apostasy law challenges universalizability claims.",
+      "crux": "Do the deep anthropology texts defeat the graded-law texts, or vice versa?",
+      "debate_use": "Name the defeat mechanism: abrogation, contextualization, or trajectory.",
+      "why_it_matters": "Kantian test both fail if in-group ethics is the real operating system.",
+      "live": {
+        "if_they_say": "My ethic is universal; yours is tribal.",
+        "you_say": "Test it: would you accept this rule if you were born in the other umma/church? Then inspect war, apostasy, and salvation of the outsider. That's Kant plus scripture, not a vibe.",
+        "dont_overclaim": "Don't call every boundary 'tribal.' Don't call every mission 'universal love.'"
+      },
+      "importance": "Top 10"
+    },
+    {
+      "id": "hypocrisy-test",
+      "rank": 11,
+      "cluster": "Moral psychology",
+      "title": "Resources against religious hypocrisy",
+      "type": "ethics",
+      "popularity": "Medium-high",
+      "christian": {
+        "claim": "Jesus' fiercest anger targets religious hypocrites (Matt 23) — a built-in self-critique rarer in founder-models that sacralize political success.",
+        "case": "Matthew 23; Luke 18:9–14. Moral tradition that can indict its own clergy is healthier.",
+        "sources": [
+          {
+            "label": "Matthew 23",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+23&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Qur'an relentlessly attacks munāfiqūn and hollow ritual; 107 condemns show-prayer that neglects the needy.",
+        "case": "2:8–14; 107:1–7; 61:2–3 why do you say what you do not do?",
+        "sources": [
+          {
+            "label": "Qur'an 107",
+            "url": "https://quran.com/107"
+          },
+          {
+            "label": "Qur'an 61:2–3",
+            "url": "https://quran.com/61/2-3"
+          },
+          {
+            "label": "Qur'an 2:8–14",
+            "url": "https://quran.com/2/8-14"
+          }
+        ]
+      },
+      "counter_to_christian": "Self-critique texts didn't prevent systemic hypocrisy.",
+      "counter_to_muslim": "Hypocrite-texts can be weaponized against dissenters.",
+      "crux": "Which tradition's anti-hypocrisy tools better restrain in-group abuse of power?",
+      "debate_use": "Ask for an example of each tradition using these texts against its own elites.",
+      "why_it_matters": "Audiences punish hypocrisy more than they reward metaphysics.",
+      "live": {
+        "if_they_say": "Look at how your people actually live.",
+        "you_say": "Granted: practice is evidence. Then sample fairly — not the worst atrocity vs the best saint. And ask which texts still authorize the worst. Hypocrisy can indict a community without settling which book is true.",
+        "dont_overclaim": "Don't do atrocity ping-pong as if body count were tafsīr."
+      }
+    },
+    {
+      "id": "summum-bonum",
+      "rank": 12,
+      "cluster": "Virtue balance",
+      "title": "Highest good: beatific love vs worshipful obedience",
+      "type": "theology + ethics",
+      "popularity": "Medium",
+      "christian": {
+        "claim": "The summum bonum is love of God and neighbor (Matt 22:37–40); law hangs on this — a unitive moral architecture.",
+        "case": "Double love command as hermeneutical key. Augustine: love God and do what you will (rightly understood).",
+        "sources": [
+          {
+            "label": "Matthew 22:37–40",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew+22%3A37-40&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Worship of the one God (dhikr, ṣalāh, tawḥīd) plus justice and iḥsān is the integrated good; 51:56 — created to worship.",
+        "case": "51:56; 16:90; hadith of iḥsān. Love language without worshipful obedience becomes sentimentality.",
+        "sources": [
+          {
+            "label": "Qur'an 51:56",
+            "url": "https://quran.com/51/56"
+          },
+          {
+            "label": "Qur'an 16:90",
+            "url": "https://quran.com/16/90"
+          },
+          {
+            "label": "Qur'an 2:177",
+            "url": "https://quran.com/2/177"
+          }
+        ]
+      },
+      "counter_to_christian": "Love-as-key can become antinomian fog.",
+      "counter_to_muslim": "Worship-as-key can become ritualism without neighbor justice (see 107).",
+      "crux": "What is the organizing center of the moral life — and does it reliably yield justice?",
+      "debate_use": "Have each side state their summum bonum in one sentence and apply it to the poor.",
+      "why_it_matters": "What is the highest good — beatific love or worshipful obedience — shapes every other moral argument.",
+      "live": {
+        "if_they_say": "The highest good is obvious.",
+        "you_say": "Name it in one sentence: union with God, the vision of God, ʿubūdiyyah, the pleasure of Allah, human flourishing. Then ask whether that good requires the cross, the sharīʿa, both, or neither. This is the last fork, not the first slogan.",
+        "dont_overclaim": "Don't pretend the other side has no love of God. Don't pretend your side has no law."
+      }
+    },
+    {
+      "id": "qureshi-style-salvation",
+      "live": {
+        "if_they_say": "Nabeel Qureshi settled the salvation contrast.",
+        "you_say": "Use his contrast as a map of felt difference (assurance vs scales), then go back to Eph 2, James 2, 39:53, and 99:7–8. Memoir is not a systematic theology.",
+        "dont_overclaim": "Don't psychologize 1.8 billion people from one convert's story. Don't dismiss convert testimony as fake."
+      }
+    }
+  ],
+  "materials": [],
+  "debates": [
+    {
+      "id": "qureshi-style-salvation",
+      "title": "Salvation / moral repair contrasts (popular apologetics)",
+      "year": null,
+      "venue": "Books / campus",
+      "participants": [
+        "Nabeel Qureshi-type framing",
+        "Muslim responders"
+      ],
+      "sides": {
+        "christian": "Evangelical grace case",
+        "muslim": "Tawba & mercy case"
+      },
+      "motion": "Which offers a more coherent moral remedy for sin?",
+      "summary": "Christians press assurance and atonement; Muslims press fairness of non-vicarious forgiveness and reject inherited guilt.",
+      "what_to_steal": [
+        "Define justice before debating the cross",
+        "Don't let 'works' caricatures replace Qur'anic mercy texts"
+      ],
+      "links": [
+        {
+          "label": "RTS review — No God but One",
+          "url": "https://journal.rts.edu/review/no-god-one-allah-jesus-former-muslim-investigates-evidence-islam-christianity/"
+        }
+      ]
+    }
+  ],
+  "opponent_cards": [
+    {
+      "trigger": "Christianity is just believe and do what you want",
+      "fast_answer": "Eph 2:10 — created for good works. Cheap grace is a heresy Christians also name.",
+      "follow_up": "Ask how justification relates to sanctification in their interlocutor's theology.",
+      "sources": [
+        "Ephesians 2:8–10",
+        "James 2 debates"
+      ]
+    },
+    {
+      "trigger": "Islam is works-righteousness with no love",
+      "fast_answer": "39:53 mercy; love/iḥsān traditions exist. Steelman rahma before attacking scales imagery.",
+      "follow_up": "Then press assurance and substitution questions.",
+      "sources": [
+        "https://quran.com/39/53",
+        "https://quran.com/3/134"
+      ]
+    },
+    {
+      "trigger": "Original sin is immoral",
+      "fast_answer": "Distinguish corruption of nature vs equal personal guilt of infants; denominations differ.",
+      "follow_up": "Ask Muslim anthropology to explain radical evil.",
+      "sources": [
+        "CCC original sin",
+        "Romans 5"
+      ]
+    },
+    {
+      "trigger": "The cross is divine child abuse",
+      "fast_answer": "If Nicene, God is not a third party punishing another deity; models vary (Christus Victor, etc.).",
+      "follow_up": "Ask if any forgiveness without cost can satisfy justice.",
+      "sources": [
+        "Romans 3:25–26",
+        "SEP atonement entries if needed"
+      ]
+    },
+    {
+      "trigger": "Jesus is more moral than Muhammad — debate over",
+      "fast_answer": "Founder comparison is fair but incomplete without roles (teacher vs statesman) and OT symmetry.",
+      "follow_up": "Split personal vs public ethics scores.",
+      "sources": [
+        "1 Peter 2",
+        "https://quran.com/33/21"
+      ]
+    },
+    {
+      "trigger": "Qur'an has the highest moral standard — 16:90",
+      "fast_answer": "Affirm the verse. Then ask application to hard rulings and whether slogans settle meta-ethics.",
+      "follow_up": "Bring Matt 5 intensifications as counter-summit claim.",
+      "sources": [
+        "https://quran.com/16/90",
+        "Matthew 5"
+      ]
+    },
+    {
+      "trigger": "Natural law makes theology unnecessary",
+      "fast_answer": "Both traditions can claim natural law/fitrah. The dispute is repair of failure and worship center.",
+      "follow_up": "Euthyphro horn check.",
+      "sources": [
+        "SEP Natural Law",
+        "https://quran.com/30/30"
+      ]
+    },
+    {
+      "trigger": "God can command anything — so morality is arbitrary",
+      "fast_answer": "Most classical theists reject pure arbitrary voluntarism. Ask which school they attribute to the opponent.",
+      "follow_up": "Press hard biblical/quranic command cases anyway.",
+      "sources": [
+        "SEP Theological Voluntarism"
+      ]
+    },
+    {
+      "trigger": "Look at crime stats / terrorism stats",
+      "fast_answer": "Only if methodology is agreed. Foundations debate ≠ crude group crime Olympics.",
+      "follow_up": "Offer to park sociology or set strict controls.",
+      "sources": [
+        "Method caution"
+      ]
+    },
+    {
+      "trigger": "Taqiyya means Muslims lie",
+      "fast_answer": "Usually overcharged. Define narrow doctrine vs ordinary ethics of sidq.",
+      "follow_up": "Ask for a fiqh manual line, not a meme.",
+      "sources": [
+        "https://quran.com/9/119",
+        "https://quran.com/16/106"
+      ]
+    },
+    {
+      "trigger": "Love your enemies is woke weakness",
+      "fast_answer": "It's the Christian claim's nerve. If Muslim interlocutor rejects it, that is a clean crux — own it.",
+      "follow_up": "Ask what replaces it: justice only? proportional kindness?",
+      "sources": [
+        "Matthew 5:43–48"
+      ]
+    },
+    {
+      "trigger": "Without hudud society collapses",
+      "fast_answer": "Deterrence claim is empirical and moral. Ask necessity of specific punishments vs ends of justice.",
+      "follow_up": "Maqāṣid: can ends be met with different means?",
+      "sources": [
+        "https://quran.com/16/90",
+        "Yaqeen maqasid"
+      ]
+    }
+  ],
+  "checklist": [
+    "Open with meta-ethics: what makes good good?",
+    "Define whether founder comparison is in or out of motion",
+    "Master Matt 5–7, Rom 3, Matt 22 and Q 16:90, 39:53, 30:30, 53:38–39",
+    "Prepare atonement justice defense and Muslim fairness reply",
+    "Prepare fitrah vs fallenness exchange with atrocity test",
+    "Timebox women/war/slavery satellites; point to other dossiers",
+    "Force Euthyphro horn on both",
+    "Drill cards; kill 'believe and do anything' / 'Muslims just lie' cartoons",
+    "One starving thief case; one persecutor case",
+    "State summum bonum in one sentence each side",
+    "Closing on moral repair + universal regard, not atrocity lists",
+    "Bring SEP voluntarism + Rom 3 + Q 39:53"
+  ],
+  "positive_cases": {
+    "Christian podium": [
+      "Enemy-love and double-love command as organizing moral center",
+      "Grace that grounds assurance without denying the demand of holiness",
+      "Fallenness anthropology that takes radical evil seriously",
+      "Jesus as non-retaliatory moral exemplar"
+    ],
+    "Muslim podium": [
+      "Individual responsibility without inherited guilt; mercy via tawba",
+      "Fitrah + justice commands (4:135; 16:90) as accessible moral realism",
+      "Integrated public ethics (zakat, iḥsān, maqāṣid) not only private love-talk",
+      "Muhammad as comprehensive uswa for personal and civic virtue"
+    ],
+    "Unity / steelman": [
+      "Both aim at worship of one God and justice for the weak — locate real forks",
+      "Refuse atrocity Olympics as a substitute for foundations",
+      "Separate meta-ethics, moral repair, and applied law",
+      "Steelman atonement and steelman non-vicarious mercy before attacking either"
+    ]
+  },
+  "bibliography": [
+    {
+      "tier": "Philosophy / theology",
+      "items": [
+        {
+          "label": "SEP — Theological Voluntarism",
+          "url": "https://plato.stanford.edu/entries/voluntarism-theological/"
+        },
+        {
+          "label": "SEP — Natural Law Ethics",
+          "url": "https://plato.stanford.edu/entries/natural-law-ethics/"
+        },
+        {
+          "label": "CCC original sin",
+          "url": "https://www.vatican.va/archive/ENG0015/__P1C.HTM"
+        }
+      ]
+    },
+    {
+      "tier": "Primary",
+      "items": [
+        {
+          "label": "Matthew 5–7; 22:37–40; Romans 3; Ephesians 2",
+          "url": "https://www.biblegateway.com/passage/?search=Matthew+7%3A12&version=NRSVUE"
+        },
+        {
+          "label": "Qur'an 16:90; 39:53; 30:30; 53:38–39; 4:135; 49:13",
+          "url": "https://quran.com/16/90"
+        },
+        {
+          "label": "Nawawi 40 Hadith",
+          "url": "https://sunnah.com/nawawi40"
+        }
+      ]
+    },
+    {
+      "tier": "Apologetic gateway",
+      "items": [
+        {
+          "label": "RTS — No God but One review",
+          "url": "https://journal.rts.edu/review/no-god-one-allah-jesus-former-muslim-investigates-evidence-islam-christianity/"
+        },
+        {
+          "label": "Yaqeen Institute",
+          "url": "https://yaqeeninstitute.org/"
+        }
+      ]
+    }
+  ]
+}

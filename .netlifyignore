@@ -1,0 +1,17 @@
+.git
+.cursor
+.vscode
+**/__pycache__/
+**/*.pyc
+scripts/
+historicity/scripts/
+historicity/PREP.md
+_nl_accounts.json
+*.ps1
+.netlify
+node_modules
+.venv
+venv
+__pycache__
+_reel_frames/
+debate-video/

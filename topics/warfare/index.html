@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EndDebates — Christianity vs Islam: better rules of warfare?</title>
+    <meta name="description" content="Steelman just war, crusading history, Qur'anic jihad limits, and classical offensive jihad. Separate Jesus' personal ethic, Christendom law, Muhammad as statesman, and modern misuse." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,550;9..144,650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../shared/css/app.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap brand-row">
+        <p class="brand">EndDebates<small data-i18n="brand_small">Knowledge base</small></p>
+        <div class="nav-links">
+          <a href="../../index.html" data-i18n="hub">Hub</a>
+          <a href="../historicity/" data-i18n="nav_historicity">Historicity</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div class="chips" id="chips"></div>
+        <h1 id="title"></h1>
+        <p class="thesis" id="thesis"></p>
+        <p class="section-intro" id="purpose" style="margin-top: 0.7rem"></p>
+        <div class="warn-box" id="warning"></div>
+        <div class="live-search-wrap">
+          <label class="sr-only" for="live-search" data-i18n="search_label">Search quotes, cards, manuscripts</label>
+          <input id="live-search" type="search" data-i18n-placeholder="search_placeholder" placeholder="Live search: Sidky, Wallace, Mark 16, Birmingham…" autocomplete="off" />
+        </div>
+        <div id="search-hits" class="search-hits" hidden></div>
+      </section>
+
+      <nav class="tabs" aria-label="Sections">
+        <button type="button" data-tab="speech" data-i18n="tab_speech">Opening speech</button>
+        <button type="button" data-tab="proofs" data-i18n="tab_proofs">Trinity arguments</button>
+        <button type="button" data-tab="verses" data-i18n="tab_verses">Verses</button>
+        <button type="button" data-tab="arguments" data-i18n="tab_arguments">Arguments</button>
+        <button type="button" data-tab="live" data-i18n="tab_live">Live desk</button>
+        <button type="button" data-tab="brief" aria-selected="true" data-i18n="tab_brief">Brief</button>
+        <button type="button" data-tab="materials" data-i18n="tab_materials">Materials</button>
+        <button type="button" data-tab="debates" data-i18n="tab_debates">Debates</button>
+        <button type="button" data-tab="cards" data-i18n="tab_cards">Opponent cards</button>
+        <button type="button" data-tab="sources" data-i18n="tab_sources">Sources</button>
+        <button type="button" data-tab="checklist" data-i18n="tab_checklist">Checklist</button>
+      </nav>
+
+      <section class="panel" data-panel="speech">
+        <p class="section-intro" data-i18n="intro_speech">One continuous opening speech. Read aloud or copy the whole text.</p>
+        <div class="toolbar">
+          <button type="button" id="copy-speech" data-i18n="copy_speech">Copy whole speech</button>
+        </div>
+        <article id="speech" class="speech"></article>
+      </section>
+
+      <section class="panel" data-panel="proofs">
+        <div class="toolbar">
+          <button type="button" id="expand-proofs" data-i18n="expand">Expand all</button>
+          <button type="button" id="collapse-proofs" data-i18n="collapse">Collapse all</button>
+        </div>
+        <div class="grid" id="proofs"></div>
+      </section>
+
+      <section class="panel active" data-panel="brief">
+        <p class="section-intro" data-i18n="intro_brief">Lock definitions, then pick a positive case. Attack-only loses close rounds.</p>
+        <h2 style="font-family: var(--font-display); font-size: 1.2rem; margin: 0 0 0.65rem" data-i18n="h_definitions">Definitions</h2>
+        <div class="grid" id="defs"></div>
+        <h2 style="font-family: var(--font-display); font-size: 1.2rem; margin: 1.4rem 0 0.65rem" data-i18n="h_positive">Positive cases</h2>
+        <div class="pillars" id="pillars"></div>
+      </section>
+
+      <section class="panel" data-panel="arguments">
+        <p class="section-intro" data-i18n="intro_arguments">Steelmans both sides with counters, crux, and debate use.</p>
+        <div class="toolbar">
+          <label><span data-i18n="cluster">Cluster</span> <select id="arg-filter"><option value="all" data-i18n="filter_all">All</option><option value="top10" data-i18n="filter_top10">Top 10 only</option></select></label>
+          <button type="button" id="expand-args" data-i18n="expand">Expand all</button>
+          <button type="button" id="collapse-args" data-i18n="collapse">Collapse all</button>
+        </div>
+        <div class="grid" id="arguments"></div>
+      </section>
+
+      <section class="panel" data-panel="live">
+        <p class="section-intro" data-i18n="intro_live">Mid-round desk: live lines, quotable sentences, and manuscript viewers. Copy a line, open a leaf, do not invent wording.</p>
+        <div class="live-grid">
+          <div>
+            <h2 class="desk-h" data-i18n="h_live_lines">If they say → you say</h2>
+            <div id="live-lines" class="grid"></div>
+          </div>
+          <div>
+            <h2 class="desk-h" data-i18n="h_live_quotes">Quotes to read aloud</h2>
+            <div id="live-quotes" class="grid"></div>
+          </div>
+        </div>
+        <h2 class="desk-h" style="margin-top:1.2rem" data-i18n="h_live_mss">Open a manuscript</h2>
+        <div id="live-mss" class="materials materials-compact"></div>
+      </section>
+
+      <section class="panel" data-panel="verses">
+        <p class="section-intro" data-i18n="intro_verses">Street-dawah verse catalog: groups, the move, the steelman, clickable links.</p>
+        <div class="grid" id="verses"></div>
+      </section>
+
+      <section class="panel" data-panel="materials">
+        <p class="section-intro" data-i18n="intro_materials">Manuscripts, papyri, and primary artifacts with viewers. Click a plate to enlarge. Filter by tradition.</p>
+        <div class="toolbar">
+          <label><span data-i18n="show">Show</span>
+            <select id="mat-filter">
+              <option value="all" data-i18n="filter_all">All</option>
+              <option value="bible" data-i18n="filter_bible">Bible / DSS</option>
+              <option value="quran" data-i18n="filter_quran">Qur'an</option>
+              <option value="infra" data-i18n="filter_infra">Viewers / infrastructure</option>
+            </select>
+          </label>
+        </div>
+        <div class="materials" id="materials"></div>
+      </section>
+
+      <div id="lightbox" class="lightbox" hidden>
+        <button type="button" class="lightbox-close" aria-label="Close">×</button>
+        <img id="lightbox-img" alt="" />
+        <p id="lightbox-cap"></p>
+      </div>
+
+      <section class="panel" data-panel="debates">
+        <p class="section-intro" data-i18n="intro_debates">Popular debates and strategic skeletons with links to full recordings.</p>
+        <div class="grid" id="debates"></div>
+      </section>
+
+      <section class="panel" data-panel="cards">
+        <p class="section-intro" data-i18n="intro_cards">Drill out loud. First line is the live answer.</p>
+        <div class="grid" id="cards"></div>
+      </section>
+
+      <section class="panel" data-panel="sources">
+        <p class="section-intro" data-i18n="intro_sources">Prefer academic tiers before YouTube apologetics.</p>
+        <div class="grid" id="bib"></div>
+      </section>
+
+      <section class="panel" data-panel="checklist">
+        <ol class="list-clean" id="checklist" style="padding-left: 1.2rem"></ol>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap">
+        <p data-i18n="footer">Built so both sides can inspect the same materials. No declared winner — clearer agreement starts with shared evidence.</p>
+      </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="../../shared/js/topic.js"></script>
+  </body>
+</html>

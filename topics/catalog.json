@@ -1,0 +1,186 @@
+{
+  "topics": [
+    {
+      "id": "historicity",
+      "title": "Historicity of the Qur'an vs the Bible",
+      "thesis": "Which scripture has the stronger historical case for textual integrity and proximity to its claimed origin — and under which definitions?",
+      "blurb": "Live desk + viewers: Sidky stemma, Wallace variant-count, Tov/DSS, Sinaiticus, Birmingham.",
+      "group": "Scripture",
+      "path": "topics/historicity/",
+      "counts": {
+        "arguments": 18,
+        "materials": 26,
+        "cards": 22,
+        "debates": 9
+      }
+    },
+    {
+      "id": "critiques",
+      "title": "Christian critiques of Islam",
+      "thesis": "Do the most common Christian arguments against Islam withstand the strongest documented counters?",
+      "blurb": "Top Christian apologetic critiques of Islam with documented counters, including Ataie on preservation.",
+      "group": "Scripture",
+      "path": "topics/critiques/",
+      "counts": {
+        "arguments": 10,
+        "materials": 0,
+        "cards": 12,
+        "debates": 0
+      }
+    },
+    {
+      "id": "trinity",
+      "title": "Trinity vs Tawhid: which is more rational?",
+      "thesis": "Given monotheism as the shared premise, is classical Trinitarian theism or Islamic tawhid the more coherent account of God's unity, self-knowledge, and worship?",
+      "blurb": "Trinity vs Tawhid — coherence, simplicity, revelation, worship.",
+      "group": "God",
+      "path": "topics/trinity/",
+      "counts": {
+        "arguments": 14,
+        "materials": 0,
+        "cards": 12,
+        "debates": 2
+      }
+    },
+    {
+      "id": "warfare",
+      "title": "Christianity vs Islam: better rules of warfare?",
+      "thesis": "Comparing scriptural norms, classical just-war / siyar traditions, and historical practice, which faith's warfare ethic better constrains violence and protects non-combatants?",
+      "blurb": "Just war vs jihad / siyar — cause, conduct, classical vs reform.",
+      "group": "Ethics",
+      "path": "topics/warfare/",
+      "counts": {
+        "arguments": 10,
+        "materials": 0,
+        "cards": 10,
+        "debates": 1
+      }
+    },
+    {
+      "id": "morality",
+      "title": "Christianity vs Islam: which is more moral?",
+      "thesis": "On foundations of ethics, salvation and moral motivation, love/justice balance, and exemplary moral psychology, which tradition offers the stronger moral vision?",
+      "blurb": "Foundational moral vision: grace, deeds, law, conscience, outcomes.",
+      "group": "Ethics",
+      "path": "topics/morality/",
+      "counts": {
+        "arguments": 13,
+        "materials": 0,
+        "cards": 12,
+        "debates": 1
+      }
+    },
+    {
+      "id": "women",
+      "title": "Christianity vs Islam: better regarding women?",
+      "thesis": "On dignity, legal rights, family law, and lived founding examples, which tradition offers the stronger moral vision for women — and under which hermeneutic?",
+      "blurb": "Texts, classical law, and modern outcomes on women.",
+      "group": "Ethics",
+      "path": "topics/women/",
+      "counts": {
+        "arguments": 10,
+        "materials": 0,
+        "cards": 10,
+        "debates": 0
+      }
+    },
+    {
+      "id": "slavery",
+      "title": "Christianity vs Islam: better regarding slavery?",
+      "thesis": "Given that both scriptures regulate slavery rather than invent modern abolition overnight, which tradition's trajectory, incentives, and eventual reforms better serve human freedom?",
+      "blurb": "Regulation vs abolition — scripture, history, and moral development.",
+      "group": "Ethics",
+      "path": "topics/slavery/",
+      "counts": {
+        "arguments": 10,
+        "materials": 0,
+        "cards": 10,
+        "debates": 0
+      }
+    },
+    {
+      "id": "nonbelievers",
+      "title": "Christianity vs Islam: better regarding non-believers?",
+      "thesis": "On freedom of conscience, civic status, polemical speech, and eternal destiny, which tradition treats outsiders more justly?",
+      "blurb": "Dhimma, apostasy, missions, religious liberty.",
+      "group": "Ethics",
+      "path": "topics/nonbelievers/",
+      "counts": {
+        "arguments": 10,
+        "materials": 0,
+        "cards": 10,
+        "debates": 0
+      }
+    },
+    {
+      "id": "historical-jesus",
+      "title": "Who follows the historical Jesus more?",
+      "thesis": "Using public historical methods (not later creeds or later revelations alone), does mainstream Christian faith or Islamic Christology better track the Jesus of history?",
+      "blurb": "Who tracks the scholarly historical Jesus more closely?",
+      "group": "Jesus",
+      "path": "topics/historical-jesus/",
+      "counts": {
+        "arguments": 15,
+        "materials": 6,
+        "cards": 12,
+        "debates": 2
+      }
+    },
+    {
+      "id": "jesus-vision",
+      "title": "Whose vision of Jesus is better — rationally and historically?",
+      "thesis": "Comparing the Christian vision (incarnate Son, crucified and risen Lord) with the Islamic vision (exalted human Messiah-prophet), which is more coherent rationally and better grounded historically?",
+      "blurb": "Incarnate Son vs prophet-Messiah — rational and historical scoring.",
+      "group": "Jesus",
+      "path": "topics/jesus-vision/",
+      "counts": {
+        "arguments": 13,
+        "materials": 6,
+        "cards": 12,
+        "debates": 1
+      }
+    },
+    {
+      "id": "jesus-not-god-ru",
+      "title": "Иисус — не Бог, не называл себя Богом, не может быть Богом",
+      "thesis": "Иисус не называл себя Богом, по Писанию не является Богом и по своим словам и поступкам не подходит под свойства Бога. Ниже — доводы и ответы сторонников Троицы. Победитель не объявляется.",
+      "blurb": "RU: стихи за Троицу с ответами; почему Иисус не Бог.",
+      "group": "Jesus",
+      "path": "topics/jesus-not-god-ru/",
+      "counts": {
+        "arguments": 20,
+        "materials": 7,
+        "cards": 26,
+        "debates": 6
+      }
+    },
+    {
+      "id": "israel-palestine",
+      "title": "Israel–Palestine: the 10 arguments that actually matter",
+      "thesis": "Two peoples claim the same land with overlapping histories of indigeneity, displacement, war, and law. Which claims survive when you separate 1948 from 1967, civilians from armed factions, and self-determination from holy-war slogans?",
+      "blurb": "Two peoples, one land: 1948, occupation, refugees, Gaza, law, end-states — steelmanned, no press officer.",
+      "group": "Israel–Palestine",
+      "path": "topics/israel-palestine/",
+      "counts": {
+        "arguments": 10,
+        "materials": 0,
+        "cards": 10,
+        "debates": 1
+      }
+    },
+    {
+      "id": "ostrovsky",
+      "title": "Ошибки Островского",
+      "thesis": "Разбор эфира 29.08.2026: транскрипт и кандидаты для ролика.",
+      "blurb": "RU: диспут Островский × Юлиана — ошибки, таймкоды, транскрипт.",
+      "group": "Live",
+      "path": "topics/ostrovsky/",
+      "counts": {
+        "arguments": 20,
+        "materials": 0,
+        "cards": 20,
+        "debates": 1
+      }
+    }
+  ]
+}
