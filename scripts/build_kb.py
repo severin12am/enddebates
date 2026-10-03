@@ -108,7 +108,7 @@ GROUP_RU = {
 }
 
 
-def _dump_js(var_assigns: list[tuple[str, dict]]) -> str:
+def _dump_js(var_assigns: list[tuple[str, dict]], *, set_default: bool = True) -> str:
     parts = []
     first_name = None
     for name, obj in var_assigns:
@@ -116,7 +116,7 @@ def _dump_js(var_assigns: list[tuple[str, dict]]) -> str:
         parts.append(f"window.{name} = {payload};")
         if first_name is None:
             first_name = name
-    if first_name and all(n != "TOPIC_DATA" for n, _ in var_assigns):
+    if set_default and first_name and all(n != "TOPIC_DATA" for n, _ in var_assigns):
         parts.append(f"window.TOPIC_DATA = window.{first_name};")
     return "\n".join(parts) + "\n"
 
@@ -152,7 +152,7 @@ def write_topic(en_topic: dict, ru_topic: dict | None) -> Path:
         encoding="utf-8",
     )
     (out_dir / "data.en.js").write_text(
-        _dump_js([("TOPIC_DATA_EN", en_out)]),
+        _dump_js([("TOPIC_DATA_EN", en_out)], set_default=False),
         encoding="utf-8",
     )
 
@@ -224,7 +224,7 @@ def _share_materials(catalog: list[dict]) -> None:
             encoding="utf-8",
         )
         (ROOT / "topics" / tid / "data.en.js").write_text(
-            _dump_js([("TOPIC_DATA_EN", en)]),
+            _dump_js([("TOPIC_DATA_EN", en)], set_default=False),
             encoding="utf-8",
         )
         for item in catalog:

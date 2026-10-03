@@ -1416,4 +1416,3 @@ window.TOPIC_DATA_EN = {
     }
   ]
 };
-window.TOPIC_DATA = window.TOPIC_DATA_EN;

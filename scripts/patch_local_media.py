@@ -43,7 +43,7 @@ def _write_pair(d: dict, json_path: Path, js_path: Path, var_name: str) -> None:
     json_path.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
     js_path.write_text(
         f"window.{var_name} = {json.dumps(d, ensure_ascii=False, indent=2)};\n"
-        + (f"window.TOPIC_DATA = window.{var_name};\n" if var_name != "TOPIC_DATA_EN" else ""),
+        + (f"window.TOPIC_DATA = window.{var_name};\n" if var_name == "TOPIC_DATA_RU" else ""),
         encoding="utf-8",
     )
 
