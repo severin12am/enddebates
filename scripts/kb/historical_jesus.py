@@ -684,5 +684,22 @@ DATA = {
 
 def topic():
     from .deepen_lib import apply_overlays
+    from .ehrman_gospel_reliability_args import ARGUMENTS as EHRMAN_ARGS
+    from .ehrman_gospel_reliability_args import DEBATE as EHRMAN_DEBATE
+    from .ehrman_gospel_reliability_args import OPPONENT_CARDS as EHRMAN_CARDS
     from .jesus_deep import HISTORICAL
-    return apply_overlays(DATA, HISTORICAL)
+
+    topic = apply_overlays(DATA, HISTORICAL)
+    seen = {a.get("id") for a in topic.get("arguments") or []}
+    for arg in EHRMAN_ARGS:
+        if arg.get("id") not in seen:
+            topic.setdefault("arguments", []).append(arg)
+            seen.add(arg.get("id"))
+    debate_ids = {d.get("id") for d in topic.get("debates") or []}
+    if EHRMAN_DEBATE.get("id") not in debate_ids:
+        topic.setdefault("debates", []).append(EHRMAN_DEBATE)
+    triggers = {c.get("trigger") for c in topic.get("opponent_cards") or []}
+    for card in EHRMAN_CARDS:
+        if card.get("trigger") not in triggers:
+            topic.setdefault("opponent_cards", []).append(card)
+    return topic

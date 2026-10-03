@@ -60,6 +60,23 @@ a:hover { color: var(--warn); }
 .nav-links {
   display: flex; flex-wrap: wrap; gap: 0.7rem;
   font-family: var(--font-ui); font-size: 0.85rem;
+  align-items: center;
+}
+.lang-switch { display: inline-flex; gap: 0.2rem; }
+.lang-switch button {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.6);
+  color: var(--muted);
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.lang-switch button[aria-pressed="true"] {
+  background: var(--brand);
+  color: #fff;
+  border-color: var(--brand);
 }
 
 .hero { padding: 1.6rem 0 0.9rem; }

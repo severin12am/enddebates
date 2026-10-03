@@ -19,7 +19,12 @@ window.TOPIC_DATA = {
     "side_keys": [
       "israel",
       "palestine"
-    ]
+    ],
+    "ui": {
+      "lang_en": "EN",
+      "lang_ru": "RU"
+    },
+    "lang": "en"
   },
   "definitions": [
     {

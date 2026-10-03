@@ -1,1001 +1,1112 @@
 {
   "id": "critiques",
   "meta": {
-    "title": "Christian critiques of Islam",
-    "thesis": "Do the most common Christian arguments against Islam withstand the strongest documented counters?",
-    "purpose": "This map steelmans popular Christian apologetic critiques, then pairs each with responses already present in Muslim scholarship, classical tafsir, and academic literature. It does not declare a winner.",
-    "warning": "Steelmans both sides. No declared winner.",
+    "title": "Христианские критики ислама",
+    "thesis": "Выдерживают ли самые частые христианские аргументы против ислама сильнейшие задокументированные ответы?",
+    "purpose": "Эта карта стальманит популярные христианские апологетические критики, затем сопоставляет каждую с ответами, уже присутствующими в мусульманской науке, классическом тафсире и академической литературе. Победитель не объявляется.",
+    "warning": "Обе стороны в сильнейшей форме. Победитель не объявляется.",
     "chips": [
-      "Topic 01",
-      "Apologetics map",
-      "Receipts"
+      "Тема 01",
+      "Карта апологетики",
+      "Источники"
     ],
     "labels": {
-      "christian": "Christian critique",
-      "muslim": "Documented response"
+      "christian": "Христианская критика",
+      "muslim": "Документированный ответ"
+    },
+    "lang": "ru",
+    "ui": {
+      "brand_small": "База для дебатов",
+      "hub": "Все темы",
+      "nav_historicity": "Историчность",
+      "lang_en": "EN",
+      "lang_ru": "RU",
+      "search_label": "Поиск по цитатам, карточкам, рукописям",
+      "search_placeholder": "Поиск: Sidky, Wallace, Мк 16, Бирмингем…",
+      "tab_speech": "Речь",
+      "tab_proofs": "Аргументы за Троицу",
+      "tab_live": "Подсказки",
+      "tab_verses": "Стихи",
+      "tab_brief": "Обзор",
+      "tab_arguments": "Аргументы",
+      "tab_materials": "Рукописи",
+      "tab_debates": "Дебаты",
+      "tab_cards": "Карточки",
+      "tab_sources": "Источники",
+      "tab_checklist": "Чеклист",
+      "intro_brief": "Сначала договоритесь о терминах. Потом берите доводы по одному — не только атакуйте.",
+      "h_definitions": "Определения",
+      "h_positive": "Позитивные картины",
+      "intro_arguments": "Обе стороны в сильнейшей форме: контраргументы, суть спора и как использовать в дебате.",
+      "cluster": "Группа",
+      "filter_all": "Все",
+      "filter_top10": "Топ-10",
+      "expand": "Раскрыть всё",
+      "collapse": "Свернуть всё",
+      "intro_live": "Короткие реплики, если оппонент произнёс типичную фразу.",
+      "intro_verses": "Группы стихов со ссылками на текст.",
+      "they_say_label": "Они говорят: ",
+      "they_claim_label": "Их тезис",
+      "counter_label": "Ответ",
+      "steelman_label": "Как защищают",
+      "kind_proof": "Аргумент",
+      "unitarian_move": "Довод: ",
+      "christian_reply": "Ответ: ",
+      "open_nrsv": "англ.",
+      "verses_count_suffix": "стихов",
+      "h_live_lines": "Если говорят → отвечай",
+      "h_live_quotes": "Цитаты вслух",
+      "h_live_mss": "Открыть рукопись",
+      "intro_speech": "Одна связная речь. Можно читать вслух или копировать целиком.",
+      "copy_speech": "Копировать всю речь",
+      "speech_copied": "Скопировано",
+      "speech_verses": "Стихи",
+      "intro_materials": "Рукописи и артефакты. Нажмите на снимок, чтобы увеличить.",
+      "show": "Показать",
+      "filter_bible": "Библия",
+      "filter_quran": "Коран",
+      "filter_infra": "Зрители",
+      "intro_debates": "Известные дебаты и что из них взять, со ссылками на записи.",
+      "intro_cards": "Короткие ответы на типичные фразы. Первая строка — то, что сказать сразу.",
+      "intro_sources": "Сначала академические и первичные источники, потом ролики.",
+      "footer": "Обе стороны смотрят одни материалы. Победитель не объявляется.",
+      "data_points": "Факты",
+      "manuscripts": "Рукописи / артефакты",
+      "source": "источник",
+      "copy": "Копировать",
+      "copied": "Скопировано",
+      "counter": "Возражение → ",
+      "claim": "тезис",
+      "reply": "Ответ: ",
+      "counter_christian": "Возражение (христиане):",
+      "counter_muslim": "Возражение (мусульмане):",
+      "if_they_say": "Если говорят",
+      "if_they_say_colon": "Если говорят:",
+      "you_say": "Отвечай",
+      "dont_overclaim": "Не переигрывай",
+      "crux": "В чём спор: ",
+      "debate_use": "Как использовать: ",
+      "open_viewer": "Открыть источник",
+      "motion": "Тема:",
+      "timestamps": "Таймкоды",
+      "steal": "Что взять:",
+      "fast_answer": "Сразу:",
+      "follow_up": "Дальше:",
+      "anchor": "Якорь: ",
+      "kind_live": "Реплика",
+      "kind_quote": "Цитата",
+      "kind_card": "Карточка",
+      "kind_mss": "Рукопись",
+      "kind_verse_group": "Группа стихов",
+      "kind_verse": "Стих",
+      "kind_speech": "Речь",
+      "open": "Открыть",
+      "go_to": "К разделу "
     }
   },
   "definitions": [
     {
-      "term": "Steelman",
-      "precise": "State the other side's argument in its strongest form before answering.",
-      "not": "Not strawman or slogan swap."
+      "term": "Стальман",
+      "precise": "Сформулируй аргумент другой стороны в сильнейшем виде, прежде чем отвечать.",
+      "not": "Не соломенное чучело и не обмен лозунгами."
     },
     {
-      "term": "Crux",
-      "precise": "The specific question that would actually resolve a disagreement fork.",
-      "not": "Not the loudest talking point."
+      "term": "Суть спора (crux)",
+      "precise": "Конкретный вопрос, который реально закрыл бы развилку разногласия.",
+      "not": "Не самый громкий тезис для эфира."
     }
   ],
   "arguments": [
     {
       "id": "crucifixion",
       "rank": 1,
-      "cluster": "history + theology",
-      "title": "Crucifixion denial vs historical consensus",
+      "cluster": "история + богословие",
+      "title": "Отрицание распятия vs исторический консенсус",
       "type": "history + theology",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "If Jesus was historically crucified, and the Qur'an denies that event, then the Qur'an's historical reliability on Jesus fails at a high-stakes point.",
-        "case": "Mainstream Christian apologetics (e.g. William Lane Craig) treat Jesus' crucifixion as among the most secure facts about Jesus. Non-Christian sources such as Tacitus (Annals 15.44) and Josephus also report Jesus' execution. Bart Ehrman, a non-Christian critical scholar, calls the crucifixion \"rock-bottom certain.\" Qur'an 4:157–158 is read as denying that Jesus was crucified, which would place Islam against the historical record.",
+        "claim": "Если Иисус был исторически распят, а Коран отрицает это событие, историческая надёжность Корана об Иисусе падает в точке с высокой ставкой.",
+        "case": "Мейнстримная христианская апологетика (напр. William Lane Craig) считает распятие Иисуса одним из самых прочных фактов о нём. Нехристианские источники — Тацит (Анналы 15.44) и Иосиф — тоже сообщают о казни Иисуса. Барт Эрман, нехристианский критический учёный, называет распятие «каменно-донной достоверностью». «Коран 4:157–158» читают как отрицание того, что Иисус был распят, что ставит ислам против исторической записи.",
         "sources": [
           {
-            "label": "Qur'an 4:157–158",
-            "note": "Key text: they did not kill him, nor crucify him, but it was made to appear so…",
+            "label": "«Коран 4:157–158»",
+            "note": "Ключевой текст: они не убили его и не распяли, но им так показалось…",
             "url": "https://quran.com/4/157-158"
           },
           {
             "label": "Craig — Reasonable Faith Q&A",
-            "note": "Argues Islamic denial is the Achilles' heel given historical consensus.",
+            "note": "Утверждает, что исламское отрицание — ахиллесова пята при историческом консенсусе.",
             "url": "https://www.reasonablefaith.org/writings/question-answer/the-quran-and-the-crucifixion-of-jesus"
           },
           {
-            "label": "Bart Ehrman blog",
-            "note": "States crucifixion is historically certain and at odds with standard Islamic belief.",
+            "label": "Блог Барта Эрмана",
+            "note": "Утверждает, что распятие исторически достоверно и расходится со стандартной исламской верой.",
             "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
           },
           {
-            "label": "Tacitus, Annals 15.44",
-            "note": "Roman source referring to Christus executed under Pontius Pilate.",
+            "label": "Тацит, Анналы 15.44",
+            "note": "Римский источник: Христос казнён при Понтии Пилате.",
             "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
           }
         ],
         "quotes": [
           {
-            "text": "I am convinced beyond a shadow of a doubt that Jesus was physically crucified and died on the cross. That is rock-bottom certain in my books. And it stands completely [at] odds with standard Islamic beliefs.",
+            "text": "Я убеждён вне всякой тени сомнения, что Иисус был физически распят и умер на кресте. Это в моих книгах каменно-донная достоверность. И это полностью расходится со стандартными исламскими убеждениями.",
             "who": "Bart D. Ehrman",
-            "work": "Does My Work on the Historical Jesus Confirm the Quran?",
-            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+            "work": "Does My Work on the Historical Jesus Confirm the Коран?",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/",
+            "orig": "I am convinced beyond a shadow of a doubt that Jesus was physically crucified and died on the cross. That is rock-bottom certain in my books. And it stands completely [at] odds with standard Islamic beliefs."
           },
           {
-            "text": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus.",
-            "who": "Tacitus",
-            "work": "Annals 15.44",
-            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
+            "text": "Христос, от которого произошло это имя, понёс высшую казнь в правление Тиберия от рук одного из наших прокураторов, Понтия Пилата.",
+            "who": "Тацит",
+            "work": "Анналы 15.44",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44",
+            "orig": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus."
           }
         ],
         "data_points": [
           {
-            "fact": "Q 4:157 is the collision text.",
+            "fact": "«Коран 4:157» — текст столкновения.",
             "source": "https://quran.com/4/157",
-            "label": "Q 4:157 is the collision text.",
+            "label": "«Коран 4:157» — текст столкновения.",
             "note": "https://quran.com/4/157"
           }
         ]
       },
       "muslim": {
-        "claim": "Either (A) 4:157 denies Jewish agency/boast rather than the event itself, or (B) God rescued Jesus while allowing an apparent crucifixion, so public historical memory need not equal metaphysical outcome.",
-        "case": "Muslim responses are not monolithic. Majority Sunni tafsir (Tabari, Zamakhshari) develops substitution narratives. A minority scholarly line (some Isma'ili readings; Todd Lawson) argues the Qur'an denies the Jews' successful claim, not necessarily that a crucifixion-looking event occurred. Some Muslim writers distinguish what appeared historically from what God actually did — absorbing historical consensus without conceding Christian soteriology.",
+        "claim": "Либо (A) 4:157 отрицает иудейское агентство/хвастовство, а не само событие, либо (B) Бог спас Иисуса, допустив видимость распятия, так что публичная историческая память не обязана равняться метафизическому исходу.",
+        "case": "Мусульманские ответы не монолитны. Большинство суннитского тафсира (Табари, Замахшари) развивает нарративы замещения. Миноритарная учёная линия (некоторые исмаилитские чтения; Todd Lawson) утверждает: Коран отрицает успешную претензию иудеев, не обязательно то, что произошло событие, похожее на распятие. Некоторые мусульманские авторы различают то, что явилось исторически, и то, что Бог реально сделал, — вбирая исторический консенсус без уступки христианской сотериологии.",
         "sources": [
           {
-            "label": "Todd Lawson — The Crucifixion and the Qur'an",
-            "note": "Argues tafsir, not bare Qur'anic wording, hardens into categorical denial.",
+            "label": "Todd Lawson — The Crucifixion and the Коран",
+            "note": "Утверждает, что категорическое отрицание затвердевает в тафсире, а не в голой коранической формулировке.",
             "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
           },
           {
             "label": "AJIS — Revisiting the Crucifixion within Islam",
-            "note": "Documents non-monolithic Muslim positions, including Isma'ili affirmation.",
+            "note": "Документирует немонолитные мусульманские позиции, включая исмаилитское утверждение.",
             "url": "https://ajis.com.au/index.php/ajis/article/view/585"
           },
           {
-            "label": "Qur'an 3:55; 19:33",
-            "note": "Verses used in internal Muslim debate about Jesus' death and raising.",
+            "label": "«Коран 3:55»; 19:33",
+            "note": "Аяты во внутреннем мусульманском споре о смерти и вознесении Иисуса.",
             "url": "https://quran.com/3/55"
           }
         ],
         "quotes": [
           {
-            "text": "The point is that tafsir, not the Qur'an, denies the Crucifixion.",
+            "text": "Суть в том, что распятие отрицает тафсир, а не Коран.",
             "who": "Todd Lawson",
-            "work": "The Crucifixion and the Qur'an",
-            "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
+            "work": "The Crucifixion and the Коран",
+            "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf",
+            "orig": "The point is that tafsir, not the Qur'an, denies the Crucifixion."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Does Qur'an 4:157 deny the historical occurrence of Jesus' crucifixion, or only the claim that his opponents successfully killed God's messenger?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "importance": "Top 10",
-      "why_it_matters": "Highest-frequency Christian historical critique of the Qur'an. If 4:157 denies the event, Islam vs the 1st-century record; if it denies the boast, the theology still diverges.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Отрицает ли «Коран 4:157» историческое событие распятия Иисуса или только претензию, что противники успешно убили посланника Бога?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "importance": "Топ-10",
+      "why_it_matters": "Самая частая христианская историческая критика Корана. Если 4:157 отрицает событие — ислам против записи I века; если хвастовство — богословие всё равно расходится.",
       "live": {
-        "if_they_say": "Islam denies the crucifixion so it is historically false.",
-        "you_say": "State the consensus, then ask whether 4:157 denies the event or the boast. Cite Lawson/AJIS diversity. Don't pretend Muslim views are one ḥadīth.",
-        "dont_overclaim": "Don't hide majority tafsīr substitution. Don't hide Tacitus/Paul."
+        "if_they_say": "Ислам отрицает распятие, значит он исторически ложен.",
+        "you_say": "Назови консенсус, затем спроси, отрицает ли 4:157 событие или хвастовство. Цитируй разнообразие Lawson/AJIS. Не притворяйся, что мусульманские взгляды — один хадис.",
+        "dont_overclaim": "Не прячь большинство тафсира о замещении. Не прячь Тацита/Павла."
       }
     },
     {
       "id": "islamic-dilemma",
       "rank": 2,
-      "cluster": "definition + theology",
-      "title": "The \"Islamic dilemma\" (Qur'an affirms the Bible)",
+      "cluster": "определения + богословие",
+      "title": "«Исламская дилемма» (Коран подтверждает Библию)",
       "type": "definition + theology",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "The Qur'an tells Jews and Christians to judge by the Torah and Gospel they possess; if those books affirm Christian essentials that Islam rejects, Muslims face a dilemma: accept the Bible and contradict Islam, or reject the Bible and contradict the Qur'an.",
-        "case": "Common proof-texts: 5:43–47, 5:68, 10:94, 3:3–4, 5:48. Christian apologists argue 7th-century Torah/Gospel content is substantially continuous with today's Bible, so \"corruption after Muhammad\" cannot rescue the dilemma.",
+        "claim": "Коран велит иудеям и христианам судить по Торе и Евангелию, которые у них есть; если эти книги утверждают христианские основы, которые ислам отвергает, мусульмане в дилемме: принять Библию и противоречить исламу или отвергнуть Библию и противоречить Корану.",
+        "case": "Частые опорные тексты: 5:43–47, 5:68, 10:94, 3:3–4, 5:48. Христианские апологеты утверждают: содержание Торы/Евангелия VII века существенно непрерывно с сегодняшней Библией, так что «порча после Мухаммада» дилемму не спасает.",
         "sources": [
           {
-            "label": "Qur'an 5:47",
-            "note": "Let the People of the Gospel judge by what God has revealed therein.",
+            "label": "«Коран 5:47»",
+            "note": "Пусть люди Евангелия судят по тому, что Бог низвёл в нём.",
             "url": "https://quran.com/5/47"
           },
           {
-            "label": "Qur'an 10:94",
-            "note": "Directs the doubter to ask prior scripture readers.",
+            "label": "«Коран 10:94»",
+            "note": "Направляет сомневающегося спросить читателей прежнего писания.",
             "url": "https://quran.com/10/94"
           },
           {
             "label": "Catholic Answers — Bible corruption?",
-            "note": "Popular Christian presentation of the dilemma.",
+            "note": "Популярная христианская подача дилеммы.",
             "url": "https://www.catholic.com/magazine/online-edition/does-the-quran-teach-that-the-bible-was-corrupted-over-time"
           },
           {
-            "label": "Reynolds — JAOS on tahrif",
-            "note": "Academic analysis of Qur'anic falsification language.",
+            "label": "Reynolds — JAOS о тахрифе",
+            "note": "Академический разбор коранического языка фальсификации.",
             "url": "https://almuslih.org/wp-content/uploads/Library/Reynolds,%20G%20-%20The%20Quranic%20accusation.pdf"
           }
         ],
         "quotes": [
           {
-            "text": "Let the People of the Gospel judge by what Allah has revealed therein.",
-            "who": "Qur'an 5:47",
-            "work": "Primary text",
-            "url": "https://quran.com/5/47"
+            "text": "Пусть люди Евангелия судят по тому, что Аллах низвёл в нём.",
+            "who": "«Коран 5:47»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/5/47",
+            "orig": "Let the People of the Gospel judge by what Allah has revealed therein."
           }
         ]
       },
       "muslim": {
-        "claim": "The Qur'an affirms earlier revelation as divine in origin while criticizing misinterpretation, concealment, and later theological accretions; \"Injil\" need not mean the four canonical Gospels as closed Christian dogma.",
-        "case": "Abdullah Saeed maps Muslim positions on prior scriptures and notes Qur'anic reverence for Tawrat/Injil alongside critique of those who distort words from their places (4:46; 5:13; 5:41) — often read first as tahrif al-ma'na (distort meaning). The Qur'an is muhaymin (5:48) over prior books. Affirmation is not a blank check for every later Christian doctrine. Classical Muslims disagree on how much textual change occurred.",
+        "claim": "Коран утверждает прежнее откровение как божественное по происхождению, критикуя кривотолкование, сокрытие и поздние богословские наращения; «Инджил» не обязан означать четыре канонических Евангелия как закрытую христианскую догму.",
+        "case": "Abdullah Saeed картирует мусульманские позиции о прежних писаниях и отмечает кораническое почтение к Таурату/Инджилу рядом с критикой тех, кто искажает слова, сдвигая их с мест (4:46; 5:13; 5:41), — часто сначала как тахриф аль-ма‘на (искажение смысла). Коран — мухаймин (5:48) над прежними книгами. Утверждение — не бланковый чек на всякую позднюю христианскую догму. Классические мусульмане расходятся, сколько было текстуального изменения.",
         "sources": [
           {
             "label": "Abdullah Saeed — Charge of Distortion",
-            "note": "Major Muslim scholarly treatment of tahrif.",
+            "note": "Крупный мусульманский учёный разбор тахрифа.",
             "url": "https://bible-quran-video.s3.amazonaws.com/Documents/The-Charge-of-Distortion-of-Jewish-and-Christian-Scriptures_Abdullah+Saeed.pdf"
           },
           {
-            "label": "Qur'an 5:48",
-            "note": "Qur'an as guardian/criterion (muhaymin) over previous scripture.",
+            "label": "«Коран 5:48»",
+            "note": "Коран как страж/критерий (мухаймин) над прежним писанием.",
             "url": "https://quran.com/5/48"
           },
           {
             "label": "MDPI Religions — Abrogation or Confirmation?",
-            "note": "Argues Qur'an presents itself as confirmer (musaddiq) more than abrogator.",
+            "note": "Утверждает, что Коран подаёт себя скорее как подтвердитель (мусаддик), чем отменитель.",
             "url": "https://www.mdpi.com/2077-1444/14/7/856"
           }
         ],
         "quotes": [
           {
-            "text": "Since the 'authorized' scriptures of Jews and Christians remain very much today as they existed at the time of the Prophet, it is difficult to argue that the Qur'anic references to Tawrat and Injil were only to the 'pure' Tawrat and Injil as existed at the time of Moses and Jesus.",
+            "text": "Поскольку «авторизованные» писания иудеев и христиан остаются сегодня во многом такими же, какими были во время Пророка, трудно утверждать, что коранические отсылки к Таурату и Инджилу были только к «чистым» Таурату и Инджилу времён Мусы и Исы.",
             "who": "Abdullah Saeed",
             "work": "The Charge of Distortion of Jewish and Christian Scriptures",
-            "url": "https://bible-quran-video.s3.amazonaws.com/Documents/The-Charge-of-Distortion-of-Jewish-and-Christian-Scriptures_Abdullah+Saeed.pdf"
+            "url": "https://bible-quran-video.s3.amazonaws.com/Documents/The-Charge-of-Distortion-of-Jewish-and-Christian-Scriptures_Abdullah+Saeed.pdf",
+            "orig": "Since the 'authorized' scriptures of Jews and Christians remain very much today as they existed at the time of the Prophet, it is difficult to argue that the Qur'anic references to Tawrat and Injil were only to the 'pure' Tawrat and Injil as existed at the time of Moses and Jesus."
           }
         ],
         "data_points": [
           {
-            "fact": "Q 5:48: Qur'an as muhaymin (guardian/criterion) over previous scripture.",
+            "fact": "«Коран 5:48»: Коран как мухаймин (страж/критерий) над прежним писанием.",
             "source": "https://quran.com/5/48",
-            "label": "Q 5:48: Qur'an as muhaymin (guardian/criterion) over previous scripture.",
+            "label": "«Коран 5:48»: Коран как мухаймин (страж/критерий) над прежним писанием.",
             "note": "https://quran.com/5/48"
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "When the Qur'an says \"Gospel,\" does it mean the Christian canon's doctrinal content as Christians define it, or an earlier revelation the Qur'an claims to confirm and correct?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Best Christian logical-theological squeeze from Qur'anic verses that honor prior scripture.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Когда Коран говорит «Евангелие», имеет ли он в виду доктринальное содержание христианского канона, как его определяют христиане, или более раннее откровение, которое Коран претендует подтвердить и поправить?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Лучший христианский логико-богословский зажим из коранических аятов, чтящих прежнее писание.",
       "live": {
-        "if_they_say": "The Qur'an confirms the Bible, so Muslims must accept the Gospels.",
-        "you_say": "Define Injil. Affirmation of guidance therein is not a blank check for Nicene doctrine. Then argue crucifixion/deity as separate questions.",
-        "dont_overclaim": "Don't invent a lost Injil you cannot describe. Don't pretend 5:47 doesn't exist."
+        "if_they_say": "Коран подтверждает Библию, значит мусульмане должны принять Евангелия.",
+        "you_say": "Определи Инджил. Утверждение руководства в нём — не бланковый чек на никейскую догму. Затем спорь о распятии/божестве как отдельных вопросах.",
+        "dont_overclaim": "Не выдумывай утраченный Инджил, который не можешь описать. Не притворяйся, что 5:47 не существует."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "trinity",
       "rank": 3,
-      "cluster": "theology + definition",
-      "title": "Trinity as shirk (associating partners with God)",
+      "cluster": "богословие + определения",
+      "title": "Троица как ширк (сотоварищество с Богом)",
       "type": "theology + definition",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Orthodox Trinity is monotheism (one being, three persons), so Islamic charges of tritheism attack a straw man; Qur'anic polemics often miss the doctrine Christians actually hold.",
-        "case": "Christians cite the Shema plus NT worship of Jesus. They argue Q 5:116 and Q 5:73 do not describe Nicene orthodoxy. Therefore Islam's rejection is misaimed or still rejects biblical revelation of God.",
+        "claim": "Ортодоксальная Троица — монотеизм (одно существо, три лица), так что исламские обвинения в тритеизме бьют соломенное чучело; коранические полемики часто промахиваются мимо учения, которое христиане реально держат.",
+        "case": "Христиане цитируют Шма плюс новозаветное поклонение Иисусу. Они утверждают, что «Коран 5:116» и 5:73 не описывают никейскую ортодоксию. Значит отвержение исламом либо промахивается, либо всё равно отвергает библейское откровение Бога.",
         "sources": [
           {
-            "label": "Qur'an 5:72–73; 5:116",
-            "note": "Primary Qur'anic polemics against \"third of three\" / Jesus and Mary as gods.",
+            "label": "«Коран 5:72–73»; 5:116",
+            "note": "Основные коранические полемики против «третий из трёх» / Иисус и Мария как боги.",
             "url": "https://quran.com/5/72-73"
           },
           {
             "label": "Christian Century — Allah and the Trinity",
-            "note": "Argues Qur'anic rejections often target misconceptions, not classical Trinity.",
+            "note": "Утверждает, что коранические отвержения часто бьют недоразумения, не классическую Троицу.",
             "url": "https://www.christiancentury.org/article/2011-02/allah-and-trinity"
           },
           {
-            "label": "Nicene Creed",
-            "note": "Canonical Christian definition: one God; Son consubstantial with the Father.",
+            "label": "Никейский символ",
+            "note": "Каноническое христианское определение: один Бог; Сын единосущен Отцу.",
             "url": "https://www.usccb.org/prayers/nicene-creed"
           }
         ],
         "quotes": [
           {
-            "text": "And [beware the Day] when Allah will say, 'O Jesus, Son of Mary, did you say to the people, \"Take me and my mother as deities besides Allah?\"'",
-            "who": "Qur'an 5:116",
-            "work": "Primary text",
-            "url": "https://quran.com/5/116"
+            "text": "И [остерегайтесь Дня,] когда Аллах скажет: «О Иса, сын Марьям, говорил ли ты людям: „Возьмите меня и мою мать богами помимо Аллаха?“»",
+            "who": "«Коран 5:116»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/5/116",
+            "orig": "And [beware the Day] when Allah will say, 'O Jesus, Son of Mary, did you say to the people, \"Take me and my mother as deities besides Allah?\"'"
           }
         ]
       },
       "muslim": {
-        "claim": "Even the carefully stated Nicene Trinity still ascribes deity and worship to Jesus, which the Qur'an classifies as shirk regardless of \"one essence\" language.",
-        "case": "Islamic tawhid is absolute unpartitioned oneness. Ibn Taymiyya and later theologians argue that if Father, Son, and Spirit are each fully God, reason yields multiple divinities. Qur'an 4:171: say not \"Three.\" The dispute is definitional: what counts as monotheism?",
+        "claim": "Даже тщательно сформулированная никейская Троица всё равно приписывает божество и поклонение Иисусу, что Коран классифицирует как ширк независимо от языка «одной сущности».",
+        "case": "Исламский таухид — абсолютная неразделённая единичность. Ибн Таймийя и поздние богословы утверждают: если Отец, Сын и Дух каждый полностью Бог, разум даёт множество божеств. «Коран 4:171»: не говорите «Трое». Спор дефиниционный: что считается монотеизмом?",
         "sources": [
           {
-            "label": "Qur'an 4:171",
-            "note": "Do not say \"Three\"… God is only one God.",
+            "label": "«Коран 4:171»",
+            "note": "Не говорите «Трое»… Бог — только один Бог.",
             "url": "https://quran.com/4/171"
           },
           {
-            "label": "Qur'an 112 (al-Ikhlas)",
-            "note": "God is One, begets not, is not begotten.",
+            "label": "«Коран 112» (аль-Ихлас)",
+            "note": "Бог Един, не рождает, не рождён.",
             "url": "https://quran.com/112"
           },
           {
             "label": "Erickson — Islamic Monotheism and the Trinity",
-            "note": "Documents Muslim philosophical critique of Trinity.",
+            "note": "Документирует мусульманскую философскую критику Троицы.",
             "url": "https://uwaterloo.ca/grebel/sites/default/files/uploads/documents/cgr-27-1-w2009-4.pdf"
           }
         ],
         "quotes": [
           {
-            "text": "And do not say, 'Three'; desist — it is better for you. Allah is but one God.",
-            "who": "Qur'an 4:171",
-            "work": "Primary text",
-            "url": "https://quran.com/4/171"
+            "text": "И не говорите: «Трое»; удержитесь — так лучше для вас. Аллах — лишь один Бог.",
+            "who": "«Коран 4:171»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/4/171",
+            "orig": "And do not say, 'Three'; desist — it is better for you. Allah is but one God."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Is \"one being / three persons\" still monotheism, or is any worship of Jesus already shirk by definition?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "If the Qur'an misses the actual Christian doctrine, the polemic misfires; if it hits worship of Jesus, it still lands.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Остаётся ли «одно существо / три лица» монотеизмом, или любое поклонение Иисусу уже ширк по определению?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Если Коран промахивается мимо реального христианского учения, полемика даёт осечку; если бьёт поклонение Иисусу, удар всё равно садится.",
       "live": {
-        "if_they_say": "The Qur'an thinks the Trinity is Father, Mother, Son.",
-        "you_say": "5:116 is that picture. 4:171 and 5:73 still hit 'Three' and sonship without Mary. Don't collapse the file into one verse either way.",
-        "dont_overclaim": "Don't pretend 5:116 is Cappadocian theology. Don't pretend 4:171 isn't aimed at Christians."
+        "if_they_say": "Коран думает, что Троица — Отец, Мать, Сын.",
+        "you_say": "5:116 — именно эта картина. 4:171 и 5:73 всё равно бьют «Трое» и сыновство без Марии. Не схлопывай файл в один аят в любую сторону.",
+        "dont_overclaim": "Не притворяйся, что 5:116 — каппадокийское богословие. Не притворяйся, что 4:171 не нацелен на христиан."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "deity-of-christ",
       "rank": 4,
-      "cluster": "theology + history",
-      "title": "Jesus' deity and divine sonship",
+      "cluster": "богословие + история",
+      "title": "Божество Иисуса и божественное сыновство",
       "type": "theology + history",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Earliest Christian sources present Jesus as receiving worship and divine status; Islam's purely human messenger-Christ is a later theological downgrade.",
-        "case": "Christians appeal to Philippians 2:6–11, John 1:1–14, John 20:28, and early high Christology. They argue Muhammad, six centuries later, cannot overturn apostolic-linked testimony.",
+        "claim": "Древнейшие христианские источники представляют Иисуса принимающим поклонение и божественный статус; чисто человеческий посланник-Христос ислама — позднее богословское понижение.",
+        "case": "Христиане опираются на Флп 2:6–11, Ин 1:1–14, Ин 20:28 и раннюю высокую христологию. Они утверждают: Мухаммад шесть веков спустя не может опрокинуть свидетельство, связанное с апостолами.",
         "sources": [
           {
-            "label": "Philippians 2:6–11",
-            "note": "Early Christian hymn language of exaltation.",
+            "label": "Флп 2:6–11",
+            "note": "Язык раннего христианского гимна о вознесении.",
             "url": "https://www.biblegateway.com/passage/?search=Philippians+2%3A6-11&version=NRSVUE"
           },
           {
-            "label": "John 20:28",
-            "note": "Thomas: My Lord and my God!",
+            "label": "Ин 20:28",
+            "note": "Фома: Господь мой и Бог мой!",
             "url": "https://www.biblegateway.com/passage/?search=John+20%3A28&version=NRSVUE"
           },
           {
-            "label": "Qur'an 5:72; 19:35",
-            "note": "Denies divinity of Jesus; God does not take a son.",
+            "label": "«Коран 5:72»; 19:35",
+            "note": "Отрицает божественность Иисуса; Бог не берёт сына.",
             "url": "https://quran.com/5/72"
           }
         ],
         "quotes": [
           {
-            "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-            "who": "John 1:1",
-            "work": "NT primary",
-            "url": "https://www.biblegateway.com/passage/?search=John%201%3A1&version=NRSVUE"
+            "text": "В начале было Слово, и Слово было у Бога, и Слово было Бог.",
+            "who": "Ин 1:1",
+            "work": "Первичный текст НЗ",
+            "url": "https://www.biblegateway.com/passage/?search=John%201%3A1&version=NRSVUE",
+            "orig": "In the beginning was the Word, and the Word was with God, and the Word was God."
           }
         ]
       },
       "muslim": {
-        "claim": "Jesus in the Qur'an is Messiah, word, and spirit from God — exalted but created; later Christian creeds developed beyond Jesus' own monotheistic preaching.",
-        "case": "Muslims cite Qur'an 3:45–51; 4:171; 5:75 and Gospel sayings read as unitarian (Mark 12:29; John 17:3). \"Son of God\" in Semitic idiom can mean favored servant; metaphysical sonship is treated as later development. The Qur'an claims to restore Jesus' actual message against church doctrine.",
+        "claim": "Иисус в Коране — Мессия, слово и дух от Бога — возвышен, но сотворён; поздние христианские символы развились дальше собственного монотеистического благовестия Иисуса.",
+        "case": "Мусульмане цитируют «Коран 3:45–51»; 4:171; 5:75 и евангельские речения, читаемые как унитарные (Мк 12:29; Ин 17:3). «Сын Божий» в семитском идиоме может значить избранного слугу; метафизическое сыновство трактуется как позднее развитие. Коран претендует восстановить действительное послание Иисуса против церковной догмы.",
         "sources": [
           {
-            "label": "Qur'an 4:171",
-            "note": "Jesus is messenger, word cast to Mary, spirit from God — not a third of three.",
+            "label": "«Коран 4:171»",
+            "note": "Иисус — посланник, слово, низведённое Марии, дух от Бога — не третий из трёх.",
             "url": "https://quran.com/4/171"
           },
           {
-            "label": "Qur'an 3:45–51",
-            "note": "High regard for Jesus with explicit creaturely limits.",
+            "label": "«Коран 3:45–51»",
+            "note": "Высокое почтение к Иисусу с явными тварными пределами.",
             "url": "https://quran.com/3/45-51"
           },
           {
-            "label": "Mark 12:29 / John 17:3",
-            "note": "Texts Muslims frequently cite for Jesus affirming one God.",
+            "label": "Мк 12:29 / Ин 17:3",
+            "note": "Тексты, которые мусульмане часто цитируют как утверждение Иисусом единого Бога.",
             "url": "https://www.biblegateway.com/passage/?search=Mark+12%3A29%3B+John+17%3A3&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "They have certainly disbelieved who say that Allah is the Messiah, son of Mary.",
-            "who": "Qur'an 5:17",
-            "work": "Primary text",
-            "url": "https://quran.com/5/17"
+            "text": "Неверовали те, кто говорят, что Аллах — Мессия, сын Марьям.",
+            "who": "«Коран 5:17»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/5/17",
+            "orig": "They have certainly disbelieved who say that Allah is the Messiah, son of Mary."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Did Jesus claim or receive the kind of deity Nicene Christianity ascribes — and is later revelation allowed to adjudicate that question?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Even unitarian-leaning historical Jesus scholars rarely become Muslims; this is about identity, not only councils.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Претендовал ли Иисус на тот род божества, который приписывает никейское христианство, или принимал его — и позволено ли позднему откровению судить этот вопрос?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Даже историки Иисуса с унитарным уклоном редко становятся мусульманами; речь об идентичности, не только о соборах.",
       "live": {
-        "if_they_say": "Jesus never claimed to be God, so Islam is right.",
-        "you_say": "Define claim: explicit 'I am God,' or receiving worship, or John 8:58, or Mark 14:62, or 1 Cor 8:6. Then apply the same strictness to Qur'anic titles (word, spirit, messiah).",
-        "dont_overclaim": "Don't pretend Mark is John. Don't pretend 5:17 is a commentary on Chalcedon."
+        "if_they_say": "Иисус никогда не называл себя Богом, значит ислам прав.",
+        "you_say": "Определи претензию: явное «Я Бог», или принятие поклонения, или Ин 8:58, или Мк 14:62, или 1 Кор 8:6. Затем примени ту же строгость к кораническим титулам (слово, дух, мессия).",
+        "dont_overclaim": "Не притворяйся, что Марк — это Иоанн. Не притворяйся, что 5:17 — комментарий на Халкидон."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "false-prophet",
       "rank": 5,
-      "cluster": "theology + history",
-      "title": "Muhammad as false prophet",
+      "cluster": "богословие + история",
+      "title": "Мухаммад как ложный пророк",
       "type": "theology + history",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "By biblical tests of prophecy (and/or by moral-historical critique), Muhammad fails as a prophet from the God of Abraham.",
-        "case": "Common lines: (1) Deut 18's prophet like Moses is an Israelite with face-to-face communion and signs — said to fit Jesus, not Muhammad; (2) denying crucifixion/deity contradicts prior revelation; (3) Satanic verses reports used as false-revelation evidence; (4) warfare vs Jesus' pattern.",
+        "claim": "По библейским тестам пророчества (и/или по морально-исторической критике) Мухаммад не проходит как пророк Бога Авраама.",
+        "case": "Частые линии: (1) пророк как Моисей во Втор 18 — израильтянин с лицом-к-лицу общением и знамениями — якобы подходит Иисусу, не Мухаммаду; (2) отрицание распятия/божества противоречит прежнему откровению; (3) сообщения о «сатанинских аятах» как свидетельство ложного откровения; (4) война vs паттерн Иисуса.",
         "sources": [
           {
-            "label": "Deuteronomy 18:15–22",
-            "note": "Prophet-like-Moses passage and false-prophet tests used by both sides.",
+            "label": "Втор 18:15–22",
+            "note": "Место о пророке как Моисей и тесты ложного пророка, которыми пользуются обе стороны.",
             "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+18%3A15-22&version=NRSVUE"
           },
           {
-            "label": "CRI — Muhammad and Deuteronomy 18",
-            "note": "Christian critique of Muslim use of Deut 18.",
+            "label": "CRI — Muhammad and Втор 18",
+            "note": "Христианская критика мусульманского использования Втор 18.",
             "url": "https://www.equip.org/articles/muhammad-deuteronomy-18-prophet-like-moses/"
           },
           {
-            "label": "Wood — Deuteronomy Deductions",
-            "note": "Uses Satanic verses reports plus Deut 18 to argue false prophecy.",
+            "label": "Wood — Втор Deductions",
+            "note": "Использует сообщения о сатанинских аятах плюс Втор 18, чтобы аргументировать ложное пророчество.",
             "url": "https://www.answering-islam.org/Authors/Wood/deuteronomy_deductions.htm"
           },
           {
-            "label": "Qur'an 7:157",
-            "note": "Claims the unlettered prophet is mentioned in Torah and Gospel with them.",
+            "label": "«Коран 7:157»",
+            "note": "Утверждает, что неграмотный пророк упомянут в Торе и Евангелии у них.",
             "url": "https://quran.com/7/157"
           }
         ],
         "quotes": [
           {
-            "text": "If a prophet… says, 'Let us follow other gods'… you must not heed the words of that prophet…",
-            "who": "Deuteronomy 13:1–3 (abridged)",
-            "work": "OT test as used in critiques",
-            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A1-5&version=NRSVUE"
+            "text": "Если пророк… скажет: «Пойдём вслед богов иных»… не слушай слов того пророка…",
+            "who": "Втор 13:1–3 (сокращено)",
+            "work": "Ветхозаветный тест, как его используют в критике",
+            "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2013%3A1-5&version=NRSVUE",
+            "orig": "If a prophet… says, 'Let us follow other gods'… you must not heed the words of that prophet…"
           }
         ]
       },
       "muslim": {
-        "claim": "Muhammad fits the Mosaic pattern as lawgiver-statesman more closely than Jesus, is foretold in prior scripture, and is validated by the Qur'an's challenge and mass transmission — while Satanic verses reports are weak or a test he passed.",
-        "case": "Muslim apologetics stress Moses/Muhammad parallels as lawgivers and community leaders. Internal criteria: i'jaz (inimitability), tawhid consistency, character. Many Muslims dispute Satanic verses authenticity; others say any interference was blocked (22:52 debate).",
+        "claim": "Мухаммад ближе к моисееву паттерну как законодатель-государственник, чем Иисус, предсказан в прежнем писании и подтверждён вызовом Корана и массовой передачей — а сообщения о сатанинских аятах слабы или это испытание, которое он прошёл.",
+        "case": "Мусульманская апологетика подчёркивает параллели Моисей/Мухаммад как законодателей и вождей общины. Внутренние критерии: и‘джаз (неподражаемость), последовательность таухида, характер. Многие мусульмане оспаривают подлинность сатанинских аятов; другие говорят, что любое вмешательство было блокировано (спор о 22:52).",
         "sources": [
           {
-            "label": "Qur'an 17:88; 2:23",
-            "note": "Challenge verses used as internal proof of prophethood.",
+            "label": "«Коран 17:88»; 2:23",
+            "note": "Аяты-вызов как внутреннее доказательство пророчества.",
             "url": "https://quran.com/17/88"
           },
           {
-            "label": "Qur'an 61:6",
-            "note": "Jesus said to foretell a messenger after him named Ahmad.",
+            "label": "«Коран 61:6»",
+            "note": "Иисус якобы предсказывает посланника после себя по имени Ахмад.",
             "url": "https://quran.com/61/6"
           },
           {
             "label": "SBJT — Does the Bible predict Muhammad?",
-            "note": "Maps Christian counters to Muslim Deut/Paraclete arguments.",
+            "note": "Картирует христианские ответы на мусульманские аргументы Втор/Параклет.",
             "url": "https://cf.sbts.edu/equip/uploads/2016/10/SBJT-20.2-Costa-Bible-Predict-Muhammad.pdf"
           },
           {
-            "label": "Qur'an 22:52",
-            "note": "Discussed in debates on prophetic protection from satanic interference.",
+            "label": "«Коран 22:52»",
+            "note": "Обсуждается в дебатах о пророческой защите от сатанинского вмешательства.",
             "url": "https://quran.com/22/52"
           }
         ],
         "quotes": [
           {
-            "text": "Muhammad is not the father of any one of your men, but he is the Messenger of Allah and last of the prophets.",
-            "who": "Qur'an 33:40",
-            "work": "Primary text",
-            "url": "https://quran.com/33/40"
+            "text": "Мухаммад не отец кого-либо из ваших мужей, но он — посланник Аллаха и печать пророков.",
+            "who": "«Коран 33:40»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/33/40",
+            "orig": "Muhammad is not the father of any one of your men, but he is the Messenger of Allah and last of the prophets."
           }
         ],
         "data_points": [
           {
-            "fact": "Muslim reply: Deut tests assume Israel's covenant; a later prophet to the nations is not 'other gods' if he preaches tawhid.",
-            "source": "Q 21:25",
-            "label": "Muslim reply: Deut tests assume Israel's covenant; a later prophet to the nations is not 'other gods' if he preaches tawhid.",
-            "note": "Q 21:25"
+            "fact": "Мусульманский ответ: тесты Втор предполагают завет Израиля; поздний пророк к народам — не «иные боги», если проповедует таухид.",
+            "source": "«Коран 21:25»",
+            "label": "Мусульманский ответ: тесты Втор предполагают завет Израиля; поздний пророк к народам — не «иные боги», если проповедует таухид.",
+            "note": "«Коран 21:25»"
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Which revelation's prophet-tests are authoritative — and must a true prophet agree with Nicene Christianity?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Deut 13/18 tests vs Qur'anic self-claim. Easy to do as insult; hard to do as criteria.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Чьи тесты пророка авторитетны — и должен ли истинный пророк соглашаться с никейским христианством?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Тесты Втор 13/18 vs кораническая самопретензия. Легко сделать оскорблением; трудно — критериями.",
       "live": {
-        "if_they_say": "Deuteronomy proves Muhammad is a false prophet.",
-        "you_say": "State the test: other gods vs signs. Islam claims continuity of tawhid, not Baal. Then you must argue that Jesus' identity is the true God-test, or that moral/war files fail a prophet-test. Don't treat Deut 13 as a magic word.",
-        "dont_overclaim": "Don't skip Jesus' own conflicts with Deut-reading opponents. Don't skip 33:40."
+        "if_they_say": "Второзаконие доказывает, что Мухаммад — ложный пророк.",
+        "you_say": "Назови тест: иные боги vs знамения. Ислам претендует на непрерывность таухида, не Ваала. Затем ты должен доказать, что идентичность Иисуса — истинный тест Бога, или что моральные/военные файлы валят тест пророка. Не делай из Втор 13 магическое слово.",
+        "dont_overclaim": "Не пропускай собственные конфликты Иисуса с оппонентами, читающими Втор. Не пропускай 33:40."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "quran-preservation",
       "rank": 6,
-      "cluster": "history",
-      "title": "Qur'an preservation vs Bible manuscripts",
+      "cluster": "история",
+      "title": "Сохранность Корана vs библейские рукописи",
       "type": "history",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "The Qur'an's perfect-preservation claim is overstated: Uthman standardized the text and destroyed rivals, and multiple qira'at remain; the NT manuscript tradition is earlier and denser.",
-        "case": "Christian apologists cite Sahih al-Bukhari on Uthman's commission and burning of other materials, plus modern manuscript work on variants, to argue a double standard in Muslim attacks on biblical textual history.",
+        "claim": "Претензия Корана на совершенную сохранность завышена: Усман стандартизировал текст и уничтожил соперников, и остаются множественные кирааты; рукописная традиция НЗ раньше и плотнее.",
+        "case": "Христианские апологеты цитируют Сахих аль-Бухари о комиссии Усмана и сожжении других материалов плюс современную рукописную работу о вариантах, чтобы аргументировать двойной стандарт в мусульманских атаках на библейскую текстуальную историю.",
         "sources": [
           {
-            "label": "Sahih al-Bukhari 4987",
-            "note": "Classic hadith report of Uthmanic standardization and destruction of other copies.",
+            "label": "Сахих аль-Бухари 4987",
+            "note": "Классический хадис о усмановской стандартизации и уничтожении других копий.",
             "url": "https://sunnah.com/bukhari:4987"
           },
           {
             "label": "1517 — Perfectly Preserved?",
-            "note": "Christian apologetic summary of modern Qur'anic textual research pressures.",
+            "note": "Христианская апологетическая сводка давлений современной коранической текстуальной науки.",
             "url": "https://www.1517.org/articles/perfectly-preserved-modern-quran-research-and-muslim-christian-apologetics"
           },
           {
             "label": "TGC — Countering Muslim attacks on the Bible",
-            "note": "Turns corruption charge back toward Qur'anic canon history.",
+            "note": "Разворачивает обвинение в порче назад к истории коранического канона.",
             "url": "https://www.thegospelcoalition.org/article/muslim-bible-apologetics/"
           }
         ],
         "quotes": [
           {
-            "text": "It's very clear that the standard narrative has holes in it.",
+            "text": "Совершенно ясно, что в стандартном нарративе есть дыры.",
             "who": "Yasir Qadhi",
-            "work": "Interview with Mohammed Hijab, 8 June 2020",
-            "url": "https://en.wikipedia.org/wiki/Yasir_Qadhi"
+            "work": "Интервью с Mohammed Hijab, 8 июня 2020",
+            "url": "https://en.wikipedia.org/wiki/Yasir_Qadhi",
+            "orig": "It's very clear that the standard narrative has holes in it."
           }
         ]
       },
       "muslim": {
-        "claim": "Uthmanic standardization preserved a mutawatir consonantal skeleton already orally mass-transmitted; qira'at are authorized recitation modes within that rasm, not rival Qur'ans.",
-        "case": "Muslim scholarship argues companions agreed on the rasm; variants that contradicted it were treated as abrogated, commentary, or error. Comparative claim: biblical books have anonymous authorship debates and doctrinally meaningful variants, whereas Qur'anic differences are mostly recitational within an accepted range.",
+        "claim": "Усмановская стандартизация сохранила мутаватирный консонантный скелет, уже устно массово переданный; кирааты — уполномоченные модусы чтения внутри этого расма, не соперничающие Кораны.",
+        "case": "Мусульманская наука утверждает: сподвижники согласились о расме; варианты, противоречившие ему, трактовались как отменённые, комментарий или ошибка. Сравнительная претензия: у библейских книг споры об анонимном авторстве и доктринально значимые варианты, тогда как коранические различия в основном рецитационные в принятом диапазоне.",
         "sources": [
           {
             "label": "Yaqeen — The Uthmanic Codex",
-            "note": "Detailed account of what standardization did and did not remove.",
+            "note": "Подробный отчёт о том, что стандартизация убрала и чего не убрала.",
             "url": "https://yaqeeninstitute.org/read/paper/the-uthmanic-codex-understanding-how-the-quran-was-preserved"
           },
           {
-            "label": "Qur'an 15:9",
-            "note": "Indeed, it is We who sent down the Reminder, and indeed We will be its guardian.",
+            "label": "«Коран 15:9»",
+            "note": "Воистину, Мы ниспослали Напоминание, и воистину Мы его охраняем.",
             "url": "https://quran.com/15/9"
           },
           {
             "label": "TAFASIR — Authenticity of Mushaf Uthmani",
-            "note": "Recent Muslim academic defense of Uthmanic authenticity.",
+            "note": "Недавняя мусульманская академическая защита усмановской подлинности.",
             "url": "https://journalmahadaly.asadiyahpusat.org/index.php/tafasir/article/view/116"
           }
         ],
         "quotes": [
           {
-            "text": "All Quranic manuscripts, with one exception, belong to the same Uthmanic text type.",
+            "text": "Все коранические рукописи, за одним исключением, принадлежат к одному и тому же усмановскому текстовому типу.",
             "who": "Marijn van Putten",
             "work": "BSOAS 82 (2019)",
-            "url": "https://doi.org/10.1017/s0041977x19000338"
+            "url": "https://doi.org/10.1017/s0041977x19000338",
+            "orig": "All Quranic manuscripts, with one exception, belong to the same Uthmanic text type."
           },
           {
-            "text": "The Qur'an has never been a uniformic text, but rather a multiformic text.",
+            "text": "Коран никогда не был униформным текстом, но текстом мультиформным.",
             "who": "Ali Ataie",
             "work": "The Sound Narrative (~8:04)",
-            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64",
+            "orig": "The Qur'an has never been a uniformic text, but rather a multiformic text."
           },
           {
-            "text": "By all indications, the manuscript evidence is consistent with the traditional narrative regarding the ʿUthmānic standardization.",
+            "text": "По всем признакам рукописные данные согласуются с традиционным нарративом об усмановской стандартизации.",
             "who": "Hythem Sidky",
-            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), review of Brubaker",
-            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), рецензия на Brubaker",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf",
+            "orig": "By all indications, the manuscript evidence is consistent with the traditional narrative regarding the ʿUthmānic standardization."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Are qira'at and the Uthmanic project evidence of corruption, or of controlled preservation of an oral-written revelation?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Folk dawah vs manuscripts. Same file as historicity Top 10.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Кирааты и усмановский проект — свидетельство порчи или контролируемой сохранности устно-письменного откровения?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Народная даава vs рукописи. Тот же файл, что историчность Топ-10.",
       "live": {
-        "if_they_say": "Every letter of the Qur'an is identical worldwide.",
-        "you_say": "Identical rasm, identical Hafs print, or all ten qira'at? Sidky: four ancestral regional copies, consistent with ʿUthmān. Ataie: the uniformic slogan is the own-goal. Pin the thesis, then Sanaa/Qadhi become relevant.",
-        "dont_overclaim": "Don't turn qira'at into 93,000 Qur'ans. Don't deny companion reports. Don't treat a stemma as a miracle."
+        "if_they_say": "Каждая буква Корана идентична по всему миру.",
+        "you_say": "Идентичный расм, идентичная печать Хафс или все десять кираатов? Sidky: четыре предковых региональных копии, согласующихся с Усманом. Ataie: униформный лозунг — автогол. Зафиксируй тезис, затем Сана/Qadhi становятся релевантны.",
+        "dont_overclaim": "Не превращай кирааты в 93 000 Коранов. Не отрицай сообщения сподвижников. Не делай из стеммы чудо."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "violence-jihad",
       "rank": 7,
-      "cluster": "ethics + history",
-      "title": "Islam and violence / jihad",
+      "cluster": "этика + история",
+      "title": "Ислам и насилие / джихад",
       "type": "ethics + history",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Islamic scripture and classical law authorize religious warfare in ways that make violence structural, not merely aberrant.",
-        "case": "Evangelical critiques cite sword verses (9:5; 9:29; 8:12; 8:39), Maghazi warfare in the sirah, and classical offensive jihad doctrines. They distinguish peaceful Muslims from what they call non-peaceful source texts.",
+        "claim": "Исламское писание и классическое право санкционируют религиозную войну так, что насилие структурно, а не просто аномально.",
+        "case": "Евангелическая критика цитирует аяты меча (9:5; 9:29; 8:12; 8:39), войны магази в сире и классические доктрины наступательного джихада. Они отличают мирных мусульман от того, что называют немирными исходными текстами.",
         "sources": [
           {
-            "label": "Qur'an 9:5; 9:29",
-            "note": "Frequently cited sword and jizya verses in Christian critique.",
+            "label": "«Коран 9:5»; 9:29",
+            "note": "Часто цитируемые аяты меча и джизьи в христианской критике.",
             "url": "https://quran.com/9/5"
           },
           {
             "label": "NAMB — Islam and Violence",
-            "note": "Evangelical overview arguing jihad is a clear component of the tradition.",
+            "note": "Евангелический обзор, утверждающий, что джихад — ясный компонент традиции.",
             "url": "https://www.namb.net/apologetics/resource/islam-and-violence/"
           },
           {
             "label": "CRI — Is Islam a Religion of Peace?",
-            "note": "Popular maximalist Christian critique.",
+            "note": "Популярная максималистская христианская критика.",
             "url": "https://www.equip.org/articles/is-islam-a-religion-of-peace/"
           }
         ],
         "quotes": [
           {
-            "text": "And when the sacred months have passed, then kill the polytheists wherever you find them…",
-            "who": "Qur'an 9:5",
-            "work": "Primary text",
-            "url": "https://quran.com/9/5"
+            "text": "А когда миновали священные месяцы, убивайте многобожников, где бы вы их ни нашли…",
+            "who": "«Коран 9:5»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/9/5",
+            "orig": "And when the sacred months have passed, then kill the polytheists wherever you find them…"
           }
         ]
       },
       "muslim": {
-        "claim": "Permission to fight in the Qur'an is primarily defensive, constrained by non-aggression and non-combatant protections; extremist violence violates classical limits.",
-        "case": "Muslim responses emphasize 22:39–40 and 2:190 (fight those who fight you, do not transgress). Tafsir traditions prohibit killing women, children, monks. Honest map note: classical tradition also contains expansionist jihad theories — this is an intra-Islamic dispute too.",
+        "claim": "Дозволение сражаться в Коране прежде всего оборонительное, связано запретом агрессии и защитой некомбатантов; экстремистское насилие нарушает классические пределы.",
+        "case": "Мусульманские ответы подчёркивают 22:39–40 и 2:190 (сражайтесь с теми, кто сражается с вами, не преступайте). Традиции тафсира запрещают убивать женщин, детей, монахов. Честная пометка карты: классическая традиция также содержит экспансионистские теории джихада — это и внутриисламский спор.",
         "sources": [
           {
-            "label": "Qur'an 2:190; 22:39–40",
-            "note": "Core defensive-war proof-texts in Muslim apologetics.",
+            "label": "«Коран 2:190»; 22:39–40",
+            "note": "Ядро опорных текстов оборонительной войны в мусульманской апологетике.",
             "url": "https://quran.com/2/190"
           },
           {
             "label": "EJIL — The Use of Force under Islamic Law",
-            "note": "Legal-academic treatment of defensive vs offensive jihad theories.",
+            "note": "Юридически-академический разбор теорий оборонительного vs наступательного джихада.",
             "url": "https://academic.oup.com/ejil/article/24/1/343/438602"
           },
           {
-            "label": "Tafheem on 2:190",
-            "note": "Modern tafsir explaining non-transgression limits in war.",
+            "label": "Tafheem на 2:190",
+            "note": "Современный тафсир, объясняющий пределы непреступления на войне.",
             "url": "https://islamicstudies.info/tafheem.php?sura=2&verse=190"
           },
           {
             "label": "First Things — Challenging Radical Islam",
-            "note": "Notes classical limits against targeting civilians.",
+            "note": "Отмечает классические пределы против нацеливания на гражданских.",
             "url": "https://firstthings.com/challenging-radical-islam/"
           }
         ],
         "quotes": [
           {
-            "text": "Fight in the way of Allah those who fight you but do not transgress.",
-            "who": "Qur'an 2:190",
-            "work": "Primary text",
-            "url": "https://quran.com/2/190"
+            "text": "Сражайтесь на пути Аллаха с теми, кто сражается с вами, но не преступайте.",
+            "who": "«Коран 2:190»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/2/190",
+            "orig": "Fight in the way of Allah those who fight you but do not transgress."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Do the Medinan war verses authorize enduring offensive holy war, or context-bound defense under ethical limits?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Audience magnet. Requires 2:190 and 9:5 in the same minute.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Мединские военные аяты санкционируют длящееся наступательное священное войско или контекстно связанную оборону под этическими пределами?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Магнит для аудитории. Требует 2:190 и 9:5 в одну минуту.",
       "live": {
-        "if_they_say": "Islam is a violent religion because of 9:5.",
-        "you_say": "Read 9:4–7 with it. Compare Joshua 6. Then specify: founding wars, classical fiqh, or modern terrorism. Those are three debates.",
-        "dont_overclaim": "Don't abrogate 2:256 with a YouTube clip. Don't hide 9:29."
+        "if_they_say": "Ислам — насильственная религия из-за 9:5.",
+        "you_say": "Читай 9:4–7 вместе с ним. Сравни Нав 6. Затем уточни: войны основания, классический фикх или современный терроризм. Это три дебата.",
+        "dont_overclaim": "Не отменяй 2:256 YouTube-клипом. Не прячь 9:29."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "apostasy",
       "rank": 8,
-      "cluster": "ethics + law",
-      "title": "Apostasy punishment",
+      "cluster": "этика + право",
+      "title": "Наказание за вероотступничество",
       "type": "ethics + law",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Traditional Islamic law's death penalty for apostasy is incompatible with genuine religious freedom and with Jesus' ethic.",
-        "case": "Christian critics cite hadith such as \"Whoever changes his religion, kill him\" (Bukhari) and classical hudud treatment of ridda, contrasting this with the NT's lack of a civil death penalty for leaving the faith.",
+        "claim": "Смертная казнь за вероотступничество в традиционном исламском праве несовместима с подлинной религиозной свободой и с этикой Иисуса.",
+        "case": "Христианские критики цитируют хадисы вроде «Кто сменил свою религию — убейте его» (Бухари) и классическое худуд-обращение с риддой, противопоставляя это отсутствию в НЗ гражданской смертной казни за уход из веры.",
         "sources": [
           {
-            "label": "Sahih al-Bukhari 6922",
-            "note": "Often cited hadith on killing the one who leaves Islam.",
+            "label": "Сахих аль-Бухари 6922",
+            "note": "Часто цитируемый хадис об убийстве того, кто оставляет ислам.",
             "url": "https://sunnah.com/bukhari:6922"
           },
           {
             "label": "Probe — Islam and Christianity misconceptions",
-            "note": "Representative popular Christian framing on liberty themes.",
+            "note": "Типичная популярная христианская рамка на темы свободы.",
             "url": "https://probe.org/islam-and-christianity-common-misconceptions/"
           }
         ],
         "data_points": [
           {
-            "fact": "Bukhari 6922: 'Whoever changed his Islamic religion, then kill him' — staple citation (evaluate isnād/fiqh scope in good faith).",
+            "fact": "Бухари 6922: «Кто сменил свою исламскую религию — убейте его» — штатная цитата (оцени иснад/объём фикха добросовестно).",
             "source": "https://sunnah.com/bukhari:6922",
-            "label": "Bukhari 6922: 'Whoever changed his Islamic religion, then kill him' — staple citation (evaluate isnād/fiqh scope in good faith).",
+            "label": "Бухари 6922: «Кто сменил свою исламскую религию — убейте его» — штатная цитата (оцени иснад/объём фикха добросовестно).",
             "note": "https://sunnah.com/bukhari:6922"
           }
         ]
       },
       "muslim": {
-        "claim": "Classical apostasy law was largely about treason against the Muslim polity; many contemporary Muslim scholars reject capital punishment for mere private belief change.",
-        "case": "Reformers and some classical nuances argue 2:256 (no compulsion in religion) and 18:29 protect conscience. Ridda wars under Abu Bakr are read as political rebellion. Map note: traditional madhhab manuals do prescribe death for adult male apostates — so this response is partly reformist, not unanimous heritage.",
+        "claim": "Классический закон о вероотступничестве был в основном о измене мусульманскому полису; многие современные мусульманские учёные отвергают смертную казнь за одну лишь частную смену убеждения.",
+        "case": "Реформисты и некоторые классические нюансы утверждают: 2:256 (нет принуждения в религии) и 18:29 защищают совесть. Войны ридды при Абу Бакре читают как политический мятеж. Пометка карты: традиционные мазхабные учебники предписывают смерть взрослым мужчинам-вероотступникам — так что этот ответ частично реформистский, не единодушное наследие.",
         "sources": [
           {
-            "label": "Qur'an 2:256",
-            "note": "There is no compulsion in religion.",
+            "label": "«Коран 2:256»",
+            "note": "Нет принуждения в религии.",
             "url": "https://quran.com/2/256"
           },
           {
-            "label": "Qur'an 18:29",
-            "note": "Let who will believe, and let who will disbelieve.",
+            "label": "«Коран 18:29»",
+            "note": "Кто хочет — пусть верует, и кто хочет — пусть не верует.",
             "url": "https://quran.com/18/29"
           },
           {
-            "label": "Qur'an 4:137",
-            "note": "Used in debates about whether apostasy is a fixed capital hadd.",
+            "label": "«Коран 4:137»",
+            "note": "Используется в спорах, является ли вероотступничество фиксированным смертным хаддом.",
             "url": "https://quran.com/4/137"
           }
         ],
         "quotes": [
           {
-            "text": "There is no compulsion in religion.",
-            "who": "Qur'an 2:256",
-            "work": "Primary text used against a simple ḥadd slogan",
-            "url": "https://quran.com/2/256"
+            "text": "Нет принуждения в религии.",
+            "who": "«Коран 2:256»",
+            "work": "Первичный текст против простого лозунга хадда",
+            "url": "https://quran.com/2/256",
+            "orig": "There is no compulsion in religion."
           }
         ],
         "data_points": [
           {
-            "fact": "Reform argument: Qur'an mentions apostasy without an earthly death penalty (e.g. 4:137); ḥadd is extra-Qur'anic hadith/fiqh.",
-            "source": "Q 4:137",
-            "label": "Reform argument: Qur'an mentions apostasy without an earthly death penalty (e.g. 4:137); ḥadd is extra-Qur'anic hadith/fiqh.",
-            "note": "Q 4:137"
+            "fact": "Реформистский аргумент: Коран упоминает вероотступничество без земной смертной казни (напр. 4:137); хадд — внекоранический хадис/фикх.",
+            "source": "«Коран 4:137»",
+            "label": "Реформистский аргумент: Коран упоминает вероотступничество без земной смертной казни (напр. 4:137); хадд — внекоранический хадис/фикх.",
+            "note": "«Коран 4:137»"
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Is capital punishment for apostasy required by Islam's sources, or a contingent legal doctrine that can be rejected without leaving Islam?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Liberty of conscience vs classical ḥadd. One of the hardest live-audience files for Muslim debaters.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Смертная казнь за вероотступничество требуется источниками ислама или это контингентная юридическая доктрина, которую можно отвергнуть, не покидая ислам?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Свобода совести vs классический хадд. Один из самых тяжёлых живых файлов для мусульманских дебатёров.",
       "live": {
-        "if_they_say": "Islam kills apostates; therefore it is false or evil.",
-        "you_say": "Classical fiqh often does. 2:256 and 4:137 are the internal tension. Christianity's Deut 13 and heresy executions are the tu quoque. Then: which view is still taught as God's law today?",
-        "dont_overclaim": "Don't say no Muslim scholar ever mandated death. Don't say Jesus ran the Inquisition."
+        "if_they_say": "Ислам убивает вероотступников; значит он ложен или зол.",
+        "you_say": "Классический фикх часто так и делает. 2:256 и 4:137 — внутреннее напряжение. Втор 13 христианства и казни еретиков — tu quoque. Затем: какой взгляд всё ещё учат как закон Бога сегодня?",
+        "dont_overclaim": "Не говори, что ни один мусульманский учёный никогда не предписывал смерть. Не говори, что Иисус вёл Инквизицию."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "women",
       "rank": 9,
-      "cluster": "ethics + law",
-      "title": "Women, polygamy, and legal inequality",
+      "cluster": "этика + право",
+      "title": "Женщины, полигамия и правовое неравенство",
       "type": "ethics + law",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Islamic law institutionalizes male authority and unequal rights (polygyny, testimony, inheritance, discipline verse) contrary to the dignity Jesus modeled toward women.",
-        "case": "Critics highlight Qur'an 4:3, 4:11, 2:282, 4:34, and historical practices. They contrast Gospel narratives of Jesus teaching women and appearing first to women witnesses of resurrection.",
+        "claim": "Исламское право институционализирует мужскую власть и неравные права (полигиния, свидетельство, наследство, аят о дисциплине) вопреки достоинству, которое Иисус явил к женщинам.",
+        "case": "Критики выделяют «Коран 4:3», 4:11, 2:282, 4:34 и исторические практики. Они противопоставляют евангельские нарративы: Иисус учит женщин и первым является женщинам-свидетельницам воскресения.",
         "sources": [
           {
-            "label": "Qur'an 4:3; 4:34; 4:11",
-            "note": "Primary verses in Christian critiques of gender hierarchy.",
+            "label": "«Коран 4:3»; 4:34; 4:11",
+            "note": "Основные аяты в христианской критике гендерной иерархии.",
             "url": "https://quran.com/4/3"
           },
           {
             "label": "Probe — gender and comparative roles",
-            "note": "Popular evangelical contrast on gender roles.",
+            "note": "Популярный евангелический контраст гендерных ролей.",
             "url": "https://probe.org/islam-and-christianity-common-misconceptions/"
           }
         ],
         "quotes": [
           {
-            "text": "…and [finally], strike them…",
-            "who": "Qur'an 4:34",
-            "work": "Critique rendering of ḍaraba",
-            "url": "https://quran.com/4/34"
+            "text": "…и [наконец] бейте их…",
+            "who": "«Коран 4:34»",
+            "work": "Критический перевод ḍaraba",
+            "url": "https://quran.com/4/34",
+            "orig": "…and [finally], strike them…"
           }
         ]
       },
       "muslim": {
-        "claim": "Qur'anic rules reformed 7th-century Arabia toward women's rights; polygyny is restricted conditional permission; 4:34 is contested in interpretation; Christian history also embeds patriarchy.",
-        "case": "Muslim responses stress property rights, consent in marriage, exalted status of mothers, and justice conditions on polygyny (4:3; 4:129). Many modern scholars reject abusive readings of 4:34. Comparative reply: OT polygyny and long Christian institutional patriarchy complicate simple Jesus-vs-Islam contrasts.",
+        "claim": "Коранические нормы реформировали Аравию VII века в сторону прав женщин; полигиния — ограниченное условное дозволение; 4:34 оспаривается в толковании; христианская история тоже несёт патриархат.",
+        "case": "Мусульманские ответы подчёркивают права собственности, согласие в браке, возвышенный статус матерей и условия справедливости для полигинии (4:3; 4:129). Многие современные учёные отвергают абьюзивные чтения 4:34. Сравнительный ответ: полигиния ВЗ и долгий христианский институциональный патриархат усложняют простое противопоставление Иисус-vs-ислам.",
         "sources": [
           {
-            "label": "Qur'an 4:129",
-            "note": "Warns you will not be able to deal justly between wives.",
+            "label": "«Коран 4:129»",
+            "note": "Предупреждает: вы не сможете обойтись справедливо между жёнами.",
             "url": "https://quran.com/4/129"
           },
           {
-            "label": "Qur'an 33:35",
-            "note": "Parallel spiritual address to believing men and women.",
+            "label": "«Коран 33:35»",
+            "note": "Параллельное духовное обращение к верующим мужчинам и женщинам.",
             "url": "https://quran.com/33/35"
           },
           {
-            "label": "Qur'an 4:32",
-            "note": "For men a share of what they earn, and for women a share of what they earn.",
+            "label": "«Коран 4:32»",
+            "note": "Мужчинам доля от того, что они приобрели, и женщинам доля от того, что они приобрели.",
             "url": "https://quran.com/4/32"
           }
         ],
         "quotes": [
           {
-            "text": "Never will I allow to be lost the work of [any] worker among you, whether male or female; you are of one another.",
-            "who": "Qur'an 3:195",
-            "work": "Spiritual equality",
-            "url": "https://quran.com/3/195"
+            "text": "Я не дам пропасть делу ни одного делающего среди вас, мужчины или женщины; вы — друг от друга.",
+            "who": "«Коран 3:195»",
+            "work": "Духовное равенство",
+            "url": "https://quran.com/3/195",
+            "orig": "Never will I allow to be lost the work of [any] worker among you, whether male or female; you are of one another."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Are the contested gender rulings timeless unequal ontology, or historically situated law aiming at justice that can be re-read as norms change?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "4:34 and polygyny will be asked. Prepare the verse, not a vibe.",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Оспариваемые гендерные постановления — вневременная неравная онтология или исторически расположенный закон, нацеленный на справедливость, который можно перечитать при смене норм?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Спросят про 4:34 и полигинию. Готовь аят, не настроение.",
       "live": {
-        "if_they_say": "The Qur'an tells men to beat their wives.",
-        "you_say": "4:34 is the verse. Grant ḍaraba's classical reading, then restriction reports, Wadud-style rereadings, and 1 Tim 2 / Eph 5. Don't debate a meme vs a greeting card.",
-        "dont_overclaim": "Don't pretend ḍaraba never meant strike. Don't pretend the NT has no household codes."
+        "if_they_say": "Коран велит мужчинам бить жён.",
+        "you_say": "4:34 — этот аят. Признай классическое чтение ḍaraba, затем сообщения об ограничениях, перечтения в стиле Wadud и 1 Тим 2 / Еф 5. Не дебатируй мем против открытки.",
+        "dont_overclaim": "Не притворяйся, что ḍaraba никогда не значило «ударить». Не притворяйся, что в НЗ нет домашних кодексов."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "salvation",
       "rank": 10,
-      "cluster": "theology",
-      "title": "Salvation: grace through Christ vs deeds and mercy",
+      "cluster": "богословие",
+      "title": "Спасение: благодать через Христа vs дела и милость",
       "type": "theology",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Christianity offers assurance through Christ's atoning death; Islam offers a scale of deeds plus hope in mercy without substitutionary atonement, leaving sinners without a sufficient remedy.",
-        "case": "Evangelical contrast (e.g. Nabeel Qureshi): humans need perfect righteousness; only Christ's cross provides it. Islam's denial of crucifixion removes the atonement mechanism.",
+        "claim": "Христианство даёт уверенность через искупительную смерть Христа; ислам даёт весы дел плюс надежду на милость без заместительного искупления, оставляя грешников без достаточного средства.",
+        "case": "Евангелический контраст (напр. Nabeel Qureshi): людям нужна совершенная праведность; её даёт только крест Христа. Отрицание распятия в исламе снимает механизм искупления.",
         "sources": [
           {
-            "label": "Romans 3:21–26; 1 John 5:13",
-            "note": "Core Christian atonement/assurance texts used in contrast.",
+            "label": "Рим 3:21–26; 1 Ин 5:13",
+            "note": "Ядро христианских текстов об искуплении/уверенности в контрасте.",
             "url": "https://www.biblegateway.com/passage/?search=Romans+3%3A21-26%3B+1+John+5%3A13&version=NRSVUE"
           },
           {
             "label": "RTS review — No God but One (Qureshi)",
-            "note": "Summarizes a widely used convert-apologist framing of the salvation contrast.",
+            "note": "Сводка широко используемой рамки апологета-конверта о контрасте спасения.",
             "url": "https://journal.rts.edu/review/no-god-one-allah-jesus-former-muslim-investigates-evidence-islam-christianity/"
           }
         ],
         "quotes": [
           {
-            "text": "For by grace you have been saved through faith… not the result of works.",
-            "who": "Ephesians 2:8–9",
-            "work": "NT primary",
-            "url": "https://www.biblegateway.com/passage/?search=Ephesians%202%3A8-9&version=NRSVUE"
+            "text": "Ибо благодатью вы спасены через веру… не от дел.",
+            "who": "Еф 2:8–9",
+            "work": "Первичный текст НЗ",
+            "url": "https://www.biblegateway.com/passage/?search=Ephesians%202%3A8-9&version=NRSVUE",
+            "orig": "For by grace you have been saved through faith… not the result of works."
           }
         ]
       },
       "muslim": {
-        "claim": "Islam rejects inherited sin and vicarious atonement as unjust; God forgives by repentance (tawba), faith, and mercy without needing a crucified deity.",
-        "case": "Qur'an 39:53; 53:38–39; 2:286. Muslims argue moral responsibility is individual; the Christian cross raises its own justice problem (innocent punished). Mercy (rahma) is decisive.",
+        "claim": "Ислам отвергает унаследованный грех и заместительное искупление как несправедливые; Бог прощает через покаяние (тауба), веру и милость без нужды в распятом божестве.",
+        "case": "«Коран 39:53»; 53:38–39; 2:286. Мусульмане утверждают: моральная ответственность индивидуальна; христианский крест поднимает собственную проблему справедливости (наказывают невинного). Решает милость (рахма).",
         "sources": [
           {
-            "label": "Qur'an 53:38–39",
-            "note": "No soul bears another's burden; man has only what he strives for.",
+            "label": "«Коран 53:38–39»",
+            "note": "Ни одна душа не понесёт ношу другой; человеку лишь то, к чему он стремился.",
             "url": "https://quran.com/53/38-39"
           },
           {
-            "label": "Qur'an 39:53",
-            "note": "Do not despair of God's mercy… He forgives all sins.",
+            "label": "«Коран 39:53»",
+            "note": "Не отчаивайтесь в милости Бога… Он прощает все грехи.",
             "url": "https://quran.com/39/53"
           },
           {
-            "label": "Qur'an 4:48",
-            "note": "God does not forgive shirk if one dies upon it, but forgives what is less than that for whom He wills.",
+            "label": "«Коран 4:48»",
+            "note": "Бог не прощает ширк, если умереть на нём, но прощает то, что меньше этого, кому восхочет.",
             "url": "https://quran.com/4/48"
           }
         ],
         "quotes": [
           {
-            "text": "Do not despair of the mercy of Allah. Indeed, Allah forgives all sins.",
-            "who": "Qur'an 39:53",
-            "work": "Primary text",
-            "url": "https://quran.com/39/53"
+            "text": "Не отчаивайтесь в милости Аллаха. Воистину, Аллах прощает все грехи.",
+            "who": "«Коран 39:53»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/39/53",
+            "orig": "Do not despair of the mercy of Allah. Indeed, Allah forgives all sins."
           }
         ]
       },
-      "counter_to_christian": "See Muslim case and crux.",
-      "counter_to_muslim": "See Christian case and crux.",
-      "crux": "Is forgiveness without substitutionary atonement morally sufficient — or is the cross necessary for both justice and assurance?",
-      "debate_use": "Steelman the critique, then the response; name the crux aloud.",
-      "why_it_matters": "Endgame of many critiques: how are sins actually dealt with?",
+      "counter_to_christian": "См. мусульманский тезис и суть спора.",
+      "counter_to_muslim": "См. христианский тезис и суть спора.",
+      "crux": "Достаточно ли морально прощение без заместительного искупления — или крест необходим и для справедливости, и для уверенности?",
+      "debate_use": "Стальмань критику, затем ответ; назови суть спора вслух.",
+      "why_it_matters": "Эндгейм многих критик: как на самом деле поступают с грехами?",
       "live": {
-        "if_they_say": "Islam has no atonement, so God is unjust or sins aren't serious.",
-        "you_say": "Islam: tawba + mercy + deeds + possibly intercession. Christianity: cross as satisfaction/victory. Both take sin seriously. The crux is whether blood is required, not whether God 'just shrugs.'",
-        "dont_overclaim": "Don't turn 39:53 into cheap grace. Don't turn the cross into divine child-abuse without answering the identity claim."
+        "if_they_say": "В исламе нет искупления, значит Бог несправедлив или грехи несерьёзны.",
+        "you_say": "Ислам: тауба + милость + дела + возможно заступничество. Христианство: крест как удовлетворение/победа. Обе стороны берут грех всерьёз. Суть — требуется ли кровь, а не «Бог просто пожимает плечами».",
+        "dont_overclaim": "Не делай из 39:53 дешёвую благодать. Не делай из креста божественное насилие над ребёнком, не ответив на тезис идентичности."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     }
   ],
   "materials": [],
   "debates": [],
   "opponent_cards": [
     {
-      "trigger": "Islam denies the crucifixion so it's false",
-      "fast_answer": "State the historical consensus, then ask whether 4:157 denies the event or the boast — and cite Lawson/AJIS diversity.",
-      "follow_up": "Don't pretend Muslim views are monolithic.",
+      "trigger": "Ислам отрицает распятие, значит он ложен",
+      "fast_answer": "Назови исторический консенсус, затем спроси, отрицает ли 4:157 событие или хвастовство — и цитируй разнообразие Lawson/AJIS.",
+      "follow_up": "Не притворяйся, что мусульманские взгляды монолитны.",
       "sources": [
-        "Qur'an 4:157",
-        "Ehrman",
+        "«Коран 4:157»",
+        "Эрман",
         "Lawson"
       ]
     },
     {
-      "trigger": "The Qur'an confirms the Bible so Islam collapses",
-      "fast_answer": "Define Injil. Use Saeed/Ally: guidance therein ≠ wholesale Nicene endorsement.",
-      "follow_up": "Then fight crucifixion/deity as separate historical questions.",
+      "trigger": "Коран подтверждает Библию, значит ислам рушится",
+      "fast_answer": "Определи Инджил. Используй Saeed/Ally: руководство в нём ≠ оптовая никейская индульгенция.",
+      "follow_up": "Затем бей распятие/божество как отдельные исторические вопросы.",
       "sources": [
-        "Q 5:47",
+        "«Коран 5:47»",
         "Saeed",
         "Ally"
       ]
     },
     {
-      "trigger": "Islam denies the crucifixion so it is historically false.",
-      "fast_answer": "State the consensus, then ask whether 4:157 denies the event or the boast. Cite Lawson/AJIS diversity. Don't pretend Muslim views are one ḥadīth.",
-      "follow_up": "Don't hide majority tafsīr substitution. Don't hide Tacitus/Paul.",
+      "trigger": "Ислам отрицает распятие, значит он исторически ложен.",
+      "fast_answer": "Назови консенсус, затем спроси, отрицает ли 4:157 событие или хвастовство. Цитируй разнообразие Lawson/AJIS. Не притворяйся, что мусульманские взгляды — один хадис.",
+      "follow_up": "Не прячь большинство тафсира о замещении. Не прячь Тацита/Павла.",
       "sources": [
-        "Crucifixion denial vs historical consensus"
+        "Отрицание распятия vs исторический консенсус"
       ]
     },
     {
-      "trigger": "The Qur'an confirms the Bible, so Muslims must accept the Gospels.",
-      "fast_answer": "Define Injil. Affirmation of guidance therein is not a blank check for Nicene doctrine. Then argue crucifixion/deity as separate questions.",
-      "follow_up": "Don't invent a lost Injil you cannot describe. Don't pretend 5:47 doesn't exist.",
+      "trigger": "Коран подтверждает Библию, значит мусульмане должны принять Евангелия.",
+      "fast_answer": "Определи Инджил. Утверждение руководства в нём — не бланковый чек на никейскую догму. Затем спорь о распятии/божестве как отдельных вопросах.",
+      "follow_up": "Не выдумывай утраченный Инджил, который не можешь описать. Не притворяйся, что 5:47 не существует.",
       "sources": [
-        "The \"Islamic dilemma\" (Qur'an affirms the Bible)"
+        "«Исламская дилемма» (Коран подтверждает Библию)"
       ]
     },
     {
-      "trigger": "The Qur'an thinks the Trinity is Father, Mother, Son.",
-      "fast_answer": "5:116 is that picture. 4:171 and 5:73 still hit 'Three' and sonship without Mary. Don't collapse the file into one verse either way.",
-      "follow_up": "Don't pretend 5:116 is Cappadocian theology. Don't pretend 4:171 isn't aimed at Christians.",
+      "trigger": "Коран думает, что Троица — Отец, Мать, Сын.",
+      "fast_answer": "5:116 — именно эта картина. 4:171 и 5:73 всё равно бьют «Трое» и сыновство без Марии. Не схлопывай файл в один аят в любую сторону.",
+      "follow_up": "Не притворяйся, что 5:116 — каппадокийское богословие. Не притворяйся, что 4:171 не нацелен на христиан.",
       "sources": [
-        "Trinity as shirk (associating partners with God)"
+        "Троица как ширк (сотоварищество с Богом)"
       ]
     },
     {
-      "trigger": "Jesus never claimed to be God, so Islam is right.",
-      "fast_answer": "Define claim: explicit 'I am God,' or receiving worship, or John 8:58, or Mark 14:62, or 1 Cor 8:6. Then apply the same strictness to Qur'anic titles (word, spirit, messiah).",
-      "follow_up": "Don't pretend Mark is John. Don't pretend 5:17 is a commentary on Chalcedon.",
+      "trigger": "Иисус никогда не называл себя Богом, значит ислам прав.",
+      "fast_answer": "Определи претензию: явное «Я Бог», или принятие поклонения, или Ин 8:58, или Мк 14:62, или 1 Кор 8:6. Затем примени ту же строгость к кораническим титулам (слово, дух, мессия).",
+      "follow_up": "Не притворяйся, что Марк — это Иоанн. Не притворяйся, что 5:17 — комментарий на Халкидон.",
       "sources": [
-        "Jesus' deity and divine sonship"
+        "Божество Иисуса и божественное сыновство"
       ]
     },
     {
-      "trigger": "Deuteronomy proves Muhammad is a false prophet.",
-      "fast_answer": "State the test: other gods vs signs. Islam claims continuity of tawhid, not Baal. Then you must argue that Jesus' identity is the true God-test, or that moral/war files fail a prophet-test. Don't treat Deut 13 as a magic word.",
-      "follow_up": "Don't skip Jesus' own conflicts with Deut-reading opponents. Don't skip 33:40.",
+      "trigger": "Второзаконие доказывает, что Мухаммад — ложный пророк.",
+      "fast_answer": "Назови тест: иные боги vs знамения. Ислам претендует на непрерывность таухида, не Ваала. Затем ты должен доказать, что идентичность Иисуса — истинный тест Бога, или что моральные/военные файлы валят тест пророка. Не делай из Втор 13 магическое слово.",
+      "follow_up": "Не пропускай собственные конфликты Иисуса с оппонентами, читающими Втор. Не пропускай 33:40.",
       "sources": [
-        "Muhammad as false prophet"
+        "Мухаммад как ложный пророк"
       ]
     },
     {
-      "trigger": "Every letter of the Qur'an is identical worldwide.",
-      "fast_answer": "Identical rasm, identical Hafs print, or all ten qira'at? Sidky: four ancestral regional copies, consistent with ʿUthmān. Ataie: the uniformic slogan is the own-goal. Pin the thesis, then Sanaa/Qadhi become relevant.",
-      "follow_up": "Don't turn qira'at into 93,000 Qur'ans. Don't deny companion reports. Don't treat a stemma as a miracle.",
+      "trigger": "Каждая буква Корана идентична по всему миру.",
+      "fast_answer": "Идентичный расм, идентичная печать Хафс или все десять кираатов? Sidky: четыре предковых региональных копии, согласующихся с Усманом. Ataie: униформный лозунг — автогол. Зафиксируй тезис, затем Сана/Qadhi становятся релевантны.",
+      "follow_up": "Не превращай кирааты в 93 000 Коранов. Не отрицай сообщения сподвижников. Не делай из стеммы чудо.",
       "sources": [
-        "Qur'an preservation vs Bible manuscripts"
+        "Сохранность Корана vs библейские рукописи"
       ]
     },
     {
-      "trigger": "Islam is a violent religion because of 9:5.",
-      "fast_answer": "Read 9:4–7 with it. Compare Joshua 6. Then specify: founding wars, classical fiqh, or modern terrorism. Those are three debates.",
-      "follow_up": "Don't abrogate 2:256 with a YouTube clip. Don't hide 9:29.",
+      "trigger": "Ислам — насильственная религия из-за 9:5.",
+      "fast_answer": "Читай 9:4–7 вместе с ним. Сравни Нав 6. Затем уточни: войны основания, классический фикх или современный терроризм. Это три дебата.",
+      "follow_up": "Не отменяй 2:256 YouTube-клипом. Не прячь 9:29.",
       "sources": [
-        "Islam and violence / jihad"
+        "Ислам и насилие / джихад"
       ]
     },
     {
-      "trigger": "Islam kills apostates; therefore it is false or evil.",
-      "fast_answer": "Classical fiqh often does. 2:256 and 4:137 are the internal tension. Christianity's Deut 13 and heresy executions are the tu quoque. Then: which view is still taught as God's law today?",
-      "follow_up": "Don't say no Muslim scholar ever mandated death. Don't say Jesus ran the Inquisition.",
+      "trigger": "Ислам убивает вероотступников; значит он ложен или зол.",
+      "fast_answer": "Классический фикх часто так и делает. 2:256 и 4:137 — внутреннее напряжение. Втор 13 христианства и казни еретиков — tu quoque. Затем: какой взгляд всё ещё учат как закон Бога сегодня?",
+      "follow_up": "Не говори, что ни один мусульманский учёный никогда не предписывал смерть. Не говори, что Иисус вёл Инквизицию.",
       "sources": [
-        "Apostasy punishment"
+        "Наказание за вероотступничество"
       ]
     },
     {
-      "trigger": "The Qur'an tells men to beat their wives.",
-      "fast_answer": "4:34 is the verse. Grant ḍaraba's classical reading, then restriction reports, Wadud-style rereadings, and 1 Tim 2 / Eph 5. Don't debate a meme vs a greeting card.",
-      "follow_up": "Don't pretend ḍaraba never meant strike. Don't pretend the NT has no household codes.",
+      "trigger": "Коран велит мужчинам бить жён.",
+      "fast_answer": "4:34 — этот аят. Признай классическое чтение ḍaraba, затем сообщения об ограничениях, перечтения в стиле Wadud и 1 Тим 2 / Еф 5. Не дебатируй мем против открытки.",
+      "follow_up": "Не притворяйся, что ḍaraba никогда не значило «ударить». Не притворяйся, что в НЗ нет домашних кодексов.",
       "sources": [
-        "Women, polygamy, and legal inequality"
+        "Женщины, полигамия и правовое неравенство"
       ]
     },
     {
-      "trigger": "Islam has no atonement, so God is unjust or sins aren't serious.",
-      "fast_answer": "Islam: tawba + mercy + deeds + possibly intercession. Christianity: cross as satisfaction/victory. Both take sin seriously. The crux is whether blood is required, not whether God 'just shrugs.'",
-      "follow_up": "Don't turn 39:53 into cheap grace. Don't turn the cross into divine child-abuse without answering the identity claim.",
+      "trigger": "В исламе нет искупления, значит Бог несправедлив или грехи несерьёзны.",
+      "fast_answer": "Ислам: тауба + милость + дела + возможно заступничество. Христианство: крест как удовлетворение/победа. Обе стороны берут грех всерьёз. Суть — требуется ли кровь, а не «Бог просто пожимает плечами».",
+      "follow_up": "Не делай из 39:53 дешёвую благодать. Не делай из креста божественное насилие над ребёнком, не ответив на тезис идентичности.",
       "sources": [
-        "Salvation: grace through Christ vs deeds and mercy"
+        "Спасение: благодать через Христа vs дела и милость"
       ]
     }
   ],
   "checklist": [
-    "One precise claim per node — no slogans",
-    "Tag the disagreement type: fact, history, definition, theology, or ethics",
-    "Attach receipts (primary texts, scholars, peer-reviewed work)",
-    "Name the crux: what would need to be true for this fork to close"
+    "Один точный тезис на узел — без лозунгов",
+    "Пометь тип разногласия: факт, история, определение, богословие или этика",
+    "Приложи источники (первичные тексты, учёные, рецензируемые работы)",
+    "Назови суть спора: что должно быть истинным, чтобы эта развилка закрылась"
   ],
   "positive_cases": {
-    "Christian podium": [
-      "Use historical consensus carefully",
-      "Force method symmetry",
-      "Define terms"
+    "Христианская трибуна": [
+      "Используй исторический консенсус осторожно",
+      "Заставь симметрию метода",
+      "Определяй термины"
     ],
-    "Muslim podium": [
-      "Show internal diversity",
-      "Use academic Muslim sources",
-      "Separate slogan from fiqh"
+    "Мусульманская трибуна": [
+      "Покажи внутреннее разнообразие",
+      "Используй академические мусульманские источники",
+      "Отдели лозунг от фикха"
     ],
-    "Unity / steelman": [
-      "Map forks not tribes",
-      "Share receipts",
-      "Name cruxes"
+    "Общее / стальман": [
+      "Картируй развилки, не племена",
+      "Дели источники",
+      "Называй сути спора"
     ]
   },
   "bibliography": [
     {
-      "tier": "Start here",
+      "tier": "Начните здесь",
       "items": [
         {
-          "label": "Topic data JSON",
+          "label": "JSON данных темы",
           "url": "../data/christian-critiques-of-islam.json"
         },
         {
-          "label": "Qur'an.com",
+          "label": "Коран.com",
           "url": "https://quran.com"
         }
       ]

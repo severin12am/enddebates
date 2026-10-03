@@ -1,186 +1,390 @@
 {
+  "default_lang": "ru",
+  "ui": {
+    "en": {
+      "lang_en": "EN",
+      "lang_ru": "RU",
+      "brand_small": "Knowledge base",
+      "chip_ivc": "Islam vs Christianity",
+      "chip_ip": "Israel–Palestine",
+      "chip_live": "Live debate prep",
+      "chip_steelman": "Both sides steelmanned",
+      "hero_title": "Make the evidence inspectable",
+      "hero_thesis": "One hub for the fights that keep repeating — scripture, God, Jesus, ethics, and Israel–Palestine — with arguments, manuscripts, opponent cards, and sources you can open during prep or mid-debate.",
+      "hero_warn": "No declared winners. The point is to collapse slogan fog: define terms, steelman both sides, attach receipts, name the crux. That is how discourse gets closer to shared reality.",
+      "meta_args": "arguments",
+      "meta_mats": "materials",
+      "meta_cards": "cards",
+      "footer": "Rebuild data with python scripts/build_kb.py. Legacy Topic 01 lives under Critiques; Historicity includes the papyri/mushaf gallery."
+    },
+    "ru": {
+      "lang_en": "EN",
+      "lang_ru": "RU",
+      "brand_small": "База для дебатов",
+      "chip_ivc": "Ислам и христианство",
+      "chip_ip": "Израиль–Палестина",
+      "chip_live": "Подготовка к дебатам",
+      "chip_steelman": "Обе стороны в сильнейшей форме",
+      "hero_title": "Сделайте аргументы проверяемыми",
+      "hero_thesis": "Один хаб для повторяющихся споров — Писание, Бог, Иисус, этика и Израиль–Палестина — с доводами, рукописями, карточками оппонента и источниками, которые можно открыть во время подготовки или в дебате.",
+      "hero_warn": "Победитель не объявляется. Цель — убрать туман лозунгов: определить термины, представить обе стороны сильно, приложить источники, назвать суть спора. Так дискурс приближается к общей реальности.",
+      "meta_args": "аргументов",
+      "meta_mats": "рукописей",
+      "meta_cards": "карточек",
+      "footer": "Пересобрать данные: python scripts/build_kb.py. Тема 01 — в Critiques; в Historicity — галерея папирусов/мушафов."
+    }
+  },
   "topics": [
     {
       "id": "historicity",
-      "title": "Historicity of the Qur'an vs the Bible",
-      "thesis": "Which scripture has the stronger historical case for textual integrity and proximity to its claimed origin — and under which definitions?",
-      "blurb": "Live desk + viewers: Sidky stemma, Wallace variant-count, Tov/DSS, Sinaiticus, Birmingham.",
-      "group": "Scripture",
+      "title": {
+        "en": "Historicity of the Qur'an vs the Bible",
+        "ru": "Историчность Корана и Библии"
+      },
+      "thesis": {
+        "en": "Which scripture has the stronger historical case for textual integrity and proximity to its claimed origin — and under which definitions?",
+        "ru": "У какого Писания сильнее исторический довод в пользу текстуальной целостности и близости к заявленному истоку — и при каких определениях?"
+      },
+      "blurb": {
+        "en": "Live desk + viewers: Sidky stemma, Wallace variant-count, Tov/DSS, Sinaiticus, Birmingham.",
+        "ru": "Живой стол + зрители: стемма Sidky, подсчёт вариантов Wallace, Tov/DSH, Синайский кодекс, Бирмингем."
+      },
+      "group": {
+        "en": "Scripture",
+        "ru": "Писание"
+      },
       "path": "topics/historicity/",
       "counts": {
         "arguments": 18,
         "materials": 26,
         "cards": 22,
         "debates": 9
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "critiques",
-      "title": "Christian critiques of Islam",
-      "thesis": "Do the most common Christian arguments against Islam withstand the strongest documented counters?",
-      "blurb": "Top Christian apologetic critiques of Islam with documented counters, including Ataie on preservation.",
-      "group": "Scripture",
+      "title": {
+        "en": "Christian critiques of Islam",
+        "ru": "Христианские критики ислама"
+      },
+      "thesis": {
+        "en": "Do the most common Christian arguments against Islam withstand the strongest documented counters?",
+        "ru": "Выдерживают ли самые частые христианские аргументы против ислама сильнейшие задокументированные ответы?"
+      },
+      "blurb": {
+        "en": "Top Christian apologetic critiques of Islam with documented counters, including Ataie on preservation.",
+        "ru": "Главные апологетические критики ислама с документированными ответами, включая Ataie о сохранности."
+      },
+      "group": {
+        "en": "Scripture",
+        "ru": "Писание"
+      },
       "path": "topics/critiques/",
       "counts": {
         "arguments": 10,
         "materials": 0,
         "cards": 12,
         "debates": 0
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "trinity",
-      "title": "Trinity vs Tawhid: which is more rational?",
-      "thesis": "Given monotheism as the shared premise, is classical Trinitarian theism or Islamic tawhid the more coherent account of God's unity, self-knowledge, and worship?",
-      "blurb": "Trinity vs Tawhid — coherence, simplicity, revelation, worship.",
-      "group": "God",
+      "title": {
+        "en": "Trinity vs Tawhid: which is more rational?",
+        "ru": "Троица и таухид"
+      },
+      "thesis": {
+        "en": "Given monotheism as the shared premise, is classical Trinitarian theism or Islamic tawhid the more coherent account of God's unity, self-knowledge, and worship?",
+        "ru": "При общем тезисе монотеизма: что связнее описывает единство Бога, Его самопознание и поклонение — классический тринитаризм или исламский таухид?"
+      },
+      "blurb": {
+        "en": "Trinity vs Tawhid — coherence, simplicity, revelation, worship.",
+        "ru": "Троица против таухида — связность, простота, откровение, поклонение."
+      },
+      "group": {
+        "en": "God",
+        "ru": "Бог"
+      },
       "path": "topics/trinity/",
       "counts": {
         "arguments": 14,
         "materials": 0,
         "cards": 12,
         "debates": 2
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "warfare",
-      "title": "Christianity vs Islam: better rules of warfare?",
-      "thesis": "Comparing scriptural norms, classical just-war / siyar traditions, and historical practice, which faith's warfare ethic better constrains violence and protects non-combatants?",
-      "blurb": "Just war vs jihad / siyar — cause, conduct, classical vs reform.",
-      "group": "Ethics",
+      "title": {
+        "en": "Christianity vs Islam: better rules of warfare?",
+        "ru": "Война и насилие"
+      },
+      "thesis": {
+        "en": "Comparing scriptural norms, classical just-war / siyar traditions, and historical practice, which faith's warfare ethic better constrains violence and protects non-combatants?",
+        "ru": "Сравнивая нормы Писания, классические традиции справедливой войны / сияра и историческую практику, чья военная этика лучше ограничивает насилие и защищает некомбатантов?"
+      },
+      "blurb": {
+        "en": "Just war vs jihad / siyar — cause, conduct, classical vs reform.",
+        "ru": "Справедливая война против джихада / сияра — повод, правила, классика и реформы."
+      },
+      "group": {
+        "en": "Ethics",
+        "ru": "Этика"
+      },
       "path": "topics/warfare/",
       "counts": {
         "arguments": 10,
         "materials": 0,
         "cards": 10,
         "debates": 1
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "morality",
-      "title": "Christianity vs Islam: which is more moral?",
-      "thesis": "On foundations of ethics, salvation and moral motivation, love/justice balance, and exemplary moral psychology, which tradition offers the stronger moral vision?",
-      "blurb": "Foundational moral vision: grace, deeds, law, conscience, outcomes.",
-      "group": "Ethics",
+      "title": {
+        "en": "Christianity vs Islam: which is more moral?",
+        "ru": "Нравственность"
+      },
+      "thesis": {
+        "en": "On foundations of ethics, salvation and moral motivation, love/justice balance, and exemplary moral psychology, which tradition offers the stronger moral vision?",
+        "ru": "По основаниям этики, спасению и моральной мотивации, балансу любви и справедливости и образцовой моральной психологии — какая традиция предлагает более сильное нравственное видение?"
+      },
+      "blurb": {
+        "en": "Foundational moral vision: grace, deeds, law, conscience, outcomes.",
+        "ru": "Основа морали: благодать, дела, закон, совесть, последствия."
+      },
+      "group": {
+        "en": "Ethics",
+        "ru": "Этика"
+      },
       "path": "topics/morality/",
       "counts": {
         "arguments": 13,
         "materials": 0,
         "cards": 12,
         "debates": 1
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "women",
-      "title": "Christianity vs Islam: better regarding women?",
-      "thesis": "On dignity, legal rights, family law, and lived founding examples, which tradition offers the stronger moral vision for women — and under which hermeneutic?",
-      "blurb": "Texts, classical law, and modern outcomes on women.",
-      "group": "Ethics",
+      "title": {
+        "en": "Christianity vs Islam: better regarding women?",
+        "ru": "Женщины"
+      },
+      "thesis": {
+        "en": "On dignity, legal rights, family law, and lived founding examples, which tradition offers the stronger moral vision for women — and under which hermeneutic?",
+        "ru": "По достоинству, правовым правам, семейному праву и живым основательским примерам — какая традиция предлагает более сильное нравственное видение для женщин и при какой герменевтике?"
+      },
+      "blurb": {
+        "en": "Texts, classical law, and modern outcomes on women.",
+        "ru": "Тексты, классическое право и современные исходы для женщин."
+      },
+      "group": {
+        "en": "Ethics",
+        "ru": "Этика"
+      },
       "path": "topics/women/",
       "counts": {
         "arguments": 10,
         "materials": 0,
         "cards": 10,
         "debates": 0
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "slavery",
-      "title": "Christianity vs Islam: better regarding slavery?",
-      "thesis": "Given that both scriptures regulate slavery rather than invent modern abolition overnight, which tradition's trajectory, incentives, and eventual reforms better serve human freedom?",
-      "blurb": "Regulation vs abolition — scripture, history, and moral development.",
-      "group": "Ethics",
+      "title": {
+        "en": "Christianity vs Islam: better regarding slavery?",
+        "ru": "Рабство"
+      },
+      "thesis": {
+        "en": "Given that both scriptures regulate slavery rather than invent modern abolition overnight, which tradition's trajectory, incentives, and eventual reforms better serve human freedom?",
+        "ru": "Учитывая, что оба Писания регулируют рабство, а не изобретают современную отмену за ночь, чья траектория, стимулы и поздние реформы лучше служат человеческой свободе?"
+      },
+      "blurb": {
+        "en": "Regulation vs abolition — scripture, history, and moral development.",
+        "ru": "Регулирование против отмены — Писание, история, моральное развитие."
+      },
+      "group": {
+        "en": "Ethics",
+        "ru": "Этика"
+      },
       "path": "topics/slavery/",
       "counts": {
         "arguments": 10,
         "materials": 0,
         "cards": 10,
         "debates": 0
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "nonbelievers",
-      "title": "Christianity vs Islam: better regarding non-believers?",
-      "thesis": "On freedom of conscience, civic status, polemical speech, and eternal destiny, which tradition treats outsiders more justly?",
-      "blurb": "Dhimma, apostasy, missions, religious liberty.",
-      "group": "Ethics",
+      "title": {
+        "en": "Christianity vs Islam: better regarding non-believers?",
+        "ru": "Неверующие и свобода совести"
+      },
+      "thesis": {
+        "en": "On freedom of conscience, civic status, polemical speech, and eternal destiny, which tradition treats outsiders more justly?",
+        "ru": "По свободе совести, гражданскому статусу, полемической речи и вечной участи — какая традиция справедливее к внешним?"
+      },
+      "blurb": {
+        "en": "Dhimma, apostasy, missions, religious liberty.",
+        "ru": "Зимма, вероотступничество, миссия, религиозная свобода."
+      },
+      "group": {
+        "en": "Ethics",
+        "ru": "Этика"
+      },
       "path": "topics/nonbelievers/",
       "counts": {
         "arguments": 10,
         "materials": 0,
         "cards": 10,
         "debates": 0
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "historical-jesus",
-      "title": "Who follows the historical Jesus more?",
-      "thesis": "Using public historical methods (not later creeds or later revelations alone), does mainstream Christian faith or Islamic Christology better track the Jesus of history?",
-      "blurb": "Who tracks the scholarly historical Jesus more closely?",
-      "group": "Jesus",
+      "title": {
+        "en": "Who follows the historical Jesus more?",
+        "ru": "Кто ближе к историческому Иисусу?"
+      },
+      "thesis": {
+        "en": "Using public historical methods (not later creeds or later revelations alone), does mainstream Christian faith or Islamic Christology better track the Jesus of history?",
+        "ru": "Если брать публичные исторические методы (а не только поздние символы или поздние откровения), чья картина лучше держит Иисуса истории — массовая христианская вера или исламская христология?"
+      },
+      "blurb": {
+        "en": "Who tracks the scholarly historical Jesus more closely?",
+        "ru": "Чья картина Иисуса лучше согласуется с академической реконструкцией?"
+      },
+      "group": {
+        "en": "Jesus",
+        "ru": "Иисус"
+      },
       "path": "topics/historical-jesus/",
       "counts": {
         "arguments": 15,
         "materials": 6,
         "cards": 12,
         "debates": 2
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "jesus-vision",
-      "title": "Whose vision of Jesus is better — rationally and historically?",
-      "thesis": "Comparing the Christian vision (incarnate Son, crucified and risen Lord) with the Islamic vision (exalted human Messiah-prophet), which is more coherent rationally and better grounded historically?",
-      "blurb": "Incarnate Son vs prophet-Messiah — rational and historical scoring.",
-      "group": "Jesus",
+      "title": {
+        "en": "Whose vision of Jesus is better — rationally and historically?",
+        "ru": "Воплощённый Сын или пророк-Мессия"
+      },
+      "thesis": {
+        "en": "Comparing the Christian vision (incarnate Son, crucified and risen Lord) with the Islamic vision (exalted human Messiah-prophet), which is more coherent rationally and better grounded historically?",
+        "ru": "Сравнивая христианскую картину (воплощённый Сын, распятый и воскресший Господь) с исламской (вознесённый человеческий Мессия-пророк), какая связнее рационально и лучше опирается на историю?"
+      },
+      "blurb": {
+        "en": "Incarnate Son vs prophet-Messiah — rational and historical scoring.",
+        "ru": "Воплощённый Сын против пророка-Мессии — рациональная и историческая оценка."
+      },
+      "group": {
+        "en": "Jesus",
+        "ru": "Иисус"
+      },
       "path": "topics/jesus-vision/",
       "counts": {
         "arguments": 13,
         "materials": 6,
         "cards": 12,
         "debates": 1
-      }
+      },
+      "bilingual": true
     },
     {
       "id": "jesus-not-god-ru",
-      "title": "Иисус — не Бог, не называл себя Богом, не может быть Богом",
-      "thesis": "Иисус не называл себя Богом, по Писанию не является Богом и по своим словам и поступкам не подходит под свойства Бога. Ниже — доводы и ответы сторонников Троицы. Победитель не объявляется.",
-      "blurb": "RU: стихи за Троицу с ответами; почему Иисус не Бог.",
-      "group": "Jesus",
+      "title": {
+        "en": "Иисус — не Бог, не называл себя Богом, не может быть Богом",
+        "ru": "Иисус — не Бог, не называл себя Богом, не может быть Богом"
+      },
+      "thesis": {
+        "en": "Иисус не называл себя Богом, по Писанию не является Богом и по своим словам и поступкам не подходит под свойства Бога. Ниже — доводы и ответы сторонников Троицы. Победитель не объявляется.",
+        "ru": "Иисус не называл себя Богом, по Писанию не является Богом и по своим словам и поступкам не подходит под свойства Бога. Ниже — доводы и ответы сторонников Троицы. Победитель не объявляется."
+      },
+      "blurb": {
+        "en": "RU: стихи за Троицу с ответами; почему Иисус не Бог.",
+        "ru": "Стихи за Троицу с ответами, и стихи, почему Иисус — не Бог."
+      },
+      "group": {
+        "en": "Jesus",
+        "ru": "Иисус"
+      },
       "path": "topics/jesus-not-god-ru/",
       "counts": {
         "arguments": 20,
         "materials": 7,
         "cards": 26,
         "debates": 6
-      }
+      },
+      "bilingual": false
     },
     {
       "id": "israel-palestine",
-      "title": "Israel–Palestine: the 10 arguments that actually matter",
-      "thesis": "Two peoples claim the same land with overlapping histories of indigeneity, displacement, war, and law. Which claims survive when you separate 1948 from 1967, civilians from armed factions, and self-determination from holy-war slogans?",
-      "blurb": "Two peoples, one land: 1948, occupation, refugees, Gaza, law, end-states — steelmanned, no press officer.",
-      "group": "Israel–Palestine",
+      "title": {
+        "en": "Israel–Palestine: the 10 arguments that actually matter",
+        "ru": "Israel–Palestine: the 10 arguments that actually matter"
+      },
+      "thesis": {
+        "en": "Two peoples claim the same land with overlapping histories of indigeneity, displacement, war, and law. Which claims survive when you separate 1948 from 1967, civilians from armed factions, and self-determination from holy-war slogans?",
+        "ru": "Two peoples claim the same land with overlapping histories of indigeneity, displacement, war, and law. Which claims survive when you separate 1948 from 1967, civilians from armed factions, and self-determination from holy-war slogans?"
+      },
+      "blurb": {
+        "en": "Two peoples, one land: 1948, occupation, refugees, Gaza, law, end-states — steelmanned, no press officer.",
+        "ru": "Live-debate prep: competing national claims, 1947–49, occupation and settlements, refugees, Jerusalem, armed factions, Gaza/Oct 7, international law, end-states, and poison words. Columns are national cases, not 'Judaism vs Islam.'"
+      },
+      "group": {
+        "en": "Israel–Palestine",
+        "ru": "Israel–Palestine"
+      },
       "path": "topics/israel-palestine/",
       "counts": {
         "arguments": 10,
         "materials": 0,
         "cards": 10,
         "debates": 1
-      }
+      },
+      "bilingual": false
     },
     {
       "id": "ostrovsky",
-      "title": "Ошибки Островского",
-      "thesis": "Разбор эфира 29.08.2026: транскрипт и кандидаты для ролика.",
-      "blurb": "RU: диспут Островский × Юлиана — ошибки, таймкоды, транскрипт.",
-      "group": "Live",
+      "title": {
+        "en": "Ошибки Островского",
+        "ru": "Ошибки Островского"
+      },
+      "thesis": {
+        "en": "Разбор эфира 29.08.2026: транскрипт и кандидаты для ролика.",
+        "ru": "Разбор эфира 29.08.2026: транскрипт и кандидаты для ролика."
+      },
+      "blurb": {
+        "en": "RU: диспут Островский × Юлиана — ошибки, таймкоды, транскрипт.",
+        "ru": "RU: диспут Островский × Юлиана — ошибки, таймкоды, транскрипт."
+      },
+      "group": {
+        "en": "Live",
+        "ru": "Live"
+      },
       "path": "topics/ostrovsky/",
       "counts": {
         "arguments": 20,
         "materials": 0,
         "cards": 20,
         "debates": 1
-      }
+      },
+      "bilingual": false
     }
   ]
 }

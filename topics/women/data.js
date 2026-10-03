@@ -1,262 +1,357 @@
-window.TOPIC_DATA = {
+window.TOPIC_DATA_RU = {
   "id": "women",
   "meta": {
-    "title": "Christianity vs Islam: better regarding women?",
-    "thesis": "On dignity, legal rights, family law, and lived founding examples, which tradition offers the stronger moral vision for women — and under which hermeneutic?",
-    "purpose": "Steelman Gospel narratives and Christian patriarchal history alongside Qur'anic reforms, 4:34 debates, polygyny, inheritance, and testimony. Separate scripture, classical law, and modernity.",
-    "warning": "Do not compare Jesus' kindness to women against ISIS memes, or Khadija against medieval witch-trial cartoons. Same century, same genre, same legal level.",
+    "title": "Христианство vs ислам: что лучше относительно женщин?",
+    "thesis": "По достоинству, правовым правам, семейному праву и живым основательским примерам — какая традиция предлагает более сильное нравственное видение для женщин и при какой герменевтике?",
+    "purpose": "Стальман евангельских нарративов и христианской патриархальной истории рядом с кораническими реформами, спорами о «Коран 4:34», полигинией, наследством и свидетельством. Развести Писание, классическое право и современность.",
+    "warning": "Не сравнивайте доброту Иисуса к женщинам с мемами ИГИЛ или Хадиджу со средневековыми карикатурами о процессах ведьм. Тот же век, тот же жанр, тот же правовой уровень.",
     "chips": [
-      "ethics",
-      "law",
-      "gender",
-      "family",
-      "hermeneutics"
+      "этика",
+      "право",
+      "гендер",
+      "семья",
+      "герменевтика"
     ],
     "labels": {
-      "christian": "Christian case",
-      "muslim": "Muslim case"
+      "christian": "Христианский тезис",
+      "muslim": "Мусульманский тезис"
+    },
+    "lang": "ru",
+    "ui": {
+      "brand_small": "База для дебатов",
+      "hub": "Все темы",
+      "nav_historicity": "Историчность",
+      "lang_en": "EN",
+      "lang_ru": "RU",
+      "search_label": "Поиск по цитатам, карточкам, рукописям",
+      "search_placeholder": "Поиск: Sidky, Wallace, Мк 16, Бирмингем…",
+      "tab_speech": "Речь",
+      "tab_proofs": "Аргументы за Троицу",
+      "tab_live": "Подсказки",
+      "tab_verses": "Стихи",
+      "tab_brief": "Обзор",
+      "tab_arguments": "Аргументы",
+      "tab_materials": "Рукописи",
+      "tab_debates": "Дебаты",
+      "tab_cards": "Карточки",
+      "tab_sources": "Источники",
+      "tab_checklist": "Чеклист",
+      "intro_brief": "Сначала договоритесь о терминах. Потом берите доводы по одному — не только атакуйте.",
+      "h_definitions": "Определения",
+      "h_positive": "Позитивные картины",
+      "intro_arguments": "Обе стороны в сильнейшей форме: контраргументы, суть спора и как использовать в дебате.",
+      "cluster": "Группа",
+      "filter_all": "Все",
+      "filter_top10": "Топ-10",
+      "expand": "Раскрыть всё",
+      "collapse": "Свернуть всё",
+      "intro_live": "Короткие реплики, если оппонент произнёс типичную фразу.",
+      "intro_verses": "Группы стихов со ссылками на текст.",
+      "they_say_label": "Они говорят: ",
+      "they_claim_label": "Их тезис",
+      "counter_label": "Ответ",
+      "steelman_label": "Как защищают",
+      "kind_proof": "Аргумент",
+      "unitarian_move": "Довод: ",
+      "christian_reply": "Ответ: ",
+      "open_nrsv": "англ.",
+      "verses_count_suffix": "стихов",
+      "h_live_lines": "Если говорят → отвечай",
+      "h_live_quotes": "Цитаты вслух",
+      "h_live_mss": "Открыть рукопись",
+      "intro_speech": "Одна связная речь. Можно читать вслух или копировать целиком.",
+      "copy_speech": "Копировать всю речь",
+      "speech_copied": "Скопировано",
+      "speech_verses": "Стихи",
+      "intro_materials": "Рукописи и артефакты. Нажмите на снимок, чтобы увеличить.",
+      "show": "Показать",
+      "filter_bible": "Библия",
+      "filter_quran": "Коран",
+      "filter_infra": "Зрители",
+      "intro_debates": "Известные дебаты и что из них взять, со ссылками на записи.",
+      "intro_cards": "Короткие ответы на типичные фразы. Первая строка — то, что сказать сразу.",
+      "intro_sources": "Сначала академические и первичные источники, потом ролики.",
+      "footer": "Обе стороны смотрят одни материалы. Победитель не объявляется.",
+      "data_points": "Факты",
+      "manuscripts": "Рукописи / артефакты",
+      "source": "источник",
+      "copy": "Копировать",
+      "copied": "Скопировано",
+      "counter": "Возражение → ",
+      "claim": "тезис",
+      "reply": "Ответ: ",
+      "counter_christian": "Возражение (христиане):",
+      "counter_muslim": "Возражение (мусульмане):",
+      "if_they_say": "Если говорят",
+      "if_they_say_colon": "Если говорят:",
+      "you_say": "Отвечай",
+      "dont_overclaim": "Не переигрывай",
+      "crux": "В чём спор: ",
+      "debate_use": "Как использовать: ",
+      "open_viewer": "Открыть источник",
+      "motion": "Тема:",
+      "timestamps": "Таймкоды",
+      "steal": "Что взять:",
+      "fast_answer": "Сразу:",
+      "follow_up": "Дальше:",
+      "anchor": "Якорь: ",
+      "kind_live": "Реплика",
+      "kind_quote": "Цитата",
+      "kind_card": "Карточка",
+      "kind_mss": "Рукопись",
+      "kind_verse_group": "Группа стихов",
+      "kind_verse": "Стих",
+      "kind_speech": "Речь",
+      "open": "Открыть",
+      "go_to": "К разделу "
     }
   },
   "definitions": [
     {
-      "term": "Ontological equality",
-      "precise": "Equal worth before God as human beings / image-bearers / believing souls.",
-      "not": "Not the same as identical legal roles in family or courtroom."
+      "term": "Онтологическое равенство",
+      "precise": "Равная ценность перед Богом как человеческих существ / носителей образа / верующих душ.",
+      "not": "Не то же самое, что тождественные правовые роли в семье или суде."
     },
     {
-      "term": "Functional / legal complementarity",
-      "precise": "Different rights and duties by sex in marriage, testimony, inheritance, leadership.",
-      "not": "Not automatically 'hatred of women' — argue whether the differentials are just."
+      "term": "Функциональная / правовая комплементарность",
+      "precise": "Разные права и обязанности по полу в браке, свидетельстве, наследстве, руководстве.",
+      "not": "Не автоматически «ненависть к женщинам» — спорьте, справедливы ли дифференциалы."
     },
     {
-      "term": "Qur'an 4:34 (qiwāma / ḍarb)",
-      "precise": "Verse on male qiwāma and steps of marital discord ending in a contested term often translated 'strike.' Interpretation is a major debate locus.",
-      "not": "Not a blank check for domestic abuse in responsible tafsir — but not a non-issue."
+      "term": "«Коран 4:34» (кивама / дарб)",
+      "precise": "Аят о мужской киваме и ступенях супружеского раздора, заканчивающихся спорным термином, часто переводимым «ударяйте». Толкование — крупный узел спора.",
+      "not": "Не бланковая лицензия на домашнее насилие в ответственном тафсире — но и не не-проблема."
     },
     {
-      "term": "Polygyny",
-      "precise": "Marriage of one man to multiple wives (Qur'an 4:3 conditional; OT also knows it).",
-      "not": "Not polyandry; not identical with adultery."
+      "term": "Полигиния",
+      "precise": "Брак одного мужчины с несколькими жёнами («Коран 4:3» условно; ВЗ тоже её знает).",
+      "not": "Не полиандрия; не тождественно прелюбодеянию."
     },
     {
-      "term": "Patristic / canon patriarchy",
-      "precise": "Christian historical patterns of male clergy, coverture-like norms, and household codes.",
-      "not": "Not identical with Jesus' interactions in the Gospels."
+      "term": "Патристический / канонический патриархат",
+      "precise": "Христианские исторические образцы мужского клира, норм в духе ковертюры и домашних кодексов.",
+      "not": "Не тождественно взаимодействиям Иисуса в Евангелиях."
     },
     {
-      "term": "Trajectory hermeneutic",
-      "precise": "Reading texts as moving history toward fuller equality (used by some Christians on slavery/gender and some Muslims on reform).",
-      "not": "Not agreed by complementarians or classical fiqh traditionalists."
+      "term": "Герменевтика траектории",
+      "precise": "Чтение текстов как движения истории к более полному равенству (используют некоторые христиане о рабстве / гендере и некоторые мусульмане о реформе).",
+      "not": "Не принято комплементаристами или традиционалистами классического фикха."
     }
   ],
   "arguments": [
     {
       "id": "jesus-and-women",
       "rank": 1,
-      "cluster": "Founding examples",
-      "title": "Jesus' treatment of women as moral paradigm",
+      "cluster": "Основательские примеры",
+      "title": "Обращение Иисуса с женщинами как нравственная парадигма",
       "type": "ethics + narrative",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Jesus teaches women, receives their patronage, and appears first to women as resurrection witnesses — a dignity pattern superior to later patriarchal religion, including Islamic law.",
-        "case": "Luke 10:38–42; John 4; Luke 8:1–3; John 20:11–18. Founding narrative centers women as discipleship models against their culture.",
+        "claim": "Иисус учит женщин, принимает их покровительство и первым является женщинам как свидетелям воскресения — образец достоинства выше поздней патриархальной религии, включая исламское право.",
+        "case": "Лк 10:38–42; Ин 4; Лк 8:1–3; Ин 20:11–18. Основательский нарратив ставит женщин моделями ученичества против их культуры.",
         "sources": [
           {
-            "label": "John 20:11–18",
+            "label": "Ин 20:11–18",
             "url": "https://www.biblegateway.com/passage/?search=John+20%3A11-18&version=NRSVUE"
           },
           {
-            "label": "Luke 10:38–42",
+            "label": "Лк 10:38–42",
             "url": "https://www.biblegateway.com/passage/?search=Luke+10%3A38-42&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "There is no longer Jew or Greek, there is no longer slave or free, there is no longer male and female; for all of you are one in Christ Jesus.",
-            "who": "Galatians 3:28",
-            "work": "Baptismal equality text",
-            "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A28&version=NRSVUE"
+            "text": "Нет уже Иудея, ни язычника; нет раба, ни свободного; нет мужеского пола, ни женского: ибо все вы одно во Христе Иисусе.",
+            "who": "Гал 3:28",
+            "work": "Текст крещального равенства",
+            "url": "https://www.biblegateway.com/passage/?search=Galatians%203%3A28&version=NRSVUE",
+            "orig": "There is no longer Jew or Greek, there is no longer slave or free, there is no longer male and female; for all of you are one in Christ Jesus."
           }
         ],
         "data_points": [
           {
-            "fact": "Gospels: women as first resurrection witnesses; Jesus speaking with the Samaritan woman; Mary of Bethany as disciple.",
-            "source": "John 4; John 20; Luke 10",
-            "label": "Gospels: women as first resurrection witnesses; Jesus speaking with the Samaritan woman; Mary of Bethany as disciple.",
-            "note": "John 4; John 20; Luke 10"
+            "fact": "Евангелия: женщины как первые свидетели воскресения; Иисус говорит с самарянкой; Мария из Вифании как ученица.",
+            "source": "Ин 4; Ин 20; Лк 10",
+            "label": "Евангелия: женщины как первые свидетели воскресения; Иисус говорит с самарянкой; Мария из Вифании как ученица.",
+            "note": "Ин 4; Ин 20; Лк 10"
           }
         ]
       },
       "muslim": {
-        "claim": "Islam's founding includes Khadija the employer-wife, Aisha the scholar-transmitter, and Qur'anic address to believing women — not a story of female erasure.",
-        "case": "33:35 parallel spiritual status; property and consent norms as reforms in Arabia. Gospel kindness does not cancel Christian institutional patriarchy.",
+        "claim": "Основание ислама включает Хадиджу — жену-работодательницу, Аишу — учёную-передатчицу и кораническое обращение к верующим женщинам — не историю женского стирания.",
+        "case": "«Коран 33:35» — параллельный духовный статус; нормы собственности и согласия как реформы в Аравии. Евангельская доброта не отменяет христианский институциональный патриархат.",
         "sources": [
           {
-            "label": "Qur'an 33:35",
+            "label": "«Коран 33:35»",
             "url": "https://quran.com/33/35"
           },
           {
-            "label": "Qur'an 4:32",
+            "label": "«Коран 4:32»",
             "url": "https://quran.com/4/32"
           },
           {
-            "label": "Yaqeen — women & Islamic scholarship themes",
+            "label": "Yaqeen — темы женщин и исламской учёности",
             "url": "https://yaqeeninstitute.org/"
           }
         ],
         "quotes": [
           {
-            "text": "And their Lord responded to them, 'Never will I allow to be lost the work of [any] worker among you, whether male or female; you are of one another.'",
-            "who": "Qur'an 3:195",
-            "work": "Spiritual equality text",
-            "url": "https://quran.com/3/195"
+            "text": "И ответил им Господь их: «Я не погублю деяние любого деятеля среди вас, будь то мужчина или женщина; вы — друг от друга».",
+            "who": "«Коран 3:195»",
+            "work": "Текст духовного равенства",
+            "url": "https://quran.com/3/195",
+            "orig": "And their Lord responded to them, 'Never will I allow to be lost the work of [any] worker among you, whether male or female; you are of one another.'"
           }
         ],
         "data_points": [
           {
-            "fact": "1 Tim 2:12 and 1 Cor 14:34 are the Christian counter-texts Muslims will read aloud.",
-            "source": "Pastoral epistles",
-            "label": "1 Tim 2:12 and 1 Cor 14:34 are the Christian counter-texts Muslims will read aloud.",
-            "note": "Pastoral epistles"
+            "fact": "1 Тим 2:12 и 1 Кор 14:34 — христианские контртексты, которые мусульмане прочитают вслух.",
+            "source": "Пастырские послания",
+            "label": "1 Тим 2:12 и 1 Кор 14:34 — христианские контртексты, которые мусульмане прочитают вслух.",
+            "note": "Пастырские послания"
           }
         ]
       },
-      "counter_to_christian": "Pauline silence/authority texts and centuries of male-only priesthood complicate the Jesus-only score.",
-      "counter_to_muslim": "Elevated early women coexist with enduring legal asymmetries — both must be weighed.",
-      "crux": "Do founding narratives outweigh later legal codes when scoring 'better regarding women'?",
-      "debate_use": "Split score: narrative dignity vs family law rights.",
-      "why_it_matters": "Christian opening: Jesus' practice as paradigm vs later church and vs fiqh.",
+      "counter_to_christian": "Павловы тексты о молчании / власти и века исключительно мужского священства осложняют оценку «только Иисус».",
+      "counter_to_muslim": "Возвышенные ранние женщины сосуществуют с длящимися правовыми асимметриями — взвешивать нужно оба.",
+      "crux": "Перевешивают ли основательские нарративы поздние правовые кодексы при оценке «лучше относительно женщин»?",
+      "debate_use": "Разделите оценку: нарративное достоинство vs права семейного права.",
+      "why_it_matters": "Христианское открытие: практика Иисуса как парадигма против поздней церкви и против фикха.",
       "live": {
-        "if_they_say": "Jesus was a feminist; Muhammad was not.",
-        "you_say": "Jesus' counter-cultural honor of women is real. Then put 1 Timothy 2 and Q 4:34 on the same table, plus each community's law after the founder. Founder-anecdote vs legal system is the honest split.",
-        "dont_overclaim": "Don't hide Paul. Don't hide Khadīja/Āʿisha either."
+        "if_they_say": "Иисус был феминистом; Мухаммад — нет.",
+        "you_say": "Контркультурное почтение Иисуса к женщинам реально. Затем положите 1 Тим 2 и «Коран 4:34» на один стол плюс право каждой общины после основателя. Анекдот основателя vs правовая система — честный раскол.",
+        "dont_overclaim": "Не прячьте Павла. Не прячьте и Хадиджу / Аишу."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "polygyny",
       "rank": 2,
-      "cluster": "Family law",
-      "title": "Polygyny: permission vs restriction",
+      "cluster": "Семейное право",
+      "title": "Полигиния: разрешение vs ограничение",
       "type": "ethics + law",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Jesus' two-in-one-flesh ideal and NT elder qualifications assume monogamy; Qur'anic polygyny institutionalizes asymmetry harmful to women.",
-        "case": "Matthew 19:4–6; 1 Tim 3:2. Even if 4:3 is 'justice-conditional,' the structure privileges male sexual access.",
+        "claim": "Идеал Иисуса «двое одна плоть» и квалификации пресвитеров НЗ предполагают моногамию; кораническая полигиния институционализирует асимметрию, вредную для женщин.",
+        "case": "Мф 19:4–6; 1 Тим 3:2. Даже если «Коран 4:3» «условно от справедливости», структура привилегирует мужской сексуальный доступ.",
         "sources": [
           {
-            "label": "Matthew 19:3–9",
+            "label": "Мф 19:3–9",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+19%3A3-9&version=NRSVUE"
           },
           {
-            "label": "Qur'an 4:3",
+            "label": "«Коран 4:3»",
             "url": "https://quran.com/4/3"
           }
         ],
         "quotes": [
           {
-            "text": "Each man [should have] his own wife and each woman her own husband.",
-            "who": "1 Corinthians 7:2",
-            "work": "As used against polygyny",
-            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%207%3A2&version=NRSVUE"
+            "text": "Но, во избежание блуда, каждый имей свою жену, и каждая имей своего мужа.",
+            "who": "1 Кор 7:2",
+            "work": "Как используют против полигинии",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%207%3A2&version=NRSVUE",
+            "orig": "Each man [should have] his own wife and each woman her own husband."
           }
         ]
       },
       "muslim": {
-        "claim": "4:3 restricts a prior unlimited practice, ties plurality to orphan justice, and 4:129 warns perfect equality is impossible — often read as pressure toward monogamy.",
-        "case": "OT polygyny undercuts Christian uniqueness. Contextual reform + justice conditions beat romanticizing Christian history that still oppressed women.",
+        "claim": "«Коран 4:3» ограничивает прежде безграничную практику, связывает множественность со справедливостью к сиротам, а «Коран 4:129» предупреждает, что совершенное равенство невозможно — часто читают как давление к моногамии.",
+        "case": "ВЗ полигиния подрывает христианскую уникальность. Контекстная реформа + условия справедливости бьют романтизацию христианской истории, всё ещё угнетавшей женщин.",
         "sources": [
           {
-            "label": "Qur'an 4:3",
+            "label": "«Коран 4:3»",
             "url": "https://quran.com/4/3"
           },
           {
-            "label": "Qur'an 4:129",
+            "label": "«Коран 4:129»",
             "url": "https://quran.com/4/129"
           },
           {
-            "label": "2 Samuel 5:13 (OT polygyny example)",
+            "label": "2 Цар 5:13 (пример ветхозаветной полигинии)",
             "url": "https://www.biblegateway.com/passage/?search=2+Samuel+5%3A13&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "…marry those that please you of [other] women, two or three or four. But if you fear that you will not be just, then [marry only] one…",
-            "who": "Qur'an 4:3",
-            "work": "Polygyny with justice condition",
-            "url": "https://quran.com/4/3"
+            "text": "…женитесь на тех, что приятны вам, женщинах — двух, трёх или четырёх. Если же боитесь не быть справедливыми, то на одной…",
+            "who": "«Коран 4:3»",
+            "work": "Полигиния с условием справедливости",
+            "url": "https://quran.com/4/3",
+            "orig": "…marry those that please you of [other] women, two or three or four. But if you fear that you will not be just, then [marry only] one…"
           },
           {
-            "text": "And you will never be able to be equal [in feeling] between wives, even if you should strive [to do so].",
-            "who": "Qur'an 4:129",
-            "work": "Used by some as near-ban via impossibility of justice",
-            "url": "https://quran.com/4/129"
+            "text": "И вы никогда не сможете быть равными [в чувстве] между жёнами, даже если будете стараться.",
+            "who": "«Коран 4:129»",
+            "work": "Некоторые используют почти как запрет через невозможность справедливости",
+            "url": "https://quran.com/4/129",
+            "orig": "And you will never be able to be equal [in feeling] between wives, even if you should strive [to do so]."
           }
         ],
         "data_points": [
           {
-            "fact": "OT patriarchs are polygynous; Christian argument needs a covenant-change story, not amnesia.",
-            "source": "Abraham, Jacob, David",
-            "label": "OT patriarchs are polygynous; Christian argument needs a covenant-change story, not amnesia.",
-            "note": "Abraham, Jacob, David"
+            "fact": "ВЗ патриархи полигинны; христианскому доводу нужна история смены завета, не амнезия.",
+            "source": "Авраам, Иаков, Давид",
+            "label": "ВЗ патриархи полигинны; христианскому доводу нужна история смены завета, не амнезия.",
+            "note": "Авраам, Иаков, Давид"
           }
         ]
       },
-      "counter_to_christian": "Christian divorce battles and serial monogamy can mimic polygyny's harms.",
-      "counter_to_muslim": "A warning in 4:129 does not erase the legal permission in 4:3.",
-      "crux": "Is restricted polygyny moral progress in context, or a lasting injustice relative to monogamy norms?",
-      "debate_use": "Ask both sides their rule for widows/orphans in war economies without anachronism.",
-      "why_it_matters": "Clear legal difference. Christians usually win the modern audience unless Muslims reframe as regulated vs hypocritical serial monogamy.",
+      "counter_to_christian": "Христианские войны разводов и серийная моногамия могут имитировать вред полигинии.",
+      "counter_to_muslim": "Предупреждение в «Коран 4:129» не стирает правовое разрешение в «Коран 4:3».",
+      "crux": "Ограниченная полигиния — моральный прогресс в контексте или длящаяся несправедливость относительно норм моногамии?",
+      "debate_use": "Спросите обе стороны их правило для вдов / сирот в военных экономиках без анахронизма.",
+      "why_it_matters": "Ясное правовое различие. Христиане обычно выигрывают современную аудиторию, пока мусульмане не переформулируют как регулируемое vs лицемерная серийная моногамия.",
       "live": {
-        "if_they_say": "Islam lets men have four wives, so it oppresses women.",
-        "you_say": "4:3 is in the book. Grant it. Then: justice condition, 4:129, historical OT, and whether Western serial marriage plus infidelity is the actual comparator. Still a live inequality if only men get the extra license.",
-        "dont_overclaim": "Don't say Islam mandates four wives. Don't say the NT is a modern egalitarian charter."
+        "if_they_say": "Ислам позволяет мужчинам четырёх жён, значит угнетает женщин.",
+        "you_say": "«Коран 4:3» в книге. Признайте. Затем: условие справедливости, «Коран 4:129», исторический ВЗ и является ли западный серийный брак плюс неверность реальным компаратором. Всё ещё живое неравенство, если дополнительную лицензию получают только мужчины.",
+        "dont_overclaim": "Не говорите, что ислам предписывает четырёх жён. Не говорите, что НЗ — современная эгалитарная хартия."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "quran-4-34",
       "rank": 3,
-      "cluster": "Family law",
-      "title": "Qur'an 4:34 and marital discipline",
+      "cluster": "Семейное право",
+      "title": "«Коран 4:34» и супружеская дисциплина",
       "type": "exegesis + ethics",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "A verse permitting husbands to strike wives (on common translations) is incompatible with equal dignity and with Jesus' non-domination ethic.",
-        "case": "4:34 is a centerpiece of Christian critique. Even 'light tap' readings encode unilateral male authority in conflict.",
+        "claim": "Аят, дозволяющий мужьям ударять жён (по распространённым переводам), несовместим с равным достоинством и с этикой Иисуса без господства.",
+        "case": "«Коран 4:34» — центр христианской критики. Даже чтения «лёгкий шлепок» кодируют одностороннюю мужскую власть в конфликте.",
         "sources": [
           {
-            "label": "Qur'an 4:34",
+            "label": "«Коран 4:34»",
             "url": "https://quran.com/4/34"
           },
           {
-            "label": "Ephesians 5:25–33 (husband love pattern)",
+            "label": "Еф 5:25–33 (образец любви мужа)",
             "url": "https://www.biblegateway.com/passage/?search=Ephesians+5%3A25-33&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "…But those [wives] from whom you fear arrogance — [first] advise them; [then if they persist], forsake them in bed; and [finally], strike them…",
-            "who": "Qur'an 4:34",
-            "work": "Saheeh International-type rendering used in critiques",
-            "url": "https://quran.com/4/34"
+            "text": "…А тех [жён], непокорности которых вы опасаетесь, увещевайте; [затем, если упорствуют,] оставляйте их на ложах; и [наконец] ударяйте их…",
+            "who": "«Коран 4:34»",
+            "work": "Передача в духе Saheeh International, как используют в критике",
+            "url": "https://quran.com/4/34",
+            "orig": "…But those [wives] from whom you fear arrogance — [first] advise them; [then if they persist], forsake them in bed; and [finally], strike them…"
           }
         ]
       },
       "muslim": {
-        "claim": "Classical and modern readings constrain ḍarb severely; many scholars forbid harm; some argue non-physical reading. Prophet's example is non-hitting.",
-        "case": "Hadith: best of you do not strike. Reformist and traditional fatwas against abuse. Christian household codes also command wife submission (Eph 5:22–24).",
+        "claim": "Классические и современные чтения жёстко ограничивают дарб; многие учёные запрещают вред; некоторые аргументируют нефизическое чтение. Пример Пророка — не бить.",
+        "case": "Хадис: лучшие из вас не бьют. Реформистские и традиционные фетвы против насилия. Христианские домашние кодексы тоже повелевают подчинение жены (Еф 5:22–24).",
         "sources": [
           {
-            "label": "Qur'an 4:34",
+            "label": "«Коран 4:34»",
             "url": "https://quran.com/4/34"
           },
           {
-            "label": "Ephesians 5:22–24",
+            "label": "Еф 5:22–24",
             "url": "https://www.biblegateway.com/passage/?search=Ephesians+5%3A22-24&version=NRSVUE"
           },
           {
-            "label": "IslamicStudies / tafsir discussions on 4:34",
+            "label": "IslamicStudies / обсуждения тафсира 4:34",
             "url": "https://islamicstudies.info/tafheem.php?sura=4&verse=34"
           },
           {
@@ -266,598 +361,606 @@ window.TOPIC_DATA = {
         ],
         "data_points": [
           {
-            "fact": "Classical tafsīr generally allows a (disputed-degree) strike; many moderns (Wadud, others) reread ḍaraba as 'separate' or as a failed 7th-c. concession.",
+            "fact": "Классический тафсир обычно допускает удар (спорной степени); многие современные (Вадуд и др.) перечитывают дараба как «отделите» или как неудачную уступку VII в.",
             "source": "Amina Wadud; Kecia Ali, Sexual Ethics and Islam",
-            "label": "Classical tafsīr generally allows a (disputed-degree) strike; many moderns (Wadud, others) reread ḍaraba as 'separate' or as a failed 7th-c. concession.",
+            "label": "Классический тафсир обычно допускает удар (спорной степени); многие современные (Вадуд и др.) перечитывают дараба как «отделите» или как неудачную уступку VII в.",
             "note": "Amina Wadud; Kecia Ali, Sexual Ethics and Islam"
           },
           {
-            "fact": "Hadith: 'The best of you are the best to their wives' is the pastoral counter-weight Muslims will quote.",
-            "source": "Tirmidhi 1162 area",
-            "label": "Hadith: 'The best of you are the best to their wives' is the pastoral counter-weight Muslims will quote.",
-            "note": "Tirmidhi 1162 area"
+            "fact": "Хадис: «Лучшие из вас — лучшие к своим жёнам» — пастырский противовес, который мусульмане процитируют.",
+            "source": "Зона Тирмизи 1162",
+            "label": "Хадис: «Лучшие из вас — лучшие к своим жёнам» — пастырский противовес, который мусульмане процитируют.",
+            "note": "Зона Тирмизи 1162"
           }
         ]
       },
-      "counter_to_christian": "Eph 5 submission texts are also contested as hierarchy.",
-      "counter_to_muslim": "If the plain sense allows strike, 'our scholars forbid abuse' is damage control unless tied to usūl.",
-      "crux": "What does 4:34 originally authorize, and can that authorization be closed without leaving the text?",
-      "debate_use": "Require a translation + a named classical tafsir before slogans.",
-      "why_it_matters": "The verse. If you cannot steelman nushūz, ḍaraba, and reform readings, you will look like a slogan machine.",
+      "counter_to_christian": "Тексты подчинения Еф 5 тоже оспаривают как иерархию.",
+      "counter_to_muslim": "Если прямой смысл допускает удар, «наши учёные запрещают насилие» — контроль ущерба, пока не привязано к усулю.",
+      "crux": "Что изначально санкционирует «Коран 4:34» и можно ли закрыть эту санкцию, не покидая текст?",
+      "debate_use": "Потребуйте перевод + названный классический тафсир, прежде чем лозунги.",
+      "why_it_matters": "Аят. Если не можете стальманнуть нушуз, дараба и реформистские чтения, вы будете выглядеть машиной лозунгов.",
       "live": {
-        "if_they_say": "The Qur'an tells men to beat their wives.",
-        "you_say": "4:34 is the verse; ḍaraba is the verb; three-step sequence is the grammar. Don't deny the text. Then: prophetic 'do not beat' reports, legal restrictions, and Christian household codes (Eph 5 / 1 Pet 3). Fight translation and whether the verse is timeless law.",
-        "dont_overclaim": "Don't pretend ḍaraba never meant strike. Don't pretend Ephesians 5 is a UN convention."
+        "if_they_say": "Коран велит мужчинам бить жён.",
+        "you_say": "«Коран 4:34» — аят; дараба — глагол; трёхшаговая последовательность — грамматика. Не отрицайте текст. Затем: пророческие сообщения «не бейте», правовые ограничения и христианские домашние кодексы (Еф 5 / 1 Пет 3). Спорьте о переводе и о том, вечен ли аят как закон.",
+        "dont_overclaim": "Не делайте вид, что дараба никогда не значило «ударять». Не делайте вид, что Еф 5 — конвенция ООН."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "inheritance-testimony",
       "rank": 4,
-      "cluster": "Legal status",
-      "title": "Inheritance shares and testimony (2:282)",
+      "cluster": "Правовой статус",
+      "title": "Доли наследства и свидетельство («Коран 2:282»)",
       "type": "law + ethics",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Half-share inheritance (4:11) and gendered testimony rules encode lesser legal personhood incompatible with equal civic dignity.",
-        "case": "4:11; 2:282. Modern human-rights baselines treat these as discriminatory. Christian inheritance law in secular states moved to equality.",
+        "claim": "Половинная доля наследства («Коран 4:11») и гендерные правила свидетельства кодируют меньшую правовую личность, несовместимую с равным гражданским достоинством.",
+        "case": "«Коран 4:11»; «Коран 2:282». Современные базовые линии прав человека считают это дискриминацией. Христианское наследственное право в светских государствах двинулось к равенству.",
         "sources": [
           {
-            "label": "Qur'an 4:11",
+            "label": "«Коран 4:11»",
             "url": "https://quran.com/4/11"
           },
           {
-            "label": "Qur'an 2:282",
+            "label": "«Коран 2:282»",
             "url": "https://quran.com/2/282"
           }
         ],
         "data_points": [
           {
-            "fact": "Num 27 (daughters of Zelophehad) and later Christian civil law are the usual Christian counters — mixed historical record on property.",
-            "source": "Numbers 27",
-            "label": "Num 27 (daughters of Zelophehad) and later Christian civil law are the usual Christian counters — mixed historical record on property.",
-            "note": "Numbers 27"
+            "fact": "Чис 27 (дочери Салпаада) и позднее христианское гражданское право — обычные христианские контры; смешанное историческое досье о собственности.",
+            "source": "Чис 27",
+            "label": "Чис 27 (дочери Салпаада) и позднее христианское гражданское право — обычные христианские контры; смешанное историческое досье о собственности.",
+            "note": "Чис 27"
           }
         ]
       },
       "muslim": {
-        "claim": "Inheritance differentials correlate with male financial maintenance duties; women keep mahr and own property. 2:282 is about specific financial contracts, not women's intellect.",
-        "case": "4:32 earning shares; women inherit as a Qur'anic right when Arabia often excluded them. Package justice ≠ atomized identical fractions.",
+        "claim": "Дифференциалы наследства коррелируют с мужскими обязанностями содержания; женщины сохраняют махр и владеют имуществом. «Коран 2:282» — о конкретных финансовых договорах, не об интеллекте женщин.",
+        "case": "«Коран 4:32» — доли заработка; женщины наследуют как кораническое право, когда Аравия часто их исключала. Пакетная справедливость ≠ атомизированные тождественные дроби.",
         "sources": [
           {
-            "label": "Qur'an 4:32",
+            "label": "«Коран 4:32»",
             "url": "https://quran.com/4/32"
           },
           {
-            "label": "Qur'an 4:7",
+            "label": "«Коран 4:7»",
             "url": "https://quran.com/4/7"
           },
           {
-            "label": "Qur'an 2:282",
+            "label": "«Коран 2:282»",
             "url": "https://quran.com/2/282"
           }
         ],
         "quotes": [
           {
-            "text": "Allah instructs you concerning your children: for the male, what is equal to the share of two females.",
-            "who": "Qur'an 4:11",
-            "work": "Inheritance ratio",
-            "url": "https://quran.com/4/11"
+            "text": "Аллах заповедует вам относительно ваших детей: мужчине — доля, равная доле двух женщин.",
+            "who": "«Коран 4:11»",
+            "work": "Соотношение наследства",
+            "url": "https://quran.com/4/11",
+            "orig": "Allah instructs you concerning your children: for the male, what is equal to the share of two females."
           },
           {
-            "text": "And bring to witness two witnesses from among your men. And if there are not two men [available], then a man and two women from those whom you accept as witnesses…",
-            "who": "Qur'an 2:282",
-            "work": "Debt-contract testimony",
-            "url": "https://quran.com/2/282"
+            "text": "И призовите в свидетели двух свидетелей из ваших мужчин. Если не будет двух мужчин, то мужчину и двух женщин из тех, кого вы согласны признать свидетелями…",
+            "who": "«Коран 2:282»",
+            "work": "Свидетельство по долговому договору",
+            "url": "https://quran.com/2/282",
+            "orig": "And bring to witness two witnesses from among your men. And if there are not two men [available], then a man and two women from those whom you accept as witnesses…"
           }
         ],
         "data_points": [
           {
-            "fact": "Muslim defense: men owed nafaqa/mahr; shares are a system, not a one-verse insult. Critics: testimony still looks like a competence slight, and modern women also earn.",
-            "source": "Fiqh of nafaqa vs modern labor",
-            "label": "Muslim defense: men owed nafaqa/mahr; shares are a system, not a one-verse insult. Critics: testimony still looks like a competence slight, and modern women also earn.",
-            "note": "Fiqh of nafaqa vs modern labor"
+            "fact": "Мусульманская защита: мужчинам вменены нафака / махр; доли — система, не одноаятное оскорбление. Критики: свидетельство всё равно выглядит как укол по компетенции, а современные женщины тоже зарабатывают.",
+            "source": "Фикх нафаки vs современный труд",
+            "label": "Мусульманская защита: мужчинам вменены нафака / махр; доли — система, не одноаятное оскорбление. Критики: свидетельство всё равно выглядит как укол по компетенции, а современные женщины тоже зарабатывают.",
+            "note": "Фикх нафаки vs современный труд"
           }
         ]
       },
-      "counter_to_christian": "Premodern Christian law also restricted women's property and testimony in places.",
-      "counter_to_muslim": "Maintenance-duty rationale weakens where women are primary earners — adaptive pressure on the model.",
-      "crux": "Is package-deal financial justice still just when social economics change?",
-      "debate_use": "Ask: timeless ḥukm or ʿillah-based ruling open to reapplication?",
-      "why_it_matters": "Quantifiable legal inequality vs a financial-structure defense.",
+      "counter_to_christian": "Досовременное христианское право тоже ограничивало собственность и свидетельство женщин в местах.",
+      "counter_to_muslim": "Рационал обязанности содержания слабеет там, где женщины — основные кормильцы — адаптивное давление на модель.",
+      "crux": "Справедлива ли ещё пакетная финансовая справедливость, когда социальная экономика меняется?",
+      "debate_use": "Спросите: вневременной хукм или хукм на основе иллы, открытый к переприменению?",
+      "why_it_matters": "Измеримое правовое неравенство vs защита финансовой структуры.",
       "live": {
-        "if_they_say": "A woman's testimony is worth half.",
-        "you_say": "2:282 is a debt-document rule, not a universal IQ claim — grant that nuance. Then ask why the verse's reason ('that if one of the women errs, the other can remind her') isn't still a competence hierarchy, and how courts work today.",
-        "dont_overclaim": "Don't extend 2:282 to all testimony if fiqh doesn't. Don't pretend the verse is about parking tickets in Oslo."
+        "if_they_say": "Свидетельство женщины стоит половины.",
+        "you_say": "«Коран 2:282» — правило долгового документа, не универсальная претензия об IQ — признайте этот нюанс. Затем спросите, почему причина аята («если одна из женщин ошибётся, другая напомнит») всё же не иерархия компетенции и как суды работают сегодня.",
+        "dont_overclaim": "Не распространяйте «Коран 2:282» на всё свидетельство, если фикх этого не делает. Не делайте вид, что аят о парковочных штрафах в Осло."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "divorce-mahr",
       "rank": 5,
-      "cluster": "Family law",
-      "title": "Divorce initiative, mahr, and financial protection",
+      "cluster": "Семейное право",
+      "title": "Инициатива развода, махр и финансовая защита",
       "type": "law + ethics",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Easy male ṭalāq traditions (however regulated) create insecurity; Gospel marriage permanence better protects women from disposable marriage.",
-        "case": "Matthew 19; Catholic indissolubility. Critics highlight triple talaq abuses (even where reformed).",
+        "claim": "Традиции лёгкого мужского талака (как бы ни регулировались) создают небезопасность; евангельская прочность брака лучше защищает женщин от одноразового брака.",
+        "case": "Мф 19; католическая нерасторжимость. Критики выделяют злоупотребления тройным талаком (даже где реформирован).",
         "sources": [
           {
-            "label": "Matthew 19:3–9",
+            "label": "Мф 19:3–9",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+19%3A3-9&version=NRSVUE"
           },
           {
-            "label": "CCC on marriage indissolubility (overview)",
+            "label": "ККЦ о нерасторжимости брака (обзор)",
             "url": "https://www.vatican.va/archive/ENG0015/__P3V.HTM"
           }
         ],
         "quotes": [
           {
-            "text": "Whoever divorces his wife, except for sexual immorality, and marries another, commits adultery.",
-            "who": "Matthew 19:9",
-            "work": "Jesus on divorce (as Christian high bar)",
-            "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A9&version=NRSVUE"
+            "text": "Кто разведётся с женою своею не за прелюбодеяние и женится на другой, тот прелюбодействует.",
+            "who": "Мф 19:9",
+            "work": "Иисус о разводе (как христианская высокая планка)",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%2019%3A9&version=NRSVUE",
+            "orig": "Whoever divorces his wife, except for sexual immorality, and marries another, commits adultery."
           }
         ]
       },
       "muslim": {
-        "claim": "Mahr, waiting periods, financial rights, and khulʿ give women tools; absolute indissolubility can trap women in abuse. Qur'an regulates divorce rather than romanticizing permanence only.",
-        "case": "2:228–232; 4:35 arbitration. Christian annulment/pastoral practice often recreates exit ramps while denying the name divorce.",
+        "claim": "Махр, сроки ожидания, финансовые права и хуль дают женщинам инструменты; абсолютная нерасторжимость может запирать женщин в насилии. Коран регулирует развод, а не только романтизирует прочность.",
+        "case": "«Коран 2:228–232»; «Коран 4:35» — арбитраж. Христианская практика аннулирования / пастырства часто воссоздаёт выходы, отрицая имя «развод».",
         "sources": [
           {
-            "label": "Qur'an 2:228–232",
+            "label": "«Коран 2:228»–232",
             "url": "https://quran.com/2/228-232"
           },
           {
-            "label": "Qur'an 4:35",
+            "label": "«Коран 4:35»",
             "url": "https://quran.com/4/35"
           }
         ],
         "quotes": [
           {
-            "text": "And give the women [upon marriage] their [bridal] gifts graciously.",
-            "who": "Qur'an 4:4",
-            "work": "Mahr as her property",
-            "url": "https://quran.com/4/4"
+            "text": "И давайте женщинам [при браке] их [брачные] дары по доброй воле.",
+            "who": "«Коран 4:4»",
+            "work": "Махр как её собственность",
+            "url": "https://quran.com/4/4",
+            "orig": "And give the women [upon marriage] their [bridal] gifts graciously."
           }
         ]
       },
-      "counter_to_christian": "Protestant divorce culture undercuts 'permanence protects women' as a live universal.",
-      "counter_to_muslim": "Asymmetric initiation rights still matter even with mahr.",
-      "crux": "Which harm is worse: disposable marriage or inescapable marriage?",
-      "debate_use": "Use abuse-case hypotheticals on both systems.",
-      "why_it_matters": "Islamic family law's best 'protection' card vs ṭalāq asymmetry.",
+      "counter_to_christian": "Протестантская культура развода подрывает «прочность защищает женщин» как живую универсалию.",
+      "counter_to_muslim": "Асимметричные права инициативы всё равно имеют значение даже с махром.",
+      "crux": "Какой вред хуже: одноразовый брак или невыходимый брак?",
+      "debate_use": "Используйте гипотезы случаев насилия в обеих системах.",
+      "why_it_matters": "Лучшая «защитная» карта исламского семейного права vs асимметрия талака.",
       "live": {
-        "if_they_say": "Islam makes divorce easy for men and traps women.",
-        "you_say": "Ṭalāq is historically easier for the husband; khulʿ and mahr are the counter-institutions. Jesus' divorce ethic is stricter for both — then look at Christian civil divorce rates. Law vs culture, again.",
-        "dont_overclaim": "Don't say Muslim women cannot divorce. Don't say Matthew 19 is how all churches operate."
+        "if_they_say": "Ислам делает развод лёгким для мужчин и запирает женщин.",
+        "you_say": "Талак исторически легче для мужа; хуль и махр — контр-институты. Этика развода Иисуса строже для обоих — затем посмотрите на христианские гражданские уровни развода. Снова право vs культура.",
+        "dont_overclaim": "Не говорите, что мусульманки не могут развестись. Не говорите, что Мф 19 — как работают все церкви."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "modesty-veiling",
       "rank": 6,
-      "cluster": "Social norms",
-      "title": "Modesty, hijab, and control of women's bodies",
+      "cluster": "Социальные нормы",
+      "title": "Скромность, хиджаб и контроль над телами женщин",
       "type": "ethics + culture",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Compulsory covering regimes and gender segregation often police women unequally; Gospel freedom of conscience resists sacralized dress coercion.",
-        "case": "24:31; 33:59 debates. State enforcement (where present) is the moral issue. 1 Cor 11 hair covering is usually not state law in Christianity.",
+        "claim": "Режимы обязательного покрытия и гендерной сегрегации часто полицейски неравны к женщинам; евангельская свобода совести сопротивляется сакрализованному принуждению в одежде.",
+        "case": "Споры о «Коран 24:31»; «Коран 33:59». Государственное принуждение (где есть) — моральный вопрос. Покрытие волос в 1 Кор 11 обычно не государственное право в христианстве.",
         "sources": [
           {
-            "label": "Qur'an 24:30–31",
+            "label": "«Коран 24:30»–31",
             "url": "https://quran.com/24/30-31"
           },
           {
-            "label": "Qur'an 33:59",
+            "label": "«Коран 33:59»",
             "url": "https://quran.com/33/59"
           },
           {
-            "label": "1 Corinthians 11:5–6",
+            "label": "1 Кор 11:5–6",
             "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+11%3A5-6&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "…if a woman will not veil herself, then she should cut off her hair…",
-            "who": "1 Corinthians 11:6",
-            "work": "Pauline head-covering (as tu quoque / shared modesty)",
-            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2011%3A6&version=NRSVUE"
+            "text": "…если жена не хочет покрываться, то пусть и стрижётся…",
+            "who": "1 Кор 11:6",
+            "work": "Павлово покрытие головы (как tu quoque / общая скромность)",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2011%3A6&version=NRSVUE",
+            "orig": "…if a woman will not veil herself, then she should cut off her hair…"
           }
         ]
       },
       "muslim": {
-        "claim": "Hijab can be piety and anti-objectification; Qur'an also commands male lowering of gaze. Christian purity culture and dress norms also regulated women historically.",
-        "case": "24:30 before 24:31. Agency-affirming Muslim women defend covering as liberation from market sexualization — contested, but not reducible to 'oppression' alone.",
+        "claim": "Хиджаб может быть благочестием и антиобъективацией; Коран также повелевает мужчинам понижать взор. Христианская культура чистоты и нормы одежды тоже исторически регулировали женщин.",
+        "case": "«Коран 24:30» перед «Коран 24:31». Мусульманки, утверждающие агентность, защищают покрытие как освобождение от рыночной сексуализации — спорно, но несводимо к одному «угнетению».",
         "sources": [
           {
-            "label": "Qur'an 24:30–31",
+            "label": "«Коран 24:30»–31",
             "url": "https://quran.com/24/30-31"
           },
           {
-            "label": "Yaqeen / Muslim women scholarship on hijab debates",
+            "label": "Yaqeen / мусульманская женская учёность о спорах о хиджабе",
             "url": "https://yaqeeninstitute.org/"
           }
         ],
         "quotes": [
           {
-            "text": "…tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments.",
-            "who": "Qur'an 33:59",
-            "work": "Jilbāb verse",
-            "url": "https://quran.com/33/59"
+            "text": "…скажи своим жёнам, своим дочерям и женщинам верующих, чтобы они опускали на себя [часть] своих верхних одежд.",
+            "who": "«Коран 33:59»",
+            "work": "Аят о джильбабе",
+            "url": "https://quran.com/33/59",
+            "orig": "…tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments."
           }
         ]
       },
-      "counter_to_christian": "Conflating voluntary hijab with state coercion is dishonest.",
-      "counter_to_muslim": "Where covering is coerced, 'choice' apologetics fail.",
-      "crux": "Is the moral issue the garment, the asymmetry, or the enforcement?",
-      "debate_use": "Separate: (1) voluntary piety (2) social pressure (3) state law.",
-      "why_it_matters": "Visual politics. Need 24:31, 33:59, 1 Cor 11 on the table.",
+      "counter_to_christian": "Смешивать добровольный хиджаб с государственным принуждением нечестно.",
+      "counter_to_muslim": "Где покрытие принуждено, апологетика «выбора» проваливается.",
+      "crux": "Моральный вопрос — одежда, асимметрия или принуждение?",
+      "debate_use": "Разделите: (1) добровольное благочестие (2) социальное давление (3) государственное право.",
+      "why_it_matters": "Визуальная политика. Нужны «Коран 24:31», «Коран 33:59», 1 Кор 11 на столе.",
       "live": {
-        "if_they_say": "Hijab is oppression unique to Islam.",
-        "you_say": "33:31/33:59 are the texts. 1 Cor 11 is the Christian cousin. The distinctive fight is state compulsion vs voluntary piety, and whether covering is a salvation issue.",
-        "dont_overclaim": "Don't say the Qur'an requires a specific Saudi niqab. Don't say Paul is irrelevant because your church skipped it."
+        "if_they_say": "Хиджаб — угнетение, уникальное для ислама.",
+        "you_say": "Тексты — 33:59 / 24:31. 1 Кор 11 — христианский родственник. Отличительный спор — государственное принуждение vs добровольное благочестие и является ли покрытие вопросом спасения.",
+        "dont_overclaim": "Не говорите, что Коран требует конкретный саудовский никаб. Не говорите, что Павел нерелевантен, потому что ваша церковь его пропустила."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "leadership",
       "rank": 7,
-      "cluster": "Authority",
-      "title": "Religious leadership and female authority",
+      "cluster": "Власть",
+      "title": "Религиозное руководство и женская власть",
       "type": "theology + law",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "While Catholicism/Orthodoxy restrict priesthood, many Christian bodies ordain women; Islam's classical imamate of men for mixed prayer is a harder ceiling.",
-        "case": "Galatians 3:28 as trajectory text; Romans 16 women coworkers. Intra-Christian debate is real — and that flexibility is itself a point.",
+        "claim": "Хотя католичество / православие ограничивают священство, многие христианские тела рукополагают женщин; классический имамат мужчин для смешанной молитвы в исламе — более жёсткий потолок.",
+        "case": "Гал 3:28 как текст траектории; Рим 16 — женщины-сотрудницы. Внутрихристианский спор реален — и эта гибкость сама по себе пункт.",
         "sources": [
           {
-            "label": "Galatians 3:28",
+            "label": "Гал 3:28",
             "url": "https://www.biblegateway.com/passage/?search=Galatians+3%3A28&version=NRSVUE"
           },
           {
-            "label": "Romans 16:1–7",
+            "label": "Рим 16:1–7",
             "url": "https://www.biblegateway.com/passage/?search=Romans+16%3A1-7&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "I permit no woman to teach or to have authority over a man; she is to keep silent.",
-            "who": "1 Timothy 2:12",
-            "work": "Restriction text",
-            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%202%3A12&version=NRSVUE"
+            "text": "А учить жене не позволяю, ни властвовать над мужем, но быть в безмолвии.",
+            "who": "1 Тим 2:12",
+            "work": "Текст ограничения",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%202%3A12&version=NRSVUE",
+            "orig": "I permit no woman to teach or to have authority over a man; she is to keep silent."
           }
         ]
       },
       "muslim": {
-        "claim": "Women transmitted hadith, taught, and influenced law; spiritual equality is explicit. Ritual leadership rules are not a verdict on worth — and Christian traditions also bar women priests.",
-        "case": "Aisha's authority; 33:35. Compare like with like: Vatican vs classical fiqh, not egalitarian Protestants vs Taliban.",
+        "claim": "Женщины передавали хадисы, учили и влияли на право; духовное равенство явно. Правила ритуального руководства — не вердикт о ценности — и христианские традиции тоже не допускают женщин-священников.",
+        "case": "Авторитет Аиши; «Коран 33:35». Сравнивайте подобное с подобным: Ватикан vs классический фикх, не эгалитарных протестантов vs талибов.",
         "sources": [
           {
-            "label": "Qur'an 33:35",
+            "label": "«Коран 33:35»",
             "url": "https://quran.com/33/35"
           },
           {
-            "label": "CCC on holy orders (male only)",
+            "label": "ККЦ о священном сане (только мужчины)",
             "url": "https://www.vatican.va/archive/ENG0015/__P4K.HTM"
           }
         ],
         "data_points": [
           {
-            "fact": "Hadith 'a people who appoint a woman as their leader will never succeed' is the staple restriction text (Bukhari 7099).",
+            "fact": "Хадис «народ, поставивший женщину правителем, не преуспеет» — стандартный текст ограничения (Бухари 7099).",
             "source": "https://sunnah.com/bukhari:7099",
-            "label": "Hadith 'a people who appoint a woman as their leader will never succeed' is the staple restriction text (Bukhari 7099).",
+            "label": "Хадис «народ, поставивший женщину правителем, не преуспеет» — стандартный текст ограничения (Бухари 7099).",
             "note": "https://sunnah.com/bukhari:7099"
           }
         ]
       },
-      "counter_to_christian": "Cherry-picking egalitarian denominations avoids the historic majority position.",
-      "counter_to_muslim": "Scholarly women ≠ interchangeable ritual/public authority in classical law.",
-      "crux": "Is unequal cultic authority an injustice or a role differentiation compatible with equal worth?",
-      "debate_use": "Name the Christian comparator church before claiming victory.",
-      "why_it_matters": "Imamate, priesthood, and 1 Tim 2 vs female monarchs and ʿĀʾisha at the Camel.",
+      "counter_to_christian": "Выборка эгалитарных деноминаций обходит историческую позицию большинства.",
+      "counter_to_muslim": "Учёные женщины ≠ взаимозаменяемая ритуальная / публичная власть в классическом праве.",
+      "crux": "Неравная культовая власть — несправедливость или ролевая дифференциация, совместимая с равной ценностью?",
+      "debate_use": "Назовите церковь-компаратор, прежде чем претендовать на победу.",
+      "why_it_matters": "Имамат, священство и 1 Тим 2 vs женщины-монархи и Аиша при Верблюде.",
       "live": {
-        "if_they_say": "Islam forbids female leaders; Christianity doesn't.",
-        "you_say": "Bukhari 7099 vs 1 Timothy 2: both traditions have restriction texts and exception histories (Deborah, ʿĀʾisha, Elizabeth I, Benazir). Score texts, majority fiqh/canon law, and present practice separately.",
-        "dont_overclaim": "Don't erase Deborah. Don't erase female heads of Muslim-majority states as if fiqh vanished."
+        "if_they_say": "Ислам запрещает женщин-лидеров; христианство — нет.",
+        "you_say": "Бухари 7099 vs 1 Тим 2: у обеих традиций есть тексты ограничения и истории исключений (Девора, Аиша, Елизавета I, Беназир). Оценивайте тексты, большинство фикха / канона и нынешнюю практику раздельно.",
+        "dont_overclaim": "Не стирайте Девору. Не стирайте женщин во главе мусульманских государств так, будто фикх исчез."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "sexual-ethics",
       "rank": 8,
-      "cluster": "Sexual ethics",
-      "title": "Consent, zina, and double standards",
+      "cluster": "Сексуальная этика",
+      "title": "Согласие, зина и двойные стандарты",
       "type": "ethics + law",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Hudūd for zina and classical evidentiary asymmetries risk cruel outcomes for women; Jesus' handling of the accused woman (John 7:53–8:11 tradition) models mercy.",
-        "case": "Even bracketing authenticity debates on the pericope adulterae, the canonical ethos prioritizes mercy over stoning dramas.",
+        "claim": "Худуд за зину и классические доказательные асимметрии рискуют жестокими исходами для женщин; обращение Иисуса с обвинённой женщиной (традиция Ин 7:53–8:11) моделирует милость.",
+        "case": "Даже отставляя споры об аутентичности перикопы о прелюбодейке, канонический этос ставит милость выше драм побивания камнями.",
         "sources": [
           {
-            "label": "John 7:53–8:11",
+            "label": "Ин 7:53–8:11",
             "url": "https://www.biblegateway.com/passage/?search=John+7%3A53-8%3A11&version=NRSVUE"
           },
           {
-            "label": "Qur'an 24:2",
+            "label": "«Коран 24:2»",
             "url": "https://quran.com/24/2"
           }
         ]
       },
       "muslim": {
-        "claim": "Qur'an 24 requires four witnesses for zina — high bar protecting against false accusation; qadhf punishment for slanderers. Christian purity culture shamed women without due process too.",
-        "case": "24:4–9. Moral seriousness about sex is not misogyny per se; ask about male accountability.",
+        "claim": "«Коран 24» требует четырёх свидетелей для зины — высокая планка против ложного обвинения; наказание казф для клеветников. Христианская культура чистоты тоже стыдила женщин без должной процедуры.",
+        "case": "«Коран 24:4–9». Моральная серьёзность о сексе сама по себе не женоненавистничество; спросите об ответственности мужчин.",
         "sources": [
           {
-            "label": "Qur'an 24:2–9",
+            "label": "«Коран 24:2»–9",
             "url": "https://quran.com/24/2-9"
           },
           {
-            "label": "Qur'an 17:32",
+            "label": "«Коран 17:32»",
             "url": "https://quran.com/17/32"
           }
         ]
       },
-      "counter_to_christian": "John pericope textual status is disputed; don't rest the case only there.",
-      "counter_to_muslim": "In practice, pregnancy sometimes functioned as evidence against women unevenly.",
-      "crux": "Do high evidentiary bars and hudūd protect or endanger women in real courts?",
-      "debate_use": "Distinguish classical ideal procedure from abusive modern implementations.",
-      "why_it_matters": "Zina, consent, and double standards. Overlaps slavery's concubinage fight.",
+      "counter_to_christian": "Текстовый статус перикопы Иоанна спорен; не ставьте весь кейс только туда.",
+      "counter_to_muslim": "На практике беременность иногда функционировала как доказательство против женщин неравно.",
+      "crux": "Высокие доказательные планки и худуд защищают или подвергают женщин опасности в реальных судах?",
+      "debate_use": "Различайте классиальную идеальную процедуру и злоупотребительные современные реализации.",
+      "why_it_matters": "Зина, согласие и двойные стандарты. Пересекается со спором о наложничестве в рабстве.",
       "live": {
-        "if_they_say": "Islam is obsessed with controlling female sexuality.",
-        "you_say": "Both canons police sex. Put zina ḥadd, John 8, and 1 Cor 6 on the table. The distinctive Islamic texts are 24:2, 4:15–16, and slave-concubinage. Distinctive Christian fights are later purity culture vs Jesus and the accused woman.",
-        "dont_overclaim": "Don't make John 8 the whole NT ethic if your tradition also ran Magdalene asylums."
+        "if_they_say": "Ислам одержим контролем женской сексуальности.",
+        "you_say": "Оба канона полицейски регулируют секс. Положите хадд зины, Ин 8 и 1 Кор 6 на стол. Отличительные исламские тексты — «Коран 24:2», «Коран 4:15–16» и рабыни-наложницы. Отличительные христианские споры — поздняя культура чистоты vs Иисус и обвинённая женщина.",
+        "dont_overclaim": "Не делайте Ин 8 всей этикой НЗ, если ваша традиция также вела приюты Магдалины."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "mary-maryam",
       "rank": 9,
-      "cluster": "Founding examples",
-      "title": "Mary / Maryam as honor paradigm",
+      "cluster": "Основательские примеры",
+      "title": "Мария / Марьям как парадигма почёта",
       "type": "theology + narrative",
-      "popularity": "Medium-high",
+      "popularity": "Средне-высокая",
       "christian": {
-        "claim": "Mary as Theotokos and model disciple gives women maximal theological honor inside salvation history — not a side character.",
-        "case": "Luke 1; Catholic/Orthodox Marian devotion. Critics of Islam note rejection of divine maternity language while still honoring Maryam.",
+        "claim": "Мария как Богородица и образцовая ученица даёт женщинам максимальный богословский почёт внутри истории спасения — не побочный персонаж.",
+        "case": "Лк 1; католическое / православное марианское благочестие. Критики ислама отмечают отказ от языка божественного материнства при всё же почёте Марьям.",
         "sources": [
           {
-            "label": "Luke 1:26–56",
+            "label": "Лк 1:26–56",
             "url": "https://www.biblegateway.com/passage/?search=Luke+1%3A26-56&version=NRSVUE"
           },
           {
-            "label": "CCC on Mary",
+            "label": "ККЦ о Марии",
             "url": "https://www.vatican.va/archive/ENG0015/__P2C.HTM"
           }
         ]
       },
       "muslim": {
-        "claim": "Maryam has a Qur'anic sūrah; chosen above women of the worlds (3:42); honor without goddess confusion — cleaner exaltation.",
-        "case": "3:42; 19. Muslims argue Christian Marian excesses prove the need for tawhid-safe honor.",
+        "claim": "У Марьям есть кораническая сура; избрана над женщинами миров («Коран 3:42»); почёт без путаницы с богиней — более чистое возвышение.",
+        "case": "«Коран 3:42»; «Коран 19». Мусульмане утверждают, что христианские марианские избытки доказывают нужду в таухид-безопасном почёте.",
         "sources": [
           {
-            "label": "Qur'an 3:42",
+            "label": "«Коран 3:42»",
             "url": "https://quran.com/3/42"
           },
           {
-            "label": "Qur'an 19",
+            "label": "Коран 19",
             "url": "https://quran.com/19"
           }
         ],
         "quotes": [
           {
-            "text": "O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds.",
-            "who": "Qur'an 3:42",
-            "work": "Maryam's election",
-            "url": "https://quran.com/3/42"
+            "text": "О Марьям! Воистину, Аллах избрал тебя, очистил тебя и избрал тебя над женщинами миров.",
+            "who": "«Коран 3:42»",
+            "work": "Избрание Марьям",
+            "url": "https://quran.com/3/42",
+            "orig": "O Mary, indeed Allah has chosen you and purified you and chosen you above the women of the worlds."
           }
         ]
       },
-      "counter_to_christian": "Honoring Mary coexisted with denying women leadership for centuries.",
-      "counter_to_muslim": "Theological honor ≠ equal legal agency in marriage/divorce.",
-      "crux": "Does exalted female sacred biography predict just gender law?",
-      "debate_use": "Treat as supporting color, not the main legal case.",
-      "why_it_matters": "Honor overlap. Muslims will quote 3:42; Christians will say honor ≠ legal equality.",
+      "counter_to_christian": "Почёт Марии сосуществовал с отказом женщинам в руководстве веками.",
+      "counter_to_muslim": "Богословский почёт ≠ равная правовая агентность в браке / разводе.",
+      "crux": "Предсказывает ли возвышенная женская священная биография справедливое гендерное право?",
+      "debate_use": "Трактуйте как поддерживающий цвет, не главный правовой кейс.",
+      "why_it_matters": "Перекрытие почёта. Мусульмане процитируют «Коран 3:42»; христиане скажут: почёт ≠ правовое равенство.",
       "live": {
-        "if_they_say": "Islam honors Mary more than Christians do.",
-        "you_say": "3:42 is extraordinary honor. Catholic/Orthodox Marian piety is also extraordinary. Neither automatically yields inheritance law or courtroom standing. Don't confuse liturgical honor with rights.",
-        "dont_overclaim": "Don't say Muslims worship Mary (5:116 is a polemic, not a self-description). Don't say Protestants have no Mary."
+        "if_they_say": "Ислам чтит Марию больше, чем христиане.",
+        "you_say": "«Коран 3:42» — чрезвычайный почёт. Католическое / православное марианское благочестие тоже чрезвычайное. Ни то ни другое автоматически не даёт наследственного права или положения в суде. Не путайте литургический почёт с правами.",
+        "dont_overclaim": "Не говорите, что мусульмане поклоняются Марии («Коран 5:116» — полемика, не самоописание). Не говорите, что у протестантов нет Марии."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "modern-outcomes",
       "rank": 10,
-      "cluster": "Modernity",
-      "title": "Modern outcomes and reform pathways",
+      "cluster": "Современность",
+      "title": "Современные исходы и пути реформы",
       "type": "ethics + sociology",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Societies shaped by Christian reform movements earliest delivered women's suffrage and legal equality; Islamic family-law reform often lags where classical fiqh is state law.",
-        "case": "Correlation ≠ simple causation, but Christian hermeneutical flexibility on gender has wider mainstream institutional expression today.",
+        "claim": "Общества, сформированные христианскими реформаторскими движениями, раньше всего дали женское избирательное право и правовое равенство; реформа исламского семейного права часто отстаёт там, где классический фикх — государственное право.",
+        "case": "Корреляция ≠ простая причинность, но христианская герменевтическая гибкость по гендеру сегодня имеет более широкое мейнстримное институциональное выражение.",
         "sources": [
           {
-            "label": "UN / World Bank gender data portals (comparative)",
+            "label": "Порталы гендерных данных ООН / Всемирного банка (сравнительные)",
             "url": "https://genderdata.worldbank.org/"
           }
         ]
       },
       "muslim": {
-        "claim": "Colonialism, oil politics, and dictatorship explain much; Islam itself enabled property rights earlier than Europe. Muslim feminists reclaim texts against patriarchy.",
-        "case": "Amina Wadud / progressive tafsir currents; majority-Muslim countries vary widely. Essentializing 'Islam' from worst states is bigotry dressed as debate.",
+        "claim": "Колониализм, нефтяная политика и диктатура объясняют многое; сам ислам дал имущественные права раньше Европы. Мусульманские феминистки возвращают тексты против патриархата.",
+        "case": "Течения прогрессивного тафсира Амины Вадуд; страны с мусульманским большинством сильно различаются. Эссенциализировать «ислам» по худшим государствам — ксенофобия в одежде дебата.",
         "sources": [
           {
-            "label": "Qur'an 4:32",
+            "label": "«Коран 4:32»",
             "url": "https://quran.com/4/32"
           },
           {
-            "label": "World Bank gender data",
+            "label": "Гендерные данные Всемирного банка",
             "url": "https://genderdata.worldbank.org/"
           }
         ]
       },
-      "counter_to_christian": "Secularization and liberal philosophy, not Nicene dogma alone, drove many reforms.",
-      "counter_to_muslim": "If variance is huge, opponents may still ask which textual defaults resist equality.",
-      "crux": "How much may modern outcomes count in a scripture-and-tradition debate?",
-      "debate_use": "Cap sociology at 2 minutes unless motion is about contemporary policy.",
-      "why_it_matters": "Indices, not verses — easy to abuse, still part of public debate.",
+      "counter_to_christian": "Секуляризация и либеральная философия, не одна никейская догма, двинули многие реформы.",
+      "counter_to_muslim": "Если разброс огромен, оппоненты всё равно могут спросить, какие текстовые умолчания сопротивляются равенству.",
+      "crux": "Насколько современные исходы могут считаться в споре о Писании и традиции?",
+      "debate_use": "Ограничьте социологию двумя минутами, если резолюция не о современной политике.",
+      "why_it_matters": "Индексы, не аяты — легко злоупотребить, всё ещё часть публичного спора.",
       "live": {
-        "if_they_say": "Look at women's rights indices: Christian countries win.",
-        "you_say": "Many high-scoring states are post-Christian liberal, not Sermon-on-the-Mount jurisdictions. Many low-scoring states mix oil autocracy, custom, and fiqh. Use data, then ask which texts still resist reform.",
-        "dont_overclaim": "Don't treat UNDP as a tafsīr. Don't treat a pious village as Sweden."
+        "if_they_say": "Смотрите индексы прав женщин: христианские страны побеждают.",
+        "you_say": "Многие высокорейтинговые государства — постхристианские либеральные, не юрисдикции Нагорной проповеди. Многие низкорейтинговые смешивают нефтяную автократию, обычай и фикх. Используйте данные, затем спросите, какие тексты всё ещё сопротивляются реформе.",
+        "dont_overclaim": "Не трактуйте ПРООН как тафсир. Не трактуйте благочестивую деревню как Швецию."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     }
   ],
   "materials": [],
   "debates": [],
   "opponent_cards": [
     {
-      "trigger": "Islam hates women — look at 4:34",
-      "fast_answer": "Steelman first: spiritual equality texts, property rights, anti-abuse readings. Then press what ḍarb authorized.",
-      "follow_up": "Ask for their tafsir, not only a meme translation.",
+      "trigger": "Ислам ненавидит женщин — смотрите 4:34",
+      "fast_answer": "Сначала стальман: тексты духовного равенства, имущественные права, чтения против насилия. Затем нажимайте, что санкционировал дарб.",
+      "follow_up": "Попросите их тафсир, не только мем-перевод.",
       "sources": [
         "https://quran.com/4/34",
         "https://quran.com/33/35"
       ]
     },
     {
-      "trigger": "Christianity liberated women; Jesus vs Muhammad",
-      "fast_answer": "Grant Gospel dignity moves. Then ask about 1 Tim 2, Eph 5, and centuries without women's rights.",
-      "follow_up": "Force same-genre comparison: law vs law.",
+      "trigger": "Христианство освободило женщин; Иисус vs Мухаммад",
+      "fast_answer": "Признайте евангельские ходы достоинства. Затем спросите о 1 Тим 2, Еф 5 и веках без прав женщин.",
+      "follow_up": "Вынудите сравнение одного жанра: право vs право.",
       "sources": [
-        "Ephesians 5",
-        "1 Timothy 2:11–15"
+        "Еф 5",
+        "1 Тим 2:11–15"
       ]
     },
     {
-      "trigger": "Muslims can have four wives",
-      "fast_answer": "Conditional permission + justice requirement + 4:129. Still defend/critique the asymmetry honestly.",
-      "follow_up": "Mention OT polygyny if Christian uniqueness is claimed.",
+      "trigger": "Мусульманам можно четыре жены",
+      "fast_answer": "Условное разрешение + требование справедливости + «Коран 4:129». Всё равно честно защищайте / критикуйте асимметрию.",
+      "follow_up": "Упомяните ветхозаветную полигинию, если претендуют на христианскую уникальность.",
       "sources": [
         "https://quran.com/4/3",
         "https://quran.com/4/129"
       ]
     },
     {
-      "trigger": "Women are deficient in intelligence (hadith)",
-      "fast_answer": "Widely cited; contested in interpretation (legal testimony context vs ontology). Don't pretend it isn't a problem passage.",
-      "follow_up": "Pair with Qur'anic intellectual agency examples; ask opponent's ḥadīth hermeneutic.",
+      "trigger": "Женщины ущербны в разуме (хадис)",
+      "fast_answer": "Широко цитируется; толкование спорно (контекст правового свидетельства vs онтология). Не делайте вид, что это не проблемный пассаж.",
+      "follow_up": "Соедините с кораническими примерами интеллектуальной агентности; спросите герменевтику хадиса оппонента.",
       "sources": [
-        "Bukhari 304 discussions",
+        "обсуждения Бухари 304",
         "https://quran.com/2/282"
       ]
     },
     {
-      "trigger": "Hijab is oppression",
-      "fast_answer": "Specify voluntary vs coerced. Critique coercion; don't erase believing women's agency.",
-      "follow_up": "Ask if they also call nuns' habits oppression.",
+      "trigger": "Хиджаб — угнетение",
+      "fast_answer": "Уточните добровольный vs принуждённый. Критикуйте принуждение; не стирайте агентность верующих женщин.",
+      "follow_up": "Спросите, называют ли они также угнетением монашеские облачения.",
       "sources": [
         "https://quran.com/24/31"
       ]
     },
     {
-      "trigger": "Galatians 3:28 settles Christian egalitarianism",
-      "fast_answer": "Powerful trajectory text — and complementarians restrict it to salvation status. Don't overclaim consensus.",
-      "follow_up": "Ask Catholic/Orthodox interlocutors about orders.",
+      "trigger": "Гал 3:28 закрывает христианский эгалитаризм",
+      "fast_answer": "Сильный текст траектории — и комплементаристы ограничивают его статусом спасения. Не переигрывайте консенсус.",
+      "follow_up": "Спросите католических / православных собеседников о сане.",
       "sources": [
-        "https://www.biblegateway.com/passage/?search=Galatians+3%3A28&version=NRSVUE"
+        "https://www.biblegateway.com/passage/?search=Гал+3%3A28&version=NRSVUE"
       ]
     },
     {
-      "trigger": "Women inherit half, so they are half worth",
-      "fast_answer": "Classical ʿillah: financial obligations differ. Challenge whether that package still fits — without the 'half person' slur.",
-      "follow_up": "Ask about female-only estates and other cases where shares equalize.",
+      "trigger": "Женщины наследуют половину, значит они половина ценности",
+      "fast_answer": "Классическая илла: финансовые обязанности различны. Оспаривайте, подходит ли ещё этот пакет — без клейма «половина человека».",
+      "follow_up": "Спросите о имениях только женщин и других случаях, где доли выравниваются.",
       "sources": [
         "https://quran.com/4/11",
         "https://quran.com/4/7"
       ]
     },
     {
-      "trigger": "Aisha was a child bride",
-      "fast_answer": "Hadith reports are central and morally explosive by modern standards; historicize carefully without glib dismissal or unique demonization (ancient marriage ages elsewhere).",
-      "follow_up": "Keep focus on enduring law if motion is systemic ethics.",
+      "trigger": "Аиша была ребёнком-невестой",
+      "fast_answer": "Сообщения хадисов центральны и морально взрывны по современным стандартам; историзируйте осторожно, без лёгкого отмахивания и без уникальной демонизации (древние брачные возраста были и в другом месте).",
+      "follow_up": "Держите фокус на длящемся праве, если резолюция — системная этика.",
       "sources": [
-        "Bukhari marriage-age reports",
-        "historical demography caution"
+        "сообщения Бухари о возрасте брака",
+        "осторожность исторической демографии"
       ]
     },
     {
-      "trigger": "Mary proves Islam honors women more",
-      "fast_answer": "Qur'an honors Maryam highly. Honor ≠ equal divorce/testimony rights. Don't let poetry replace law.",
-      "follow_up": "Affirm 3:42 then return to 4:34/4:3.",
+      "trigger": "Мария доказывает, что ислам чтит женщин больше",
+      "fast_answer": "Коран высоко чтит Марьям. Почёт ≠ равные права развода / свидетельства. Не дайте поэзии заменить право.",
+      "follow_up": "Подтвердите «Коран 3:42», затем вернитесь к 4:34/4:3.",
       "sources": [
         "https://quran.com/3/42"
       ]
     },
     {
-      "trigger": "Christianity invented patriarchy",
-      "fast_answer": "Patriarchy is older than both. Score reforms and residuals in each system.",
-      "follow_up": "Ask for the earliest legal right each scripture clearly grants women.",
+      "trigger": "Христианство изобрело патриархат",
+      "fast_answer": "Патриархат старше обеих. Оценивайте реформы и остатки в каждой системе.",
+      "follow_up": "Попросите самое раннее правовое право, которое каждое Писание ясно даёт женщинам.",
       "sources": [
-        "Comparative ancient Near East / late antique law"
+        "Сравнительное древнеближневосточное / позднеантичное право"
       ]
     }
   ],
   "checklist": [
-    "Define equality vs identical legal roles in opening",
-    "Comparison class: Gospels vs sīrah? Canon law vs fiqh? Modern majorities?",
-    "Master 33:35, 4:3, 4:34, 4:11, 2:282 and John 20 / Matt 19 / Eph 5",
-    "Prepare steelman of 4:34 constraint readings before attacking",
-    "Prepare steelman of Christian historical patriarchy before praising Jesus",
-    "Separate hijab piety from state coercion",
-    "Decide concessions on both sides (name two each)",
-    "Drill opponent cards; avoid cheap 'Islam hates women' openers",
-    "Timebox Aisha age debate unless specifically raised",
-    "Closing on crux: package justice vs equal civic personhood",
-    "Bring one feminist Muslim scholarly source and one complementarian Christian source",
-    "No outcome Olympics without data standards"
+    "В открытии определите равенство vs тождественные правовые роли",
+    "Класс сравнения: Евангелия vs сира? Канон vs фикх? Современные большинства?",
+    "Овладейте «Коран 33:35», «Коран 4:3», «Коран 4:34», «Коран 4:11», «Коран 2:282» и Ин 20 / Мф 19 / Еф 5",
+    "Подготовьте стальман ограничивающих чтений 4:34, прежде чем атаковать",
+    "Подготовьте стальман христианского исторического патриархата, прежде чем хвалить Иисуса",
+    "Отделите благочестие хиджаба от государственного принуждения",
+    "Решите уступки обеих сторон (назовите по две)",
+    "Отработайте карточки оппонента; избегайте дешёвых открытий «ислам ненавидит женщин»",
+    "Ограничьте спор о возрасте Аиши, пока специально не поднят",
+    "Заключение на сути: пакетная справедливость vs равная гражданская личность",
+    "Принесите один феминистский мусульманский учёный источник и один комплементаристский христианский",
+    "Никакой олимпиады исходов без стандартов данных"
   ],
   "positive_cases": {
-    "Christian podium": [
-      "Jesus' discipleship of women and resurrection witness pattern",
-      "Monogamy trajectory and husband-love ethic as marital ideal",
-      "Wider modern institutional path to women's ordination/legal equality in many churches",
-      "Hard problems in 4:34, polygyny, and asymmetric family law"
+    "Христианская кафедра": [
+      "Ученичество женщин у Иисуса и образец свидетельства воскресения",
+      "Траектория моногамии и этика любви мужа как брачный идеал",
+      "Более широкий современный институциональный путь к рукоположению женщин / правовому равенству во многих церквях",
+      "Трудные проблемы в 4:34, полигинии и асимметричном семейном праве"
     ],
-    "Muslim podium": [
-      "Explicit spiritual equality (33:35) and property/inheritance rights as reform",
-      "Mahr, consent norms, and divorce regulation as material protections",
-      "Maryam's Qur'anic honor without deification",
-      "Christian household codes and historic legal patriarchy block innocence narratives"
+    "Мусульманская кафедра": [
+      "Явное духовное равенство («Коран 33:35») и имущественные / наследственные права как реформа",
+      "Махр, нормы согласия и регулирование развода как материальные защиты",
+      "Коранический почёт Марьям без обожествления",
+      "Христианские домашние кодексы и исторический правовой патриархат блокируют нарративы невинности"
     ],
-    "Unity / steelman": [
-      "Both inherit late-antique patriarchy; ask who reforms what and how",
-      "Refuse comparisons that stack best Jesus stories against worst Muslim regimes",
-      "Center women's agency voices from both traditions",
-      "Distinguish worth before God from courtroom identicality"
+    "Единство / стальман": [
+      "Обе наследуют позднеантичный патриархат; спросите, кто что реформирует и как",
+      "Откажитесь от сравнений, ставящих лучшие истории Иисуса против худших мусульманских режимов",
+      "Центрируйте голоса женской агентности из обеих традиций",
+      "Различайте ценность перед Богом и тождественность в зале суда"
     ]
   },
   "bibliography": [
     {
-      "tier": "Primary",
+      "tier": "Первичные",
       "items": [
         {
-          "label": "Qur'an 4:3; 4:34; 4:11; 4:32; 33:35; 24:30–31",
+          "label": "«Коран 4:3»; 4:34; 4:11; 4:32; 33:35; 24:30–31",
           "url": "https://quran.com/4/34"
         },
         {
-          "label": "John 20; Matthew 19; Ephesians 5; Galatians 3:28",
+          "label": "Ин 20; Мф 19; Еф 5; Гал 3:28",
           "url": "https://www.biblegateway.com/passage/?search=Galatians+3%3A28&version=NRSVUE"
         }
       ]
     },
     {
-      "tier": "Reference / academic gateways",
+      "tier": "Справочники / академические входы",
       "items": [
         {
           "label": "Tafheem 4:34",
           "url": "https://islamicstudies.info/tafheem.php?sura=4&verse=34"
         },
         {
-          "label": "CCC marriage / orders portals",
+          "label": "Порталы ККЦ о браке / сане",
           "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
         },
         {
@@ -872,3 +975,4 @@ window.TOPIC_DATA = {
     }
   ]
 };
+window.TOPIC_DATA = window.TOPIC_DATA_RU;
