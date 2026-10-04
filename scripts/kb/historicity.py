@@ -414,6 +414,7 @@ def topic() -> dict:
         "Define uniformic slogan vs multiformic preservation before any qirāʾāt clip",
         "Memorize three names: Sidky (stemma), Wallace (how to count variants), Tov (DSS plurality + proto-MT)",
         "Open two viewers before the round: CSNTM or Sinaiticus, and Corpus Coranicum or Birmingham VMR",
+        "If the round turns to 'the Qur'an knows Hebrew,' switch to topics/quran-hebrew-wordplay/ — do not improvise puns",
     ]
     seen_checks = set(checklist)
     for item in legacy.get("prep_checklist") or legacy.get("checklist") or default_checks:

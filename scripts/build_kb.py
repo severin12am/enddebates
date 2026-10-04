@@ -18,6 +18,7 @@ from scripts.kb import (  # noqa: E402
     jesus_vision,
     morality,
     nonbelievers,
+    quran_hebrew_wordplay,
     slavery,
     trinity,
     warfare,
@@ -34,6 +35,7 @@ from scripts.kb.i18n_common import (  # noqa: E402
 
 MODULES = [
     historicity,
+    quran_hebrew_wordplay,
     critiques,
     trinity,
     warfare,
@@ -50,6 +52,10 @@ MODULES = [
 CATALOG_META = {
     "historicity": {
         "blurb": "Live desk + viewers: Sidky stemma, Wallace variant-count, Tov/DSS, Sinaiticus, Birmingham.",
+        "group": "Scripture",
+    },
+    "quran-hebrew-wordplay": {
+        "blurb": "Does the Qur'an know Hebrew? Word-level echoes and corrections vs Jeffery loanwords and milieu.",
         "group": "Scripture",
     },
     "critiques": {

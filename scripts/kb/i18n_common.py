@@ -107,6 +107,7 @@ RU_TOPIC_IDS = frozenset(
         "nonbelievers",
         "historical-jesus",
         "jesus-vision",
+        "quran-hebrew-wordplay",
     }
 )
 
@@ -114,6 +115,11 @@ CATALOG_META_RU = {
     "historicity": {
         "title": "Историчность Корана и Библии",
         "blurb": "Живой стол + зрители: стемма Sidky, подсчёт вариантов Wallace, Tov/DSH, Синайский кодекс, Бирмингем.",
+        "group": "Писание",
+    },
+    "quran-hebrew-wordplay": {
+        "title": "Знает ли Коран иврит: межъязыковая игра слов",
+        "blurb": "Знает ли Коран иврит на уровне слов и сознательно правит Писание — или это заимствования Jeffery и среда Таргумов?",
         "group": "Писание",
     },
     "critiques": {

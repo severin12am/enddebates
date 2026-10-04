@@ -3506,6 +3506,7 @@ window.TOPIC_DATA_EN = {
     "Define uniformic slogan vs multiformic preservation before any qirāʾāt clip",
     "Memorize three names: Sidky (stemma), Wallace (how to count variants), Tov (DSS plurality + proto-MT)",
     "Open two viewers before the round: CSNTM or Sinaiticus, and Corpus Coranicum or Birmingham VMR",
+    "If the round turns to 'the Qur'an knows Hebrew,' switch to topics/quran-hebrew-wordplay/ — do not improvise puns",
     "Write your one-sentence motion interpretation and get agreement at the start",
     "Prepare a 60-second definitions opener (historicity / preservation / inspiration / tahrif)",
     "Choose a positive case (not only attack): 3 pillars max",
