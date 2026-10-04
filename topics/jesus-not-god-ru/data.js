@@ -18,6 +18,8 @@ window.TOPIC_DATA = {
       "muslim": "Иисус не Бог"
     },
     "ui": {
+      "lang_en": "EN",
+      "lang_ru": "RU",
       "brand_small": "База для дебатов",
       "hub": "Все темы",
       "nav_historicity": "Историчность",

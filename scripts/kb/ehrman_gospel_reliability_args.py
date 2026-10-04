@@ -214,7 +214,7 @@ ARGUMENTS = [
 DEBATE = {
     "id": "ehrman-akin-reliability",
     "title": "Are the Gospels historically unreliable? (Ehrman opening arguments)",
-    "year": null,
+    "year": None,
     "venue": "YouTube debate clip",
     "participants": [
         "Bart D. Ehrman",

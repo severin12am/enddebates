@@ -1,5 +1,9 @@
 (() => {
-  const data = window.TOPIC_DATA;
+  const lang = (window.ED_LANG && window.ED_LANG.lang) || "ru";
+  const data =
+    (lang === "en" && window.TOPIC_DATA_EN) ||
+    (lang === "ru" && window.TOPIC_DATA_RU) ||
+    window.TOPIC_DATA;
   if (!data) return;
 
   const $ = (id) => document.getElementById(id);
@@ -40,6 +44,7 @@
   };
 
   $("title").textContent = data.meta.title;
+  document.title = "EndDebates — " + data.meta.title;
   $("thesis").textContent = data.meta.thesis;
   if ($("purpose")) {
     if (data.meta.purpose) $("purpose").textContent = data.meta.purpose;

@@ -1,0 +1,3712 @@
+window.TOPIC_DATA_EN = {
+  "id": "historicity",
+  "meta": {
+    "title": "Historicity of the Qur'an vs the Bible",
+    "thesis": "Which scripture has the stronger historical case for textual integrity and proximity to its claimed origin — and under which definitions?",
+    "purpose": "Debate-prep dossier: popular debates summarized, arguments steelmanned on both sides, academic receipts attached, opponent moves anticipated. No declared winner.",
+    "warning": "Clarify terms in the first 60 seconds. Most of this debate is lost on undefined words: historicity, preservation, inspiration, and 'corruption' are not synonyms.",
+    "chips": [
+      "Live desk",
+      "Sidky / Wallace / Tov",
+      "Manuscript viewers",
+      "Both sides"
+    ],
+    "default_tab": "live",
+    "labels": {
+      "christian": "Bible-historicity case",
+      "muslim": "Qur'an-historicity case"
+    },
+    "ui": {
+      "lang_en": "EN",
+      "lang_ru": "RU"
+    },
+    "lang": "en"
+  },
+  "definitions": [
+    {
+      "term": "Historicity",
+      "precise": "Traceability of a text/community claims by historical methods.",
+      "not": "Not the same as inspired or true."
+    },
+    {
+      "term": "Historicity (of a scripture)",
+      "precise": "Whether the text we have can be traced, with historical methods, to a plausible origin event/community close to the claimed revelation or composition.",
+      "not": "Not the same as 'true,' 'inspired,' or 'morally good.'"
+    },
+    {
+      "term": "Textual preservation",
+      "precise": "Degree to which later copies match an earlier archetype (autograph or early fixed form). Measured by manuscripts, citations, and stemmatics.",
+      "not": "Not proof of divine origin by itself."
+    },
+    {
+      "term": "Inspiration / revelation claim",
+      "precise": "Theological claim that God authored or authorized the content.",
+      "not": "Cannot be settled by carbon dating alone."
+    },
+    {
+      "term": "Corruption / tahrif",
+      "precise": "Must specify: (a) wholesale textual rewrite, (b) interpretive distortion, (c) selective canon politics, or (d) ordinary scribal variation.",
+      "not": "Do not let 'corruption' float as a vibe word."
+    },
+    {
+      "term": "Qira'at / ahruf",
+      "precise": "Authorized variant readings/modes in Islamic tradition. Debaters must say whether these count as 'different Qur'ans' or as licensed oral multiplicity inside one rasm.",
+      "not": "Not automatically identical to NT manuscript variants."
+    },
+    {
+      "term": "Rasm",
+      "precise": "Consonantal skeleton of the Qur'anic text (pre-full vocalization/diacritics).",
+      "not": "Not the same as a fully pointed modern printed mushaf."
+    },
+    {
+      "term": "ʿUlūm al-Qurʾān",
+      "precise": "Disciplines of Qur'anic study: wahy, collection, order, composition, naẓm, seven aḥruf, qirāʾāt, asānīd, maṣāḥif, asbāb al-nuzūl, naskh. Ataie cites Ṣābūnī and Taqī ʿUthmānī: words of God sent down on the Messenger, written in manuscripts, transmitted continuously without doubt.",
+      "not": "Not the same as Friday-khuṭbah slogans or interfaith one-upmanship."
+    },
+    {
+      "term": "Multiformic Qur'an (Ataie)",
+      "precise": "Traditional claim: the Qur'an was revealed in multiple authorized recitational forms (aḥruf → later qirāʾāt), by design. Preservation is of that licensed multiplicity, not of a single letter-identical recitation from day one.",
+      "not": "Not 'many different Qur'ans' in the cheap polemic sense; not identical to NT scribal corruption."
+    },
+    {
+      "term": "Uniformic slogan (folk dawah)",
+      "precise": "Popular claim Ataie says amateur preachers invented to beat the Bible: the Qur'an has no textual variants, unlike the NT. He calls this reductionist and historically false.",
+      "not": "Not what classical ʿulūm books taught — they all have chapters on aḥruf/qirāʾāt."
+    },
+    {
+      "term": "Aḥruf vs qirāʾāt",
+      "precise": "Aḥruf: seven modes / categories of recitational variation, mutawātir back to the Prophet in traditional ḥadīth. Qirāʾāt: later canonical reading traditions (7 then 10 eponyms, each with two rāwīs) drawn from that pool. They are not the same word.",
+      "not": "Not 'Ibn Mujāhid's seven = the seven aḥruf.' That conflation is a known later error."
+    },
+    {
+      "term": "Prophetic archetype (Sadeghi / Ataie diagram)",
+      "precise": "P = everything the Prophet recited. Companion codices (Ibn Masʿūd, Ubayy, C-1, etc.) are arrows down from P. ʿUthmānic rasm is a critical edition converging the strongest Medinan readings of those traditions.",
+      "not": "Not an extant autograph mushaf you can photograph."
+    },
+    {
+      "term": "Variant (Wallace definition)",
+      "precise": "Any difference from a base text involving spelling, word order, omission, addition, substitution, or a rewrite. Counted once per wording, not once per manuscript that has it.",
+      "not": "Not 'number of manuscripts × misspellings.' That method invents millions of 'errors.'"
+    },
+    {
+      "term": "Meaningful and viable",
+      "precise": "A reading that changes sense AND could plausibly go back to the autograph. Wallace's generous bucket is a sliver of the raw variant count.",
+      "not": "Not 'every footnote in NA28 destroys a doctrine.'"
+    },
+    {
+      "term": "Embarrassment of riches (Metzger–Ehrman)",
+      "precise": "Compared with classical authors, NT critics have far more copies and earlier ones. Quantity is a reconstruction advantage; it is also why the variant count is huge.",
+      "not": "Not 'we have the autographs.' Most copies are medieval."
+    },
+    {
+      "term": "Sidky stemma / four ancestral codices",
+      "precise": "Phylogenetic analysis of early Qur'an manuscripts reconstructs four ancestral copies (Medina, Basra, Kufa, Syria/Ḥimṣ), matching the literary rasm reports of ʿUthmānic exemplars.",
+      "not": "Not a photo of ʿUthmān's personal mushaf. Not proof of inspiration."
+    },
+    {
+      "term": "Textual plurality (Tov / Qumran)",
+      "precise": "Qumran biblical scrolls show multiple Hebrew text-forms, probably all treated as Scripture. Judean Desert sites outside Qumran are virtually identical to later MT.",
+      "not": "Not 'rabbis invented Isaiah after Muhammad.' Not 'zero change forever.'"
+    }
+  ],
+  "arguments": [
+    {
+      "id": "qiraat-holes",
+      "rank": 1,
+      "importance": "Top 10",
+      "cluster": "Qur'an text",
+      "title": "Letter-perfect preservation vs ahruf / qira'at",
+      "type": "definition + history",
+      "popularity": "The live-debate killer after 2020",
+      "why_it_matters": "Ataie names the mechanism: apologists sacrificed nuance to score points against Christians, taught a uniformic Qur'an, then polemicists used classical aḥruf reports to 'disprove preservation.' Qadhi's 'holes' is the 2020 soundbite; Ataie is the three-hour repair manual.",
+      "christian": {
+        "claim": "If preservation means one dictated wording reproduced letter-for-letter, multiple canonical readings with occasional meaning differences falsify the slogan. Yasir Qadhi said the standard narrative has holes.",
+        "case": "Hafs vs Warsh (and the ten canonical qira'at) are not 'pronunciation only' in every verse. Examples used in debates: Q 2:184 fidyatun ta'ami miskin / masakin; Q 3:146 qatala / qutila; Q 85:22 mahfuzin / mahfuzun. Christian apologists treat Qadhi 2020 as peer testimony against folk dawah.",
+        "quotes": [
+          {
+            "text": "It's very clear that the standard narrative has holes in it. That's what I'm gonna say. The standard narrative does not answer some very pressing questions.",
+            "who": "Yasir Qadhi",
+            "work": "Interview with Mohammed Hijab, 8 June 2020",
+            "url": "https://en.wikipedia.org/wiki/Yasir_Qadhi"
+          },
+          {
+            "text": "These are very, very difficult issues and the most advanced of our scholars, they're not quite fully certain how to solve all of the unanswered questions.",
+            "who": "Yasir Qadhi",
+            "work": "Same interview (ahruf/qira'at discussion)",
+            "url": "https://www.worldviewsummit.org/post/muslim-scholar-says-holes-in-traditional-account-of-quran"
+          },
+          {
+            "text": "Are there unauthorized variants of the Qur'an… that may not be recited in prayer? There are. … The chains of their transmission could not be verified as being both widely recited and having their origin in the Prophet.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~12:21)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Ten canonical qira'at (plus famous non-canonical reports) are taught as Qur'an, not as 'errors'.",
+            "source": "Classical qira'at literature; Ibn Mujahid's seven"
+          },
+          {
+            "fact": "Some variants change grammar/meaning, not only dialect phonetics.",
+            "source": "Standard comparison lists Hafs/Warsh"
+          },
+          {
+            "fact": "Qadhi later distinguished 'holes in the dictation model of ahruf/qira'at' from 'the Qur'an is unpreserved'.",
+            "source": "Wikipedia summary of Qadhi 2024 chapter"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Compare Hafs 1924 Cairo vs Warsh Maghribi prints of the same surah",
+            "url": "https://quran.com",
+            "note": "Printed witnesses of two canonical readings",
+            "title": "Compare Hafs 1924 Cairo vs Warsh Maghribi prints of the same surah"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Wikipedia — Qadhi ahruf/qira'at remarks",
+            "url": "https://en.wikipedia.org/wiki/Yasir_Qadhi"
+          },
+          {
+            "label": "Yaqeen — Uthmanic Codex (how qira'at sit on rasm)",
+            "url": "https://yaqeeninstitute.org/read/paper/the-uthmanic-codex-understanding-how-the-quran-was-preserved"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Preservation includes licensed multiplicity inside an Uthmanic rasm. Qira'at are authorized recitation modes, not rival books. Folk 'PDF-identical' claims are the problem, not the manuscript record.",
+        "case": "Hadith of seven ahruf is early. Uthmanic rasm can host multiple vowelizations/hamzas. van Putten: almost all manuscripts share one Uthmanic text-type. Qadhi was attacking a brittle popular story, then proposed a 'divine permission' model rather than 'the Qur'an is lost'.",
+        "quotes": [
+          {
+            "text": "All Quranic manuscripts, with one exception, belong to the same Uthmanic text type.",
+            "who": "Marijn van Putten",
+            "work": "BSOAS 82 (2019), 'The Grace of God'…",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          },
+          {
+            "text": "Qadhi later insisted that he was only referring to the preservation of the Qira'at and Ahruf themselves rather than to the preservation of the Qur'an.",
+            "who": "Secondary summary of Qadhi's clarification",
+            "work": "Wikipedia: Yasir Qadhi",
+            "url": "https://en.wikipedia.org/wiki/Yasir_Qadhi"
+          },
+          {
+            "text": "The Qur'an has never been a uniformic text, but rather a multiformic text.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~8:04)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "The seven aḥruf… is not some secret teaching that Muslim scholars have been covering up only to be uncovered by these honest and brave neo-orientalists.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~48:03)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "A careful study of the consonantal dotting patterns between the canonical readings reveals independent Medinan, Meccan-Basran, and Kufan regional traditions. … I demonstrate the existence of an inherited oral tradition that likely dates to the time of the ʿUthmānic recension and among the first generation of the followers of Muḥammad.",
+            "who": "Hythem Sidky",
+            "work": "JAOS 143.4 (2023), abstract: Consonantal Dotting and the Oral Quran",
+            "url": "https://doi.org/10.7817/jaos.143.4.2023.ar029"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Canonical qira'at are constrained by the Uthmanic consonantal skeleton.",
+            "source": "Classical usul al-qira'at"
+          },
+          {
+            "fact": "Muslims have recited multiple accepted readings for centuries without treating them as 'different Qur'ans' in the Christian-canon sense.",
+            "source": "Islamic liturgical practice"
+          },
+          {
+            "fact": "Ataie: aḥruf ≠ qirāʾāt; each qirāʾah is drawn from the pool of the seven.",
+            "source": "Lecture ~1:03 / 2:32",
+            "label": "Ataie: aḥruf ≠ qirāʾāt; each qirāʾah is drawn from the pool of the seven.",
+            "note": "Lecture ~1:03 / 2:32"
+          },
+          {
+            "fact": "Seven category-model (Abū al-Faḍl / strongest in his view): nominal, inflectional, dialect, synonymic, verbal, particle, syntactical.",
+            "source": "Lecture ~51:27–1:09",
+            "label": "Seven category-model (Abū al-Faḍl / strongest in his view): nominal, inflectional, dialect, synonymic, verbal, particle, syntactical.",
+            "note": "Lecture ~51:27–1:09"
+          },
+          {
+            "fact": "Sidky's target: the claim that qirāʾāt are just later decipherments of a dead rasm with no living oral stream.",
+            "source": "JAOS 2023 abstract",
+            "label": "Sidky's target: the claim that qirāʾāt are just later decipherments of a dead rasm with no living oral stream.",
+            "note": "JAOS 2023 abstract",
+            "url": "https://doi.org/10.7817/jaos.143.4.2023.ar029"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Corpus Coranicum — early rasm witnesses",
+            "url": "https://corpuscoranicum.de/en/manuscripts",
+            "note": "Check that early Hijazi leaves track Uthmanic wording",
+            "title": "Corpus Coranicum — early rasm witnesses"
+          },
+          {
+            "label": "nquran.com — 20 transmitters",
+            "url": "https://nquran.com",
+            "note": "See the oral tradition on the page",
+            "title": "nquran.com — 20 transmitters"
+          }
+        ],
+        "sources": [
+          {
+            "label": "van Putten 2019 (DOI)",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          },
+          {
+            "label": "Yaqeen Uthmanic Codex",
+            "url": "https://yaqeeninstitute.org/read/paper/the-uthmanic-codex-understanding-how-the-quran-was-preserved"
+          },
+          {
+            "label": "Ataie — Sound Narrative",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Christian overread of Qadhi",
+          "claim": "Qadhi admitted the Qur'an is not preserved.",
+          "reply": "He said the popular dictation-story of ahruf/qira'at has holes. He did not recant wahy or mass oral transmission. Quote him, then quote his clarification.",
+          "sources": [
+            {
+              "label": "Wikipedia clarification",
+              "url": "https://en.wikipedia.org/wiki/Yasir_Qadhi"
+            }
+          ]
+        },
+        {
+          "against": "Muslim 'pronunciation only'",
+          "claim": "All differences are just accents.",
+          "reply": "Some are; some change number, voice (active/passive), or syntax. Grant the small ones; fight only where meaning moves."
+        }
+      ],
+      "live": {
+        "if_they_say": "Every letter of the Qur'an is identical worldwide.",
+        "you_say": "Ataie: that slogan is how laypeople get wrecked. Ask: one rasm, ten qirāʾāt, or all seven aḥruf? Then open Fātiḥa Mālik/Malik — both prophetic in his account, different meanings (king vs owner).",
+        "dont_overclaim": "Don't turn aḥruf into 93,000 Qur'ans. Don't pretend no meaning ever moves."
+      },
+      "crux": "Is preservation identity of letters, identity of rasm, or identity of an authorized reading corpus?",
+      "debate_use": "Force a one-sentence preservation thesis. Then Sanaa/Uthman/Birmingham become relevant instead of slogan tennis.",
+      "counter_to_christian": "NT critical editions also choose among readings; plurality exists on both sides.",
+      "counter_to_muslim": "If meanings differ, a strict dictation model must explain why two wordings are both 'the' Qur'an."
+    },
+    {
+      "id": "uthmanic-rasm",
+      "rank": 2,
+      "importance": "Top 10",
+      "cluster": "Qur'an text",
+      "title": "Uthmanic standardization, burning, and a single written archetype",
+      "type": "history",
+      "popularity": "Very high",
+      "why_it_matters": "Christian critiques treat Uthman's project as evidence-destruction. Muslim replies treat it as unification of an already-known text. van Putten's orthography work is the best non-confessional referee.",
+      "christian": {
+        "claim": "Uthman commissioned an official text and ordered other materials burned (Bukhari 4987). That is canon control, not transparent preservation like competing biblical manuscripts.",
+        "case": "If rival companion copies existed (Ibn Mas'ud, Ubayy), burning them removes the empirical trail. A state-standardized scripture cannot later boast that 'no variants ever existed.'",
+        "quotes": [
+          {
+            "text": "Uthman sent to every Muslim province one copy of what they had copied, and ordered that all the other Qur'anic materials, whether written in fragmentary manuscripts or whole copies, be burnt.",
+            "who": "Sahih al-Bukhari 4987 (standard English reports)",
+            "work": "Book of the Virtues of the Qur'an — compilation report",
+            "url": "https://sunnah.com/bukhari:4987"
+          },
+          {
+            "text": "A comparison of literary reports against the earliest manuscripts reveals that knowledge of the regional variants does not date back to the time of canonization but was accumulated over time through careful scrutiny of regional muṣḥafs.",
+            "who": "Hythem Sidky",
+            "work": "JIQSA 5 (2020), abstract",
+            "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Islamic tradition itself reports regional recitation disputes prompting Uthman's project (Hudhayfa).",
+            "source": "Bukhari compilation narratives"
+          },
+          {
+            "fact": "Companion-codex reports (Ibn Mas'ud, Ubayy) include sura-order and wording differences.",
+            "source": "Classical tafsir / masahif literature"
+          },
+          {
+            "fact": "Sidky grants: no surviving copy is identified as one of the four actual ʿUthmānic master copies. He says that is not odd given loss and wear.",
+            "source": "Review pp. 277–278",
+            "label": "Sidky grants: no surviving copy is identified as one of the four actual ʿUthmānic master copies. He says that is not odd given loss and wear.",
+            "note": "Review pp. 277–278",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Bukhari 4987 text",
+            "url": "https://sunnah.com/bukhari:4987",
+            "note": "Primary narrative of standardization and burning",
+            "title": "Bukhari 4987 text"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sahih al-Bukhari 4987",
+            "url": "https://sunnah.com/bukhari:4987"
+          },
+          {
+            "label": "TGC popularization of the burning argument",
+            "url": "https://www.thegospelcoalition.org/article/muslim-bible-apologetics/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Shared spelling quirks across early mushafs show they were copied from one written archetype — Uthman transmitted, he did not invent a late book.",
+        "case": "van Putten examined ni'mat ('grace') spelled with ta' vs ta' marbuta in the same Qur'anic positions across 14 early manuscripts. The pattern repeats too tightly to be independent oral dictation. Sadeghi: among early text-types, Uthmanic is the better transcript of a Prophetic prototype.",
+        "quotes": [
+          {
+            "text": "Even the specific rasm with all its orthographic idiosyncrasies points to a single written archetype, which was copied from one mushaf to the other through copying from a written exemplar.",
+            "who": "Marijn van Putten",
+            "work": "BSOAS 82 (2019)",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          },
+          {
+            "text": "The only way that such a consistent reproduction can be explained is by assuming that all the documents that belong to the Uthmanic text type go back to a single written archetype whose spelling was strictly copied from one copy to the next.",
+            "who": "Marijn van Putten",
+            "work": "BSOAS 82 (2019), conclusion",
+            "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2911085/view"
+          },
+          {
+            "text": "The ʿUthmānic textual tradition is a critical edition that incorporated the strongest readings from the existing companion textual traditions, which were themselves eyewitness recordings of the prophetic archetype.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~1:18:13 / ~1:22:33)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "Sidky… van Putten and Nicolai Sinai… the broad strokes of the traditional Muslim narrative of the Qur'an's standardization by ʿUthmān around 650 is historically accurate. This is what the physical manuscript evidence points to.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~1:21:02)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "This process of reconstruction identifies four ancestral codices from which all examined manuscripts descend. … Additional evidence is presented for the historicity of the ʿUthmānic canonization and the distribution of four regional exemplars.",
+            "who": "Hythem Sidky",
+            "work": "JIQSA 5 (2020), abstract: On the Regionality of Qurʾānic Codices",
+            "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+          },
+          {
+            "text": "By all indications, the manuscript evidence is consistent with the traditional narrative regarding the ʿUthmānic standardization.",
+            "who": "Hythem Sidky",
+            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), review of Brubaker, p. 278",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          },
+          {
+            "text": "As long as no Quranic passages with a distinct stylistic and terminological profile have been compellingly placed in a late seventh-century context, the traditional dating of the standard rasm (excepting certain orthographical features) to 650 or earlier ought to be our default view.",
+            "who": "Nicolai Sinai",
+            "work": "BSOAS 77.3 (2014), 'When did the consonantal skeleton… Part II'",
+            "url": "https://doi.org/10.1017/s0041977x14000111"
+          },
+          {
+            "text": "This must count against any suggestion that the variants were invented … We can accordingly infer that we have to do with genuine transmissions from an archetype.",
+            "who": "Michael Cook",
+            "work": "Michael Cook, 'The Stemma of the Regional Codices of the Koran,' Graeco-Arabica 9–10 (2004), 103–104 (quoted by Sidky)",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "van Putten 2019: 14 early manuscripts; ni'mat spelling locked to verse-position.",
+            "source": "BSOAS 82.2, pp. 233–244",
+            "url": "https://doi.org/10.1017/s0041977x19000338",
+            "label": "van Putten 2019: 14 early manuscripts; ni'mat spelling locked to verse-position.",
+            "note": "BSOAS 82.2, pp. 233–244"
+          },
+          {
+            "fact": "Oral mutawatir + written rasm is the classical dual-lock story; manuscripts now support the written-copying half.",
+            "source": "Yaqeen / van Putten"
+          },
+          {
+            "fact": "Two-witness rule = two men who saw the verse written in the Prophet's presence — not 'only two Muslims knew the verse.' Mass recitation could override a missing second witness (9:128–129).",
+            "source": "Lecture ~1:58–2:03",
+            "label": "Two-witness rule = two men who saw the verse written in the Prophet's presence — not 'only two Muslims knew the verse.' Mass recitation could override a missing second witness (9:128–129).",
+            "note": "Lecture ~1:58–2:03"
+          },
+          {
+            "fact": "Sidky: Ḥimṣ, not Damascus, is the likelier city for the Syrian exemplar.",
+            "source": "JIQSA 5 abstract",
+            "label": "Sidky: Ḥimṣ, not Damascus, is the likelier city for the Syrian exemplar.",
+            "note": "JIQSA 5 abstract",
+            "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+          },
+          {
+            "fact": "Déroche dates Codex Parisino-Petropolitanus to the 3rd quarter of the 1st/7th c.; it already has the van Putten idiosyncrasies.",
+            "source": "Sidky citing Déroche 2009",
+            "label": "Déroche dates Codex Parisino-Petropolitanus to the 3rd quarter of the 1st/7th c.; it already has the van Putten idiosyncrasies.",
+            "note": "Sidky citing Déroche 2009",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Corpus Coranicum early Hijazi set",
+            "url": "https://corpuscoranicum.de/en/manuscripts",
+            "note": "Compare rasm across regional copies",
+            "title": "Corpus Coranicum early Hijazi set"
+          },
+          {
+            "label": "BnF Arabe 328 (CPP)",
+            "url": "https://gallica.bnf.fr/ark:/12148/btv1b8415207g",
+            "note": "Early ʿUthmānic-type Hijazi",
+            "title": "BnF Arabe 328 (CPP)"
+          },
+          {
+            "label": "BL Or. 2165",
+            "url": "https://www.bl.uk/collection-items/quran-from-the-8th-century",
+            "note": "Syrian regional rasm",
+            "title": "BL Or. 2165"
+          }
+        ],
+        "sources": [
+          {
+            "label": "van Putten DOI",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          },
+          {
+            "label": "Open PDF (Leiden)",
+            "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2911085/view"
+          },
+          {
+            "label": "Yaqeen Uthmanic Codex",
+            "url": "https://yaqeeninstitute.org/read/paper/the-uthmanic-codex-understanding-how-the-quran-was-preserved"
+          },
+          {
+            "label": "Sidky JIQSA 5",
+            "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+          },
+          {
+            "label": "Sinai BSOAS 2014 II",
+            "url": "https://doi.org/10.1017/s0041977x14000111"
+          },
+          {
+            "label": "Sidky Brubaker review (quotes Cook/Sinai/van Putten)",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Christian burning argument",
+          "claim": "Burning proves the original was lost.",
+          "reply": "Burning explains why we cannot inspect every rival. It does not, by itself, prove invention. Archetype evidence is independent of the hadith's motives."
+        },
+        {
+          "against": "Muslim 'no variants ever'",
+          "claim": "Uthman proves perfect identity from day one.",
+          "reply": "The hadith only makes sense if differences already existed. Preservation after canonization ≠ clone-identical first copies."
+        }
+      ],
+      "live": {
+        "if_they_say": "Uthman burned the evidence so the Qur'an is unreliable.",
+        "you_say": "Sidky: surviving MSS reconstruct four ancestral regional copies and match the literary stemma. Cook: that pattern counts against invented variants. Burning rivals ≠ late invention of the rasm we have.",
+        "dont_overclaim": "Don't claim we have ʿUthmān's autograph. Don't treat a stemma as a miracle."
+      },
+      "crux": "Was Uthman transmitting a fixed revelation or selecting among living textual options?",
+      "debate_use": "Concede companion differences existed; fight over whether they threaten Prophetic origin.",
+      "counter_to_christian": "Christian history also had canon politics and suppression of rival books.",
+      "counter_to_muslim": "If alternatives were burned, empirical comparison is partly destroyed by design."
+    },
+    {
+      "id": "sanaa",
+      "rank": 3,
+      "importance": "Top 10",
+      "cluster": "Qur'an text",
+      "title": "Sanaa palimpsest (C-1): non-Uthmanic Qur'an text-type",
+      "type": "history",
+      "popularity": "Very high in modern debates",
+      "why_it_matters": "This is the one manuscript both sides desperately want. Critics: 'see, the Qur'an changed.' Muslim academics: 'see, companion codices were real and Uthmanic is still closer to the prototype.'",
+      "christian": {
+        "claim": "The lower text of Sanaa 1 is a different Qur'anic text-type: word/phrase substitutions, omissions/additions — so 'one unchanged Qur'an from the first copy' is false.",
+        "case": "Sadeghi & Goudarzi: it is the only substantial witness beside the Uthmanic tradition. Variants resemble reports about Ibn Mas'ud/Ubayy, sometimes more frequent. Upper text is standard — the lower text was scraped. That is a physical picture of replacement.",
+        "quotes": [
+          {
+            "text": "The lower text of San'a 1 is at present the most important document for the history of the Qur'an. As the only known extant copy from a textual tradition beside the standard Uthmanic one, it has the greatest potential of any known manuscript to shed light on the early history of the scripture.",
+            "who": "Behnam Sadeghi & Mohsen Goudarzi",
+            "work": "Der Islam 87 (2012), p. 1",
+            "url": "https://historyofinformation.com/detail.php?id=180"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Lower layer: non-Uthmanic rasm type (C-1).",
+            "source": "Sadeghi & Bergmann, Arabica 57 (2010)"
+          },
+          {
+            "fact": "Reported example: Q 2:87 lower wa-atharihi vs standard wa-qaffayna min ba'dihi type substitutions.",
+            "source": "History of Information summary of Sadeghi"
+          },
+          {
+            "fact": "Sura order inside extant leaves largely matches, but companion reports include different sura orders.",
+            "source": "Sadeghi 2012"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Islamic Awareness Sanaa dossier (images + literature)",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/soth.html",
+            "note": "Best public packet",
+            "title": "Islamic Awareness Sanaa dossier (images + literature)"
+          },
+          {
+            "label": "Wikipedia: Sanaa manuscript",
+            "url": "https://en.wikipedia.org/wiki/Sanaa_manuscript",
+            "note": "Literature map",
+            "title": "Wikipedia: Sanaa manuscript"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sadeghi & Bergmann 2010 PDF",
+            "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+          },
+          {
+            "label": "Hilali, The Sanaa Palimpsest (IIS)",
+            "url": "https://www.iis.ac.uk/publications-listing/the-sanaa-palimpsest/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "C-1 is a companion-codex style secondary tradition. Stemmatics indicate Uthmanic wording is older/closer to a Prophetic prototype — Sanaa confirms early hearing/writing, not 8th-century invention.",
+        "case": "Sadeghi & Bergmann: polarity analysis favors Uthmanic as earlier wording. The palimpsest shows suras were already formed before Uthman's standardization. Semi-oral first writing explains companion differences without a 'lost original book replaced centuries later' story.",
+        "quotes": [
+          {
+            "text": "The analysis shows that the suras were formed earlier [than Uthman c. 650]. Furthermore… the inception of at least some Qur'anic textual traditions must have involved semi-oral transmission, most likely via hearers who wrote down a text that was recited by the Prophet.",
+            "who": "Sadeghi & Goudarzi",
+            "work": "Der Islam 87 (2012)",
+            "url": "https://experts.umn.edu/en/publications/san%C4%81-1-and-the-origins-of-the-qur%C4%81n/"
+          },
+          {
+            "text": "The wording of Uthman's codex is older than that of C-1.",
+            "who": "Sadeghi & Bergmann (paraphrase of polarity-analysis conclusion)",
+            "work": "Arabica 57 (2010)",
+            "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+          },
+          {
+            "text": "The discovery of C-1 actually supports the Muslim narrative. Anti-Muslim polemicists… wanted to find some additional verses, additional suras, or highly theologically significant material… and there was really nothing significant.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~2:13:21)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Upper text ≈ standard Uthmanic Qur'an.",
+            "source": "Palimpsest description"
+          },
+          {
+            "fact": "Sadeghi: Uthmanic sits in the majority between C-1 and Ibn Mas'ud reports — either more faithful copy of a prototype or a hybrid of companion readings.",
+            "source": "Arabica 2010 stemma discussion"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "DAM 01-27.1 / Codex Sanaa 1",
+            "url": "https://en.wikipedia.org/wiki/Sanaa_manuscript",
+            "note": "Lower text = C-1",
+            "title": "DAM 01-27.1 / Codex Sanaa 1"
+          },
+          {
+            "label": "Islamic Awareness C-1 dossier",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/soth.html",
+            "note": "Images + literature",
+            "title": "Islamic Awareness C-1 dossier"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sadeghi & Bergmann 2010",
+            "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Christian 'rewritten Qur'an'",
+          "claim": "Sanaa proves the Qur'an was fabricated later.",
+          "reply": "A 7th-century non-Uthmanic type is the opposite of a late invention from nothing. It is early multiplicity."
+        },
+        {
+          "against": "Muslim 'ignore Sanaa'",
+          "claim": "It's just a student notebook / scribal junk.",
+          "reply": "Hilali's teaching-copy hypothesis exists — argue it. Don't pretend the lower text isn't Qur'anic material. Sadeghi treats it as a real text-type."
+        }
+      ],
+      "live": {
+        "if_they_say": "Sanaa proves the Qur'an was rewritten.",
+        "you_say": "It proves a second early text-type existed. Sadeghi still argues Uthmanic is closer to the prototype. That's not 'lost book in the Abbasid period.'",
+        "dont_overclaim": "Don't say Sanaa matches today's mushaf word-for-word. Don't say it is a different religion's scripture."
+      },
+      "crux": "Does C-1 refute Prophetic origin, or only refute a folk model of clone-identical first copies?",
+      "debate_use": "Memorize both uses of Sanaa. Ask if the opponent has read Sadeghi or only clips.",
+      "counter_to_christian": "One divergent palimpsest is not thousands of Qur'ans.",
+      "counter_to_muslim": "If companion codices differed in wording, verbatim-identity slogans fail."
+    },
+    {
+      "id": "birmingham",
+      "rank": 4,
+      "importance": "Top 10",
+      "cluster": "Qur'an text",
+      "title": "Birmingham folios and radiocarbon dating",
+      "type": "history + method",
+      "popularity": "High",
+      "why_it_matters": "Best Muslim visual for 'close to Muhammad.' Best Christian caution: parchment ≠ ink, range ≠ point date.",
+      "christian": {
+        "claim": "C-14 dates the animal's death (parchment), not the writing event. Paleography may sit later. Media 'oldest Qur'an / unchanged' overclaim is not the academic result.",
+        "case": "Oxford dated Mingana 1572a parchment 568–645 CE at 95.4%. That range starts before the traditional first revelation and ends around Uthman. Gabriel Reynolds and others: combine C-14 with paleography; do not treat the lower bound as 'Muhammad's scribe.'",
+        "quotes": [
+          {
+            "text": "Radiocarbon dating of the Birmingham Qur'an folios… between AD 568 and 645 with 95.4% accuracy.",
+            "who": "University of Birmingham",
+            "work": "2015 announcement",
+            "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "C-14 dates parchment collagen, not carbon in ink.",
+            "source": "Standard radiocarbon method note"
+          },
+          {
+            "fact": "Folios are a few leaves, not a complete mushaf.",
+            "source": "Mingana 1572a description"
+          },
+          {
+            "fact": "Text type is early Uthmanic, not Sanaa C-1.",
+            "source": "Academic consensus on Birmingham leaves"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Birmingham University announcement + images",
+            "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world",
+            "note": "Official plate",
+            "title": "Birmingham University announcement + images"
+          },
+          {
+            "label": "VMR Mingana 1572a",
+            "url": "http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/table/",
+            "note": "Manuscript viewer",
+            "title": "VMR Mingana 1572a"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Birmingham news",
+            "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
+          },
+          {
+            "label": "Islamic Awareness C-14 dossier",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/radio"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Even with method caveats, a 7th-century Hijazi Qur'an this close to Muhammad's lifetime is extraordinary proximity compared with many biblical autograph gaps.",
+        "case": "David Thomas (Birmingham): the portions are very close to the form read today. Multiple early Hijazi manuscripts (not only Birmingham) now cluster in the first Islamic century.",
+        "quotes": [
+          {
+            "text": "These portions must have been in a form that is very close to the form of the Qur'an read today, supporting the view that the text has undergone little or no alteration and that it can be dated to a point very close to the time it was [revealed].",
+            "who": "Prof. David Thomas (as quoted in Birmingham announcement)",
+            "work": "University of Birmingham, 2015",
+            "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
+          },
+          {
+            "text": "Mingana 1572a and manuscript 328c… about 8% of the Qur'an… dated to within 13 years of the Prophet at the absolute latest.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~30:18) — his gloss on the C-14 upper bound 645",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "Radiocarbon dating of Quranic fragments has also pushed some manuscripts back to the mid-first/seventh century or before, giving us an unprecedented window into the scripture as it was written, handled, and received by the earliest generation of Muslims.",
+            "who": "Hythem Sidky",
+            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), p. 273",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Mingana 1572a belongs with BnF Arabe 328c (same codex).",
+            "source": "Islamic Awareness / Fedeli"
+          },
+          {
+            "fact": "Other C-14'd Hijazi fragments also land in 7th c. ranges.",
+            "source": "Islamic Awareness radio page"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Birmingham folio 1 recto (Wikimedia)",
+            "url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript_folio_1_recto.jpg",
+            "note": "Public plate",
+            "title": "Birmingham folio 1 recto (Wikimedia)"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Islamic Awareness radiocarbon",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/radio"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Muslim knock-out C-14",
+          "claim": "Science proved the Qur'an is unchanged.",
+          "reply": "Science dated skin. The text is early and Uthmanic-type — that is strong. It is not a lab certificate of letter-identity or divine origin."
+        }
+      ],
+      "live": {
+        "if_they_say": "Birmingham manuscript proves the Qur'an is unchanged.",
+        "you_say": "Ataie uses it as first-century Hijrī proximity and possible companion-codex. Still: parchment range, a few leaves, ʿUthmānic-type text. Impressive — not a lab sticker that says 'every aḥruf.'",
+        "dont_overclaim": "Don't treat 568 as 'before Islam so the Qur'an predates Muḥammad.'"
+      },
+      "crux": "What does C-14 actually date — and what claim is being smuggled from that date?",
+      "debate_use": "Never let a C-14 slide stand without: parchment or ink? range or point estimate? complete book or leaves?",
+      "counter_to_christian": "Early dates are still impressive versus many biblical autograph gaps.",
+      "counter_to_muslim": "Parchment reuse / animal age means C-14 is a soft terminus."
+    },
+    {
+      "id": "brubaker",
+      "rank": 5,
+      "importance": "Top 10",
+      "cluster": "Qur'an text",
+      "title": "Scribal corrections in early Qur'an manuscripts (Brubaker)",
+      "type": "history + method",
+      "popularity": "High in YouTube apologetics; contested in journals",
+      "why_it_matters": "Photos of erasures look like 'gotcha corruption.' Academic reviews say the inference to late doctrinal editing is not shown.",
+      "christian": {
+        "claim": "Physical insertions and erasures show the text was altered toward a later standard — evidence of fluidity.",
+        "case": "Daniel Brubaker, Corrections in Early Qur'an Manuscripts (2019), popularized 20 examples. Apologetics infers the Hafs 1924 print is an endpoint of editorial drift, not a frozen 7th-century recitation.",
+        "quotes": [
+          {
+            "text": "We are told that a survey of these manuscripts… will 'challenge the traditional assertions about the transmission of the Quran'… Unfortunately, the bold claims are left unsubstantiated.",
+            "who": "Hythem Sidky (review)",
+            "work": "Al-'Usur al-Wusta / MEM review of Brubaker",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          },
+          {
+            "text": "We are told that a survey of these manuscripts … will 'challenge the traditional assertions about the transmission of the Quran' … Unfortunately, the bold claims are left unsubstantiated.",
+            "who": "Hythem Sidky (stating Brubaker's claim, then rejecting it)",
+            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), p. 273",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Early Qur'an manuscripts do contain visible corrections — that fact is not in dispute.",
+            "source": "Brubaker plates; Sidky agrees the photos are useful"
+          },
+          {
+            "fact": "The disputed move is: correction = theological rewriting toward Cairo 1924.",
+            "source": "Sidky / Altikulac"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Brubaker project / Variant Qur'an",
+            "url": "https://www.danielbrubaker.com/quran-and-islam/variant-quran-marks-1st-anniversary/",
+            "note": "Apologetic presentation of corrections",
+            "title": "Brubaker project / Variant Qur'an"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sidky review PDF",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Corrections are ordinary scribal error-fixes aligning copies to a known text. Brubaker overinterprets. Uncorrected early witnesses already match the rasm.",
+        "case": "Sidky: give scribal error first consideration; most examples are best explained that way. Tayyar Altikulac (IRCICA) published a refutation. NT manuscripts are full of the same phenomena.",
+        "quotes": [
+          {
+            "text": "If the objective of Brubaker's book is to demonstrate the humanity of the scribes involved in transmitting the Quranic text, it certainly succeeds… Where it falls short… [is] the vast majority of [examples] are best explained [as scribal error].",
+            "who": "Hythem Sidky",
+            "work": "Review of Brubaker (paraphrase of the review's verdict)",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          },
+          {
+            "text": "If the objective of Brubaker's book is to demonstrate the humanity of the scribes involved in transmitting the Quranic text, it certainly succeeds. … Where it falls short, however, is in its methodology and analysis. … The vast majority of examples in the book are best explained through simple scribal error. The main thesis, namely, that the flexibility of the Quranic text persisted centuries beyond its standardization, remains unproven.",
+            "who": "Hythem Sidky",
+            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), pp. 287–288",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          },
+          {
+            "text": "Corrections apparently in the direction of conformity to the Cairo edition are not evidence of a changing standard, but evidence of the existence of a standard in the first place.",
+            "who": "Hythem Sidky",
+            "work": "Same review, p. 276",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "IRCICA: Altikulac, Refutation of Daniel Alan Brubaker (2020).",
+            "source": "Ankara University faculty review",
+            "url": "https://dergipark.org.tr/en/pub/auifd/article/1070291",
+            "label": "IRCICA: Altikulac, Refutation of Daniel Alan Brubaker (2020).",
+            "note": "Ankara University faculty review"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Any early Hijazi leaf with a visible overstrike",
+            "url": "https://corpuscoranicum.de/en/manuscripts",
+            "note": "Compare with uncorrected parallels of the same verse",
+            "title": "Any early Hijazi leaf with a visible overstrike"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sidky review",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          },
+          {
+            "label": "Altikulac refutation notice",
+            "url": "https://dergipark.org.tr/en/pub/auifd/article/1070291"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Photo-of-erasure gotcha",
+          "claim": "This photo proves tahrif.",
+          "reply": "Ask for the control: an early uncorrected parallel of the same verse. Hand-copied Bibles look the same under a lens."
+        }
+      ],
+      "live": {
+        "if_they_say": "Brubaker's photos show corruption.",
+        "you_say": "Sidky opened the same photos: most are parablepsis / assimilation of parallels. Convergence on Cairo 1924 is anachronistic — Cairo used medieval rasm books and is more archaic than later classicized mushafs.",
+        "dont_overclaim": "Don't pretend scribes never erred. Don't treat every overstrike as a council rewriting doctrine."
+      },
+      "crux": "Do corrections converge on an early archetype or manufacture a later one?",
+      "debate_use": "If they show an erasure, demand a stemma, not a vibe.",
+      "counter_to_christian": "NT manuscripts are full of corrections too.",
+      "counter_to_muslim": "Patterns of correction still deserve study; dismissiveness is not a method."
+    },
+    {
+      "id": "nt-variants",
+      "rank": 6,
+      "importance": "Top 10",
+      "cluster": "Bible text",
+      "title": "New Testament variants and reconstructability",
+      "type": "history + method",
+      "popularity": "Very high",
+      "why_it_matters": "Muslim opening move is almost always '400,000 variants.' If you cannot explain counting, you lose the room.",
+      "christian": {
+        "claim": "Despite a huge variant count, the NT is reconstructable with high confidence for nearly all passages; meaningful-and-viable cases are known, published, and few.",
+        "case": "Wallace: a variant is a place of difference, not 'times manuscripts.' Most are spelling/nonsense. Meaningful and viable: generously ~<0.1%. Showcase: longer ending of Mark; Pericope Adulterae; Comma Johanneum (not original). Critical editions flag them — that is honesty, not collapse.",
+        "quotes": [
+          {
+            "text": "The vast majority of NT variants are minor… Among 400,000 textual variants of the NT, over 99% make no difference to the meaning, and less than 1% are both meaningful and viable.",
+            "who": "Daniel B. Wallace (course summary of his standard taxonomy)",
+            "work": "BiblicalTraining NT605 / CSNTM-adjacent teaching",
+            "url": "https://www.biblicaltraining.org/learn/institute/nt605-textual-criticism"
+          },
+          {
+            "text": "By Dan's generous estimate, [meaningful and viable variants are] less than one-tenth of 1 percent of all variants, around 1,500 in total.",
+            "who": "Wallace interviewed on Logos 'What in the Word?'",
+            "work": "Is the New Testament Text Reliable?",
+            "url": "https://www.logos.com/grow/witw-new-testament-reliability/"
+          },
+          {
+            "text": "The Comma is a late insertion — critical editions omit it. That is Christians doing textual honesty, not Islam discovering that the Trinity has no other verses.",
+            "who": "Standard TC reply to Ataie's Comma slide",
+            "work": "NA28 / Wallace on 1 John 5:7",
+            "url": "https://bible.org/article/textual-problem-1-john-57-8"
+          },
+          {
+            "text": "A variant is simply the difference in wording found in a single manuscript or a group of manuscripts (either way, it's still only one variant) that disagrees with a base text. Further, there aren't only 200,000. … The estimates today are closer to 400,000.",
+            "who": "Daniel B. Wallace",
+            "work": "The Number of Textual Variants: An Evangelical Miscalculation (2013)",
+            "url": "https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/"
+          },
+          {
+            "text": "In contrast with these figures, the textual critic of the New Testament is embarrassed by the wealth of material. … Several papyrus manuscripts of portions of the New Testament are extant that were copied within a century or so after the composition of the original documents.",
+            "who": "Bruce M. Metzger and Bart D. Ehrman",
+            "work": "The Text of the New Testament, 4th ed., p. 51",
+            "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195161229"
+          },
+          {
+            "text": "Indeed, so extensive are these citations that if all other sources for our knowledge of the text of the New Testament were destroyed, they would be sufficient alone for the reconstruction of practically the entire New Testament.",
+            "who": "Bruce M. Metzger and Bart D. Ehrman",
+            "work": "The Text of the New Testament (standard editions, church-fathers chapter)",
+            "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195161229"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Greek NT ~138,000 words; variant estimates often ~400,000 (counting method matters).",
+            "source": "Wallace / Ehrman debates"
+          },
+          {
+            "fact": "P52 (John 18), P66 (John), P46 (Paul) are 2nd/3rd-c. papyri — not 4th-c. invention.",
+            "source": "CSNTM"
+          },
+          {
+            "fact": "Codex Sinaiticus & Vaticanus: mid-4th c. nearly complete Greek Bibles.",
+            "source": "codexsinaiticus.org; DigiVatLib"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "P52 Rylands (CSNTM)",
+            "url": "https://manuscripts.csntm.org/Manuscript/View/GA_P52",
+            "note": "Earliest often-cited John fragment",
+            "title": "P52 Rylands (CSNTM)"
+          },
+          {
+            "label": "Codex Sinaiticus",
+            "url": "https://codexsinaiticus.org/en/manuscript.aspx",
+            "note": "Includes famous Mark ending issues",
+            "title": "Codex Sinaiticus"
+          },
+          {
+            "label": "INTF / NT.VMR",
+            "url": "https://ntvmr.uni-muenster.de/",
+            "note": "Where variants are catalogued, not hidden",
+            "title": "INTF / NT.VMR"
+          },
+          {
+            "label": "CSNTM viewer",
+            "url": "https://manuscripts.csntm.org/",
+            "note": "Open a leaf mid-round",
+            "title": "CSNTM viewer"
+          },
+          {
+            "label": "Codex Vaticanus Vat.gr.1209",
+            "url": "https://digi.vatlib.it/view/MSS_Vat.gr.1209",
+            "note": "Alexandrian complete-ish Bible",
+            "title": "Codex Vaticanus Vat.gr.1209"
+          },
+          {
+            "label": "Codex Bezae",
+            "url": "https://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/1",
+            "note": "Western expansions",
+            "title": "Codex Bezae"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Wallace vs Ehrman 2011",
+            "url": "https://www.youtube.com/watch?v=WRHjZCKRIu4"
+          },
+          {
+            "label": "Wallace on counting variants",
+            "url": "https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/"
+          },
+          {
+            "label": "INTF",
+            "url": "https://www.uni-muenster.de/INTF/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "The early manuscript gap plus theologically loaded variants undercut claims of a stable inspired text comparable to the Qur'an's early rasm lock.",
+        "case": "Ehrman popularizes: more differences than words; first-century silence; scribes changed texts for theological reasons (e.g. anti-adoptionist). Mark 16 and John 8 were read as Scripture for centuries then demoted. That is not 'we always knew the original.'",
+        "quotes": [
+          {
+            "text": "There are more differences among our manuscripts than there are words in the New Testament.",
+            "who": "Bart D. Ehrman (standard debate formulation)",
+            "work": "Greer-Heard / popular lectures; cf. Misquoting Jesus",
+            "url": "https://www.baptistpress.com/resource-library/news/wallace-ehrman-debate-n-t-reliability/"
+          },
+          {
+            "text": "Out of the nearly 8,000 verses in the New Testament, zero are attested in manuscripts dated to the first century.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~20:05)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "This is the only verse in the entire New Testament that explicitly, unambiguously teaches the doctrine of the Trinity… This verse is not to be found in the most ancient Greek manuscripts.",
+            "who": "Ali Ataie (on the Johannine Comma, 1 John 5:7)",
+            "work": "Sound Narrative (~10:30)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "Apart from the smallest fragments, no two of our manuscripts are exactly alike. … It is probably easiest to put the matter in comparative terms: there are more differences in our manuscripts than there are words in the New Testament.",
+            "who": "Bart D. Ehrman",
+            "work": "New Testament Manuscripts: Good News and Bad News (blog)",
+            "url": "https://ehrmanblog.org/new-testament-manuscripts-good-news-and-bad-news/"
+          },
+          {
+            "text": "Most of our manuscripts are from the Middle Ages, many centuries—over a thousand years!—after the originals.",
+            "who": "Bart D. Ehrman",
+            "work": "Same essay",
+            "url": "https://ehrmanblog.org/new-testament-manuscripts-good-news-and-bad-news/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Mark 16:9–20 absent from Sinaiticus & Vaticanus.",
+            "source": "NA28 apparatus"
+          },
+          {
+            "fact": "John 7:53–8:11 missing from earliest witnesses.",
+            "source": "NA28"
+          },
+          {
+            "fact": "1 John 5:7 Comma Johanneum is a late Latin interpolation.",
+            "source": "Standard TC"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Sinaiticus Mark ending",
+            "url": "https://codexsinaiticus.org/en/manuscript.aspx",
+            "note": "Show the page live if possible",
+            "title": "Sinaiticus Mark ending"
+          },
+          {
+            "label": "Sinaiticus — Mark ending",
+            "url": "https://codexsinaiticus.org/en/manuscript.aspx?book=34",
+            "note": "16:9–20 absent",
+            "title": "Sinaiticus — Mark ending"
+          },
+          {
+            "label": "Vaticanus digital",
+            "url": "https://digi.vatlib.it/view/MSS_Vat.gr.1209",
+            "note": "Same absence",
+            "title": "Vaticanus digital"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Ehrman, Misquoting Jesus",
+            "url": "https://www.harpercollins.com/products/misquoting-jesus-bart-d-ehrman"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "400k scare",
+          "claim": "There are 400,000 different Bibles.",
+          "reply": "Variants are counted per difference-location, then multiplied in bad methods. Ask which variant changes a doctrine and whether NA28 already footnotes it."
+        },
+        {
+          "against": "Muslim Ehrman cherry-pick",
+          "claim": "Ehrman destroyed the Bible so Islam wins.",
+          "reply": "Ehrman still reconstructs a text and calls crucifixion rock-bottom certain. If you use him against inspiration, you inherit him against Q 4:157."
+        },
+        {
+          "against": "Muslim Comma-as-Trinity-killer",
+          "claim": "Without 1 John 5:7 there is no Trinity in the NT.",
+          "reply": "Ataie overclaims 'only unambiguous verse.' Matt 28:19, John 1, 2 Cor 13:13 still sit there. Grant the Comma is late. Don't pretend Nicea was waiting for Erasmus."
+        }
+      ],
+      "live": {
+        "if_they_say": "There are 400,000 New Testament variants.",
+        "you_say": "Wallace: a variant is a wording difference, counted once. Ehrman agrees the count is huge AND most are spelling. Name one that is meaningful and viable — then open NA28 / Sinaiticus.",
+        "dont_overclaim": "Don't claim autographs. Don't claim zero loaded variants. Don't multiply one misspelling by 4,000 copies."
+      },
+      "crux": "Are we measuring 'number of differences' or 'ability to recover an early text'?",
+      "debate_use": "Have Mark 16, John 8, 1 John 5:7 ready — and what the critical text does with each.",
+      "counter_to_christian": "Early gap still matters; some variants are theologically loaded.",
+      "counter_to_muslim": "Citing Ehrman against the Bible while rejecting his Jesus history is cherry-picking."
+    },
+    {
+      "id": "ot-dss",
+      "rank": 7,
+      "importance": "Top 10",
+      "cluster": "Bible text",
+      "title": "Old Testament: Masoretic Text, Septuagint, Dead Sea Scrolls",
+      "type": "history",
+      "popularity": "High (often neglected vs NT)",
+      "why_it_matters": "Muslims attack 'medieval Leningrad Codex.' Christians overclaim 'DSS prove zero change.' Both need Tov.",
+      "christian": {
+        "claim": "Dead Sea Scrolls push Hebrew Bible traditions back centuries before Islam. Continuity with later MT is substantial; plurality is real but bounded.",
+        "case": "Great Isaiah Scroll (~2nd c. BCE) is recognizably Isaiah. Some DSS confirm MT; some support LXX-like editions (esp. Jeremiah/Samuel). This is ancient textual culture, not 'rabbis invented the OT after Muhammad.'",
+        "quotes": [
+          {
+            "text": "The traditional witnesses… Masoretic Text and the Septuagint… The Dead Sea Scrolls… remain the most significant source of information for the study of ancient Scripture.",
+            "who": "Emanuel Tov (handbook framing)",
+            "work": "The Text-Critical Use of the Septuagint / TCHB tradition",
+            "url": "https://www.eisenbrauns.org/books/titles/978-1-57506-328-7.html"
+          },
+          {
+            "text": "The Qumran finds (more than 200 fragmentary scrolls) reflect textual plurality, and all the biblical texts were probably considered authoritative. At the same time, the 25 Scripture scrolls from sites in the Judean Desert outside Qumran are virtually identical to the medieval MT.",
+            "who": "Emanuel Tov",
+            "work": "Open Theology / DSS 65-years essay (abstract + body)",
+            "url": "https://www.degruyterbrill.com/document/doi/10.2478/opth-2014-0007/pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Leningrad Codex 1008/09 CE is the oldest complete MT — late as a complete book, not as a tradition.",
+            "source": "Codex dating"
+          },
+          {
+            "fact": "DSS: 3rd c. BCE – 1st c. CE.",
+            "source": "Leon Levy DSS library"
+          },
+          {
+            "fact": "Jeremiah LXX is substantially shorter — a real literary edition, not a typo.",
+            "source": "Tov, literary criticism of Jeremiah"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Leon Levy DSS Digital Library",
+            "url": "https://www.deadseascrolls.org.il/",
+            "note": "Primary image corpus",
+            "title": "Leon Levy DSS Digital Library"
+          },
+          {
+            "label": "Great Isaiah Scroll (IMJ)",
+            "url": "https://dss.collections.imj.org.il/",
+            "note": "Continuous Isaiah",
+            "title": "Great Isaiah Scroll (IMJ)"
+          },
+          {
+            "label": "1QIsaᵃ IMJ viewer",
+            "url": "https://dss.collections.imj.org.il/isaiah",
+            "note": "Scroll a verse live",
+            "title": "1QIsaᵃ IMJ viewer"
+          },
+          {
+            "label": "Aleppo Codex",
+            "url": "https://aleppocodex.org/",
+            "note": "Medieval MT quality",
+            "title": "Aleppo Codex"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Tov, Textual Criticism of the Hebrew Bible",
+            "url": "https://www.fortresspress.com/store/product/9780800696641/Textual-Criticism-of-the-Hebrew-Bible"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "OT textual plurality (MT/LXX/SP/DSS) and late complete MT exemplars show the Hebrew Bible was not preserved as a single fixed text like the Uthmanic rasm.",
+        "case": "Samaritan Pentateuch diverges; Jeremiah has two editions; Christians argue internally which is 'original.' Compared with Uthmanic unity, the OT looks fluid.",
+        "quotes": [
+          {
+            "text": "When trying to understand the textual situation of the Torah in the Second Temple period, we are faced with a veritable textual plurality that is probably reflected in some ten different textual branches, more than in the other Scripture books.",
+            "who": "Emanuel Tov",
+            "work": "The Two-Fold Division of the Textual Transmission of the Torah",
+            "url": "https://openscholar.huji.ac.il/sites/default/files/he_bible_project/files/e._tov1.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Samaritan Pentateuch: thousands of differences from MT, subset aligning with LXX.",
+            "source": "Standard intro figures"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Leningrad Codex (complete MT)",
+            "url": "https://archive.org/details/Leningrad_Codex",
+            "note": "Show the date honestly",
+            "title": "Leningrad Codex (complete MT)"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Tov on LXX",
+            "url": "https://www.eisenbrauns.org/books/titles/978-1-57506-328-7.html"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Muslim 'medieval invention'",
+          "claim": "The OT appears in 1008 so it is late.",
+          "reply": "DSS smash that. Date of oldest complete copy ≠ date of composition or of the tradition."
+        }
+      ],
+      "live": {
+        "if_they_say": "The Old Testament is a medieval book (Leningrad 1008).",
+        "you_say": "Leningrad is the oldest complete MT copy. Tov: non-Qumran Judean Desert scrolls are virtually identical to that medieval text; Qumran itself is plural. Open 1QIsaᵃ.",
+        "dont_overclaim": "Don't say DSS prove zero variation. Don't say rabbis invented Isaiah after the Qur'an."
+      },
+      "crux": "Is textual plurality evidence of corruption or of a normal ancient textual culture?",
+      "debate_use": "One DSS example that confirms MT + one that supports LXX.",
+      "counter_to_christian": "Don't pretend one OT text-type always wins.",
+      "counter_to_muslim": "Literary editions ≠ 'Bible invented in the Middle Ages.'"
+    },
+    {
+      "id": "islamic-dilemma",
+      "rank": 8,
+      "importance": "Top 10",
+      "cluster": "Cross-scripture",
+      "title": "Islamic dilemma: Qur'an affirms prior scripture",
+      "type": "theology + history",
+      "popularity": "Very high",
+      "why_it_matters": "Best Christian offensive tool on this topic. If Injil = the four Gospels' doctrine, Islam collides with its own book.",
+      "christian": {
+        "claim": "The Qur'an tells People of the Gospel to judge by what they have; 7th-c. Bible ≈ today's in core; therefore Islam affirms a Bible that contradicts Islam.",
+        "case": "Q 5:47; 5:68; 10:94; 3:3–4. Manuscripts of NT/OT already exist in the 7th century (Sinaiticus etc. are 4th c.). Post-Muhammad corruption cannot rescue the dilemma.",
+        "quotes": [
+          {
+            "text": "Let the People of the Gospel judge by what Allah has revealed therein.",
+            "who": "Qur'an 5:47",
+            "work": "Primary text",
+            "url": "https://quran.com/5/47"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "4th-c. complete-ish Greek Bibles predate Islam by ~300 years.",
+            "source": "Sinaiticus / Vaticanus"
+          },
+          {
+            "fact": "Peshitta and other versions were already in use in the late antique Near East.",
+            "source": "Syriac biblical versions"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Codex Sinaiticus (pre-Islamic Greek Bible)",
+            "url": "https://codexsinaiticus.org/en/",
+            "note": "What 'the Book' could mean physically",
+            "title": "Codex Sinaiticus (pre-Islamic Greek Bible)"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Q 5:47",
+            "url": "https://quran.com/5/47"
+          },
+          {
+            "label": "Q 10:94",
+            "url": "https://quran.com/10/94"
+          },
+          {
+            "label": "Reynolds on tahrif",
+            "url": "https://almuslih.org/wp-content/uploads/Library/Reynolds,%20G%20-%20The%20Quranic%20accusation.pdf"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Affirmation is of revelation/guidance within prior books, not of every later Christian doctrine. Injil ≠ four-Gospel Nicene packet. Qur'an is muhaymin (5:48).",
+        "case": "Abdullah Saeed: Qur'an reveres Tawrat/Injil while criticizing people who distort words from their places. Ally: 'contains guidance and light' ≠ 'is entirely guidance and light.' Tahrif often = meaning, not always total rewrite.",
+        "quotes": [
+          {
+            "text": "Since the 'authorized' scriptures of Jews and Christians remain very much today as they existed at the time of the Prophet, it is difficult to argue that the Qur'anic references to Tawrat and Injil were only to the 'pure' Tawrat and Injil as existed at the time of Moses and Jesus.",
+            "who": "Abdullah Saeed",
+            "work": "The Charge of Distortion of Jewish and Christian Scriptures",
+            "url": "https://bible-quran-video.s3.amazonaws.com/Documents/The-Charge-of-Distortion-of-Jewish-and-Christian-Scriptures_Abdullah+Saeed.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Q 5:48: Qur'an as muhaymin over previous scripture.",
+            "source": "https://quran.com/5/48"
+          },
+          {
+            "fact": "Q 4:46; 5:13: yuharrifuna — distort words from their places.",
+            "source": "Tahrif verses"
+          }
+        ],
+        "manuscripts": [],
+        "sources": [
+          {
+            "label": "Saeed PDF",
+            "url": "https://bible-quran-video.s3.amazonaws.com/Documents/The-Charge-of-Distortion-of-Jewish-and-Christian-Scriptures_Abdullah+Saeed.pdf"
+          },
+          {
+            "label": "Ally reply to White on 5:47",
+            "url": "https://shabirally.wordpress.com/2012/05/21/a-response-to-james-whites-some-brief-thoughts-regarding-liberal-scholarship-redaction-criticism-and-islam-part-1/"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Christian blank-check affirmation",
+          "claim": "5:47 means every Gospel sentence is God's word.",
+          "reply": "Ally's ingredient argument: a pot containing salt is not only salt. Then fight crucifixion as a separate historical question."
+        }
+      ],
+      "live": {
+        "if_they_say": "The Qur'an confirms the Bible, so Muslims must accept the Gospels.",
+        "you_say": "Define Injil. Affirmation of guidance therein is not a blank check for Nicene doctrine. Then argue the historical content (cross) separately.",
+        "dont_overclaim": "Don't pretend the 7th-c. Injil was a lost single book nobody can describe. Don't pretend 5:47 doesn't exist."
+      },
+      "crux": "What object does 'Injil' refer to in Q 5 — and what propositional content is affirmed?",
+      "debate_use": "Prepare Ally/Saeed as the precise Muslim reply; then don't hide 4:157.",
+      "counter_to_christian": "If Gospel means a book given to Jesus, four Gospels are already a category mismatch.",
+      "counter_to_muslim": "If the available Injil in the 7th c. taught crucifixion/deity, partial-affirmation still collides."
+    },
+    {
+      "id": "method-symmetry",
+      "rank": 9,
+      "importance": "Top 10",
+      "cluster": "Method",
+      "title": "Method symmetry: critical tools both ways",
+      "type": "method",
+      "popularity": "Very high among trained debaters",
+      "why_it_matters": "James White's judo: you cannot use Dunn/Ehrman as a sword on the Gospels and a shield for the Qur'an.",
+      "christian": {
+        "claim": "If form/redaction criticism can dissolve Gospel historicity, the same toolkit dissolves sira/hadith and treats Qur'anic Jesus material as late and non-historical.",
+        "case": "Scholars Ally cites would not validate Jesus speaking from the cradle as history. Infancy Gospel parallels (clay birds) would be called 'apocryphal dependence' if found in the NT.",
+        "quotes": [
+          {
+            "text": "I do not think that the Qur'an has any particular insights about the historical Jesus that are to be taken as independent reports by historical scholars. Neither does any other historical scholar that I know.",
+            "who": "Bart D. Ehrman",
+            "work": "Does My Work on the Historical Jesus Confirm the Quran?",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Clay birds: Infancy Gospel of Thomas ↔ Q 3:49 / 5:110.",
+            "source": "Reynolds / standard parallel lists"
+          },
+          {
+            "fact": "Cradle speech: late antique Christian lore ↔ Q 19:29–33.",
+            "source": "Arabic Infancy Gospel discussions"
+          }
+        ],
+        "manuscripts": [],
+        "sources": [
+          {
+            "label": "Ehrman blog",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+          },
+          {
+            "label": "White on Ally / liberal scholarship",
+            "url": "https://www.aomin.org/aoblog/uncategorized/a-response-to-dr-shabir-ally-part-1/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "The Qur'an's claim-structure differs: one revelatory book in one language vs a multi-author library. Even critical scholars often affirm early Qur'anic rasm fixation.",
+        "case": "Genre difference is real. Islamic sciences have isnad criticism. van Putten/Sadeghi are not 'liberal Muslim Ehrmans' in the sense of dissolving the 7th-century text; they often lock it earlier.",
+        "quotes": [
+          {
+            "text": "A definitive answer to this question cannot be found by examining the Muslim tradition, but should rather be based on a study of the text of the early Quranic manuscripts.",
+            "who": "Marijn van Putten",
+            "work": "BSOAS 2019 — method statement",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          },
+          {
+            "text": "They assume that the Bible and the Qur'an have similar literary histories. This is a big mistake.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~21:31)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "When Jesus does something, he's authentically fulfilling prophecy. But when the Prophet Muḥammad does something, he's deceptively self-fulfilling prophecies. This is called a hermeneutic of suspicion using a double standard.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative (~25:29)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Critical Qur'anic studies often date a written Uthmanic archetype to the 7th century, not the 9th.",
+            "source": "van Putten / Sinai / Déroche stream"
+          }
+        ],
+        "manuscripts": [],
+        "sources": [
+          {
+            "label": "van Putten 2019",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Special pleading",
+          "claim": "My book is revelation so your tools don't apply.",
+          "reply": "Then say so and leave the 'historicity' motion. If the motion is public history, tools apply both ways."
+        }
+      ],
+      "live": {
+        "if_they_say": "Liberal scholars proved the Gospels are late legends.",
+        "you_say": "Name the scholars. Would they treat Qur'anic Jesus sayings as 30s-CE history? If not, you borrowed a sword that cuts your own book.",
+        "dont_overclaim": "Don't pretend genre differences are zero. Don't pretend they are infinite either."
+      },
+      "crux": "What is the shared historical method both sides accept before theology?",
+      "debate_use": "45-second symmetry speech. Reuse every round.",
+      "counter_to_christian": "Difference of genre is real; not every biblical tool maps 1:1.",
+      "counter_to_muslim": "If you use Metzger against Mark, you need a reason not to use Déroche/van Putten critically."
+    },
+    {
+      "id": "event-vs-book",
+      "rank": 10,
+      "importance": "Top 10",
+      "cluster": "Origins",
+      "title": "Book reliability vs event reliability (Jesus' crucifixion as the test)",
+      "type": "history + theology",
+      "popularity": "Very high",
+      "why_it_matters": "You can win 'whose book was copied earlier' and still lose 'whose book matches the best-attested event about Jesus.' Don't let the motion smear these together.",
+      "christian": {
+        "claim": "On the historical Jesus, mainstream scholarship aligns with crucifixion; Qur'an 4:157 is the collision. That is an event-historicity failure even if Qur'anic rasm is early.",
+        "case": "Josephus, Tacitus, all four Gospels, Paul (1 Cor 15; Phil 2). Ehrman (non-Christian): rock-bottom certain. A perfectly preserved sentence can still be historically false.",
+        "quotes": [
+          {
+            "text": "I am convinced beyond a shadow of a doubt that Jesus was physically crucified and died on the cross. That is rock-bottom certain in my books. And it stands completely [at] odds with standard Islamic beliefs.",
+            "who": "Bart D. Ehrman",
+            "work": "Does My Work on the Historical Jesus Confirm the Quran?",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+          },
+          {
+            "text": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus.",
+            "who": "Tacitus",
+            "work": "Annals 15.44",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Q 4:157 is the sole Qur'anic locus usually read as denying crucifixion.",
+            "source": "https://quran.com/4/157"
+          },
+          {
+            "fact": "1 Cor 15:3–8 is commonly dated within a few years of the crucifixion as received tradition.",
+            "source": "Standard Pauline chronology"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "P46 (Pauline papyri incl. crucifixion kerygma)",
+            "url": "https://en.wikipedia.org/wiki/Papyrus_46",
+            "note": "Early copy of early content",
+            "title": "P46 (Pauline papyri incl. crucifixion kerygma)"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Ehrman blog",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+          },
+          {
+            "label": "Craig on Qur'an & crucifixion",
+            "url": "https://www.reasonablefaith.org/writings/question-answer/the-quran-and-the-crucifixion-of-jesus"
+          },
+          {
+            "label": "Q 4:157",
+            "url": "https://quran.com/4/157-158"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "4:157 can be read as denying Jewish triumph/agency, not the public event; tafsir substitution is not identical to the verse. Revelation can correct historians.",
+        "case": "Lawson: tafsir, not the bare wording, hardens into categorical denial. Some Isma'ili and modern academic readings keep historicity of a crucifixion-looking event. Also: Q 3:55 / 19:33 are used internally.",
+        "quotes": [
+          {
+            "text": "The point is that tafsir, not the Qur'an, denies the Crucifixion.",
+            "who": "Todd Lawson (as commonly cited in this debate)",
+            "work": "The Crucifixion and the Qur'an",
+            "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Majority Sunni tafsir: substitution / non-death on the cross.",
+            "source": "Tabari, etc."
+          },
+          {
+            "fact": "Minority: some Isma'ili and modern academic readings of 4:157 as denying the boast.",
+            "source": "AJIS survey"
+          }
+        ],
+        "manuscripts": [],
+        "sources": [
+          {
+            "label": "Lawson PDF",
+            "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
+          },
+          {
+            "label": "AJIS — non-monolithic crucifixion views",
+            "url": "https://ajis.com.au/index.php/ajis/article/view/585"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Muslim 'appearance' escape",
+          "claim": "Historians only have appearances, which the Qur'an already grants.",
+          "reply": "Craig: that concedes the historical evidence. Then you need a miracle-of-illusion against all sources. Say that openly."
+        }
+      ],
+      "live": {
+        "if_they_say": "The Qur'an is better preserved so it is more historical.",
+        "you_say": "Preservation of wording ≠ accuracy about 30 CE events. Split the motion: book-as-artifact vs crucifixion-as-event.",
+        "dont_overclaim": "Don't pretend 4:157 is unambiguous. Don't pretend historians treat the Qur'an as a Jesus source."
+      },
+      "crux": "Is tonight's standard public historical method, or revelatory authority?",
+      "debate_use": "If the motion says historicity, pin the standard to public history in the first minute.",
+      "counter_to_christian": "Historical consensus is not infallible.",
+      "counter_to_muslim": "If you enter a historicity debate, positivist method is the agreed arena."
+    },
+    {
+      "id": "ataie-multiformic",
+      "rank": 11,
+      "cluster": "Qur'an text",
+      "title": "Ataie: multiformic revelation vs the uniformic dawah slogan",
+      "type": "method + history + ʿulūm",
+      "popularity": "The best long-form Sunni reply to qirāʾāt clips",
+      "why_it_matters": "This lecture is the missing middle between Qadhi's 'holes' soundbite and van Putten's journal article. If you only know Hafs-is-the-Qur'an, a Hyde Park table of Warsh/Qālūn muṣḥafs will shake you. If you only know '400k NT variants,' Ataie's aḥruf theology will sound like special pleading. Watch it so both of those reflexes die.",
+      "christian": {
+        "claim": "Even Ataie's steelman concedes what folk Islam denies: multiple wordings, companion rasm differences, unauthorized readings, and an ʿUthmānic filter that dropped some prophetic-or-claimed forms. That is a human canon process. Calling it 'multiformic revelation' does not make ṣūf/ʿihn or C-1 disappear.",
+        "case": "Press three points. (1) Kind: he says authorized variants are not like the Johannine Comma — granted for 1 John 5:7, but Mark 16 and John 8 are earlier and still theologically used. (2) Loss: if a ḥarf can be abandoned as rukhṣah, then 'every revealed letter is still recited' is false; preservation has been redefined. (3) Date: Birmingham is parchment range; Sidky's '100% first-century' is a coverage claim about ʿUthmānic-type witnesses, not ink-autographs. Wansbrough is already rejected by most historians — beating him is not beating Ehrman on Jesus.",
+        "quotes": [
+          {
+            "text": "The Qur'an has never been a uniformic text, but rather a multiformic text. And it does have textual variants, but these are not of the same kind as those of the Bible.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative / preservation seminar (~8:04)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Ataie himself: unauthorized Qur'anic readings exist and may not be used in ṣalāh.",
+            "source": "Lecture ~12:21",
+            "label": "Ataie himself: unauthorized Qur'anic readings exist and may not be used in ṣalāh.",
+            "note": "Lecture ~12:21"
+          },
+          {
+            "fact": "Ibn Masʿūd 101:5 ṣūf vs ʿUthmānic ʿihn: he offers aḥruf, memory error, or tafsīr gloss — not 'never differed'.",
+            "source": "Lecture ~1:25–1:33",
+            "label": "Ibn Masʿūd 101:5 ṣūf vs ʿUthmānic ʿihn: he offers aḥruf, memory error, or tafsīr gloss — not 'never differed'.",
+            "note": "Lecture ~1:25–1:33"
+          },
+          {
+            "fact": "Trinity does not stand or fall on the Johannine Comma; critical editions already omit it.",
+            "source": "NA28; Wallace/Ehrman file",
+            "label": "Trinity does not stand or fall on the Johannine Comma; critical editions already omit it.",
+            "note": "NA28; Wallace/Ehrman file"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Ataie — Sound Narrative",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "label": "1 John 5:7 apparatus (standard TC)",
+            "url": "https://www.biblegateway.com/passage/?search=1%20John%205%3A7-8&version=NRSVUE"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "The live problem is miseducation, not missing revelation. Classical ʿulamāʾ always taught aḥruf. Polemicists quote those books to uneducated audiences as if they had discovered a cover-up. Authorized variants go back to the Prophet; ʿUthmān stabilized the dominant Medinan recitation; first-century manuscripts back the broad strokes of that story.",
+        "case": "Ataie's usable kit: (1) preacher ≠ ʿālim — demand isnād for 'scholarship'; (2) 20+ ṣaḥāba on seven aḥruf; ʿUmar/Hishām both approved; (3) seven categories (nominal, inflectional, dialect, synonym, verbal, particle, syntax) — Mālik/Malik and arjulakum change meaning on purpose; (4) companion codices differ by spelling, aḥruf, error, or notes — C-1 is a 'nothing burger' that confirms the narrative; (5) reciters were not Goldziher-free: 3:26 is only Mālik, Yā-Sīn has one pointing; (6) ~1–2.5% of words are qirāʾah-affected, not tens of thousands.",
+        "quotes": [
+          {
+            "text": "These critics… dip into our traditional literature and they pull out these isolated narrations that debunk the claim of textual uniformity, a claim that no real Muslim ʿālim ever made… They weaponize our own literature against us… to tear down these straw men that ignorant Muslims constantly keep creating.",
+            "who": "Ali Ataie",
+            "work": "Sound Narrative / preservation seminar (~13:30–15:00)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "The authorized Qur'anic variants are part of the revelation given to the Prophet himself. And the evidence of that is the ancient and mass-transmitted tradition of the seven [aḥruf].",
+            "who": "Ali Ataie",
+            "work": "Same lecture (~11:49)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "All extant Qur'anic manuscripts today descend from a single text type, the ʿUthmānic text type… except for one, the lower text of C-1.",
+            "who": "Ali Ataie (reporting Sidky, van Putten, Anthony)",
+            "work": "Same lecture (~1:15:40)",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "text": "In any case, textual criticism suggests the standard version is the most faithful representation among the known codices of the Qur'an as recited by the Prophet.",
+            "who": "Behnam Sadeghi & Mohsen Goudarzi / Bergmann (as Ataie reads their conclusion)",
+            "work": "The Codex of a Companion… (Ataie ~2:17:20)",
+            "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Mingana 1572a + BnF Arabe 328c: same codex; Ataie: ~8% of the Qur'an, C-14 no later than 645 CE (95.4%).",
+            "source": "Birmingham + Fedeli; lecture ~29:18",
+            "label": "Mingana 1572a + BnF Arabe 328c: same codex; Ataie: ~8% of the Qur'an, C-14 no later than 645 CE (95.4%).",
+            "note": "Birmingham + Fedeli; lecture ~29:18",
+            "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
+          },
+          {
+            "fact": "Ataie: two dozen+ confirmed 7th-c. CE Qur'an MSS; IA listed ~96%; Sidky says coverage now ~100% of the ʿUthmānic text.",
+            "source": "Lecture ~28:36–31:49",
+            "label": "Ataie: two dozen+ confirmed 7th-c. CE Qur'an MSS; IA listed ~96%; Sidky says coverage now ~100% of the ʿUthmānic text.",
+            "note": "Lecture ~28:36–31:49",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/hijazi.html"
+          },
+          {
+            "fact": "Sidky phylogenetic result as reported: extant MSS (minus C-1) go back to four ancestral codices — Medina, Basra, Kufa, Syria — window ~650.",
+            "source": "Lecture ~1:20:11",
+            "label": "Sidky phylogenetic result as reported: extant MSS (minus C-1) go back to four ancestral codices — Medina, Basra, Kufa, Syria — window ~650.",
+            "note": "Lecture ~1:20:11"
+          },
+          {
+            "fact": "ʿUthmānic copies: Ataie via Abū ʿUbayd / Dānī — 43 letters differ of ~374,000, intentional particle accommodation, not free rewriting.",
+            "source": "Lecture ~2:23:04",
+            "label": "ʿUthmānic copies: Ataie via Abū ʿUbayd / Dānī — 43 letters differ of ~374,000, intentional particle accommodation, not free rewriting.",
+            "note": "Lecture ~2:23:04"
+          },
+          {
+            "fact": "Ibn Mujāhid ~700 affected words (<1%); van Putten ~2,000 (~2.5%). Free pointing would have produced tens of thousands.",
+            "source": "Lecture ~2:44:13",
+            "label": "Ibn Mujāhid ~700 affected words (<1%); van Putten ~2,000 (~2.5%). Free pointing would have produced tens of thousands.",
+            "note": "Lecture ~2:44:13"
+          },
+          {
+            "fact": "Today: ~95% Ḥafṣ ʿan ʿĀṣim, ~3% Warsh, rest split (as Ataie states — treat as order-of-magnitude).",
+            "source": "Lecture ~2:35:03",
+            "label": "Today: ~95% Ḥafṣ ʿan ʿĀṣim, ~3% Warsh, rest split (as Ataie states — treat as order-of-magnitude).",
+            "note": "Lecture ~2:35:03"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Birmingham / Mingana 1572a",
+            "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world",
+            "note": "Hijazi; with 328c ~8%"
+          },
+          {
+            "label": "Islamic Awareness 1st-c. Hijazi list",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/",
+            "note": "The gallery Ataie points laypeople to"
+          },
+          {
+            "label": "Ṣanʿāʾ C-1 dossier",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/soth.html",
+            "note": "Lower text = non-ʿUthmānic type"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Ataie — Sound Narrative",
+            "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+          },
+          {
+            "label": "Zaytuna — Ali Ataie",
+            "url": "https://zaytuna.edu/academics/faculty/ali-ataie"
+          },
+          {
+            "label": "Al-Aʿẓamī, The History of the Qur'anic Text (Ataie's English go-to)",
+            "url": "https://www.islamic-awareness.org/quran/text/"
+          },
+          {
+            "label": "Sadeghi & Bergmann 2010",
+            "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+          },
+          {
+            "label": "van Putten 2019",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          },
+          {
+            "label": "nquran.com",
+            "url": "https://nquran.com"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Christian 'Ataie admitted variants'",
+          "claim": "See, even their scholar says the Qur'an has variants, so it is not preserved.",
+          "reply": "That is his opening diagnosis of your straw man. He says the ʿulamāʾ never claimed uniformic letters. Quote the next sentence: authorized variants are aḥruf, not Comma-style insertions."
+        },
+        {
+          "against": "Muslim 'watch Ataie, debate over'",
+          "claim": "A three-hour lecture settled preservation.",
+          "reply": "It is the best popular map of the Sunni file. It does not date ink, does not make C-14 a miracle, and does not answer crucifixion-as-event. Steal the map; don't beatify the lecturer (he says he is not a 25-year traditional ʿālim)."
+        },
+        {
+          "against": "Hyde Park 10-muṣḥaf table",
+          "claim": "Look, different Qur'ans.",
+          "reply": "Ask which condition fails: rasm of an ʿUthmānic copy, mass isnād, or Arabic. Ḥafṣ vs Warsh are two rāwīs inside the tradition. Then ask why Yā-Sīn is not also 'Tā-Sīn' if pointing was free."
+        }
+      ],
+      "live": {
+        "if_they_say": "Your own books show three versions of al-Fātiḥa 6 — the Qur'an isn't preserved.",
+        "you_say": "Ataie's example: ṣirāṭ with ṣād / sīn / zāy are authorized dialect/letter options inside the aḥruf, all with isnād. The critic hid that every ʿulūm manual already lists them. Then ask whether they want 'one ḥarf' or 'licensed multiplicity' as the thesis.",
+        "dont_overclaim": "Don't say the three letters are 'just pronunciation' if you haven't checked the verse. Don't say no Muslim ever overclaimed letter-identity — Ataie says they did, and that is why the clip works."
+      },
+      "crux": "Is preservation identity of one recitation, or identity of an authorized multiform corpus whose stemma is ʿUthmānic plus prophetic aḥruf?",
+      "debate_use": "Assign this video before any qirāʾāt debate. Steal his preacher/ʿālim distinction and his Yā-Sīn constraint argument.",
+      "counter_to_christian": "If you use Ataie only for 'he admitted variants,' you skipped 80% of the lecture.",
+      "counter_to_muslim": "If you use Ataie only as a Wansbrough-killer, you still owe a definition of preservation that survives rukhṣah-abandonment."
+    },
+    {
+      "id": "defs-first",
+      "rank": 12,
+      "cluster": "Meta",
+      "title": "Definition trap: historicity vs preservation vs inspiration",
+      "type": "definition",
+      "popularity": "Decides the whole debate",
+      "crux": "What exact question is being debated tonight — and which metric wins?",
+      "debate_use": "Open with this. If you lose definitions, you lose.",
+      "christian": {
+        "claim": "If historicity means recoverability of an early text and proximity to events, the Bible's multi-witness manuscript tradition and early citations are a strength.",
+        "case": "Christian debaters often win when the motion is 'can we know approximately what was written?' and lose when they overclaim 'letter inspiration of the KJV/TR' or ignore OT textual plurality.",
+        "sources": [
+          {
+            "label": "Wallace–Ehrman debate framing",
+            "url": "https://www.youtube.com/watch?v=WRHjZCKRIu4"
+          },
+          {
+            "label": "Metzger & Ehrman, The Text of the New Testament",
+            "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195166675"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "If historicity means early fixation of a controlled text tied to a single revelatory event in one lifetime, the Qur'an's short revelation window + early rasm + oral culture is stronger.",
+        "case": "Muslim debaters often win when the motion is 'which book was standardized earlier relative to its prophet?' and lose when they claim zero meaningful variation or deny manuscript complexity.",
+        "sources": [
+          {
+            "label": "Yaqeen — Uthmanic Codex",
+            "url": "https://yaqeeninstitute.org/read/paper/the-uthmanic-codex-understanding-how-the-quran-was-preserved"
+          },
+          {
+            "label": "van Putten — Uthmanic archetype orthography",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          }
+        ]
+      },
+      "counter_to_christian": "Manuscript count ≠ autographic certainty; OT/NT are different problems bundled unfairly.",
+      "counter_to_muslim": "Early standardization can coexist with suppressed alternatives (companion codices, Sanaa C-1).",
+      "why_it_matters": "Most rounds are lost in the first minute on undefined words.",
+      "live": {
+        "if_they_say": "The Bible is corrupted and the Qur'an is preserved, period.",
+        "you_say": "Define corrupted (rewrite vs interpretation vs canon vs scribal noise) and preserved (letters vs rasm vs qira'at). Until those are locked, you are scoring slogans.",
+        "dont_overclaim": "Don't let 'historicity' mean 'inspired.' Don't let 'preservation' mean 'true.'"
+      }
+    },
+    {
+      "id": "authorship",
+      "rank": 13,
+      "cluster": "Origins",
+      "title": "Authorship and dating of composition",
+      "type": "history",
+      "popularity": "High",
+      "crux": "Are we dating the book as artifact, or the events the book narrates?",
+      "debate_use": "Split 'book historicity' from 'event historicity' on the whiteboard.",
+      "christian": {
+        "claim": "Multiple attestation and early creedal material (e.g. 1 Cor 15) give historical traction to core events even if some books' traditional authorship is debated.",
+        "case": "Split the question: (1) who wrote Hebrews? vs (2) was Jesus crucified under Pilate?",
+        "sources": [
+          {
+            "label": "Ehrman on crucifixion certainty",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Qur'an originates in a single prophetic career (c. 610–632) with early community memory; Bible spans centuries with anonymous/pseudonymous parts.",
+        "case": "Shorter revelation window is offered as historicity advantage for the Qur'an as a book.",
+        "sources": [
+          {
+            "label": "Traditional compilation reports (Bukhari)",
+            "url": "https://sunnah.com/bukhari:4987"
+          }
+        ]
+      },
+      "counter_to_christian": "Critical dating of Gospels decades later still beats 600+ year gap for Jesus material in Qur'an.",
+      "counter_to_muslim": "Sira/hadith historicization is itself critically contested (Donner etc.).",
+      "why_it_matters": "Anonymous Gospels vs one reciter is a category fight, not a photocopy fight.",
+      "live": {
+        "if_they_say": "We don't even know who wrote the Gospels.",
+        "you_say": "Traditional authorship is debated; early attribution is not zero. Then ask whether unknown authors kill reconstructable content, and whether sīrah/hadith authorship is being held to the same standard.",
+        "dont_overclaim": "Don't pretend Mark signed his papyrus. Don't pretend every hadith is mutawātir."
+      }
+    },
+    {
+      "id": "oral-vs-written",
+      "rank": 14,
+      "cluster": "Method",
+      "title": "Oral memorization vs manuscript stemmata",
+      "type": "method",
+      "popularity": "High",
+      "christian": {
+        "claim": "Oral claims can stabilize a chosen reading; without stemmata they are hard to audit publicly.",
+        "case": "Christian reply to hifz: impressive, but companion differences and Sanaa show memory/writing produced plurality. Public manuscript criticism is an epistemic virtue.",
+        "sources": [
+          {
+            "label": "Sadeghi on semi-oral transmission",
+            "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Mass memorization + written rasm is a dual lock unmatched by biblical transmission culture.",
+        "case": "Living chains of recitation across regions make wholesale undetected rewrite implausible after early canonization.",
+        "sources": [
+          {
+            "label": "Yaqeen Uthmanic Codex",
+            "url": "https://yaqeeninstitute.org/read/paper/the-uthmanic-codex-understanding-how-the-quran-was-preserved"
+          }
+        ]
+      },
+      "counter_to_christian": "Early Christian liturgy was also oral; unfair double standard.",
+      "counter_to_muslim": "Oral frequency doesn't erase documented companion/qira'at differences.",
+      "crux": "What can oral culture prove that manuscripts cannot falsify?",
+      "debate_use": "Demand a falsifiable oral claim.",
+      "why_it_matters": "Hifz is impressive; it is not a stemma.",
+      "live": {
+        "if_they_say": "Millions have it memorized, so it cannot have changed.",
+        "you_say": "Memory can stabilize a chosen reading. Companion differences and Sanaa show plurality existed. Ask what oral culture would look like if it were wrong — what would falsify the claim?",
+        "dont_overclaim": "Don't sneer at hifz. Don't treat it as carbon-dating."
+      }
+    },
+    {
+      "id": "topkapi-myth",
+      "rank": 15,
+      "cluster": "Qur'an text",
+      "title": "Topkapı / Samarkand 'Uthman's mushaf' claims",
+      "type": "history",
+      "popularity": "High in popular apologetics",
+      "christian": {
+        "claim": "Popular claims that Topkapı/Samarkand are Uthman's personal copies are not mainstream paleography.",
+        "case": "Corpus Coranicum and codicologists typically date these large Kufic mushafs later (often 8th–9th c. type). Using them as autographs is folk history.",
+        "sources": [
+          {
+            "label": "Corpus Coranicum manuscripts",
+            "url": "https://corpuscoranicum.de/en/manuscripts"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Even if not Uthman's hand, early monumental mushafs show early, stable, empire-wide written Qur'an.",
+        "case": "The apologetic point can be restated without autograph claims: early Kufic witnesses align with Uthmanic rasm.",
+        "sources": [
+          {
+            "label": "van Putten orthographic archetype",
+            "url": "https://doi.org/10.1017/s0041977x19000338"
+          }
+        ]
+      },
+      "counter_to_christian": "Rejecting autograph claims doesn't erase early manuscript strength.",
+      "counter_to_muslim": "If your flyer said 'Uthman's copy,' correct it before the debate.",
+      "crux": "Are we dating a piety legend or a manuscript?",
+      "debate_use": "Concede early mushafs; reject autograph overclaim.",
+      "why_it_matters": "Folk autograph claims are an own-goal waiting to happen.",
+      "live": {
+        "if_they_say": "We still have Uthman's original mushaf in Istanbul.",
+        "you_say": "Paleography usually dates those monumental Kufic copies later. Concede early rasm; drop the autograph flyer. Van Putten's archetype argument is stronger than a tourist caption.",
+        "dont_overclaim": "Don't say those mushafs are fakes. Don't say they are signed by Uthman."
+      }
+    },
+    {
+      "id": "nt-papyri-gap",
+      "rank": 16,
+      "cluster": "Bible text",
+      "title": "First-century NT silence vs 7th-century Qur'an cluster",
+      "type": "history + method",
+      "popularity": "The comparison slide both sides want",
+      "why_it_matters": "This is the fair comparison: not 'my book vs your slogan,' but extant ink in the century of origin. Christians should own the gap. Muslims should not smuggle inspiration out of C-14.",
+      "christian": {
+        "claim": "Zero first-century NT papyri does not mean a 4th-century invention. P52/P66/P75/P46 sit inside ~100–170 years of composition; classical baselines are worse.",
+        "case": "Metzger–Ehrman: several papyri within a century or so of composition; church-father citations could reconstruct almost the whole NT. The gap is real; the reconstruction engine is also real.",
+        "quotes": [
+          {
+            "text": "Several papyrus manuscripts of portions of the New Testament are extant that were copied within a century or so after the composition of the original documents.",
+            "who": "Metzger and Ehrman",
+            "work": "The Text of the New Testament, 4th ed., p. 51",
+            "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195161229"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "P52: credit-card John 18, usually 125–175 CE — not first century.",
+            "source": "CSNTM / standard handbooks",
+            "label": "P52: credit-card John 18, usually 125–175 CE — not first century.",
+            "note": "CSNTM / standard handbooks"
+          },
+          {
+            "fact": "Complete-ish Gospels: Sinaiticus/Vaticanus, mid-4th c.",
+            "source": "codexsinaiticus.org; DigiVatLib",
+            "label": "Complete-ish Gospels: Sinaiticus/Vaticanus, mid-4th c.",
+            "note": "codexsinaiticus.org; DigiVatLib"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "P52",
+            "url": "https://manuscripts.csntm.org/Manuscript/View/GA_P52",
+            "note": "Earliest often-cited scrap",
+            "title": "P52"
+          },
+          {
+            "label": "P46",
+            "url": "https://en.wikipedia.org/wiki/Papyrus_46",
+            "note": "Paul c. 200",
+            "title": "P46"
+          },
+          {
+            "label": "P75",
+            "url": "https://manuscripts.csntm.org/manuscript/Group/GA_P75",
+            "note": "Luke–John",
+            "title": "P75"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Metzger–Ehrman TNT",
+            "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195161229"
+          },
+          {
+            "label": "CSNTM",
+            "url": "https://manuscripts.csntm.org/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "In the first Islamic century we already have multiple Hijazi witnesses covering essentially the ʿUthmānic rasm. That proximity is not matched by first-century Christian papyri.",
+        "case": "Sidky: C-14 has pushed some fragments to mid-1st/7th c. or before. Birmingham+328c, Tübingen, CPP, Or. 2165 form a cluster. Comparison is allowed if both sides use the same rule: extant ink, not piety.",
+        "quotes": [
+          {
+            "text": "Radiocarbon dating of Quranic fragments has also pushed some manuscripts back to the mid-first/seventh century or before, giving us an unprecedented window into the scripture as it was written, handled, and received by the earliest generation of Muslims.",
+            "who": "Hythem Sidky",
+            "work": "Al-ʿUṣūr al-Wusṭā 27 (2019), p. 273",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Ataie/Sidky coverage claim: ʿUthmānic text essentially complete among 7th-c. witnesses — a coverage argument, not one complete dated mushaf.",
+            "source": "Historicity Ataie card + Sidky field",
+            "label": "Ataie/Sidky coverage claim: ʿUthmānic text essentially complete among 7th-c. witnesses — a coverage argument, not one complete dated mushaf.",
+            "note": "Historicity Ataie card + Sidky field"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Birmingham / Mingana 1572a",
+            "url": "http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/table/",
+            "note": "C-14 568–645 parchment",
+            "title": "Birmingham / Mingana 1572a"
+          },
+          {
+            "label": "Gallica Arabe 328",
+            "url": "https://gallica.bnf.fr/ark:/12148/btv1b8415207g",
+            "note": "Same-codex / CPP",
+            "title": "Gallica Arabe 328"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sidky review",
+            "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+          },
+          {
+            "label": "Islamic Awareness 1st-c. list",
+            "url": "https://www.islamic-awareness.org/quran/text/mss/"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Muslim knock-out comparison",
+          "claim": "Zero first-century NT MSS means the Gospels are late fiction.",
+          "reply": "Absence of 1st-c. copies ≠ 4th-c. composition. Paul is 50s; P52 is 2nd c. Own the gap; don't invent a conspiracy."
+        },
+        {
+          "against": "Christian whataboutism",
+          "claim": "Classical works are worse, so the NT gap doesn't matter.",
+          "reply": "Classical baseline helps quantity. It does not create first-century Gospel autographs. Stay in the same metric."
+        }
+      ],
+      "live": {
+        "if_they_say": "There are no first-century New Testament manuscripts, so the Bible is late.",
+        "you_say": "Correct on extant 1st-c. ink. Then: P52/P66/P46 inside ~100–170 years, vs Qur'an leaves inside the first Hijrī century. Score proximity. Don't score inspiration from that.",
+        "dont_overclaim": "Don't date Birmingham ink to 568. Don't treat P52 as 'John's handwriting.'"
+      },
+      "crux": "Are we comparing extant witnesses in the century of origin, or theological reliability?",
+      "debate_use": "Open P52 and Birmingham on two tabs. State the metric before the slide.",
+      "counter_to_christian": "The first-century silence is still a fact the audience can see.",
+      "counter_to_muslim": "A 7th-century rasm cluster is not a lab sticker that says 'every aḥruf recited today.'"
+    },
+    {
+      "id": "mark16-john8",
+      "rank": 17,
+      "cluster": "Bible text",
+      "title": "Showcase variants: Mark 16:9–20 and John 7:53–8:11",
+      "type": "history",
+      "popularity": "The two pages you must be able to open",
+      "why_it_matters": "These are not spelling. Christians read them as Scripture for centuries; critical editions now bracket or omit them. That is either honesty or instability — name which claim you are making.",
+      "christian": {
+        "claim": "Critical editions flag the longer ending of Mark and the Pericope Adulterae because the earliest Alexandrian witnesses lack them. Publishing the problem is the opposite of a cover-up.",
+        "case": "Sinaiticus and Vaticanus omit Mark 16:9–20. The adulteress pericope is missing from the earliest papyri and those two codices. NA28/UBS print the data. Doctrine of resurrection does not rest on Mark 16:9–20 (1 Cor 15 is earlier).",
+        "quotes": [
+          {
+            "text": "It is quite true that (virtually) no viable variants are major threats to inerrancy; the major problems that the doctrine of inerrancy faces are essentially never found in textually disputed passages in which one reading creates the problem and another erases it.",
+            "who": "Daniel B. Wallace",
+            "work": "The Number of Textual Variants (2013)",
+            "url": "https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Mark 16:9–20 absent in א and B; present in A and the majority later tradition.",
+            "source": "NA28 apparatus",
+            "label": "Mark 16:9–20 absent in א and B; present in A and the majority later tradition.",
+            "note": "NA28 apparatus"
+          },
+          {
+            "fact": "John 7:53–8:11 absent from P66, P75, א, B.",
+            "source": "NA28",
+            "label": "John 7:53–8:11 absent from P66, P75, א, B.",
+            "note": "NA28"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Sinaiticus Mark 16",
+            "url": "https://codexsinaiticus.org/en/manuscript.aspx?book=34",
+            "note": "Show the stop at 16:8",
+            "title": "Sinaiticus Mark 16"
+          },
+          {
+            "label": "Alexandrinus (has longer ending)",
+            "url": "https://www.bl.uk/collection-items/codex-alexandrinus",
+            "note": "Not all old copies omit it",
+            "title": "Alexandrinus (has longer ending)"
+          }
+        ],
+        "sources": [
+          {
+            "label": "NA28 / INTF",
+            "url": "https://www.uni-muenster.de/INTF/"
+          },
+          {
+            "label": "Wallace 2013",
+            "url": "https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "If Christians can demote passages that were printed as Scripture for a millennium, 'we know the original' is a modern editorial achievement, not a preserved autograph.",
+        "case": "The audience lived and died hearing Mark 16 and John 8 as the Bible. That is closer to Ataie's Johannine Comma point: later authorized Bibles contained secondary text. The Qur'anic parallel would be reciting a shādhdh reading in ṣalāh as if it were mutawātir.",
+        "quotes": [
+          {
+            "text": "There are lots of differences that do matter a lot.",
+            "who": "Bart D. Ehrman",
+            "work": "New Testament Manuscripts: Good News and Bad News",
+            "url": "https://ehrmanblog.org/new-testament-manuscripts-good-news-and-bad-news/"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "KJV / liturgical use treated both passages as canonical for centuries.",
+            "source": "Reception history",
+            "label": "KJV / liturgical use treated both passages as canonical for centuries.",
+            "note": "Reception history"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "Sinaiticus",
+            "url": "https://codexsinaiticus.org/en/",
+            "note": "Open Mark 16 live",
+            "title": "Sinaiticus"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Ehrman blog",
+            "url": "https://ehrmanblog.org/new-testament-manuscripts-good-news-and-bad-news/"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Muslim 'the Bible added stories'",
+          "claim": "Christians just invented the resurrection ending.",
+          "reply": "1 Cor 15 is 20+ years after the event and independent of Mark 16:9–20. Fight the passage, not the creed, unless you have a better 1st-c. source."
+        }
+      ],
+      "live": {
+        "if_they_say": "The Bible has extra stories later scribes added.",
+        "you_say": "Name Mark 16 and John 8. Open Sinaiticus. Then ask whether NA28 bracketing them is corruption or disclosure. Don't pretend 1 Cor 15 depends on Mark's ending.",
+        "dont_overclaim": "Don't say no early copy has the longer ending (Alexandrinus does). Don't say these variants are 'just spelling.'"
+      },
+      "crux": "Is a later-recognized secondary passage proof of collapse, or proof that the apparatus works?",
+      "debate_use": "Have two URLs ready. Speak for 40 seconds. Sit down.",
+      "counter_to_christian": "Reception history still matters: people trusted a longer Bible.",
+      "counter_to_muslim": "If you use this file, you owe the same honesty on companion rasm and C-1."
+    },
+    {
+      "id": "sidky-oral-qiraat",
+      "rank": 18,
+      "cluster": "Qur'an text",
+      "title": "Sidky: qirāʾāt as inherited oral tradition, not crossword vowels",
+      "type": "history + method",
+      "popularity": "The academic version of Ataie's Yā-Sīn argument",
+      "why_it_matters": "Goldziher/Jeffery-style 'they dotted an empty skeleton' is still the polemic default. Sidky 2023 is the journal article you cite instead of a vibe.",
+      "christian": {
+        "claim": "Even if regional oral streams are old, they are still human recitational systems sitting on an undotted rasm. That is licensed multiplicity, not clone-identity.",
+        "case": "Sidky's own JIQSA abstract says knowledge of regional rasm variants accumulated later. Press the definition: preservation of a living corpus vs preservation of one recitation.",
+        "quotes": [
+          {
+            "text": "A comparison of literary reports against the earliest manuscripts reveals that knowledge of the regional variants does not date back to the time of canonization but was accumulated over time through careful scrutiny of regional muṣḥafs.",
+            "who": "Hythem Sidky",
+            "work": "JIQSA 5 (2020), abstract",
+            "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Undotted early rasm can host more than one reading; that is why ʿUthmān (in the traditional story) left it undotted.",
+            "source": "Ataie / classical ʿulūm",
+            "label": "Undotted early rasm can host more than one reading; that is why ʿUthmān (in the traditional story) left it undotted.",
+            "note": "Ataie / classical ʿulūm"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "nquran.com",
+            "url": "https://nquran.com",
+            "note": "Show two rāwīs of one eponym",
+            "title": "nquran.com"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sidky JIQSA",
+            "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+          }
+        ]
+      },
+      "muslim": {
+        "claim": "Canonical readings are not free ijtihād on a crossword. Sidky finds regional dotting patterns that look inherited from the first generation after Muhammad, not Abbasid invention.",
+        "case": "JAOS 2023: independent Medinan, Meccan-Basran, and Kufan traditions; statistical + manuscript evidence for an oral stream at the ʿUthmānic recension. Pair with the Yā-Sīn pointing constraint.",
+        "quotes": [
+          {
+            "text": "I demonstrate the existence of an inherited oral tradition that likely dates to the time of the ʿUthmānic recension and among the first generation of the followers of Muḥammad.",
+            "who": "Hythem Sidky",
+            "work": "JAOS 143.4 (2023), abstract",
+            "url": "https://doi.org/10.7817/jaos.143.4.2023.ar029"
+          }
+        ],
+        "data_points": [
+          {
+            "fact": "Sidky: some scholars claimed canonical readings are decipherments of the ʿUthmānic text with no living oral tradition — that is the thesis he is testing.",
+            "source": "JAOS 2023 abstract",
+            "label": "Sidky: some scholars claimed canonical readings are decipherments of the ʿUthmānic text with no living oral tradition — that is the thesis he is testing.",
+            "note": "JAOS 2023 abstract",
+            "url": "https://doi.org/10.7817/jaos.143.4.2023.ar029"
+          }
+        ],
+        "manuscripts": [
+          {
+            "label": "nquran.com",
+            "url": "https://nquran.com",
+            "note": "Oral tradition, verse by verse",
+            "title": "nquran.com"
+          },
+          {
+            "label": "Corpus Coranicum",
+            "url": "https://corpuscoranicum.de/en/manuscripts",
+            "note": "Early undotted rasm",
+            "title": "Corpus Coranicum"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Sidky JAOS 2023",
+            "url": "https://doi.org/10.7817/jaos.143.4.2023.ar029"
+          }
+        ]
+      },
+      "counters": [
+        {
+          "against": "Christian Goldziher",
+          "claim": "Reciters just guessed vowels.",
+          "reply": "Then why is 3:26 only Mālik among the ten, and Yā-Sīn only one pointing? Sidky: inherited regional oral streams."
+        }
+      ],
+      "live": {
+        "if_they_say": "Qirāʾāt are just later guesses on an empty skeleton.",
+        "you_say": "Sidky JAOS 2023: inherited oral tradition likely to the ʿUthmānic generation. Open nquran.com on the verse they named.",
+        "dont_overclaim": "Don't say every popular street reading is mutawātir. Don't say Sidky proved wahy."
+      },
+      "crux": "Are the ten readings recovered from dots, or received with the rasm?",
+      "debate_use": "Cite Sidky, then demonstrate on nquran.com. One minute.",
+      "counter_to_christian": "Free pointing would have produced tens of thousands of variants; we have hundreds to low thousands of wording sites.",
+      "counter_to_muslim": "An old oral stream can still be human. Age ≠ revelation."
+    }
+  ],
+  "materials": [
+    {
+      "id": "p52",
+      "title": "Papyrus 𝔓52 (Rylands) — John 18",
+      "kind": "NT papyrus",
+      "date": "Usually early–mid 2nd c. CE (debated)",
+      "significance": "Tiny fragment of John 18; among the earliest surviving NT witnesses. Proves a Johannine text was circulating in Egypt within ~100 years of composition — not photographic proof of events, but strong early textuality evidence.",
+      "debate_use": "Use against 'Gospels invented in 4th century.' Do not overclaim 'proves inerrancy.'",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/P52_recto.jpg",
+      "viewer_url": "https://manuscripts.csntm.org/Manuscript/View/GA_P52",
+      "sources": [
+        {
+          "label": "CSNTM GA P52",
+          "url": "https://manuscripts.csntm.org/Manuscript/View/GA_P52"
+        },
+        {
+          "label": "Wikipedia: Rylands P52",
+          "url": "https://en.wikipedia.org/wiki/Rylands_Library_Papyrus_P52"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "p52-annotated",
+      "title": "𝔓52 annotated plate (John 18)",
+      "kind": "NT papyrus (teaching plate)",
+      "date": "Fragment usually early–mid 2nd c. CE",
+      "significance": "Teaching image of P52 with context. Good slide for audiences who have never seen a papyrus.",
+      "debate_use": "Show the physical smallness — humility about what one fragment proves.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Papyrus_52.jpg",
+      "viewer_url": "https://commons.wikimedia.org/wiki/File:Papyrus_52.jpg",
+      "sources": [
+        {
+          "label": "Wikimedia File:Papyrus 52.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Papyrus_52.jpg"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "p66",
+      "title": "Papyrus 𝔓66 (Bodmer II) — John",
+      "kind": "NT papyrus",
+      "date": "Late 2nd / early 3rd c. CE",
+      "significance": "Substantial papyrus of John. Shows early extensive copying and also scribal corrections — useful both for abundance arguments and for honest talk about variation.",
+      "debate_use": "Pair with P52: early + substantial. Ask opponent what early Islamic parallel they want compared.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Papyrus_66.jpg/960px-Papyrus_66.jpg",
+      "viewer_url": "https://manuscripts.csntm.org/manuscript/Group/GA_P66_Bodmer",
+      "sources": [
+        {
+          "label": "CSNTM P66",
+          "url": "https://manuscripts.csntm.org/manuscript/Group/GA_P66_Bodmer"
+        },
+        {
+          "label": "Bodmer Lab",
+          "url": "https://bodmerlab.unige.ch/fr/constellations/papyri"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "sinaiticus",
+      "title": "Codex Sinaiticus (א)",
+      "kind": "Greek Bible codex",
+      "date": "Mid-4th c. CE",
+      "significance": "Nearly complete Greek Bible including NT. Landmark for reconstructing the early text; also contains famous readings (e.g. ending of Mark issues) that honest Christian apologetics must own.",
+      "debate_use": "Open the digital leaf live if possible. Transparency > slogan.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Codex_Sinaiticus.jpg/960px-Codex_Sinaiticus.jpg",
+      "viewer_url": "https://codexsinaiticus.org/en/manuscript.aspx",
+      "sources": [
+        {
+          "label": "Codex Sinaiticus Project",
+          "url": "https://codexsinaiticus.org/en/"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "vaticanus",
+      "title": "Codex Vaticanus (B)",
+      "kind": "Greek Bible codex",
+      "date": "Mid-4th c. CE",
+      "significance": "Primary Alexandrian witness alongside Sinaiticus. Core of modern critical editions (NA/UBS).",
+      "debate_use": "Cite as evidence that Christians can point to early complete-ish Bibles, not only medieval copies.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Codex_Vaticanus.jpg/960px-Codex_Vaticanus.jpg",
+      "viewer_url": "https://digi.vatlib.it/view/MSS_Vat.gr.1209",
+      "sources": [
+        {
+          "label": "DigiVatLib Vat.gr.1209",
+          "url": "https://digi.vatlib.it/view/MSS_Vat.gr.1209"
+        },
+        {
+          "label": "CSNTM GA 03",
+          "url": "https://manuscripts.csntm.org/manuscript/Group/GA_03"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "dss",
+      "title": "Dead Sea Scrolls — Great Isaiah Scroll",
+      "kind": "Jewish manuscript corpus",
+      "date": "c. 3rd c. BCE – 1st c. CE",
+      "significance": "Pushes Hebrew Bible textual history back centuries before Islam. Shows substantial continuity with later MT and also real plurality (MT/LXX-like types). Context for Jesus' Judaism.",
+      "debate_use": "Destroys 'OT invented in Middle Ages.' Does not prove zero variation.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Isaiah_Scroll.jpg/960px-Great_Isaiah_Scroll.jpg",
+      "viewer_url": "https://www.deadseascrolls.org.il/",
+      "sources": [
+        {
+          "label": "Leon Levy DSS Digital Library",
+          "url": "https://www.deadseascrolls.org.il/"
+        },
+        {
+          "label": "Digital DSS (IMJ)",
+          "url": "https://dss.collections.imj.org.il/"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "birmingham",
+      "title": "Birmingham Qur'an folios (Mingana 1572a)",
+      "kind": "Early Hijazi Qur'an",
+      "date": "Parchment C-14 often cited 568–645 CE",
+      "significance": "High-profile early Qur'anic leaves. Media overclaimed 'oldest Qur'an'; academically: dates parchment, not ink; text is early Uthmanic-type. Strong proximity evidence.",
+      "debate_use": "Affirm impressiveness; force C-14 literacy (parchment vs writing event).",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Birmingham_Quran_manuscript_folio_1_recto.jpg/960px-Birmingham_Quran_manuscript_folio_1_recto.jpg",
+      "viewer_url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world",
+      "sources": [
+        {
+          "label": "Birmingham announcement",
+          "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
+        },
+        {
+          "label": "Islamic Awareness C-14 dossier",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/radio"
+        },
+        {
+          "label": "VMR Mingana leaf",
+          "url": "http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/table/"
+        }
+      ],
+      "tradition": "quran"
+    },
+    {
+      "id": "birmingham-spread",
+      "title": "Birmingham Qur'an — double folio view",
+      "kind": "Early Hijazi Qur'an",
+      "date": "Parchment often cited 568–645 CE",
+      "significance": "Wider plate of the Birmingham leaves for slide decks and audience orientation.",
+      "debate_use": "Use as the visual for 'proximity to Muhammad's lifetime' without overclaiming ink date.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Birmingham_Quran_manuscript.jpg/960px-Birmingham_Quran_manuscript.jpg",
+      "viewer_url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript.jpg",
+      "sources": [
+        {
+          "label": "Wikimedia Birmingham plate",
+          "url": "https://commons.wikimedia.org/wiki/File:Birmingham_Quran_manuscript.jpg"
+        }
+      ],
+      "tradition": "quran"
+    },
+    {
+      "id": "sanaa",
+      "title": "Ṣanʿāʾ palimpsest (DAM 01-27.1 / C-1)",
+      "kind": "Qur'an palimpsest",
+      "date": "Lower text 7th c. (non-Uthmanic type)",
+      "significance": "Only substantial manuscript witness to a non-Uthmanic Qur'anic text-type. Word/phrase variants; Sadeghi stemmatics argue Uthmanic closer to prototype. Challenges folk clone-identity; supports early multiplicity.",
+      "debate_use": "Both sides can use it — know BOTH uses before the round.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Sanaa_manuscript.jpg/960px-Sanaa_manuscript.jpg",
+      "viewer_url": "https://en.wikipedia.org/wiki/Sanaa_manuscript",
+      "sources": [
+        {
+          "label": "Islamic Awareness Sanaa dossier",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/soth.html"
+        },
+        {
+          "label": "Sadeghi & Bergmann 2010 PDF",
+          "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+        },
+        {
+          "label": "Hilali / IIS",
+          "url": "https://www.iis.ac.uk/publications-listing/the-sanaa-palimpsest/"
+        }
+      ],
+      "tradition": "quran"
+    },
+    {
+      "id": "corpus-coranicum",
+      "title": "Corpus Coranicum / Manuscripta Coranica",
+      "kind": "Digital research corpus",
+      "date": "Ongoing",
+      "significance": "Best scholarly hub for early Qur'an manuscript images, transliterations, and research notes. Use this instead of viral 'Uthman's personal copy' claims about Topkapı/Samarkand.",
+      "debate_use": "When opponent cites Topkapı as Uthman's mushaf, open Corpus Coranicum dating ranges.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Birmingham_Quran_manuscript_folio_1_recto.jpg/960px-Birmingham_Quran_manuscript_folio_1_recto.jpg",
+      "viewer_url": "https://corpuscoranicum.de/en/manuscripts",
+      "sources": [
+        {
+          "label": "Corpus Coranicum manuscripts",
+          "url": "https://corpuscoranicum.de/en/manuscripts"
+        },
+        {
+          "label": "van Putten BSOAS 2019",
+          "url": "https://doi.org/10.1017/s0041977x19000338"
+        }
+      ],
+      "tradition": "quran"
+    },
+    {
+      "id": "bukhari-4987",
+      "title": "Ṣaḥīḥ al-Bukhārī 4987 — Uthmanic collection report",
+      "kind": "Hadith / primary narrative",
+      "date": "Compilation 9th c.; reports 7th c. events",
+      "significance": "Classic account of Zayd's work under Abu Bakr then Uthman, distribution of copies, and burning of other materials. Central Christian critique text; also central Muslim unification narrative.",
+      "debate_use": "Quote the burning clause carefully; pair with van Putten/Sadeghi for academic framing.",
+      "image": "",
+      "viewer_url": "https://sunnah.com/bukhari:4987",
+      "sources": [
+        {
+          "label": "Sunnah.com Bukhari 4987",
+          "url": "https://sunnah.com/bukhari:4987"
+        }
+      ],
+      "tradition": "quran"
+    },
+    {
+      "id": "intf",
+      "title": "INTF / NT Virtual Manuscript Room",
+      "kind": "Research infrastructure",
+      "date": "Ongoing",
+      "significance": "Münster Institute for New Testament Textual Research — the academic engine behind critical NT editions. Use to show Christians do not hide variants; they catalogue them.",
+      "debate_use": "When '400,000 variants' appears, send people here conceptually: variants are published, not suppressed.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/P46.jpg",
+      "viewer_url": "https://ntvmr.uni-muenster.de/",
+      "sources": [
+        {
+          "label": "INTF",
+          "url": "https://www.uni-muenster.de/INTF/"
+        },
+        {
+          "label": "NT.VMR",
+          "url": "https://ntvmr.uni-muenster.de/"
+        }
+      ],
+      "tradition": "infra"
+    },
+    {
+      "id": "p46",
+      "title": "Papyrus 𝔓46 — Pauline letters",
+      "kind": "NT papyrus",
+      "date": "c. 200 CE (approx.)",
+      "significance": "Early collection of Paul. Relevant to historicity because Paul's letters (50s) are earliest Christian literature and already contain high Christology + crucifixion kerygma.",
+      "debate_use": "Bridge from manuscripts to content: early text + early theology of the cross.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/P46.jpg",
+      "viewer_url": "https://en.wikipedia.org/wiki/Papyrus_46",
+      "sources": [
+        {
+          "label": "Wikipedia P46",
+          "url": "https://en.wikipedia.org/wiki/Papyrus_46"
+        },
+        {
+          "label": "Wikimedia P46",
+          "url": "https://commons.wikimedia.org/wiki/File:P46.jpg"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "leningrad",
+      "title": "Leningrad Codex (OT Masoretic)",
+      "kind": "Hebrew Bible codex",
+      "date": "1008/1009 CE",
+      "significance": "Oldest complete MT Hebrew Bible. Often attacked as 'late' — answer with DSS centuries earlier showing the tradition's antiquity, while admitting medieval complete-codex gap.",
+      "debate_use": "Don't hide the date; answer with DSS + LXX + quotations.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Isaiah_Scroll.jpg/960px-Great_Isaiah_Scroll.jpg",
+      "viewer_url": "https://archive.org/details/Leningrad_Codex",
+      "sources": [
+        {
+          "label": "Archive.org Leningrad Codex",
+          "url": "https://archive.org/details/Leningrad_Codex"
+        }
+      ],
+      "tradition": "bible"
+    },
+    {
+      "id": "ataie-sound-narrative",
+      "title": "Dr. Ali Ataie — The Sound Narrative (preservation seminar)",
+      "kind": "Lecture (ʿulūm al-Qurʾān)",
+      "date": "MCC East Bay, 2022 (same lecture family on Blogging Theology)",
+      "significance": "Best long-form English map of the Sunni file: aḥruf, qirāʾāt, ʿUthmānic committee, companion maṣāḥif, C-1, first-century manuscripts, and why folk 'no variants' dawah feeds polemicists. Ataie is a Zaytuna/GTU academic (NT languages + Islamic biblical hermeneutics), and he keeps saying he is an apologist reporting the ʿulamāʾ, not a 30-year traditional ʿālim.",
+      "debate_use": "Assign before any qirāʾāt round. Steal timestamps, not vibes. Pair with van Putten/Sadeghi PDFs.",
+      "image": "",
+      "viewer_url": "https://www.youtube.com/watch?v=5XuiZLfEb64",
+      "sources": [
+        {
+          "label": "YouTube — Sound Narrative",
+          "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+        },
+        {
+          "label": "MCC Ataie videos",
+          "url": "https://mcceastbay.org/ataie"
+        },
+        {
+          "label": "Zaytuna faculty page",
+          "url": "https://zaytuna.edu/academics/faculty/ali-ataie"
+        },
+        {
+          "label": "Slides (Blogging Theology lecture family)",
+          "url": "https://bit.ly/3OpCtpg"
+        }
+      ],
+      "tradition": "quran"
+    },
+    {
+      "id": "p45",
+      "title": "Papyrus 𝔓45 (Chester Beatty) — Gospels + Acts",
+      "kind": "NT papyrus",
+      "tradition": "bible",
+      "date": "c. 3rd c. CE",
+      "significance": "Substantial 3rd-century witness to the four Gospels and Acts. Shows an early collection already circulating as a unit — not a medieval invention of the fourfold gospel.",
+      "debate_use": "Pair with P46/P75: early, extensive, still 150+ years after Jesus. Do not call it an autograph.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/P45_Matthew.jpg/960px-P45_Matthew.jpg",
+      "viewer_url": "https://manuscripts.csntm.org/manuscript/Group/GA_P45",
+      "sources": [
+        {
+          "label": "CSNTM 𝔓45",
+          "url": "https://manuscripts.csntm.org/manuscript/Group/GA_P45"
+        },
+        {
+          "label": "Wikipedia 𝔓45",
+          "url": "https://en.wikipedia.org/wiki/Papyrus_45"
+        }
+      ]
+    },
+    {
+      "id": "p75",
+      "title": "Papyrus 𝔓75 (Bodmer XIV–XV) — Luke + John",
+      "kind": "NT papyrus",
+      "tradition": "bible",
+      "date": "Late 2nd / early 3rd c. CE (debated)",
+      "significance": "Close to the Alexandrian text later seen in Vaticanus. Used to argue that a careful text-type existed early — not only a wild Western text.",
+      "debate_use": "Open against 'the Gospels were rewritten in the 4th century.' Still not first-century ink.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Papyrus_75.jpg/960px-Papyrus_75.jpg",
+      "viewer_url": "https://manuscripts.csntm.org/manuscript/Group/GA_P75",
+      "sources": [
+        {
+          "label": "CSNTM 𝔓75",
+          "url": "https://manuscripts.csntm.org/manuscript/Group/GA_P75"
+        },
+        {
+          "label": "Wikipedia 𝔓75",
+          "url": "https://en.wikipedia.org/wiki/Papyrus_75"
+        }
+      ]
+    },
+    {
+      "id": "alexandrinus",
+      "title": "Codex Alexandrinus (A)",
+      "kind": "Greek Bible codex",
+      "tradition": "bible",
+      "date": "5th c. CE",
+      "significance": "Nearly complete Greek Bible. Independent check on Sinaiticus/Vaticanus. Contains the longer ending of Mark — useful when someone says 'all old Bibles omit it.'",
+      "debate_use": "Show that early complete Bibles do not all agree on Mark 16. That is the file.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Codex_Alexandrinus.jpg/960px-Codex_Alexandrinus.jpg",
+      "viewer_url": "https://www.bl.uk/collection-items/codex-alexandrinus",
+      "sources": [
+        {
+          "label": "British Library Alexandrinus",
+          "url": "https://www.bl.uk/collection-items/codex-alexandrinus"
+        },
+        {
+          "label": "CSNTM GA 02",
+          "url": "https://manuscripts.csntm.org/manuscript/Group/GA_02"
+        }
+      ]
+    },
+    {
+      "id": "bezae",
+      "title": "Codex Bezae (D) — Greek/Latin Gospels + Acts",
+      "kind": "Greek–Latin bilingual",
+      "tradition": "bible",
+      "date": "c. 5th c. CE",
+      "significance": "The famous 'Western' text: expansions and paraphrases, especially in Acts. Proof that some early Christians copied with recensional freedom — the opposite of a frozen rasm.",
+      "debate_use": "Christian honesty card. Muslim overclaim card if they treat Bezae as 'the' NT.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Codex_Bezae_Greek.jpg/960px-Codex_Bezae_Greek.jpg",
+      "viewer_url": "https://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/1",
+      "sources": [
+        {
+          "label": "Cambridge Digital Library — Bezae",
+          "url": "https://cudl.lib.cam.ac.uk/view/MS-NN-00002-00041/1"
+        }
+      ]
+    },
+    {
+      "id": "aleppo",
+      "title": "Aleppo Codex — Masoretic Hebrew Bible",
+      "kind": "Hebrew Bible codex",
+      "tradition": "bible",
+      "date": "c. 930 CE",
+      "significance": "Finest complete-ish medieval MT witness (parts lost in 1947). Older and more prized than Leningrad for many books. Still a 10th-century complete-book horizon.",
+      "debate_use": "Don't hide the date. Answer with DSS proto-MT + LXX. Don't pretend this is Ezra's autograph.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Aleppo_Codex_Joshua_1_1.jpg/960px-Aleppo_Codex_Joshua_1_1.jpg",
+      "viewer_url": "https://aleppocodex.org/",
+      "sources": [
+        {
+          "label": "Aleppo Codex site",
+          "url": "https://aleppocodex.org/"
+        },
+        {
+          "label": "Wikipedia Aleppo Codex",
+          "url": "https://en.wikipedia.org/wiki/Aleppo_Codex"
+        }
+      ]
+    },
+    {
+      "id": "isaiah-scroll",
+      "title": "1QIsaᵃ — Great Isaiah Scroll",
+      "kind": "Dead Sea Scroll",
+      "tradition": "bible",
+      "date": "c. 125–100 BCE",
+      "significance": "Nearly complete Isaiah a century+ before Jesus. Recognizably the same book as medieval MT, with thousands of spelling/word differences. Tov's plurality-and-stability in one object.",
+      "debate_use": "Open the IMJ viewer live. Scroll to a famous verse. Ask what 'unchanged' means after you look.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Isaiah_Scroll.jpg/960px-Great_Isaiah_Scroll.jpg",
+      "viewer_url": "https://dss.collections.imj.org.il/isaiah",
+      "sources": [
+        {
+          "label": "IMJ Great Isaiah Scroll",
+          "url": "https://dss.collections.imj.org.il/isaiah"
+        },
+        {
+          "label": "Leon Levy DSS library",
+          "url": "https://www.deadseascrolls.org.il/"
+        }
+      ]
+    },
+    {
+      "id": "cpp-arabe328",
+      "title": "Codex Parisino-Petropolitanus (BnF Arabe 328)",
+      "kind": "Early Hijazi Qur'an",
+      "tradition": "quran",
+      "date": "Later 7th c. CE (Déroche: 3rd quarter of 1st/7th c.)",
+      "significance": "Large early ʿUthmānic-type witness (~45% with related leaves). Sidky/van Putten use it as a regional (Syrian) exemplar descendant. Birmingham 1572a is part of the same codex as 328c.",
+      "debate_use": "This is the 'show the page' Qur'an leaf, not a tourist Topkapı flyer.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Birmingham_Quran_manuscript_folio_1_recto.jpg/960px-Birmingham_Quran_manuscript_folio_1_recto.jpg",
+      "viewer_url": "https://gallica.bnf.fr/ark:/12148/btv1b8415207g",
+      "sources": [
+        {
+          "label": "Gallica — Arabe 328",
+          "url": "https://gallica.bnf.fr/ark:/12148/btv1b8415207g"
+        },
+        {
+          "label": "Islamic Awareness CPP",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/cpp.html"
+        }
+      ]
+    },
+    {
+      "id": "bl-or2165",
+      "title": "British Library Or. 2165",
+      "kind": "Early Hijazi Qur'an",
+      "tradition": "quran",
+      "date": "1st/7th – early 8th c. (paleography)",
+      "significance": "Major early Hijazi mushaf. Dutton noted Syrian regional rasm variants. Sidky's phylogeny treats it as a descendant of the Syrian ancestral codex.",
+      "debate_use": "Ask: does a regional letter-difference (min / no min) equal 'another Qur'an'?",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Birmingham_Quran_manuscript.jpg/960px-Birmingham_Quran_manuscript.jpg",
+      "viewer_url": "https://www.bl.uk/collection-items/quran-from-the-8th-century",
+      "sources": [
+        {
+          "label": "BL collection item",
+          "url": "https://www.bl.uk/collection-items/quran-from-the-8th-century"
+        },
+        {
+          "label": "Islamic Awareness Or. 2165",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/bl.html"
+        }
+      ]
+    },
+    {
+      "id": "tubingen",
+      "title": "Tübingen Ma VI 165",
+      "kind": "Early Hijazi/Kufic Qur'an",
+      "tradition": "quran",
+      "date": "C-14 often cited no later than 675 CE (95.4%)",
+      "significance": "Another first-Islamic-century witness (~¼ of the text in some counts). Used with Birmingham/CPP to show a cluster, not a singleton miracle leaf.",
+      "debate_use": "C-14 caveat still applies. Strength is the cluster of 7th-c. ʿUthmānic-type copies.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Birmingham_Quran_manuscript_folio_1_recto.jpg/960px-Birmingham_Quran_manuscript_folio_1_recto.jpg",
+      "viewer_url": "https://www.islamic-awareness.org/quran/text/mss/tubingen.html",
+      "sources": [
+        {
+          "label": "Islamic Awareness Tübingen",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/tubingen.html"
+        }
+      ]
+    },
+    {
+      "id": "csntm-hub",
+      "title": "CSNTM — Center for the Study of NT Manuscripts",
+      "kind": "Research infrastructure",
+      "tradition": "infra",
+      "date": "Ongoing (Wallace)",
+      "significance": "High-resolution images of Greek NT manuscripts. The Christian 'open the leaf' desk. Use when someone says variants are hidden.",
+      "debate_use": "Search GA P52 / 01 / 03 live. Then do the same move on Corpus Coranicum.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/P46.jpg",
+      "viewer_url": "https://manuscripts.csntm.org/",
+      "sources": [
+        {
+          "label": "CSNTM manuscript viewer",
+          "url": "https://manuscripts.csntm.org/"
+        }
+      ]
+    },
+    {
+      "id": "nquran",
+      "title": "nquran.com — ten qirāʾāt / twenty rāwīs",
+      "kind": "Reading-tradition viewer",
+      "tradition": "infra",
+      "date": "Living oral–written corpus",
+      "significance": "Verse-by-verse display of how each canonical transmitter reads the same āyah. The live antidote to a Hyde Park table of 'different Qur'ans.'",
+      "debate_use": "Open Fātiḥa 4 (Mālik/Malik) and 3:26 (only Mālik). That is Ataie's constraint argument on a screen.",
+      "image": "",
+      "viewer_url": "https://nquran.com",
+      "sources": [
+        {
+          "label": "nquran.com",
+          "url": "https://nquran.com"
+        }
+      ]
+    }
+  ],
+  "debates": [
+    {
+      "id": "ataie-sound-narrative",
+      "title": "Dr. Ali Ataie: the Qur'an is multiformic — folk uniformity is the own-goal",
+      "year": 2022,
+      "venue": "MCC East Bay / Zaytuna circuit (Sound Narrative + same lecture family on Blogging Theology)",
+      "participants": [
+        "Ali Ataie"
+      ],
+      "sides": {
+        "muslim": "Ali Ataie (traditional ʿulūm + Western manuscript field)",
+        "christian": "Revisionists (Wansbrough stream) and hostile polemicists as his foils"
+      },
+      "motion": "Is the Qur'an preserved? Ataie's answer: yes — as a multiformic, mass-transmitted revelation whose authorized variants are prophetic, not later scribal theology.",
+      "summary": "Three-hour ʿulūm al-Qurʾān seminar. Ataie blames amateur dawah for teaching a uniformic Qur'an so they could one-up the Bible. Critics then dip into classical books, pull isolated companion readings, and say 'your own sources prove it is not preserved' — tearing down a straw man no serious ʿālim built. He contrasts NT variants (some deliberate, post-author, theologically loaded — Johannine Comma) with authorized Qur'anic variants (aḥruf, prophetic, enriching meaning). Manuscript half: first-century Hijrī attestation of the ʿUthmānic text vs 0% NT in the first Christian century; Wansbrough's 8th-century Iraq committee is falsified; C-1 supports companion codices rather than late invention. Then: ʿUthmānic committee as critical edition, Ibn Masʿūd / Ubayy / Fātiḥa / muʿawwidhatayn / qunūt 'suras', three conditions for a qirāʾah, and why reciters were not free to vowel an undotted rasm at will.",
+      "key_moves": {
+        "muslim": [
+          "Pin preservation as multiformic, not clone-identical Hafs",
+          "Aḥruf are revelation + rukhṣah; one ḥarf can suffice; abandoning a concession ≠ taḥrīf",
+          "ʿUthmānic rasm = strongest Medinan recordings of a prophetic archetype (Sadeghi/Sidky/van Putten)",
+          "First-century Hijrī MSS cover essentially the whole ʿUthmānic text; NT first century = 0 verses",
+          "C-1 / Ibn Masʿūd / Ubayy are explained inside the tradition (orthography, aḥruf, error, gloss)",
+          "Qirāʾāt ≠ aḥruf; 10 eponyms × 2 rāwīs; constrained by sunnat al-qirāʾah (Yā-Sīn test)"
+        ],
+        "christian": [
+          "Ataie still grants unauthorized variants and companion rasm differences — that is the file",
+          "C-14 dates skin; '100% first-century Qur'an' is a scholar-count, not a lab certificate",
+          "Johannine Comma is a bad Trinity-proof; Nicene faith did not depend on 1 John 5:7",
+          "If a revealed ḥarf can be abandoned as rukhṣah, 'every revealed wording is still recited' fails",
+          "Stylometry 'one author' and Wansbrough-bashing do not settle inspiration or 4:157"
+        ]
+      },
+      "what_to_steal": [
+        "Watch once with a notebook: timestamps below",
+        "Use Ataie against folk-Muslim uniformity AND against 'your books hide variants' clips",
+        "Do not let either side treat this lecture as a referee — it is a steelman of the Sunni narrative",
+        "Pair his NT examples with Wallace's counting critique so you don't trade slogans"
+      ],
+      "timestamps": [
+        {
+          "t": "0:00",
+          "label": "What is ʿulūm al-Qurʾān (Ṣābūnī / Taqī ʿUthmānī)"
+        },
+        {
+          "t": "1:24",
+          "label": "Lay Muslims abandoned the books; preachers vs ʿulamāʾ"
+        },
+        {
+          "t": "6:46",
+          "label": "Dawah uniformic slogan vs Bible — the own-goal"
+        },
+        {
+          "t": "8:04",
+          "label": "Multiformic Qur'an; variants not the same kind as NT"
+        },
+        {
+          "t": "10:19",
+          "label": "Johannine Comma (1 John 5:7) as deliberate NT insertion"
+        },
+        {
+          "t": "11:41",
+          "label": "Authorized Qur'anic variants = prophetic aḥruf"
+        },
+        {
+          "t": "12:21",
+          "label": "Unauthorized variants: isnād not widely recited / not prophetic"
+        },
+        {
+          "t": "13:07",
+          "label": "Revisionists + polemicists weaponize classical reports"
+        },
+        {
+          "t": "15:25",
+          "label": "Define radical revisionist vs hostile polemicist"
+        },
+        {
+          "t": "17:29",
+          "label": "How to date a MS: paleography, orthography, C-14 (Sidky)"
+        },
+        {
+          "t": "19:38",
+          "label": "NT first-century attestation: 0%; P52 ~125–150; gospels 4th c."
+        },
+        {
+          "t": "20:46",
+          "label": "Wansbrough: 8th-c. Abbasid committee; Rippin, Crone, Cook"
+        },
+        {
+          "t": "23:40",
+          "label": "Why it sold: oral undervalued; demand for physical MSS; suspicion"
+        },
+        {
+          "t": "28:36",
+          "label": "Two dozen+ 7th-c. Qur'an MSS; Birmingham + Arabe 328c ≈ 8% ≤645"
+        },
+        {
+          "t": "31:10",
+          "label": "Islamic Awareness ~96%; Sidky/van Putten/Anthony ≈ 100% ʿUthmānic text"
+        },
+        {
+          "t": "32:18",
+          "label": "Stylometry one author; Wansbrough falsified; swing to 'before Muḥammad'"
+        },
+        {
+          "t": "35:02",
+          "label": "C-1 / Ṣanʿāʾ palimpsest — 41%, different tradition"
+        },
+        {
+          "t": "39:34",
+          "label": "Aḥruf = recitational variations; qirāʾāt = canonical readings"
+        },
+        {
+          "t": "43:01",
+          "label": "Gabriel / ʿUmar–Hishām / Ubayy ḥadīths"
+        },
+        {
+          "t": "50:23",
+          "label": "Three views of the seven aḥruf; seven categories strongest"
+        },
+        {
+          "t": "52:09",
+          "label": "Examples: Mālik/Malik; arjulakum; 19:34; Ibrāhīm/Ibrāhām; tabayyanū"
+        },
+        {
+          "t": "1:09:27",
+          "label": "Companion maṣāḥif and ʿUthmānic standardization narrative"
+        },
+        {
+          "t": "1:15:40",
+          "label": "Stemma: P → companions → ʿUthmānic; all MSS except C-1"
+        },
+        {
+          "t": "1:23:14",
+          "label": "Ibn Masʿūd 101:5 ṣūf vs ʿihn"
+        },
+        {
+          "t": "1:35:14",
+          "label": "Bukhari 'take the Qur'an from four' — committee still took from them"
+        },
+        {
+          "t": "1:37:24",
+          "label": "Fātiḥa / muʿawwidhatayn missing from Ibn Masʿūd's mushaf?"
+        },
+        {
+          "t": "1:45:49",
+          "label": "Ubayy's two 'suras' = duʿāʾ al-qunūt, not Qur'anic idiom"
+        },
+        {
+          "t": "1:57:34",
+          "label": "What the ʿUthmānic tradition is: two witnesses + mass recitation"
+        },
+        {
+          "t": "2:04:43",
+          "label": "Fringe Shīʿī alteration claim; ʿAlī recited ʿUthmānic rasm as caliph"
+        },
+        {
+          "t": "2:09:15",
+          "label": "Ṣanʿāʾ palimpsest details (Sadeghi & Goudarzi / Bergmann)"
+        },
+        {
+          "t": "2:18:55",
+          "label": "From maṣāḥif to ten qirāʾāt; undotted rasm on purpose"
+        },
+        {
+          "t": "2:21:32",
+          "label": "Not all aḥruf need survive; 43 intentional rasm letters across copies"
+        },
+        {
+          "t": "2:29:43",
+          "label": "Ibn Mujāhid 7; Dānī 2 rāwīs; Ibn al-Jazarī 10 / 20"
+        },
+        {
+          "t": "2:36:34",
+          "label": "Ḥafṣ weak in ḥadīth ≠ weak in Qur'an"
+        },
+        {
+          "t": "2:40:27",
+          "label": "Reciters were not free: 3:26 only Mālik; Yā-Sīn only one pointing"
+        },
+        {
+          "t": "2:44:13",
+          "label": "~700 words (Ibn Mujāhid) / ~2000 (van Putten) affected"
+        },
+        {
+          "t": "2:46:48",
+          "label": "Grades: mutawātir / āḥād / shādhdh / mawḍūʿ"
+        },
+        {
+          "t": "2:54:18",
+          "label": "Hyde Park '10 muṣḥafs' gotcha — teach aḥruf before the clip hits"
+        }
+      ],
+      "links": [
+        {
+          "label": "The Sound Narrative (MCC East Bay / YouTube)",
+          "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+        },
+        {
+          "label": "MCC Ataie archive",
+          "url": "https://mcceastbay.org/ataie"
+        },
+        {
+          "label": "Zaytuna faculty — Ali Ataie",
+          "url": "https://zaytuna.edu/academics/faculty/ali-ataie"
+        },
+        {
+          "label": "Lecture-family slides (Blogging Theology)",
+          "url": "https://bit.ly/3OpCtpg"
+        },
+        {
+          "label": "Islamic Awareness: 1st-c. Hijrī MSS",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/hijazi.html"
+        },
+        {
+          "label": "nquran.com — 20 transmitters verse by verse",
+          "url": "https://nquran.com"
+        }
+      ]
+    },
+    {
+      "id": "ally-white-nt-inspired-2006",
+      "title": "Is the New Testament We Possess Today Inspired?",
+      "year": 2006,
+      "venue": "Biola University",
+      "participants": [
+        "Shabir Ally",
+        "James White"
+      ],
+      "sides": {
+        "muslim": "Shabir Ally",
+        "christian": "James White"
+      },
+      "motion": "Is the NT we possess today the inspired Word of God?",
+      "summary": "Ally uses critical NT scholarship (redaction, pseudonymity claims, variants) to deny that today's NT is fully inspired. White presses methodological consistency: if Ally's critical tools were applied to the Qur'an and Islamic tradition, Ally's own scripture claim collapses. Core clash: selective critical scholarship.",
+      "key_moves": {
+        "muslim": [
+          "Appeal to Metzger-style textual criticism and liberal NT scholarship",
+          "Distinguish revealed kernel from human redaction in the Gospels",
+          "Argue inspiration claim fails for a text with unknown autographs and later changes"
+        ],
+        "christian": [
+          "Demand same critical standard for Qur'anic Jesus sayings and Islamic origins",
+          "Argue variants are known and do not erase reconstructability",
+          "Press the Islamic dilemma (Qur'an affirms prior scripture)"
+        ]
+      },
+      "what_to_steal": [
+        "Always force symmetry of method",
+        "Separate 'inspired today' from 'text recoverable'",
+        "Ask which scholars of the historical Jesus would endorse Qur'anic Jesus quotations"
+      ],
+      "links": [
+        {
+          "label": "AOMIN debate page",
+          "url": "https://www.aomin.org/aoblog/debate/is-the-new-testament-we-possess-today-inspired-debate-with-shabir-ally-at-voila-university-5-4-2006/"
+        },
+        {
+          "label": "Answering Muslims overview",
+          "url": "http://www.answeringmuslims.com/2013/01/shabir-ally-vs-james-white-is-new.html"
+        },
+        {
+          "label": "Ally response archive",
+          "url": "https://shabirally.wordpress.com/2012/05/21/a-response-to-james-whites-some-brief-thoughts-regarding-liberal-scholarship-redaction-criticism-and-islam-part-1/"
+        }
+      ]
+    },
+    {
+      "id": "smith-ally-leicester-1998",
+      "title": "Which is the Word of God — Bible or Qur'an?",
+      "year": 1998,
+      "venue": "Leicester University",
+      "participants": [
+        "Jay Smith",
+        "Shabir Ally"
+      ],
+      "sides": {
+        "muslim": "Shabir Ally",
+        "christian": "Jay Smith"
+      },
+      "motion": "Which is the Word of God: Bible or Qur'an?",
+      "summary": "Classic popular debate. Ally attacks NT authenticity via critical scholarship. Smith attacks Qur'anic historical foundations, manuscript late-control narratives, and presses Qur'anic affirmation of the Bible. Pattern still dominates street apologetics.",
+      "key_moves": {
+        "muslim": [
+          "Manuscript differences and alleged embellishments in Gospels",
+          "Question authorship (e.g. 2 Peter)",
+          "Shift to moral/theological critique of OT law when pressed on Qur'an historicity"
+        ],
+        "christian": [
+          "Archaeology/manuscript comparison framing favoring Bible abundance",
+          "Qur'an affirms Bible; therefore Muslim corruption thesis is unstable",
+          "Challenge opponent to defend Qur'anic historical authenticity, not only attack Bible"
+        ]
+      },
+      "what_to_steal": [
+        "Don't spend the whole debate only attacking; defend your positive case",
+        "Watch for topic switch from historicity to ethics"
+      ],
+      "links": [
+        {
+          "label": "Debate report (Isa Masih / debate.org.uk)",
+          "url": "http://debate.org.uk/topics/isamasih/jul98/debate.htm"
+        },
+        {
+          "label": "Archive re-release note",
+          "url": "https://cantaroinstitute.org/the-classical-debate-jay-smith-vs-shabir-ally/"
+        }
+      ]
+    },
+    {
+      "id": "wood-ally-quran-view-bible",
+      "title": "What Is the Qur'an's View of the Christian Scriptures?",
+      "year": 2015,
+      "venue": "Public debate circuit",
+      "participants": [
+        "David Wood",
+        "Shabir Ally"
+      ],
+      "sides": {
+        "muslim": "Shabir Ally",
+        "christian": "David Wood"
+      },
+      "motion": "What does the Qur'an teach about the Christian scriptures?",
+      "summary": "Focused Islamic-dilemma debate. Wood argues Qur'an affirms Torah/Gospel available to Jews/Christians; Ally argues affirmation is partial ('guidance and light therein') not wholesale endorsement of today's canon doctrines.",
+      "key_moves": {
+        "muslim": [
+          "5:47 means judge by what God revealed therein, not every later Christian claim",
+          "Qur'an knows and rejects Christian sonship claims (9:30)",
+          "Tahrif as misreading/concealment more than total textual annihilation"
+        ],
+        "christian": [
+          "5:43–48; 10:94; 3:3–4 as affirmation of available scripture",
+          "Manuscript continuity from 7th c. to now blocks post-Muhammad corruption escape",
+          "Force binary: affirm Bible content or accuse Qur'an of error"
+        ]
+      },
+      "what_to_steal": [
+        "Define 'Injil' before arguing",
+        "Distinguish textual continuity from doctrinal agreement"
+      ],
+      "links": [
+        {
+          "label": "Answering Muslims page",
+          "url": "http://www.answeringmuslims.com/2016/04/david-wood-vs-shabir-ally-what-is.html"
+        }
+      ]
+    },
+    {
+      "id": "kunde-green-preservation",
+      "title": "The Preservation of the Bible and Qur'an",
+      "year": 2010,
+      "venue": "Australia",
+      "participants": [
+        "Abdullah Kunde",
+        "Samuel Green"
+      ],
+      "sides": {
+        "muslim": "Abdullah Kunde",
+        "christian": "Samuel Green"
+      },
+      "motion": "Comparative preservation of Bible and Qur'an",
+      "summary": "Direct preservation matchup. Green presses Qur'anic compilation reports, variant readings, and burning of materials. Kunde defends oral-written preservation model and attacks biblical textual instability.",
+      "key_moves": {
+        "muslim": [
+          "Mass oral memorization as unique preservation mechanism",
+          "Uthmanic project as unification not invention",
+          "Bible's anonymous/multi-edition history as disqualifier"
+        ],
+        "christian": [
+          "Destruction of rival materials is a historical red flag",
+          "Qira'at and ahruf complicate letter-perfect claims",
+          "Transparent textual criticism is a strength, not a weakness"
+        ]
+      },
+      "what_to_steal": [
+        "Compare like with like: rasm vs autograph; Hafs print vs critical NT edition"
+      ],
+      "links": [
+        {
+          "label": "Answering Muslims video index",
+          "url": "http://www.answeringmuslims.com/2010/01/abdullah-kunde-vs-samuel-green.html"
+        }
+      ]
+    },
+    {
+      "id": "hussain-green-word-of-god",
+      "title": "Qur'an or Bible: Which is the Word of God?",
+      "year": 2013,
+      "venue": "Muslim Debate Initiative",
+      "participants": [
+        "Zakir Hussain",
+        "Samuel Green"
+      ],
+      "sides": {
+        "muslim": "Zakir Hussain",
+        "christian": "Samuel Green"
+      },
+      "motion": "Which is the Word of God?",
+      "summary": "Broad Word-of-God debate. Hussain leans on critical biblical scholarship and Qur'anic preservation claims; Green emphasizes manuscript quantity and Qur'anic internal problems. Audience often treats 'Word of God' as historicity+theology fused — untangle that.",
+      "key_moves": {
+        "muslim": [
+          "Pseudepigraphy and contradictions in Bible",
+          "Qur'an preserved via living chains",
+          "Challenge Christian overclaim from manuscript count alone"
+        ],
+        "christian": [
+          "Manuscript abundance and early citations",
+          "Hafs/Warsh and reading differences",
+          "Demand scholarly citations both ways"
+        ]
+      },
+      "what_to_steal": [
+        "Insist on academic sources, not just YouTube consensus"
+      ],
+      "links": [
+        {
+          "label": "MDI debate page",
+          "url": "https://muslimdebate.org/2013/02/02/mdi-debate-the-quran-or-the-bible-which-is-the-word-of-god/"
+        }
+      ]
+    },
+    {
+      "id": "ehrman-wallace-2011",
+      "title": "Can We Trust the Text of the New Testament?",
+      "year": 2011,
+      "venue": "SMU (McFarlin Auditorium)",
+      "participants": [
+        "Bart Ehrman",
+        "Daniel B. Wallace"
+      ],
+      "sides": {
+        "skeptic": "Bart Ehrman",
+        "christian": "Daniel Wallace"
+      },
+      "motion": "Can we trust the NT text / reconstruct the original?",
+      "summary": "Not Muslim-Christian, but the most important internal Christian/critical debate Muslims quote. Ehrman: early manuscript gap + massive variants → uncertainty. Wallace: abundance and earliness vs classical works → high reconstructability; most variants trivial; Ehrman's own books presuppose knowing the text.",
+      "key_moves": {
+        "skeptic": [
+          "No first-century NT manuscripts",
+          "More variants than words",
+          "Absolute certainty unavailable"
+        ],
+        "christian": [
+          "Embarrassment of riches vs Greco-Roman baseline",
+          "Early papyri + versions + fathers",
+          "Meaningful doctrinal variants are few and known"
+        ]
+      },
+      "what_to_steal": [
+        "If opponent cites Ehrman, ask if they accept Wallace's replies — and apply Ehrman-level skepticism to Islamic sources",
+        "Never let '400,000 variants' stand without explaining how variants are counted"
+      ],
+      "links": [
+        {
+          "label": "YouTube debate",
+          "url": "https://www.youtube.com/watch?v=WRHjZCKRIu4"
+        },
+        {
+          "label": "CSNTM review",
+          "url": "https://www.csntm.org/2011/10/19/review-of-debate-between-daniel-b-wallace-and-bart-d-ehrman/"
+        },
+        {
+          "label": "Wallace follow-up",
+          "url": "https://danielbwallace.com/2012/05/01/the-bart-ehrman-blog-and-the-reliability-of-the-new-testament-text/"
+        }
+      ]
+    },
+    {
+      "id": "qadhi-holes-2020",
+      "title": "Yasir Qadhi: 'The standard narrative has holes in it'",
+      "year": 2020,
+      "venue": "Interview / online controversy (not formal debate)",
+      "participants": [
+        "Yasir Qadhi",
+        "Public Muslim + Christian responses"
+      ],
+      "sides": {
+        "internal-muslim": "Yasir Qadhi",
+        "critics": "Apologists + traditionalists"
+      },
+      "motion": "Adequacy of popular 'letter-perfect Qur'an' narrative",
+      "summary": "Qadhi acknowledged that popular preservation storytelling cannot handle ahruf/qira'at complexities; advanced scholars struggle with unanswered questions. Christian apologists weaponized this; traditional Muslims accused him of overstatement or dangerous theory.",
+      "key_moves": {
+        "internal-muslim": [
+          "Distinguish academic complexity from denial of preservation",
+          "Ahruf as divine concession / multiple modes",
+          "Reject letter-for-letter folk claim without rejecting wahy"
+        ],
+        "critics": [
+          "If narrative has holes, perfect-preservation slogan fails",
+          "Qira'at meaning differences are not zero",
+          "Use admission as peer testimony against street apologetics"
+        ]
+      },
+      "what_to_steal": [
+        "Quote carefully: Qadhi did not say 'Qur'an is corrupted' in the Christian sense",
+        "Ask opponent which preservation claim they actually make: rasm? Hafs? all ten qira'at?"
+      ],
+      "links": [
+        {
+          "label": "Brubaker context note",
+          "url": "https://www.danielbrubaker.com/quran-and-islam/variant-quran-marks-1st-anniversary/"
+        },
+        {
+          "label": "Traditionalist critique of Qadhi ahruf theory",
+          "url": "https://www.immutablequran.com/response-to-the-fifteen-questions-posed-by-yasir-qadhi-regarding-the-seven-ahruf/"
+        }
+      ]
+    },
+    {
+      "id": "white-ally-consistency-thread",
+      "title": "White/Ally extended consistency war (redaction criticism)",
+      "year": "2006–2012+",
+      "venue": "Debates + written exchanges",
+      "participants": [
+        "James White",
+        "Shabir Ally"
+      ],
+      "sides": {
+        "muslim": "Shabir Ally",
+        "christian": "James White"
+      },
+      "motion": "May one use liberal critical tools on the Bible while shielding the Qur'an?",
+      "summary": "Long-running meta-debate. White: Ally cites Dunn/Brown/Metzger against Bible but would reject their verdict that Qur'anic Jesus material is historically worthless. Ally: Qur'an is a different genre/claim and does not endorse every Gospel sentence.",
+      "key_moves": {
+        "muslim": [
+          "Critical tools diagnose human texts; Qur'an is guarded revelation",
+          "Partial affirmation model for Injil"
+        ],
+        "christian": [
+          "Special pleading",
+          "Cradle speech of Jesus / Infancy Gospel parallels as consistency test"
+        ]
+      },
+      "what_to_steal": [
+        "Prepare a 30-second 'method symmetry' speech and reuse it"
+      ],
+      "links": [
+        {
+          "label": "White response to Ally (AOMIN)",
+          "url": "https://www.aomin.org/aoblog/uncategorized/a-response-to-dr-shabir-ally-part-1/"
+        }
+      ]
+    }
+  ],
+  "opponent_cards": [
+    {
+      "trigger": "There are 400,000 New Testament variants",
+      "fast_answer": "Variants are counted per manuscript difference, not 400k alternate Bibles. Most are spelling. Ask which variant changes a doctrine and whether critical editions flag it.",
+      "follow_up": "Then apply the same numeric scare to qira'at/manuscript corrections.",
+      "sources": [
+        "Wallace–Ehrman 2011",
+        "NA28 apparatus"
+      ]
+    },
+    {
+      "trigger": "The Qur'an is perfectly preserved letter for letter",
+      "fast_answer": "Ask: Hafs only? all ten? rasm only? Companion codices? Sanaa C-1? Qadhi himself said the standard narrative has holes regarding ahruf/qira'at.",
+      "follow_up": "Offer a precise alternative: early Uthmanic rasm is remarkably stable — without folk overclaim.",
+      "sources": [
+        "Qadhi 2020 interview controversy",
+        "van Putten 2019",
+        "Sadeghi 2010"
+      ]
+    },
+    {
+      "trigger": "Uthman burned the evidence, so the Qur'an is unreliable",
+      "fast_answer": "Burning explains conflict control; it does not by itself prove invention. Stemmatic/orthographic work argues a single archetype. But it does undercut 'we can empirically inspect all rivals.'",
+      "follow_up": "Demand consistency about Christian canon politics.",
+      "sources": [
+        "Bukhari 4987",
+        "van Putten",
+        "Yaqeen"
+      ]
+    },
+    {
+      "trigger": "Ehrman proved the Bible is corrupted",
+      "fast_answer": "Ehrman argues uncertainty and early gap; he still reconstructs texts and affirms crucifixion. If you trust Ehrman against Bible inspiration, do you trust him against Qur'anic Jesus history?",
+      "follow_up": "Quote his crucifixion 'rock-bottom certain' line.",
+      "sources": [
+        "Ehrman blog",
+        "Misquoting Jesus vs his academic editions"
+      ]
+    },
+    {
+      "trigger": "Birmingham manuscript proves the Qur'an is unchanged",
+      "fast_answer": "It dates parchment to a range, not ink to a day, and covers limited folios. Strong evidence of early writing; not a total proof of global letter-identity.",
+      "follow_up": "Affirm what's fair: proximity to origin is impressive.",
+      "sources": [
+        "Birmingham Univ.",
+        "luminos radiocarbon chapter"
+      ]
+    },
+    {
+      "trigger": "Sanaa proves the Qur'an was rewritten",
+      "fast_answer": "Sanaa lower text is a non-Uthmanic type. Sadeghi argues Uthmanic is closer to prototype. It challenges clone-identical folk history more than Prophetic origin as such.",
+      "follow_up": "Ask opponent if they have read Sadeghi/Hilali or only apologetics clips.",
+      "sources": [
+        "Sadeghi & Bergmann",
+        "Hilali",
+        "JAOS Beyond Cairo"
+      ]
+    },
+    {
+      "trigger": "The Qur'an confirms the Bible, so Muslims must accept the Gospels",
+      "fast_answer": "Define Injil. Ally/Saeed: contains guidance/light; judge by what God revealed therein; Qur'an simultaneously rejects sonship. Affirmation ≠ blank check.",
+      "follow_up": "Then fight the historical content question separately (crucifixion).",
+      "sources": [
+        "Q 5:46–48",
+        "Saeed",
+        "Ally reply to White"
+      ]
+    },
+    {
+      "trigger": "Dead Sea Scrolls prove the OT is unchanged",
+      "fast_answer": "DSS prove early Hebrew traditions and much continuity, also real plurality (MT/LXX-like). Good against 'medieval invention'; not proof of zero variation.",
+      "follow_up": "Keep OT and NT arguments unbundled.",
+      "sources": [
+        "Tov",
+        "DSS Bible editions"
+      ]
+    },
+    {
+      "trigger": "Brubaker's photos show corruption",
+      "fast_answer": "Photos show corrections. Sidky: usually scribal error fixes; bold corruption thesis not shown. Hand-copied Bibles look the same under a lens.",
+      "follow_up": "Ask for a variant that cannot be explained as dittography/haplography/alignment to known rasm.",
+      "sources": [
+        "Sidky review PDF",
+        "Altıkulaç IRCICA"
+      ]
+    },
+    {
+      "trigger": "Only the Qur'an was memorized by thousands",
+      "fast_answer": "Oral frequency matters, but memory preserves what communities standardize; it can also stabilize a chosen reading. Pair oral claims with manuscript stemmata.",
+      "follow_up": "Ask how oral model handles documented companion differences.",
+      "sources": [
+        "Ulum al-Qur'an overviews",
+        "Sadeghi on semi-oral transmission"
+      ]
+    },
+    {
+      "trigger": "Your own hadith books prove the Qur'an has versions — scholars hid this",
+      "fast_answer": "Ataie: the ʿulamāʾ wrote whole chapters on aḥruf/qirāʾāt. Critics quote those chapters to audiences taught a folk slogan. That is straw-man demolition, not a new manuscript.",
+      "follow_up": "Ask which reading fails the three tests: ʿUthmānic rasm, mass isnād, sound Arabic.",
+      "sources": [
+        "Ataie Sound Narrative ~13:07–15:09",
+        "Suyūṭī Itqān (aḥruf chapter)"
+      ]
+    },
+    {
+      "trigger": "Ibn Masʿūd didn't even have al-Fātiḥa / the last two suras — so the canon moved",
+      "fast_answer": "Ataie: personal muṣḥafs were memory aids; Fātiḥa was too ubiquitous to write; four Iraqi qirāʾāt through Ibn Masʿūd still recite 113–114. Missing page ≠ rejected revelation. Critics can't also quote his Fātiḥa variant and say he denied the surah.",
+      "follow_up": "How did Kufa pray if Fātiḥa wasn't Qur'an? We would have headlines.",
+      "sources": [
+        "Ataie ~1:37–1:45",
+        "al-Anbārī via Qurṭubī (as he cites)"
+      ]
+    },
+    {
+      "trigger": "Ubayy had two extra suras the committee deleted",
+      "fast_answer": "Those texts are duʿāʾ al-qunūt, recited in prayer, written in a personal codex. Ataie + al-Aʿẓamī: defective isnād; diction is not Qur'anic (Allāhumma as first word; kafarnāka vs kafarnā bi-). Committee judged them prophetic duʿāʾ, not āyāt.",
+      "follow_up": "If they were embarrassing, why are the meanings orthodox?",
+      "sources": [
+        "Ataie ~1:45–1:54",
+        "Sean Anthony on the 'lost suras' (Ataie disagrees on canonicity)"
+      ]
+    },
+    {
+      "trigger": "Sanaa palimpsest proves a different Qur'an",
+      "fast_answer": "Ataie: C-1 is the one non-ʿUthmānic extant type, likely a companion codex. Differences = particles, similar-sounding words, assimilation of parallels. Sadeghi: ʿUthmānic is closer to the prophetic archetype. Polemicists wanted extra suras / other theology. They didn't get them.",
+      "follow_up": "Grant it's not clone-identical. Don't grant 8th-century invention.",
+      "sources": [
+        "Ataie ~2:09–2:18",
+        "Sadeghi & Bergmann 2010"
+      ]
+    },
+    {
+      "trigger": "Reciters just dotted an empty skeleton however they liked (Goldziher)",
+      "fast_answer": "Then why is 3:26 only Mālik while Fātiḥa splits Mālik/Malik? Why is Yā-Sīn never Nūn-Sīn / Tā-Sīn among the ten? Ataie: they were constrained by a living oral sunnah, not ijtihād on a crossword.",
+      "follow_up": "Ibn Mujāhid prosecuted people who did free pointing or companion-rasm in public.",
+      "sources": [
+        "Ataie ~2:40–2:46",
+        "nquran.com"
+      ]
+    },
+    {
+      "trigger": "You recite Ḥafṣ and Ḥafṣ is weak in hadith",
+      "fast_answer": "Different science. The same critics who jarḥ him in ḥadīth praise his Qur'an transmission. No Sunni imam treats Ḥafṣ's muṣḥaf as a forged ḥadīth.",
+      "follow_up": "Warsh exists; this is not a single-transmitter book.",
+      "sources": [
+        "Ataie ~2:36"
+      ]
+    },
+    {
+      "trigger": "Sidky is just a Muslim apologist",
+      "fast_answer": "University of Chicago / IQSA. His Brubaker review and JIQSA stemma are the papers critics also have to cite. Quote the page, don't psychoanalyze the man.",
+      "follow_up": "If you reject Sidky's stemma, name the competing phylogeny.",
+      "sources": [
+        "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf",
+        "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+      ]
+    },
+    {
+      "trigger": "There are 200,000 errors in the New Testament",
+      "fast_answer": "Wallace: that number used a broken definition (wording × manuscripts). Real critic-count is ~400,000 wording differences, mostly spelling. Ask for a meaningful-and-viable example.",
+      "follow_up": "Open Wallace 2013 on a phone. Then open Mark 16 on Sinaiticus.",
+      "sources": [
+        "https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/"
+      ]
+    },
+    {
+      "trigger": "Leningrad Codex is 1008 so the OT is medieval",
+      "fast_answer": "Oldest complete MT copy is medieval. Tov: 25 Judean Desert scripture scrolls outside Qumran are virtually identical to that medieval text. Open 1QIsaᵃ.",
+      "follow_up": "Grant Qumran plurality (Jeremiah/Samuel/LXX-like). That is Tov, not a dawah meme.",
+      "sources": [
+        "https://www.degruyterbrill.com/document/doi/10.2478/opth-2014-0007/pdf"
+      ]
+    },
+    {
+      "trigger": "Show me Uthman's original mushaf",
+      "fast_answer": "Sidky: it is not odd that the four master copies did not survive handling. What survived is a four-node stemma plus early Hijazi leaves. Demand a stemma, not a relic.",
+      "follow_up": "Drop Topkapı-as-autograph flyers before they drop them for you.",
+      "sources": [
+        "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+      ]
+    },
+    {
+      "trigger": "The church fathers hid the real Bible",
+      "fast_answer": "Metzger–Ehrman: patristic citations are so extensive you could reconstruct practically the entire NT from them alone. That is the opposite of a hidden text — it is a noisy, public text.",
+      "follow_up": "Noise is why there are variants. Publicity is why we can map them.",
+      "sources": [
+        "Metzger–Ehrman, Text of the New Testament"
+      ]
+    },
+    {
+      "trigger": "Cairo 1924 invented today's Qur'an",
+      "fast_answer": "Sidky: Cairo chose among medieval rasm books (Dānī / Abū Dāwūd) and is often more archaic than classicized later mushafs. Corrections 'toward Cairo' are corrections toward an old standard, not a 1924 novelty.",
+      "follow_up": "Warsh prints still exist. 1924 is a Hafs typesetting, not a new rasm.",
+      "sources": [
+        "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+      ]
+    }
+  ],
+  "checklist": [
+    "Watch Ataie Sound Narrative once with the timestamp list (Debates → first card)",
+    "Define uniformic slogan vs multiformic preservation before any qirāʾāt clip",
+    "Memorize three names: Sidky (stemma), Wallace (how to count variants), Tov (DSS plurality + proto-MT)",
+    "Open two viewers before the round: CSNTM or Sinaiticus, and Corpus Coranicum or Birmingham VMR",
+    "Write your one-sentence motion interpretation and get agreement at the start",
+    "Prepare a 60-second definitions opener (historicity / preservation / inspiration / tahrif)",
+    "Choose a positive case (not only attack): 3 pillars max",
+    "Prepare method-symmetry jab (45 seconds)",
+    "Master 5 receipts you can cite cold (2 Bible, 2 Qur'an, 1 method)",
+    "Prepare 3 concessions (builds credibility)",
+    "Drill the 10 opponent cards out loud",
+    "Watch/listen: Wallace–Ehrman 2011; one Ally–White; one Ally–Wood dilemma debate",
+    "Read: Sadeghi & Bergmann abstract+conclusion; van Putten 2019; Saeed on tahrif; Wallace variant FAQ",
+    "Decide in advance what you will grant if pressed on Sanaa / qira'at / Mark 16",
+    "Prepare closing: restate crux questions, not slogans",
+    "Bring printed primary quotes (Bukhari 4987; Q 5:47; Ehrman crucifixion line; van Putten thesis sentence)"
+  ],
+  "positive_cases": {
+    "if_defending_bible_historicity": [
+      "Public historical method reconstructs NT text better than classical analogs (Wallace line)",
+      "DSS/LXX/MT give the Hebrew Bible a real Second Temple footprint",
+      "On Jesus events, critical consensus favors crucifixion over Qur'anic denial",
+      "Transparent apparatuses are epistemic virtue"
+    ],
+    "if_defending_quran_historicity": [
+      "Short revelatory window + early rasm archetype (van Putten/Sadeghi)",
+      "Oral-written dual transmission unique in scale",
+      "Companion variants/Sanaa show early textual ecology, not 8th-c. fabrication from nothing",
+      "C-14 early parchments support proximity to origin"
+    ],
+    "if_seeking_unity_steelman": [
+      "Both scriptures have serious historical footprints; folk slogans on both sides are the enemy",
+      "Agree on shared vocabulary before theology",
+      "Separate book-as-artifact questions from salvation claims",
+      "Use academic literature both sides actually respect"
+    ],
+    "Muslim podium": [
+      "Ataie: defend multiformic aḥruf, not Hafs-clone slogans"
+    ]
+  },
+  "bibliography": [
+    {
+      "tier": "Ataie lecture pack (watch first on qirāʾāt)",
+      "items": [
+        {
+          "label": "Ali Ataie — The Sound Narrative (video)",
+          "url": "https://www.youtube.com/watch?v=5XuiZLfEb64"
+        },
+        {
+          "label": "Ali Ataie faculty page (Zaytuna)",
+          "url": "https://zaytuna.edu/academics/faculty/ali-ataie"
+        },
+        {
+          "label": "MCC East Bay — Ataie archive",
+          "url": "https://mcceastbay.org/ataie"
+        },
+        {
+          "label": "Muḥammad Muṣṭafā al-Aʿẓamī, History of the Qur'anic Text (Ataie's English textbook)",
+          "url": "https://www.islamic-awareness.org/quran/text/"
+        },
+        {
+          "label": "nquran.com — ten qirāʾāt / twenty rāwīs",
+          "url": "https://nquran.com"
+        },
+        {
+          "label": "Nazir Khan — variations in the Qur'an (essay Ataie praises)",
+          "url": "https://yaqeeninstitute.org/read/paper/the-origins-of-the-variant-readings-of-the-quran"
+        }
+      ]
+    },
+    {
+      "tier": "Academics to quote live (Sidky, Sinai, Wallace, Metzger, Tov)",
+      "items": [
+        {
+          "label": "Hythem Sidky — review of Brubaker (PDF)",
+          "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+        },
+        {
+          "label": "Hythem Sidky — On the Regionality of Qurʾānic Codices (JIQSA 5)",
+          "url": "https://lockwoodonlinejournals.com/index.php/jiqsa/article/view/554"
+        },
+        {
+          "label": "Hythem Sidky — Consonantal Dotting and the Oral Quran (JAOS 2023)",
+          "url": "https://doi.org/10.7817/jaos.143.4.2023.ar029"
+        },
+        {
+          "label": "Nicolai Sinai — When did the consonantal skeleton… Part II (BSOAS 2014)",
+          "url": "https://doi.org/10.1017/s0041977x14000111"
+        },
+        {
+          "label": "Marijn van Putten — The Grace of God (BSOAS 2019)",
+          "url": "https://doi.org/10.1017/s0041977x19000338"
+        },
+        {
+          "label": "Daniel Wallace — How to count NT variants (2013)",
+          "url": "https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/"
+        },
+        {
+          "label": "Metzger & Ehrman — The Text of the New Testament",
+          "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195161229"
+        },
+        {
+          "label": "Bart Ehrman — NT manuscripts good news / bad news",
+          "url": "https://ehrmanblog.org/new-testament-manuscripts-good-news-and-bad-news/"
+        },
+        {
+          "label": "Emanuel Tov — DSS and textual plurality",
+          "url": "https://www.degruyterbrill.com/document/doi/10.2478/opth-2014-0007/pdf"
+        },
+        {
+          "label": "CSNTM manuscript viewer",
+          "url": "https://manuscripts.csntm.org/"
+        },
+        {
+          "label": "Corpus Coranicum",
+          "url": "https://corpuscoranicum.de/en/manuscripts"
+        }
+      ]
+    },
+    {
+      "tier": "Must-read academic",
+      "items": [
+        {
+          "label": "Sadeghi & Bergmann, Arabica 2010 (Sanaa/C-1 stemmatics)",
+          "url": "https://bible-quran.com/wp-content/uploads/2013/01/Sadeghi-Bergmann-The-Codex-of-a-Companion-of-the-Prophet-and-the-quran-of-the-Prophet.pdf"
+        },
+        {
+          "label": "Marijn van Putten, BSOAS 2019 (Uthmanic archetype)",
+          "url": "https://doi.org/10.1017/s0041977x19000338"
+        },
+        {
+          "label": "Asma Hilali, The Sanaa Palimpsest",
+          "url": "https://www.iis.ac.uk/publications-listing/the-sanaa-palimpsest/"
+        },
+        {
+          "label": "Emanuel Tov, Textual Criticism of the Hebrew Bible",
+          "url": "https://www.fortresspress.com/store/product/9780800696641/Textual-Criticism-of-the-Hebrew-Bible"
+        },
+        {
+          "label": "Metzger & Ehrman, The Text of the New Testament",
+          "url": "https://global.oup.com/academic/product/the-text-of-the-new-testament-9780195166675"
+        },
+        {
+          "label": "Gabriel Said Reynolds on tahrif (JAOS)",
+          "url": "https://almuslih.org/wp-content/uploads/Library/Reynolds,%20G%20-%20The%20Quranic%20accusation.pdf"
+        },
+        {
+          "label": "Abdullah Saeed on scriptural distortion",
+          "url": "https://bible-quran-video.s3.amazonaws.com/Documents/The-Charge-of-Distortion-of-Jewish-and-Christian-Scriptures_Abdullah+Saeed.pdf"
+        },
+        {
+          "label": "Hythem Sidky review of Brubaker",
+          "url": "https://www.middleeastmedievalists.com/wp-content/uploads/2019/11/UW-27-Sidky.pdf"
+        }
+      ]
+    },
+    {
+      "tier": "Primary / reference",
+      "items": [
+        {
+          "label": "Sahih al-Bukhari 4987 (Uthmanic collection)",
+          "url": "https://sunnah.com/bukhari:4987"
+        },
+        {
+          "label": "Qur'an 5:46–48; 15:9; 4:157",
+          "url": "https://quran.com/5/46-48"
+        },
+        {
+          "label": "Islamic Awareness Qur'an MSS / C-14",
+          "url": "https://www.islamic-awareness.org/quran/text/mss/radio"
+        },
+        {
+          "label": "University of Birmingham Qur'an folios",
+          "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
+        },
+        {
+          "label": "INTF / NT manuscript research",
+          "url": "https://www.uni-muenster.de/INTF/"
+        }
+      ]
+    },
+    {
+      "tier": "Debate media",
+      "items": [
+        {
+          "label": "Ehrman vs Wallace 2011",
+          "url": "https://www.youtube.com/watch?v=WRHjZCKRIu4"
+        },
+        {
+          "label": "Ally vs White (NT inspired) hub",
+          "url": "http://www.answeringmuslims.com/2013/01/shabir-ally-vs-james-white-is-new.html"
+        },
+        {
+          "label": "Wood vs Ally (Qur'an on Bible)",
+          "url": "http://www.answeringmuslims.com/2016/04/david-wood-vs-shabir-ally-what-is.html"
+        },
+        {
+          "label": "Kunde vs Green (preservation)",
+          "url": "http://www.answeringmuslims.com/2010/01/abdullah-kunde-vs-samuel-green.html"
+        },
+        {
+          "label": "Smith vs Ally Leicester report",
+          "url": "http://debate.org.uk/topics/isamasih/jul98/debate.htm"
+        }
+      ]
+    }
+  ]
+};

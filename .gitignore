@@ -24,6 +24,9 @@ debate-video/
 *.wav
 *.webm
 
+# Regenerable English snapshots for translators
+scripts/kb/locales/_en_src/
+
 # OS
 .DS_Store
 Thumbs.db

@@ -1,300 +1,394 @@
 {
   "id": "slavery",
   "meta": {
-    "title": "Christianity vs Islam: better regarding slavery?",
-    "thesis": "Given that both scriptures regulate slavery rather than invent modern abolition overnight, which tradition's trajectory, incentives, and eventual reforms better serve human freedom?",
-    "purpose": "Steelman biblical household codes and Islamic milkiyyah/mukātabah systems; map manumission, war captives, race, and abolition history without innocence myths.",
-    "warning": "Anachronism kills this debate. Judge ancient regulations against ancient baselines, then ask which resources funded abolition — without erasing Muslim or Christian slave trades.",
+    "title": "Христианство vs ислам: что лучше относительно рабства?",
+    "thesis": "Учитывая, что оба Писания регулируют рабство, а не изобретают современную отмену за ночь, чья траектория, стимулы и поздние реформы лучше служат человеческой свободе?",
+    "purpose": "Стальман библейских домашних кодексов и исламских систем милкия / мукатаба; карта отпуска на волю, военных пленных, расы и истории аболиционизма без мифов невинности.",
+    "warning": "Анахронизм убивает этот спор. Судите древние регуляции по древним базовым линиям, затем спросите, какие ресурсы питали отмену — не стирая мусульманскую или христианскую работорговлю.",
     "chips": [
-      "ethics",
-      "law",
-      "history",
-      "abolition",
-      "captives"
+      "этика",
+      "право",
+      "история",
+      "аболиционизм",
+      "пленные"
     ],
     "labels": {
-      "christian": "Christian case",
-      "muslim": "Muslim case"
+      "christian": "Христианский тезис",
+      "muslim": "Мусульманский тезис"
+    },
+    "lang": "ru",
+    "ui": {
+      "brand_small": "База для дебатов",
+      "hub": "Все темы",
+      "nav_historicity": "Историчность",
+      "lang_en": "EN",
+      "lang_ru": "RU",
+      "search_label": "Поиск по цитатам, карточкам, рукописям",
+      "search_placeholder": "Поиск: Sidky, Wallace, Мк 16, Бирмингем…",
+      "tab_speech": "Речь",
+      "tab_proofs": "Аргументы за Троицу",
+      "tab_live": "Подсказки",
+      "tab_verses": "Стихи",
+      "tab_brief": "Обзор",
+      "tab_arguments": "Аргументы",
+      "tab_materials": "Рукописи",
+      "tab_debates": "Дебаты",
+      "tab_cards": "Карточки",
+      "tab_sources": "Источники",
+      "tab_checklist": "Чеклист",
+      "intro_brief": "Сначала договоритесь о терминах. Потом берите доводы по одному — не только атакуйте.",
+      "h_definitions": "Определения",
+      "h_positive": "Позитивные картины",
+      "intro_arguments": "Обе стороны в сильнейшей форме: контраргументы, суть спора и как использовать в дебате.",
+      "cluster": "Группа",
+      "filter_all": "Все",
+      "filter_top10": "Топ-10",
+      "expand": "Раскрыть всё",
+      "collapse": "Свернуть всё",
+      "intro_live": "Короткие реплики, если оппонент произнёс типичную фразу.",
+      "intro_verses": "Группы стихов со ссылками на текст.",
+      "they_say_label": "Они говорят: ",
+      "they_claim_label": "Их тезис",
+      "counter_label": "Ответ",
+      "steelman_label": "Как защищают",
+      "kind_proof": "Аргумент",
+      "unitarian_move": "Довод: ",
+      "christian_reply": "Ответ: ",
+      "open_nrsv": "англ.",
+      "verses_count_suffix": "стихов",
+      "h_live_lines": "Если говорят → отвечай",
+      "h_live_quotes": "Цитаты вслух",
+      "h_live_mss": "Открыть рукопись",
+      "intro_speech": "Одна связная речь. Можно читать вслух или копировать целиком.",
+      "copy_speech": "Копировать всю речь",
+      "speech_copied": "Скопировано",
+      "speech_verses": "Стихи",
+      "intro_materials": "Рукописи и артефакты. Нажмите на снимок, чтобы увеличить.",
+      "show": "Показать",
+      "filter_bible": "Библия",
+      "filter_quran": "Коран",
+      "filter_infra": "Зрители",
+      "intro_debates": "Известные дебаты и что из них взять, со ссылками на записи.",
+      "intro_cards": "Короткие ответы на типичные фразы. Первая строка — то, что сказать сразу.",
+      "intro_sources": "Сначала академические и первичные источники, потом ролики.",
+      "footer": "Обе стороны смотрят одни материалы. Победитель не объявляется.",
+      "data_points": "Факты",
+      "manuscripts": "Рукописи / артефакты",
+      "source": "источник",
+      "copy": "Копировать",
+      "copied": "Скопировано",
+      "counter": "Возражение → ",
+      "claim": "тезис",
+      "reply": "Ответ: ",
+      "counter_christian": "Возражение (христиане):",
+      "counter_muslim": "Возражение (мусульмане):",
+      "if_they_say": "Если говорят",
+      "if_they_say_colon": "Если говорят:",
+      "you_say": "Отвечай",
+      "dont_overclaim": "Не переигрывай",
+      "crux": "В чём спор: ",
+      "debate_use": "Как использовать: ",
+      "open_viewer": "Открыть источник",
+      "motion": "Тема:",
+      "timestamps": "Таймкоды",
+      "steal": "Что взять:",
+      "fast_answer": "Сразу:",
+      "follow_up": "Дальше:",
+      "anchor": "Якорь: ",
+      "kind_live": "Реплика",
+      "kind_quote": "Цитата",
+      "kind_card": "Карточка",
+      "kind_mss": "Рукопись",
+      "kind_verse_group": "Группа стихов",
+      "kind_verse": "Стих",
+      "kind_speech": "Речь",
+      "open": "Открыть",
+      "go_to": "К разделу "
     }
   },
   "definitions": [
     {
-      "term": "Chattel slavery",
-      "precise": "Legal ownership of persons as property, typically hereditary or war-captive based.",
-      "not": "Not identical with every form of indenture, serfdom, or prison labor."
+      "term": "Вещное рабство",
+      "precise": "Правовая собственность на лиц как на имущество, обычно наследственная или на основе военного плена.",
+      "not": "Не тождественно всякой форме кабалы, крепостничества или тюремного труда."
     },
     {
-      "term": "Manumission",
-      "precise": "Freeing a slave; in Islam often expiation/virtue; in Christianity also virtue and later legal reform.",
-      "not": "Not the same as abolishing the institution."
+      "term": "Отпуск на волю (манумиссия)",
+      "precise": "Освобождение раба; в исламе часто искупление / добродетель; в христианстве также добродетель и поздняя правовая реформа.",
+      "not": "Не то же самое, что упразднение института."
     },
     {
-      "term": "Trajectory reading",
-      "precise": "Hermeneutic that seeds in Philemon/golden rule (or Qur'anic freeing) grow into abolition even if the text regulates slavery.",
-      "not": "Not accepted by readers who treat regulation as timeless endorsement."
+      "term": "Чтение траектории",
+      "precise": "Герменевтика, по которой семена в Флм / золотом правиле (или кораническом освобождении) вырастают в отмену, даже если текст регулирует рабство.",
+      "not": "Не принято читателями, трактующими регулирование как вневременное одобрение."
     },
     {
-      "term": "Milk al-yamīn / captives",
-      "precise": "Those 'whom your right hands possess' — contested category including war captives in Islamic law.",
-      "not": "Not a modern euphemism debate only — classical fiqh treats real legal statuses."
+      "term": "Малакат правой руки / пленные",
+      "precise": "Те, «кем овладели ваши десницы» — спорная категория, включающая военных пленных в исламском праве.",
+      "not": "Не только современный спор о эвфемизмах — классический фикх трактует реальные правовые статусы."
     },
     {
-      "term": "Abolitionism",
-      "precise": "Movements to outlaw slavery as such; historically strong in some Christian societies, present in Muslim reformers too.",
-      "not": "Not proof that a religion's scripture always demanded 19th-c. abolition."
+      "term": "Аболиционизм",
+      "precise": "Движения объявить рабство как таковое вне закона; исторически сильны в некоторых христианских обществах, есть и у мусульманских реформаторов.",
+      "not": "Не доказательство, что Писание религии всегда требовало отмены XIX века."
     },
     {
-      "term": "Racialized slavery",
-      "precise": "Slavery organized around racial hierarchy (e.g. Atlantic trade); distinct from ancient multi-ethnic slavery though overlaps exist.",
-      "not": "Do not pretend Islamic lands had no racialized slave markets (e.g. Zanj, eunuch trades)."
+      "term": "Расиализированное рабство",
+      "precise": "Рабство, организованное вокруг расовой иерархии (напр. атлантическая торговля); отлично от древнего полиэтнического рабства, хотя пересечения есть.",
+      "not": "Не делайте вид, что в исламских землях не было расиализированных невольничьих рынков (напр. зандж, торговля евнухами)."
     }
   ],
   "arguments": [
     {
       "id": "both-regulate",
       "rank": 1,
-      "cluster": "Scripture baseline",
-      "title": "Neither scripture is modern abolitionist",
+      "cluster": "Базовая линия Писания",
+      "title": "Ни одно Писание не является современным аболиционистским",
       "type": "definition + ethics",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Honest baseline: Torah regulates slavery; NT household codes assume it. The Christian advantage is trajectory and later abolition energy, not pretend Sinai was 1865.",
-        "case": "Exodus 21; Ephesians 6:5–9; Colossians 3:22–25. Apologetics that say 'Bible never endorsed slavery' overclaim; better: 'Bible destabilizes it.'",
+        "claim": "Честная базовая линия: Тора регулирует рабство; домашние кодексы НЗ его предполагают. Христианское преимущество — траектория и поздняя энергия отмены, не притворство, будто Синай был 1865 годом.",
+        "case": "Исх 21; Еф 6:5–9; Кол 3:22–25. Апологетика «Библия никогда не одобряла рабство» переигрывает; лучше: «Библия его дестабилизирует».",
         "sources": [
           {
-            "label": "Ephesians 6:5–9",
+            "label": "Еф 6:5–9",
             "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A5-9&version=NRSVUE"
           },
           {
-            "label": "Exodus 21:1–11",
+            "label": "Исх 21:1–11",
             "url": "https://www.biblegateway.com/passage/?search=Exodus+21%3A1-11&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "Let all who are under the yoke of slavery regard their masters as worthy of all honor…",
-            "who": "1 Timothy 6:1",
-            "work": "Household code",
-            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%206%3A1&version=NRSVUE"
+            "text": "Рабы, под игом находящиеся, должны почитать господ своих достойными всякой чести…",
+            "who": "1 Тим 6:1",
+            "work": "Домашний кодекс",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Timothy%206%3A1&version=NRSVUE",
+            "orig": "Let all who are under the yoke of slavery regard their masters as worthy of all honor…"
           }
         ]
       },
       "muslim": {
-        "claim": "Qur'an likewise assumes slavery and regulates it while praising freeing; Christian uniqueness claims fail at the shared ancient baseline.",
-        "case": "2:177; 4:36; 24:33; 90:12–13. Comparative ancient ethics: both inherit the institution.",
+        "claim": "Коран также предполагает рабство и регулирует его, хваля освобождение; претензии на христианскую уникальность проваливаются на общей древней базовой линии.",
+        "case": "«Коран 2:177»; «Коран 4:36»; «Коран 24:33»; «Коран 90:12–13». Сравнительная древняя этика: обе наследуют институт.",
         "sources": [
           {
-            "label": "Qur'an 90:12–13",
+            "label": "«Коран 90:12»–13",
             "url": "https://quran.com/90/12-13"
           },
           {
-            "label": "Qur'an 24:33",
+            "label": "«Коран 24:33»",
             "url": "https://quran.com/24/33"
           },
           {
-            "label": "Qur'an 2:177",
+            "label": "«Коран 2:177»",
             "url": "https://quran.com/2/177"
           }
         ],
         "quotes": [
           {
-            "text": "And those who seek a contract [for eventual emancipation] from among whom your right hands possess — then make a contract with them if you know there is within them goodness and give them from the wealth of Allah which He has given you.",
-            "who": "Qur'an 24:33",
-            "work": "Mukātaba encouragement",
-            "url": "https://quran.com/24/33"
+            "text": "А те из тех, кем овладели ваши десницы, которые ищут договора [об окончательном освобождении], — заключайте с ними договор, если знаете в них добро, и давайте им из имущества Аллаха, которое Он даровал вам.",
+            "who": "«Коран 24:33»",
+            "work": "Поощрение мукатабы",
+            "url": "https://quran.com/24/33",
+            "orig": "And those who seek a contract [for eventual emancipation] from among whom your right hands possess — then make a contract with them if you know there is within them goodness and give them from the wealth of Allah which He has given you."
           }
         ]
       },
-      "counter_to_christian": "If both regulate, 'Bible vs Qur'an' abolition slogans are propaganda.",
-      "counter_to_muslim": "Shared baseline still allows different incentives and exit ramps — debate those.",
-      "crux": "After granting shared regulation, which system's norms better push toward freedom?",
-      "debate_use": "Open by banning innocence myths for 60 seconds on both sides.",
-      "why_it_matters": "Kills the cartoon that one religion is abolitionist in the modern sense from page one.",
+      "counter_to_christian": "Если обе регулируют, лозунги отмены «Библия vs Коран» — пропаганда.",
+      "counter_to_muslim": "Общая базовая линия всё равно допускает разные стимулы и выходы — спорьте о них.",
+      "crux": "После признания общего регулирования, чьи нормы системы лучше толкают к свободе?",
+      "debate_use": "Откройте шестидесятисекундным запретом мифов невинности с обеих сторон.",
+      "why_it_matters": "Убивает карикатуру, будто одна религия аболиционистская в современном смысле с первой страницы.",
       "live": {
-        "if_they_say": "My book abolished slavery; yours didn't.",
-        "you_say": "Neither Testament nor Qur'an is the 13th Amendment. Both regulate. The fight is trajectory, manumission incentives, concubinage, and who actually abolished when.",
-        "dont_overclaim": "Don't baptize either founder as William Wilberforce."
+        "if_they_say": "Моя книга отменила рабство; ваша — нет.",
+        "you_say": "Ни Завет, ни Коран — не 13-я поправка. Обе регулируют. Спор — траектория, стимулы отпуска, наложничество и кто фактически отменил когда.",
+        "dont_overclaim": "Не крестите ни одного основателя в Уильяма Уилберфорса."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "philemon-trajectory",
       "rank": 2,
-      "cluster": "Christian trajectory",
-      "title": "Philemon and brotherhood as abolition seed",
+      "cluster": "Христианская траектория",
+      "title": "Филимон и братство как семя отмены",
       "type": "theology + ethics",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Paul's appeal to receive Onesimus as a beloved brother (Philemon) and Galatians 3:28 supply internal logic that eventually undercut slaveholding as Christian practice.",
-        "case": "Not immediate emancipation statute, but relational ontology (brother in Christ) conflicts with property ontology. Abolitionists cited these texts.",
+        "claim": "Призыв Павла принять Онисима как возлюбленного брата (Флм) и Гал 3:28 дают внутреннюю логику, которая в итоге подрывает рабовладение как христианскую практику.",
+        "case": "Не немедленный статут эмансипации, но реляционная онтология (брат во Христе) конфликтует с онтологией собственности. Аболиционисты цитировали эти тексты.",
         "sources": [
           {
-            "label": "Philemon 1:8–21",
+            "label": "Флм 1:8–21",
             "url": "https://www.biblegateway.com/passage/?search=Philemon+1%3A8-21&version=NRSVUE"
           },
           {
-            "label": "Galatians 3:28",
+            "label": "Гал 3:28",
             "url": "https://www.biblegateway.com/passage/?search=Galatians+3%3A28&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "Perhaps this is the reason he was separated from you for a while, so that you might have him back forever, no longer as a slave but more than a slave, a beloved brother…",
-            "who": "Philemon 15–16",
-            "work": "NT primary",
-            "url": "https://www.biblegateway.com/passage/?search=Philemon%201-25&version=NRSVUE"
+            "text": "Ибо, может быть, он для того на время отлучился, чтобы тебе принять его навсегда, не как уже раба, но выше раба, брата возлюбленного…",
+            "who": "Флм 15–16",
+            "work": "НЗ, первичный",
+            "url": "https://www.biblegateway.com/passage/?search=Philemon%201-25&version=NRSVUE",
+            "orig": "Perhaps this is the reason he was separated from you for a while, so that you might have him back forever, no longer as a slave but more than a slave, a beloved brother…"
           }
         ]
       },
       "muslim": {
-        "claim": "Qur'anic freeing as expiation and virtue is more legally concrete than a private letter; Christians used the same NT to defend slavery for centuries.",
-        "case": "4:92; 5:89; 58:3 manumission expiations. Atlantic Christian slave religion shows trajectory was not automatic.",
+        "claim": "Кораническое освобождение как искупление и добродетель юридически конкретнее частного письма; христиане века использовали тот же НЗ, чтобы защищать рабство.",
+        "case": "«Коран 4:92»; «Коран 5:89»; «Коран 58:3» — искупления отпуском. Атлантическая христианская религия рабов показывает: траектория не была автоматической.",
         "sources": [
           {
-            "label": "Qur'an 4:92",
+            "label": "«Коран 4:92»",
             "url": "https://quran.com/4/92"
           },
           {
-            "label": "Qur'an 5:89",
+            "label": "«Коран 5:89»",
             "url": "https://quran.com/5/89"
           },
           {
-            "label": "Ephesians 6 (used by pro-slavery Christians)",
+            "label": "Еф 6 (как использовали прорабовладельческие христиане)",
             "url": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A5-9&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "Q 90:13 and 9:60 make freeing slaves a pious good — a parallel 'seed' Muslims will claim.",
+            "fact": "«Коран 90:13» и «Коран 9:60» делают освобождение рабов благочестивым добром — параллельное «семя», на которое мусульмане претендуют.",
             "source": "https://quran.com/90/13",
-            "label": "Q 90:13 and 9:60 make freeing slaves a pious good — a parallel 'seed' Muslims will claim.",
+            "label": "«Коран 90:13» и «Коран 9:60» делают освобождение рабов благочестивым добром — параллельное «семя», на которое мусульмане претендуют.",
             "note": "https://quran.com/90/13"
           }
         ]
       },
-      "counter_to_christian": "A seed that took 1800 years needs argument, not vibes.",
-      "counter_to_muslim": "Concrete manumission incentives coexisted with ongoing capture systems.",
-      "crux": "Which textual mechanism more reliably generates abolitionist ethics?",
-      "debate_use": "Quote a Christian pro-slavery sermon and an abolitionist sermon — show the fork.",
-      "why_it_matters": "Best Christian 'seed of abolition' text. Needs honesty that it is a seed, not a statute.",
+      "counter_to_christian": "Семени, которому потребовалось 1800 лет, нужен аргумент, не вайбы.",
+      "counter_to_muslim": "Конкретные стимулы отпуска сосуществовали с продолжающимися системами захвата.",
+      "crux": "Какой текстовый механизм надёжнее порождает аболиционистскую этику?",
+      "debate_use": "Процитируйте христианскую прорабовладельческую проповедь и аболиционистскую — покажите вилку.",
+      "why_it_matters": "Лучший христианский текст «семени отмены». Нужна честность, что это семя, не статут.",
       "live": {
-        "if_they_say": "Philemon proves Christianity ended slavery.",
-        "you_say": "It relativizes the master-slave relation in Christ. It does not command manumission in verse 1. Trajectory arguments must survive 1800 years of Christian slaveholding.",
-        "dont_overclaim": "Don't call Paul an abolitionist. Don't call the Qur'an one either."
+        "if_they_say": "Филимон доказывает, что христианство покончило с рабством.",
+        "you_say": "Он релятивизирует отношение господин–раб во Христе. Он не повелевает отпуск в стихе 1. Доводы траектории должны пережить 1800 лет христианского рабовладения.",
+        "dont_overclaim": "Не называйте Павла аболиционистом. Не называйте и Коран."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "manumission-incentives",
       "rank": 3,
-      "cluster": "Islamic law",
-      "title": "Islamic manumission incentives",
+      "cluster": "Исламское право",
+      "title": "Исламские стимулы отпуска на волю",
       "type": "law + ethics",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Incentives to free some slaves are not abolition; Islam retained capture, concubinage, and hereditary slavery in classical law.",
-        "case": "Regulated slavery can be perpetual. Moral progress requires ending the category, which Muslim-majority abolitions often did under modern pressure.",
+        "claim": "Стимулы освободить некоторых рабов — не отмена; ислам сохранил захват, наложничество и наследственное рабство в классическом праве.",
+        "case": "Регулируемое рабство может быть вечным. Моральный прогресс требует конца категории, который отмены в странах с мусульманским большинством часто делали под современным давлением.",
         "sources": [
           {
-            "label": "Qur'an 33:50",
+            "label": "«Коран 33:50»",
             "url": "https://quran.com/33/50"
           },
           {
-            "label": "Qur'an 4:24",
+            "label": "«Коран 4:24»",
             "url": "https://quran.com/4/24",
-            "note": "Contested captive/marriage legal nexus."
+            "note": "Спорный правовой узел пленных / брака."
           }
         ]
       },
       "muslim": {
-        "claim": "Mukātaba (24:33), expiation manumission, and feeding/freeing as righteousness structurally tilt toward exit from slavery unmatched by Torah debt-slavery harshness in places.",
-        "case": "90:13; 24:33. In late antique context, this is reformist. Compare Lex Aquilia world, not 21st-c. UN.",
+        "claim": "Мукатаба («Коран 24:33»), отпуск как искупление и кормление / освобождение как праведность структурно наклоняют к выходу из рабства сильнее, чем жёсткость торова долгового рабства в местах.",
+        "case": "«Коран 90:13»; «Коран 24:33». В позднеантичном контексте это реформистски. Сравнивайте мир lex Aquilia, не ООН XXI века.",
         "sources": [
           {
-            "label": "Qur'an 24:33",
+            "label": "«Коран 24:33»",
             "url": "https://quran.com/24/33"
           },
           {
-            "label": "Qur'an 90:12–16",
+            "label": "«Коран 90:12»–16",
             "url": "https://quran.com/90/12-16"
           },
           {
-            "label": "Qur'an 2:177",
+            "label": "«Коран 2:177»",
             "url": "https://quran.com/2/177"
           }
         ],
         "quotes": [
           {
-            "text": "It is the freeing of a slave…",
-            "who": "Qur'an 90:13",
-            "work": "Steep path includes manumission",
-            "url": "https://quran.com/90/13"
+            "text": "Это — освобождение раба…",
+            "who": "«Коран 90:13»",
+            "work": "Крутой путь включает манумиссию",
+            "url": "https://quran.com/90/13",
+            "orig": "It is the freeing of a slave…"
           }
         ],
         "data_points": [
           {
-            "fact": "Expiation for certain oaths/sins includes freeing a slave (Q 5:89; 58:3).",
-            "source": "Kaffāra verses",
-            "label": "Expiation for certain oaths/sins includes freeing a slave (Q 5:89; 58:3).",
-            "note": "Kaffāra verses"
+            "fact": "Искупление за некоторые клятвы / грехи включает освобождение раба («Коран 5:89»; «Коран 58:3»).",
+            "source": "Аяты каффары",
+            "label": "Искупление за некоторые клятвы / грехи включает освобождение раба («Коран 5:89»; «Коран 58:3»).",
+            "note": "Аяты каффары"
           }
         ]
       },
-      "counter_to_christian": "Christian canon also lacks a clear 'abolish slavery now' statute.",
-      "counter_to_muslim": "If capture remains lawful in classical jihad, the pipeline refills what manumission empties.",
-      "crux": "Do exit incentives outweigh lawful entry routes for new slaves?",
-      "debate_use": "Draw a pipeline diagram: capture → status → manumission.",
-      "why_it_matters": "Islam's strongest structural claim: kaffāra, zakāt, mukātaba.",
+      "counter_to_christian": "Христианский канон тоже лишён ясного статута «отмени рабство сейчас».",
+      "counter_to_muslim": "Если захват остаётся законным в классическом джихаде, трубопровод наполняет то, что отпуск опустошает.",
+      "crux": "Перевешивают ли стимулы выхода законные маршруты входа новых рабов?",
+      "debate_use": "Нарисуйте схему трубопровода: захват → статус → отпуск.",
+      "why_it_matters": "Сильнейшая структурная претензия ислама: каффара, закят, мукатаба.",
       "live": {
-        "if_they_say": "Islam wanted slavery to fade.",
-        "you_say": "Incentives to free are real. So is an ongoing lawful status for captives and those born into slavery. A system can both manumit and replenish. Ask whether the replenishment path (war captives) is still moral.",
-        "dont_overclaim": "Don't deny 90:13. Don't treat it as a sunset clause with a date."
+        "if_they_say": "Ислам хотел, чтобы рабство угасло.",
+        "you_say": "Стимулы освобождать реальны. Реален и длящийся законный статус пленных и рождённых в рабстве. Система может и отпускать, и пополнять. Спросите, морален ли ещё путь пополнения (военные пленные).",
+        "dont_overclaim": "Не отрицайте «Коран 90:13». Не трактуйте его как sunset-клаузулу с датой."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "war-captives-sex",
       "rank": 4,
-      "cluster": "Captives",
-      "title": "War captives and sexual access",
+      "cluster": "Пленные",
+      "title": "Военные пленные и сексуальный доступ",
       "type": "ethics + law",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Classical permission of sexual relations with female captives is a severe moral problem relative to Christian sexual ethics centered on marriage covenant.",
-        "case": "Debates on 4:24 / 23:5–6 / 70:29–30. Even with consent-of-owner legal framing, the captive's freedom to refuse is the ethical nerve.",
+        "claim": "Классическое разрешение сексуальных отношений с пленницами — тяжёлая моральная проблема относительно христианской сексуальной этики, центрированной на брачном завете.",
+        "case": "Споры о «Коран 4:24» / «Коран 23:5–6» / «Коран 70:29–30». Даже при правовой рамке согласия владельца нерв этики — свобода пленницы отказать.",
         "sources": [
           {
-            "label": "Qur'an 23:5–6",
+            "label": "«Коран 23:5»–6",
             "url": "https://quran.com/23/5-6"
           },
           {
-            "label": "Qur'an 4:24",
+            "label": "«Коран 4:24»",
             "url": "https://quran.com/4/24"
           },
           {
-            "label": "1 Corinthians 7 marriage ethic",
+            "label": "Брачная этика 1 Кор 7",
             "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+7%3A1-9&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "And [also prohibited to you are] all married women except those your right hands possess.",
-            "who": "Qur'an 4:24",
-            "work": "As read in critiques of concubinage",
-            "url": "https://quran.com/4/24"
+            "text": "И [также запретны вам] все замужние женщины, кроме тех, кем овладели ваши десницы.",
+            "who": "«Коран 4:24»",
+            "work": "Как читают в критике наложничества",
+            "url": "https://quran.com/4/24",
+            "orig": "And [also prohibited to you are] all married women except those your right hands possess."
           }
         ]
       },
       "muslim": {
-        "claim": "Late antique war norms enslaved captives across empires; Islam regulated status and encouraged marriage/manumission paths. Hebrew Bible also includes captive-wife legislation (Deut 21:10–14).",
-        "case": "Deut 21:10–14 is the symmetry text. Christian supersession claims must be explicit, not silent about Torah.",
+        "claim": "Позднеантичные военные нормы порабощали пленных во всех империях; ислам регулировал статус и поощрял пути брака / отпуска. Еврейская Библия тоже включает законодательство о жене-пленнице (Втор 21:10–14).",
+        "case": "Втор 21:10–14 — текст симметрии. Христианские претензии суперсессии должны быть явными, не молчаливыми о Торе.",
         "sources": [
           {
-            "label": "Deuteronomy 21:10–14",
+            "label": "Втор 21:10–14",
             "url": "https://www.biblegateway.com/passage/?search=Deuteronomy+21%3A10-14&version=NRSVUE"
           },
           {
-            "label": "Qur'an 24:33",
+            "label": "«Коран 24:33»",
             "url": "https://quran.com/24/33"
           },
           {
@@ -302,188 +396,188 @@
             "url": "https://oneworld-publications.com/work/slavery-and-islam/"
           },
           {
-            "label": "Deut 21:10–14",
+            "label": "Втор 21:10–14",
             "url": "https://www.biblegateway.com/passage/?search=Deuteronomy%2021%3A10-14&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "Jonathan A.C. Brown's Slavery and Islam is the book-length Muslim-academic attempt to face this file.",
+            "fact": "Jonathan A.C. Brown, Slavery and Islam — книжной длины мусульманско-академическая попытка встретить это досье.",
             "source": "Brown, Slavery and Islam",
-            "label": "Jonathan A.C. Brown's Slavery and Islam is the book-length Muslim-academic attempt to face this file.",
+            "label": "Jonathan A.C. Brown, Slavery and Islam — книжной длины мусульманско-академическая попытка встретить это досье.",
             "note": "Brown, Slavery and Islam"
           },
           {
-            "fact": "OT: Numbers 31 and Deut 21:10–14 are the tu quoque texts.",
-            "source": "Deut 21:10–14",
-            "label": "OT: Numbers 31 and Deut 21:10–14 are the tu quoque texts.",
-            "note": "Deut 21:10–14"
+            "fact": "ВЗ: Чис 31 и Втор 21:10–14 — тексты tu quoque.",
+            "source": "Втор 21:10–14",
+            "label": "ВЗ: Чис 31 и Втор 21:10–14 — тексты tu quoque.",
+            "note": "Втор 21:10–14"
           }
         ]
       },
-      "counter_to_christian": "OT captive laws block a pure NT-only innocence strategy unless hermeneutics are stated.",
-      "counter_to_muslim": "Symmetry with Deut 21 does not make the ethic good — it may indict both.",
-      "crux": "May Christians bracket OT captive laws while holding Muslims to Qur'anic captive laws?",
-      "debate_use": "Demand parallel hermeneutical rules before scoring.",
-      "why_it_matters": "Usually the sharpest ethical collision in this topic. 4:24 / 23:5–6 / 33:50.",
+      "counter_to_christian": "ВЗ законы о пленных блокируют стратегию чистой невинности «только НЗ», пока герменевтика не заявлена.",
+      "counter_to_muslim": "Симметрия с Втор 21 не делает этику благой — она может обвинить обе.",
+      "crux": "Могут ли христиане скобками отставить ВЗ законы о пленных, держа мусульман за коранические законы о пленных?",
+      "debate_use": "Потребуйте параллельные герменевтические правила, прежде чем ставить оценку.",
+      "why_it_matters": "Обычно самое острое этическое столкновение темы. «Коран 4:24» / «Коран 23:5–6» / «Коран 33:50».",
       "live": {
-        "if_they_say": "The Qur'an permits sex with slaves.",
-        "you_say": "Mā malakat aymānukum is in the Qur'an. Grant the institution. Then: consent, marriage-to-slave, OT captive-wife law, and whether 'historical regulation' is still a defense after abolition. Don't euphemize.",
-        "dont_overclaim": "Don't say it was 'just like employment.' Don't say no Christian ever baptized a slave-society."
+        "if_they_say": "Коран дозволяет секс с рабами.",
+        "you_say": "Малакат правой руки в Коране. Признайте институт. Затем: согласие, брак с рабыней, ВЗ закон о жене-пленнице и является ли «историческое регулирование» ещё защитой после отмены. Не эвфемизируйте.",
+        "dont_overclaim": "Не говорите, что это «просто как найм». Не говорите, что ни один христианин никогда не крестил рабовладельческое общество."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "atlantic-vs-islamic-trades",
       "rank": 5,
-      "cluster": "History",
-      "title": "Atlantic trade vs Islamic slave trades",
+      "cluster": "История",
+      "title": "Атлантическая торговля vs исламские работорговли",
       "type": "history",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "The Atlantic trade was monstrous and Christian-professing societies ran it — and Christian-professing societies also generated the decisive abolitionist breakthroughs.",
-        "case": "Both guilt and reform sit in the record. Comparative point: evangelical abolitionism became a mass moral movement in a way that matters for 'trajectory.'",
+        "claim": "Атлантическая торговля была чудовищна, и её вели общества, исповедующие христианство — и общества, исповедующие христианство, также породили решающие аболиционистские прорывы.",
+        "case": "И вина, и реформа сидят в досье. Сравнительный пункт: евангелический аболиционизм стал массовым моральным движением так, что это имеет значение для «траектории».",
         "sources": [
           {
             "label": "BBC — Historic figures: William Wilberforce",
             "url": "https://www.bbc.co.uk/history/historic_figures/wilberforce_william.shtml"
           },
           {
-            "label": "UNESCO — Slave Route project",
+            "label": "UNESCO — проект Slave Route",
             "url": "https://www.unesco.org/en/slave-route"
           }
         ]
       },
       "muslim": {
-        "claim": "Islamic world slave trades (trans-Saharan, Red Sea, East African) were vast and long; pointing only at Atlantic Christian guilt while erasing Muslim trades is polemical.",
-        "case": "Zanj rebellion contexts; eunuch and concubine markets. Fair history is multi-directional.",
+        "claim": "Работорговли исламского мира (транссахарская, Красное море, восточноафриканская) были огромны и долги; указывать только на атлантическую христианскую вину, стирая мусульманские торговли, — полемика.",
+        "case": "Контексты восстания зандж; рынки евнухов и наложниц. Честная история многонаправлена.",
         "sources": [
           {
             "label": "UNESCO Slave Route",
             "url": "https://www.unesco.org/en/slave-route"
           },
           {
-            "label": "Encyclopaedia Britannica — Zanj rebellion",
+            "label": "Encyclopaedia Britannica — восстание зандж",
             "url": "https://www.britannica.com/event/Zanj-rebellion"
           }
         ]
       },
-      "counter_to_christian": "Abolition after enrichment from slavery is not a clean moral win narrative.",
-      "counter_to_muslim": "Longevity of slavery under Muslim rule is not canceled by medieval manumission piety.",
-      "crux": "Do abolition breakthroughs outweigh prior complicity when scoring a tradition?",
-      "debate_use": "Score scripture norms and early-modern history on separate axes.",
-      "why_it_matters": "Body-count and race-structure fight. Easy to do badly.",
+      "counter_to_christian": "Отмена после обогащения от рабства — не чистый нарратив моральной победы.",
+      "counter_to_muslim": "Долговечность рабства под мусульманским правлением не отменяется средневековым благочестием отпуска.",
+      "crux": "Перевешивают ли аболиционистские прорывы предшествующую соучастие при оценке традиции?",
+      "debate_use": "Оценивайте нормы Писания и ранненововременную историю на отдельных осях.",
+      "why_it_matters": "Спор о счёте тел и расовой структуре. Легко сделать плохо.",
       "live": {
-        "if_they_say": "The transatlantic trade was uniquely Christian and uniquely evil.",
-        "you_say": "Scale, race-making, and New World chattel are historically specific. The Islamic world's slave trades (including East African and Caucasian) are also historically specific. Unique ≠ only. Use historians (Davis, Lewis, Lovejoy), not memes.",
-        "dont_overclaim": "Don't erase the transatlantic horror. Don't erase Zanj, Crimean, or Barbary trades."
+        "if_they_say": "Трансатлантическая торговля была уникально христианской и уникально злой.",
+        "you_say": "Масштаб, расообразование и новосветское вещное рабство исторически специфичны. Работорговли исламского мира (включая восточноафриканскую и кавказскую) тоже исторически специфичны. Уникально ≠ единственно. Используйте историков (Davis, Lewis, Lovejoy), не мемы.",
+        "dont_overclaim": "Не стирайте трансатлантический ужас. Не стирайте торговли зандж, крымскую или берберийскую."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "jesus-paul-silence",
       "rank": 6,
-      "cluster": "Christian trajectory",
-      "title": "Why didn't Jesus/Paul abolish slavery?",
+      "cluster": "Христианская траектория",
+      "title": "Почему Иисус / Павел не отменили рабство?",
       "type": "theology",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Jesus' mission was not Roman legal reform; the kingdom ethic (golden rule, Jubilee spirit) nonetheless funds later abolition better than a prophet-statesman who regulates captives as law.",
-        "case": "Strategic patience vs prophetic politics. Muslims argue the opposite: real law beats deferred idealism — that is the clash.",
+        "claim": "Миссия Иисуса не была римской правовой реформой; этика Царства (золотое правило, дух юбилея) тем не менее лучше питает позднюю отмену, чем пророк-государственный деятель, регулирующий пленных как закон.",
+        "case": "Стратегическое терпение vs пророческая политика. Мусульмане утверждают обратное: реальное право бьёт отложенный идеализм — в этом столкновение.",
         "sources": [
           {
-            "label": "Matthew 7:12",
+            "label": "Мф 7:12",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+7%3A12&version=NRSVUE"
           },
           {
-            "label": "Luke 4:16–21",
+            "label": "Лк 4:16–21",
             "url": "https://www.biblegateway.com/passage/?search=Luke+4%3A16-21&version=NRSVUE"
           }
         ]
       },
       "muslim": {
-        "claim": "A final lawgiving revelation that leaves slavery intact while detailing other ḥudūd cannot claim moral superiority for silence-as-strategy.",
-        "case": "If God legislates inheritance in detail, He could forbid slavery outright; regulation implies permission in uṣūl debates.",
+        "claim": "Финальное законодательное откровение, оставляющее рабство нетронутым, подробно расписывая другие худуд, не может претендовать на моральное превосходство молчания-как-стратегии.",
+        "case": "Если Бог подробно законодательствует наследство, Он мог прямо запретить рабство; регулирование подразумевает дозволение в спорах усуля.",
         "sources": [
           {
-            "label": "Qur'an 4:11 (detail level contrast)",
+            "label": "«Коран 4:11» (контраст уровня детали)",
             "url": "https://quran.com/4/11"
           },
           {
-            "label": "Qur'an 24:33",
+            "label": "«Коран 24:33»",
             "url": "https://quran.com/24/33"
           }
         ]
       },
-      "counter_to_christian": "Silence-as-seed can excuse any injustice retrospectively.",
-      "counter_to_muslim": "Same uṣūl knife cuts: detailed regulation of slavery also describes Christianity's Bible.",
-      "crux": "Is incremental regulation in a slave society moral wisdom or moral failure?",
-      "debate_use": "Ask both: name one institution each scripture should have abolished outright.",
-      "why_it_matters": "Why didn't the NT ban it? Honest Christian answer needed.",
+      "counter_to_christian": "Молчание-как-семя может задним числом оправдать любую несправедливость.",
+      "counter_to_muslim": "Тот же нож усуля режет: подробное регулирование рабства описывает и Библию христианства.",
+      "crux": "Постепенное регулирование в рабовладельческом обществе — моральная мудрость или моральный провал?",
+      "debate_use": "Спросите обеих: назовите один институт, который каждое Писание должно было отменить сразу.",
+      "why_it_matters": "Почему НЗ не запретил? Нужен честный христианский ответ.",
       "live": {
-        "if_they_say": "If Jesus is God, why didn't he abolish slavery?",
-        "you_say": "Same form of question Muslims get about 4:24. Answers available: eschatological delay, household-code gradualism, spiritual equality first. None of those is a modern abolition statute. Admit it.",
-        "dont_overclaim": "Don't say Jesus secretly published the 13th Amendment."
+        "if_they_say": "Если Иисус — Бог, почему Он не отменил рабство?",
+        "you_say": "Та же форма вопроса, которую мусульмане получают о «Коран 4:24». Доступные ответы: эсхатологическая отсрочка, градуализм домашних кодексов, сначала духовное равенство. Ни один из них не современный статут отмены. Признайте.",
+        "dont_overclaim": "Не говорите, что Иисус тайно опубликовал 13-ю поправку."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "race",
       "rank": 7,
-      "cluster": "History",
-      "title": "Race, curse traditions, and equality texts",
+      "cluster": "История",
+      "title": "Раса, традиции проклятия и тексты равенства",
       "type": "history + theology",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Racist readings (Ham curse misuse) were distortions; Imago Dei (Gen 1:27) and Pentecost universalism are the deep grammar that condemned race-slavery from within.",
-        "case": "Acknowledge theological malpractice in pro-slavery Christianity; argue the repair kit was internal.",
+        "claim": "Расистские чтения (злоупотребление проклятием Хама) были искажениями; образ Божий (Быт 1:27) и пятидесятнический универсализм — глубокая грамматика, осудившая расовое рабство изнутри.",
+        "case": "Признать богословское злоупотребление в прорабовладельческом христианстве; утверждать, что набор ремонта был внутренним.",
         "sources": [
           {
-            "label": "Genesis 1:27",
+            "label": "Быт 1:27",
             "url": "https://www.biblegateway.com/passage/?search=Genesis+1%3A27&version=NRSVUE"
           },
           {
-            "label": "Acts 17:26",
+            "label": "Деян 17:26",
             "url": "https://www.biblegateway.com/passage/?search=Acts+17%3A26&version=NRSVUE"
           }
         ]
       },
       "muslim": {
-        "claim": "Prophet's farewell motif: no superiority of Arab over non-Arab; piety ranks. Islamic ideals condemn racial pride even when practice lagged.",
-        "case": "Practice included racial hierarchies in markets; ideals still matter for scoring texts. 49:13.",
+        "claim": "Топ прощальной проповеди Пророка: нет превосходства араба над неарабом; ранжирует благочестие. Исламские идеалы осуждают расовую гордость, даже когда практика отставала.",
+        "case": "Практика включала расовые иерархии на рынках; идеалы всё равно имеют значение для оценки текстов. «Коран 49:13».",
         "sources": [
           {
-            "label": "Qur'an 49:13",
+            "label": "«Коран 49:13»",
             "url": "https://quran.com/49/13"
           },
           {
-            "label": "Hadith farewell sermon themes (various collections)",
+            "label": "Темы хадиса прощальной проповеди (разные сборники)",
             "url": "https://sunnah.com/"
           }
         ]
       },
-      "counter_to_christian": "Distortion claims must face how common Hamitic racism was in churches.",
-      "counter_to_muslim": "Anti-racist sermon lines coexisted with color-stratified slavery.",
-      "crux": "Score ideals, malpractice, or both — and apply equally?",
-      "debate_use": "Ban 'true Christians/Muslims never…' unless defined by sources.",
-      "why_it_matters": "Curse of Ham vs no racial slave caste in fiqh vs actual racist practice both ways.",
+      "counter_to_christian": "Претензии на искажение должны встретить, насколько обычен был хамитский расизм в церквях.",
+      "counter_to_muslim": "Антирасистские проповеднические строки сосуществовали с цветостратифицированным рабством.",
+      "crux": "Оценивать идеалы, злоупотребления или оба — и применять равно?",
+      "debate_use": "Запретите «истинные христиане / мусульмане никогда…», пока не определено источниками.",
+      "why_it_matters": "Проклятие Хама vs отсутствие расовой касты рабов в фикхе vs фактическая расистская практика в обе стороны.",
       "live": {
-        "if_they_say": "Christianity invented racial slavery.",
-        "you_say": "Early Christian slavery was not a color line. Later Atlantic Christianity often racialized it. Islamic law is typically color-blind on paper and was not always so in markets. Score doctrine vs practice.",
-        "dont_overclaim": "Don't hang the curse of Ham on Jesus. Don't hang every racist market on fiqh."
+        "if_they_say": "Христианство изобрело расовое рабство.",
+        "you_say": "Раннехристианское рабство не было цветовой линией. Позднее атлантическое христианство часто его расиализировало. Исламское право обычно цветослепо на бумаге и не всегда таким было на рынках. Оценивайте доктрину vs практику.",
+        "dont_overclaim": "Не вешайте проклятие Хама на Иисуса. Не вешайте каждый расистский рынок на фикх."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "abolition-timing",
       "rank": 8,
-      "cluster": "Modernity",
-      "title": "Who abolished slavery when, and why?",
+      "cluster": "Современность",
+      "title": "Кто отменил рабство когда и почему?",
       "type": "history",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Legal abolition in Christian-majority empires became a global pressure system; that historical fact belongs in comparative moral evaluation.",
-        "case": "British 1807/1833 and later movements. Not pure altruism — but religious mobilization mattered.",
+        "claim": "Правовая отмена в империях с христианским большинством стала глобальной системой давления; этот исторический факт принадлежит сравнительной моральной оценке.",
+        "case": "Британские 1807/1833 и поздние движения. Не чистый альтруизм — но религиозная мобилизация имела значение.",
         "sources": [
           {
             "label": "UK Parliament — Abolition of the Slave Trade Act",
@@ -492,51 +586,51 @@
         ]
       },
       "muslim": {
-        "claim": "Muslim states abolished under complex pressures including colonial power; also internal reformers. Christianity does not own moral modernity.",
-        "case": "Ottoman reforms; 20th-c. abolitions. Avoid civilizational trash-talk that ignores coercion of empires generally.",
+        "claim": "Мусульманские государства отменяли под сложным давлением, включая колониальную власть; также внутренние реформаторы. Христианство не владеет моральной современностью.",
+        "case": "Османские реформы; отмены XX в. Избегайте цивилизационного мусора, игнорирующего принуждение империй вообще.",
         "sources": [
           {
-            "label": "Britannica — Slavery (modern abolition overview)",
+            "label": "Britannica — Slavery (обзор современной отмены)",
             "url": "https://www.britannica.com/topic/slavery-sociology"
           }
         ]
       },
-      "counter_to_christian": "Colonial abolition could be hypocritical cover for other coercions.",
-      "counter_to_muslim": "Late abolition still raises questions about classical law's default.",
-      "crux": "How much may modern legal abolition weigh against classical permission?",
-      "debate_use": "If motion is scripture-focused, limit modernity to a timed appendix.",
-      "why_it_matters": "Who actually passed statutes, and whether that was because of the religion or Enlightenment/secular pressure.",
+      "counter_to_christian": "Колониальная отмена могла быть лицемерным прикрытием других принуждений.",
+      "counter_to_muslim": "Поздняя отмена всё равно поднимает вопросы об умолчании классического права.",
+      "crux": "Насколько современная правовая отмена может весить против классического дозволения?",
+      "debate_use": "Если резолюция центрирована на Писании, ограничьте современность приуроченным приложением.",
+      "why_it_matters": "Кто фактически принимал статуты и было ли это из-за религии или давления Просвещения / секулярности.",
       "live": {
-        "if_they_say": "Christians abolished slavery; Muslims lagged.",
-        "you_say": "British/American abolition had Christian activists (Woolman, Wilberforce, Equiano's public) and economic/imperial politics. Ottoman and later Muslim-state abolitions are late and often under European pressure. Also: Christian states ran the trade first. Sequence is not a sermon.",
-        "dont_overclaim": "Don't make Wilberforce the whole church. Don't make 1962 Saudi abolition the whole umma."
+        "if_they_say": "Христиане отменили рабство; мусульмане отстали.",
+        "you_say": "У британской / американской отмены были христианские активисты (Вулман, Уилберфорс, публичность Эквиано) и экономическая / имперская политика. Османские и поздние отмены мусульманских государств поздние и часто под европейским давлением. Также: христианские государства сначала вели торговлю. Последовательность — не проповедь.",
+        "dont_overclaim": "Не делайте Уилберфорса всей церковью. Не делайте саудовскую отмену 1962 всей уммой."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "concubinage-vs-household",
       "rank": 9,
-      "cluster": "Sexual ethics",
-      "title": "Concubinage vs Christian household slavery",
+      "cluster": "Сексуальная этика",
+      "title": "Наложничество vs христианское домашнее рабство",
       "type": "ethics",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Sexual ownership is a unique intensifier of harm; Christian marriage norms (even with slaveholding sin) did not sacralize concubinage the same way.",
-        "case": "Protestant/Catholic marriage theology vs milkiyyah sexual license in classical fiqh.",
+        "claim": "Сексуальная собственность — уникальный усилитель вреда; христианские брачные нормы (даже при грехе рабовладения) не сакрализовали наложничество тем же способом.",
+        "case": "Протестантское / католическое богословие брака vs сексуальная лицензия милкия в классическом фикхе.",
         "sources": [
           {
-            "label": "CCC on marriage dignity",
+            "label": "ККЦ о достоинстве брака",
             "url": "https://www.vatican.va/archive/ENG0015/__P3V.HTM"
           },
           {
-            "label": "Qur'an 70:29–30",
+            "label": "«Коран 70:29»–30",
             "url": "https://quran.com/70/29-30"
           }
         ]
       },
       "muslim": {
-        "claim": "Christian slaveholders raped and bred slaves under baptismal hypocrisy; legal acknowledgment plus motherhood-freedom rules (umm walad) can be less dishonest than informal sexual predation.",
-        "case": "Atlantic sexual violence literature. 'Unofficial' abuse is not a moral advantage.",
+        "claim": "Христианские рабовладельцы насиловали и размножали рабов под крещальным лицемерием; правовое признание плюс правила свободы материнства (умм валад) могут быть менее нечестны, чем неформальное сексуальное хищничество.",
+        "case": "Литература об атлантическом сексуальном насилии. «Неофициальное» насилие — не моральное преимущество.",
         "sources": [
           {
             "label": "UNESCO Slave Route",
@@ -544,216 +638,216 @@
           }
         ]
       },
-      "counter_to_christian": "Formal prohibition + widespread abuse complicates superiority claims.",
-      "counter_to_muslim": "Legalization of sexual access is still a moral fact to defend, not only comparative tu quoque.",
-      "crux": "Is regulated concubinage better or worse than illegal predation under slaveholding Christianity?",
-      "debate_use": "Steelman both — then judge by victim vulnerability, not by legal neatness alone.",
-      "why_it_matters": "Different textures of the same sin-structure.",
+      "counter_to_christian": "Формальный запрет + широко распространённое насилие осложняет претензии превосходства.",
+      "counter_to_muslim": "Легализация сексуального доступа всё равно моральный факт, который нужно защищать, не только сравнительный tu quoque.",
+      "crux": "Регулируемое наложничество лучше или хуже незаконного хищничества при рабовладельческом христианстве?",
+      "debate_use": "Стальманьте оба — затем судите по уязвимости жертвы, не только по правовой аккуратности.",
+      "why_it_matters": "Разные текстуры той же греховной структуры.",
       "live": {
-        "if_they_say": "At least Christians didn't have concubines.",
-        "you_say": "Christian household slavery included sexual abuse in practice even when canon law frowned. Islam made concubinage a named legal category. Named vs hypocritical is a real distinction — neither is abolition.",
-        "dont_overclaim": "Don't sanitize plantations. Don't sanitize harems."
+        "if_they_say": "По крайней мере у христиан не было наложниц.",
+        "you_say": "Христианское домашнее рабство включало сексуальное насилие на практике, даже когда канон хмурился. Ислам сделал наложничество названной правовой категорией. Названное vs лицемерное — реальное различие; ни то ни другое не отмена.",
+        "dont_overclaim": "Не санитизируйте плантации. Не санитизируйте гаремы."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "today",
       "rank": 10,
-      "cluster": "Modernity",
-      "title": "Contemporary remnants and extremism",
+      "cluster": "Современность",
+      "title": "Современные остатки и экстремизм",
       "type": "contemporary ethics",
-      "popularity": "Medium-high",
+      "popularity": "Средне-высокая",
       "christian": {
-        "claim": "Groups that revive sex-slavery under Islamic slogans reveal a usable textual pathway; mainstream Christian theology has no living concubinage fiqh.",
-        "case": "ISIS Yazidi enslavement documentation. Point is about retrieval possibility, not 'all Muslims.'",
+        "claim": "Группы, возрождающие сексуальное рабство под исламскими лозунгами, выявляют используемый текстовый путь; у мейнстримного христианского богословия нет живого фикха наложничества.",
+        "case": "Документация порабощения езидов ИГИЛ. Пункт — о возможности извлечения, не «все мусульмане».",
         "sources": [
           {
-            "label": "UN / OHCHR reporting on ISIS slavery (portal)",
+            "label": "Доклады ООН / УВКПЧ об рабстве ИГИЛ (портал)",
             "url": "https://www.ohchr.org/en/ohchr_homepage"
           },
           {
-            "label": "Letter to Baghdadi (rejects ISIS)",
+            "label": "Letter to Baghdadi (отвергает ИГИЛ)",
             "url": "https://www.lettertobaghdadi.com/"
           }
         ]
       },
       "muslim": {
-        "claim": "Mainstream scholars rejected ISIS; retrieval of slavery is analogous to Christian reconstructionists mining OT — fringe does not define the living center.",
-        "case": "Open letters; modern ijmāʿ-like rejection of slavery among many jurists today.",
+        "claim": "Мейнстримные учёные отвергли ИГИЛ; извлечение рабства аналогично христианским реконструкционистам, добывающим ВЗ — край не определяет живой центр.",
+        "case": "Открытые письма; современное отвержение рабства в духе иджмы у многих юристов сегодня.",
         "sources": [
           {
             "label": "Letter to Baghdadi",
             "url": "https://www.lettertobaghdadi.com/"
           },
           {
-            "label": "Qur'an 90:13",
+            "label": "«Коран 90:13»",
             "url": "https://quran.com/90/13"
           }
         ]
       },
-      "counter_to_christian": "Human trafficking rings in Christian-majority regions also exist — define religious causation carefully.",
-      "counter_to_muslim": "If classical books still teach the category, 'fringe' needs a usūl story for closure.",
-      "crux": "Can a tradition permanently close a classical permission without conceding textual error?",
-      "debate_use": "Ask for the mechanism of closure: naskh, maqāṣid, maslaha, or moral override.",
-      "why_it_matters": "ISIS, kafala, and trafficking: the residual file.",
+      "counter_to_christian": "Кольца торговли людьми в регионах с христианским большинством тоже существуют — определяйте религиозную причинность осторожно.",
+      "counter_to_muslim": "Если классические книги всё ещё учат категории, «край» нуждается в истории усуля для закрытия.",
+      "crux": "Может ли традиция навсегда закрыть классическое дозволение, не уступая текстовой ошибке?",
+      "debate_use": "Спросите механизм закрытия: насх, макасид, маслаха или моральное перекрытие.",
+      "why_it_matters": "ИГИЛ, кафала и торговля людьми: остаточное досье.",
       "live": {
-        "if_they_say": "Islam still has slavery.",
-        "you_say": "Mainstream states abolished it. Extremists revived a reading of siyar. Christian-world trafficking exists too. The textual question is whether anyone can still cite scripture as license. That's the live danger.",
-        "dont_overclaim": "Don't smear 1.8 billion people with ISIS. Don't pretend Western trafficking is 'not our religion.'"
+        "if_they_say": "В исламе всё ещё есть рабство.",
+        "you_say": "Мейнстримные государства отменили. Экстремисты возродили чтение сияра. Торговля людьми христианского мира тоже существует. Текстовый вопрос — может ли кто-то всё ещё цитировать Писание как лицензию. В этом живая опасность.",
+        "dont_overclaim": "Не мажьте 1,8 миллиарда людей ИГИЛ. Не делайте вид, что западная торговля людьми — «не наша религия»."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     }
   ],
   "materials": [],
   "debates": [],
   "opponent_cards": [
     {
-      "trigger": "Islam invented abolition / Christianity invented slavery",
-      "fast_answer": "Both false. Slavery is ancient; both regulate; both later abolish under complex pressures.",
-      "follow_up": "Reset to trajectory and incentives.",
+      "trigger": "Ислам изобрёл отмену / христианство изобрёло рабство",
+      "fast_answer": "Оба ложны. Рабство древнее; обе регулируют; обе позже отменяют под сложным давлением.",
+      "follow_up": "Сбросьте к траектории и стимулам.",
       "sources": [
-        "Exodus 21",
+        "Исх 21",
         "https://quran.com/24/33",
         "UNESCO Slave Route"
       ]
     },
     {
-      "trigger": "The Bible condones slavery, so Christianity loses",
-      "fast_answer": "Grant regulation. Then ask Qur'an the same. Score exit ramps and historical abolition.",
-      "follow_up": "Bring Philemon + 90:13 as parallel virtue texts.",
+      "trigger": "Библия одобряет рабство, значит христианство проигрывает",
+      "fast_answer": "Признайте регулирование. Затем спросите Коран о том же. Оценивайте выходы и историческую отмену.",
+      "follow_up": "Принесите Флм + «Коран 90:13» как параллельные тексты добродетели.",
       "sources": [
-        "Philemon",
+        "Флм",
         "https://quran.com/90/13"
       ]
     },
     {
-      "trigger": "Muhammad freed a slave society",
-      "fast_answer": "He improved norms and freed individuals; classical law kept the institution. Don't equate reform with abolition.",
-      "follow_up": "Ask about captive inflow rules.",
+      "trigger": "Мухаммад освободил рабовладельческое общество",
+      "fast_answer": "Он улучшил нормы и освобождал отдельных людей; классическое право сохранило институт. Не уравнивайте реформу с отменой.",
+      "follow_up": "Спросите о правилах притока пленных.",
       "sources": [
         "https://quran.com/24/33",
         "https://quran.com/4/24"
       ]
     },
     {
-      "trigger": "Jesus never condemned slavery",
-      "fast_answer": "True as statute. Also true he never ran a slave system. Compare roles and later hermeneutical fruit.",
-      "follow_up": "Ask parallel: does detailed Qur'anic regulation equal endorsement?",
+      "trigger": "Иисус никогда не осуждал рабство",
+      "fast_answer": "Верно как статут. Верно и то, что он не вёл рабовладельческую систему. Сравните роли и поздний герменевтический плод.",
+      "follow_up": "Спросите параллель: равно ли подробное кораническое регулирование одобрению?",
       "sources": [
-        "Matthew 7:12",
-        "Ephesians 6"
+        "Мф 7:12",
+        "Еф 6"
       ]
     },
     {
-      "trigger": "Only Christians ran the Atlantic trade",
-      "fast_answer": "Atlantic trade was uniquely horrific in scale/race-capital form. Islamic trades were also vast. Both/and.",
-      "follow_up": "UNESCO multi-route framing.",
+      "trigger": "Только христиане вели атлантическую торговлю",
+      "fast_answer": "Атлантическая торговля была уникально ужасна по масштабу / форме расо-капитала. Исламские торговли тоже были огромны. И / и.",
+      "follow_up": "Рамка ЮНЕСКО о многих маршрутах.",
       "sources": [
         "https://www.unesco.org/en/slave-route"
       ]
     },
     {
-      "trigger": "Right-hand possess proves Islam is evil",
-      "fast_answer": "It's a serious ethical problem passage. Steelman late-antique war context + Deut 21 symmetry before maximizing demonology.",
-      "follow_up": "Then press consent/agency of captives.",
+      "trigger": "«Малакат правой руки» доказывает, что ислам зол",
+      "fast_answer": "Это серьёзный этически проблемный пассаж. Стальманьте позднеантичный военный контекст + симметрию Втор 21, прежде чем максимизировать демонологию.",
+      "follow_up": "Затем нажимайте согласие / агентность пленных.",
       "sources": [
         "https://quran.com/23/5-6",
-        "Deuteronomy 21:10–14"
+        "Втор 21:10–14"
       ]
     },
     {
-      "trigger": "Wilberforce proves Christianity is anti-slavery",
-      "fast_answer": "Wilberforce matters. So do Christian slaveholders. Tradition contains both — argue the decisive grammar.",
-      "follow_up": "Ask which texts they think bound Wilberforce's conscience.",
+      "trigger": "Уилберфорс доказывает, что христианство против рабства",
+      "fast_answer": "Уилберфорс имеет значение. Имеют значение и христианские рабовладельцы. Традиция содержит оба — спорьте о решающей грамматике.",
+      "follow_up": "Спросите, какие тексты, по их мнению, связали совесть Уилберфорса.",
       "sources": [
         "BBC Wilberforce",
-        "Philemon"
+        "Флм"
       ]
     },
     {
-      "trigger": "ISIS slavery was not Islamic",
-      "fast_answer": "Mainstream rejection is real. Also ask why their fatwas could cite classical categories at all.",
-      "follow_up": "Mechanism of permanent closure?",
+      "trigger": "Рабство ИГИЛ не было исламским",
+      "fast_answer": "Мейнстримное отвержение реально. Также спросите, почему их фетвы вообще могли цитировать классические категории.",
+      "follow_up": "Механизм постоянного закрытия?",
       "sources": [
         "https://www.lettertobaghdadi.com/"
       ]
     },
     {
-      "trigger": "Slaves were treated like family in Islam",
-      "fast_answer": "Pious ideals existed; markets and castration/concubinage realities also existed. Anecdote ≠ system.",
-      "follow_up": "Demand legal categories from fiqh, not nostalgia.",
+      "trigger": "С рабами в исламе обращались как с семьёй",
+      "fast_answer": "Благочестивые идеалы существовали; рынки и реалии кастрации / наложничества тоже. Анекдот ≠ система.",
+      "follow_up": "Потребуйте правовые категории из фикха, не ностальгию.",
       "sources": [
-        "Britannica slavery",
-        "fiqh siyar/captives"
+        "Britannica — slavery",
+        "фикх сияра / пленных"
       ]
     },
     {
-      "trigger": "Paul told slaves to obey — Christianity is pro-slavery",
-      "fast_answer": "Household codes are a problem for instant abolition claims. Pair with Philemon brotherhood and abolitionist reception history.",
-      "follow_up": "Don't defend Eph 6 as ideal social theory.",
+      "trigger": "Павел велел рабам повиноваться — христианство за рабство",
+      "fast_answer": "Домашние кодексы — проблема для претензий мгновенной отмены. Соедините с братством Флм и историей аболиционистской рецепции.",
+      "follow_up": "Не защищайте Еф 6 как идеальную социальную теорию.",
       "sources": [
-        "Ephesians 6",
-        "Philemon"
+        "Еф 6",
+        "Флм"
       ]
     }
   ],
   "checklist": [
-    "Ban innocence myths in the opener (both sides regulated slavery)",
-    "Define chattel vs manumission vs abolition",
-    "Master Philemon, Eph 6, Deut 21 and Q 24:33, 90:13, 23:5–6, 4:24",
-    "Draw capture→status→manumission pipeline",
-    "Prepare Atlantic and Islamic trade symmetry without false equivalence of every detail",
-    "Decide hermeneutical rules for OT vs NT before attacking milkiyyah",
-    "Prepare ISIS retrieval argument and mainstream closure reply",
-    "Drill opponent cards; avoid 'Muslims love slavery' cartoons",
-    "Separate sexual-captive question from generic labor slavery",
-    "Closing: which resources most reliably end the category?",
-    "Concede Christian pro-slavery theology as historical fact if pressed",
-    "Concede classical Islamic permission as legal fact if pressed"
+    "В открытии запретите мифы невинности (обе стороны регулировали рабство)",
+    "Определите вещное рабство vs отпуск vs отмену",
+    "Овладейте Флм, Еф 6, Втор 21 и «Коран 24:33», «Коран 90:13», «Коран 23:5–6», «Коран 4:24»",
+    "Нарисуйте трубопровод захват→статус→отпуск",
+    "Подготовьте симметрию атлантической и исламской торговли без ложной эквивалентности каждой детали",
+    "Решите герменевтические правила ВЗ vs НЗ, прежде чем атаковать милкия",
+    "Подготовьте довод извлечения ИГИЛ и мейнстримный ответ о закрытии",
+    "Отработайте карточки оппонента; избегайте карикатур «мусульмане любят рабство»",
+    "Отделите вопрос сексуальных пленных от общего трудового рабства",
+    "Заключение: какие ресурсы надёжнее всего кончают категорию?",
+    "Уступите христианское прорабовладельческое богословие как исторический факт, если нажмут",
+    "Уступите классическое исламское дозволение как правовой факт, если нажмут"
   ],
   "positive_cases": {
-    "Christian podium": [
-      "Brotherhood trajectory (Philemon, Gal 3:28) conflicts with property ontology",
-      "Imago Dei universalism undercuts racial chattel theory from within",
-      "Historically decisive abolitionist mobilizations in Christian societies",
-      "Hard critique of concubinage/captive-sex legal categories"
+    "Христианская кафедра": [
+      "Траектория братства (Флм, Гал 3:28) конфликтует с онтологией собственности",
+      "Универсализм образа Божия изнутри подрывает теорию расового вещного рабства",
+      "Исторически решающие аболиционистские мобилизации в христианских обществах",
+      "Жёсткая критика правовых категорий наложничества / секса с пленницами"
     ],
-    "Muslim podium": [
-      "Concrete manumission incentives and mukātaba as structured exits",
-      "Freeing slaves as expiation and righteousness in Qur'an",
-      "49:13 anti-racial-boast ideal",
-      "Christian scripture and history also regulated and practiced slavery at scale"
+    "Мусульманская кафедра": [
+      "Конкретные стимулы отпуска и мукатаба как структурированные выходы",
+      "Освобождение рабов как искупление и праведность в Коране",
+      "Идеал «Коран 49:13» против расовой похвальбы",
+      "Христианское Писание и история тоже регулировали и практиковали рабство в масштабе"
     ],
-    "Unity / steelman": [
-      "Late antiquity was a slave world — measure reforms against that baseline",
-      "Condemn Atlantic and Islamic slave trades without scorekeeping cruelty",
-      "Distinguish regulation, retrieval, and abolition as three different claims",
-      "Center enslaved persons' agency, not civilizational pride"
+    "Единство / стальман": [
+      "Поздняя античность была рабовладельческим миром — мерьте реформы по этой базовой линии",
+      "Осуждайте атлантическую и исламские работорговли без жестокости ведения счёта",
+      "Различайте регулирование, извлечение и отмену как три разные претензии",
+      "Центрируйте агентность порабощённых лиц, не цивилизационную гордость"
     ]
   },
   "bibliography": [
     {
-      "tier": "Primary",
+      "tier": "Первичные",
       "items": [
         {
-          "label": "Philemon; Ephesians 6; Deuteronomy 21:10–14",
+          "label": "Флм; Еф 6; Втор 21:10–14",
           "url": "https://www.biblegateway.com/passage/?search=Philemon+1&version=NRSVUE"
         },
         {
-          "label": "Qur'an 24:33; 90:12–16; 23:5–6; 4:24; 49:13",
+          "label": "«Коран 24:33»; 90:12–16; 23:5–6; 4:24; 49:13",
           "url": "https://quran.com/24/33"
         }
       ]
     },
     {
-      "tier": "History / institutions",
+      "tier": "История / институты",
       "items": [
         {
           "label": "UNESCO Slave Route",
           "url": "https://www.unesco.org/en/slave-route"
         },
         {
-          "label": "UK Parliament slave trade heritage",
+          "label": "UK Parliament — наследие работорговли",
           "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/slavetrade/"
         },
         {

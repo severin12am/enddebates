@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,34 +11,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,550;9..144,650&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&family=Fraunces:opsz,wght@9..144,550;9..144,650&family=Noto+Serif:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="shared/css/app.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="wrap">
-        <p class="brand">EndDebates<small>Arguments as technical problems. Shared materials. Clearer agreement.</small></p>
+      <div class="wrap brand-row">
+        <p class="brand">EndDebates<small data-hub="brand_small">База для дебатов</small></p>
+        <div class="nav-links">
+          <div class="lang-switch" role="group" aria-label="Language">
+            <button type="button" data-set-lang="ru">RU</button>
+            <button type="button" data-set-lang="en">EN</button>
+          </div>
+        </div>
       </div>
     </header>
 
     <main class="wrap">
       <section class="hero">
         <div class="chips">
-          <span class="chip">Islam vs Christianity</span>
-          <span class="chip">Israel–Palestine</span>
-          <span class="chip">Live debate prep</span>
-          <span class="chip">Both sides steelmanned</span>
+          <span class="chip" data-hub="chip_ivc">Ислам и христианство</span>
+          <span class="chip" data-hub="chip_ip">Israel–Palestine</span>
+          <span class="chip" data-hub="chip_live">Подготовка к дебатам</span>
+          <span class="chip" data-hub="chip_steelman">Обе стороны в сильнейшей форме</span>
         </div>
-        <h1>Make the evidence inspectable</h1>
-        <p class="thesis">
-          One hub for the fights that keep repeating — scripture, God, Jesus, ethics, and Israel–Palestine — with arguments,
-          manuscripts, opponent cards, and sources you can open during prep or mid-debate.
+        <h1 data-hub="hero_title">Сделайте аргументы проверяемыми</h1>
+        <p class="thesis" data-hub="hero_thesis">
+          Один хаб для повторяющихся споров — Писание, Бог, Иисус, этика и Израиль–Палестина —
+          с доводами, рукописями, карточками оппонента и источниками, которые можно открыть во время подготовки или в дебате.
         </p>
-        <div class="warn-box">
-          No declared winners. The point is to collapse slogan fog: define terms, steelman both sides, attach receipts,
-          name the crux. That is how discourse gets closer to shared reality.
+        <div class="warn-box" data-hub="hero_warn">
+          Победитель не объявляется. Цель — убрать туман лозунгов: определить термины,
+          представить обе стороны сильно, приложить источники, назвать суть спора. Так дискурс приближается к общей реальности.
         </div>
       </section>
 
@@ -47,22 +53,45 @@
 
     <footer class="footer">
       <div class="wrap">
-        <p>
-          Rebuild data with <code>python scripts/build_kb.py</code>.
-          Legacy Topic 01 lives under Critiques; Historicity includes the papyri/mushaf gallery.
+        <p data-hub="footer">
+          Пересобрать данные: <code>python scripts/build_kb.py</code>.
+          Тема 01 — в Critiques; в Historicity — галерея папирусов/мушафов.
         </p>
       </div>
     </footer>
 
+    <script src="shared/js/lang.js"></script>
     <script src="topics/catalog.js"></script>
     <script>
       (() => {
         const cat = window.TOPIC_CATALOG;
         if (!cat) return;
+        const lang = (window.ED_LANG && window.ED_LANG.lang) || cat.default_lang || "ru";
+        const ui = (cat.ui && cat.ui[lang]) || (cat.ui && cat.ui.ru) || {};
+        const pick = (field) => {
+          if (field && typeof field === "object" && ("ru" in field || "en" in field)) {
+            return field[lang] || field.ru || field.en || "";
+          }
+          return field || "";
+        };
+        document.documentElement.lang = lang;
+        document.querySelectorAll("[data-hub]").forEach((el) => {
+          const key = el.getAttribute("data-hub");
+          if (!ui[key]) return;
+          if (key === "footer") {
+            el.innerHTML = ui[key].replace(
+              "python scripts/build_kb.py",
+              "<code>python scripts/build_kb.py</code>"
+            );
+          } else {
+            el.textContent = ui[key];
+          }
+        });
         const root = document.getElementById("topics");
         const groups = {};
         cat.topics.forEach((t) => {
-          (groups[t.group] ||= []).push(t);
+          const g = pick(t.group) || "Topics";
+          (groups[g] ||= []).push(t);
         });
         Object.entries(groups).forEach(([group, items]) => {
           const h = document.createElement("h2");
@@ -74,10 +103,13 @@
             const a = document.createElement("a");
             a.className = "topic-card";
             a.href = t.path;
+            const args = t.counts.arguments;
+            const mats = t.counts.materials;
+            const cards = t.counts.cards;
             a.innerHTML = `
-              <h2>${t.title}</h2>
-              <p>${t.blurb}</p>
-              <div class="meta">${t.counts.arguments} arguments · ${t.counts.materials} materials · ${t.counts.cards} cards</div>`;
+              <h2>${pick(t.title)}</h2>
+              <p>${pick(t.blurb)}</p>
+              <div class="meta">${args} ${ui.meta_args || "arguments"} · ${mats} ${ui.meta_mats || "materials"} · ${cards} ${ui.meta_cards || "cards"}</div>`;
             root.appendChild(a);
           });
         });

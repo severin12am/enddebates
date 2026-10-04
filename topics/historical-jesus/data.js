@@ -1,132 +1,223 @@
-window.TOPIC_DATA = {
+window.TOPIC_DATA_RU = {
   "id": "historical-jesus",
   "meta": {
-    "title": "Who follows the historical Jesus more?",
-    "thesis": "Using public historical methods (not later creeds or later revelations alone), does mainstream Christian faith or Islamic Christology better track the Jesus of history?",
-    "purpose": "Steelman criteria of authenticity, crucifixion consensus, prophet-within-Judaism readings, and Qur'anic Jesus. Separate 'historical Jesus' from 'Christ of faith' and 'Isa of the Qur'an.'",
-    "warning": "If you smuggle Nicene orthodoxy or Qur'anic inerrancy into 'historical' method without saying so, you are cheating. Announce your epistemology in minute one.",
+    "title": "Кто ближе к историческому Иисусу?",
+    "thesis": "Если брать публичные исторические методы (а не только поздние символы или поздние откровения), чья картина лучше держит Иисуса истории — массовая христианская вера или исламская христология?",
+    "purpose": "Сильнейшая форма: критерии подлинности, консенсус о распятии, чтения «пророк внутри иудаизма» и коранический Иисус. Развести «исторического Иисуса», «Христа веры» и «Ису Корана».",
+    "warning": "Если вы контрабандой вносите никейскую ортодоксию или кораническую безошибочность в «исторический» метод и не говорите об этом — вы жульничаете. Объявите эпистемологию в первую минуту.",
     "chips": [
-      "history",
-      "Jesus",
-      "crucifixion",
-      "method",
-      "Christology"
+      "история",
+      "Иисус",
+      "распятие",
+      "метод",
+      "христология"
     ],
     "labels": {
-      "christian": "Christian case",
-      "muslim": "Muslim case"
+      "christian": "Христианский тезис",
+      "muslim": "Мусульманский тезис"
+    },
+    "lang": "ru",
+    "ui": {
+      "brand_small": "База для дебатов",
+      "hub": "Все темы",
+      "nav_historicity": "Историчность",
+      "lang_en": "EN",
+      "lang_ru": "RU",
+      "search_label": "Поиск по цитатам, карточкам, рукописям",
+      "search_placeholder": "Поиск: Sidky, Wallace, Мк 16, Бирмингем…",
+      "tab_speech": "Речь",
+      "tab_proofs": "Аргументы за Троицу",
+      "tab_live": "Подсказки",
+      "tab_verses": "Стихи",
+      "tab_brief": "Обзор",
+      "tab_arguments": "Аргументы",
+      "tab_materials": "Рукописи",
+      "tab_debates": "Дебаты",
+      "tab_cards": "Карточки",
+      "tab_sources": "Источники",
+      "tab_checklist": "Чеклист",
+      "intro_brief": "Сначала договоритесь о терминах. Потом берите доводы по одному — не только атакуйте.",
+      "h_definitions": "Определения",
+      "h_positive": "Позитивные картины",
+      "intro_arguments": "Обе стороны в сильнейшей форме: контраргументы, суть спора и как использовать в дебате.",
+      "cluster": "Группа",
+      "filter_all": "Все",
+      "filter_top10": "Топ-10",
+      "expand": "Раскрыть всё",
+      "collapse": "Свернуть всё",
+      "intro_live": "Короткие реплики, если оппонент произнёс типичную фразу.",
+      "intro_verses": "Группы стихов со ссылками на текст.",
+      "they_say_label": "Они говорят: ",
+      "they_claim_label": "Их тезис",
+      "counter_label": "Ответ",
+      "steelman_label": "Как защищают",
+      "kind_proof": "Аргумент",
+      "unitarian_move": "Довод: ",
+      "christian_reply": "Ответ: ",
+      "open_nrsv": "англ.",
+      "verses_count_suffix": "стихов",
+      "h_live_lines": "Если говорят → отвечай",
+      "h_live_quotes": "Цитаты вслух",
+      "h_live_mss": "Открыть рукопись",
+      "intro_speech": "Одна связная речь. Можно читать вслух или копировать целиком.",
+      "copy_speech": "Копировать всю речь",
+      "speech_copied": "Скопировано",
+      "speech_verses": "Стихи",
+      "intro_materials": "Рукописи и артефакты. Нажмите на снимок, чтобы увеличить.",
+      "show": "Показать",
+      "filter_bible": "Библия",
+      "filter_quran": "Коран",
+      "filter_infra": "Зрители",
+      "intro_debates": "Известные дебаты и что из них взять, со ссылками на записи.",
+      "intro_cards": "Короткие ответы на типичные фразы. Первая строка — то, что сказать сразу.",
+      "intro_sources": "Сначала академические и первичные источники, потом ролики.",
+      "footer": "Обе стороны смотрят одни материалы. Победитель не объявляется.",
+      "data_points": "Факты",
+      "manuscripts": "Рукописи / артефакты",
+      "source": "источник",
+      "copy": "Копировать",
+      "copied": "Скопировано",
+      "counter": "Возражение → ",
+      "claim": "тезис",
+      "reply": "Ответ: ",
+      "counter_christian": "Возражение (христиане):",
+      "counter_muslim": "Возражение (мусульмане):",
+      "if_they_say": "Если говорят",
+      "if_they_say_colon": "Если говорят:",
+      "you_say": "Отвечай",
+      "dont_overclaim": "Не переигрывай",
+      "crux": "В чём спор: ",
+      "debate_use": "Как использовать: ",
+      "open_viewer": "Открыть источник",
+      "motion": "Тема:",
+      "timestamps": "Таймкоды",
+      "steal": "Что взять:",
+      "fast_answer": "Сразу:",
+      "follow_up": "Дальше:",
+      "anchor": "Якорь: ",
+      "kind_live": "Реплика",
+      "kind_quote": "Цитата",
+      "kind_card": "Карточка",
+      "kind_mss": "Рукопись",
+      "kind_verse_group": "Группа стихов",
+      "kind_verse": "Стих",
+      "kind_speech": "Речь",
+      "open": "Открыть",
+      "go_to": "К разделу "
     }
   },
   "definitions": [
     {
-      "term": "Historical Jesus",
-      "precise": "Jesus as reconstructed by historical methods from early sources (primarily NT, some extracanonical/Jewish/Roman notices), provisional and debated.",
-      "not": "Not automatically the Nicene consubstantial Son — that is a theological claim."
+      "term": "Исторический Иисус",
+      "precise": "Иисус, реконструируемый историческими методами по ранним источникам (главным образом НЗ, плюс внеканонические / иудейские / римские извещения); реконструкция предварительная и спорная.",
+      "not": "Не автоматически никейский единосущный Сын — это богословское утверждение."
     },
     {
-      "term": "Christ of faith",
-      "precise": "Jesus as confessed in worship and creed by Christian communities.",
-      "not": "Not identical with every historian's reconstruction."
+      "term": "Христос веры",
+      "precise": "Иисус, как Его исповедуют в богослужении и символе христианские общины.",
+      "not": "Не тождественен реконструкции любого историка."
     },
     {
-      "term": "Qur'anic Isa",
-      "precise": "Jesus as presented in the Qur'an: Messiah, word, prophet, not divine, crucifixion denied/apparent.",
-      "not": "Not simply 'the Muslim historical Jesus' without argument — it is revelation-claim content."
+      "term": "Коранический Иса",
+      "precise": "Иисус, как Он дан в Коране: Мессия, слово, пророк, не божественный; распятие отрицается / «показалось».",
+      "not": "Не просто «мусульманский исторический Иисус» без аргумента — это содержание притязания на откровение."
     },
     {
-      "term": "Criteria of authenticity",
-      "precise": "Tools historians have used (multiple attestation, embarrassment, coherence, etc.) — now heavily critiqued but still appear in debates.",
-      "not": "Not laboratory certainty."
+      "term": "Критерии подлинности",
+      "precise": "Инструменты историков (множественное свидетельство, критерий смущения, связность и т. д.) — сейчас сильно критикуемые, но в дебатах всё ещё появляются.",
+      "not": "Не лабораторная достоверность."
     },
     {
-      "term": "High / low Christology",
-      "precise": "Degree to which Jesus is described with divine status/worship in early sources.",
-      "not": "Not a simple dating rule that earlier always means lower."
+      "term": "Высокая / низкая христология",
+      "precise": "Степень, в которой Иисусу в ранних источниках приписывают божественный статус и поклонение.",
+      "not": "Не простое правило датировки «раньше всегда значит ниже»."
     },
     {
-      "term": "Public historical method",
-      "precise": "Standards shareable with non-Christians/non-Muslims: sources, corroboration, context.",
-      "not": "Not 'my scripture wins because my scripture says so.'"
+      "term": "Публичный исторический метод",
+      "precise": "Стандарты, которыми можно делиться с нехристианами / немусульманами: источники, подтверждение, контекст.",
+      "not": "Не «моё Писание побеждает, потому что так сказано в моём Писании»."
     }
   ],
   "arguments": [
     {
       "id": "crucifixion-consensus",
       "rank": 1,
-      "cluster": "Core facts",
-      "title": "Crucifixion as historical bedrock",
+      "cluster": "Опорные факты",
+      "title": "Распятие как исторический фундамент",
       "type": "history",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Jesus' crucifixion under Pilate is among the most secure facts about him; Qur'an 4:157 places Islam against the historical consensus.",
-        "case": "Multiple attestation; Tacitus Annals 15.44; Josephus; embarrassment criterion. Ehrman: 'rock-bottom certain.' Following historical Jesus requires accepting the cross event.",
+        "claim": "Распятие Иисуса при Пилате — одно из самых надёжных фактов о Нём; «Коран 4:157» ставит ислам против исторического консенсуса.",
+        "case": "Множественное свидетельство; Tacitus, Анналы 15.44; Иосиф Флавий; критерий смущения. Ehrman: «каменное дно достоверности». Следовать историческому Иисусу значит принять событие креста.",
         "sources": [
           {
-            "label": "Ehrman — Does my work confirm the Qur'an?",
+            "label": "Ehrman — Does my work confirm the Коран?",
             "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
           },
           {
-            "label": "Tacitus Annals 15.44",
+            "label": "Tacitus, Анналы 15.44",
             "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
           },
           {
-            "label": "Craig — Qur'an and crucifixion",
+            "label": "Craig — Коран и распятие",
             "url": "https://www.reasonablefaith.org/writings/question-answer/the-quran-and-the-crucifixion-of-jesus"
           }
         ],
         "quotes": [
           {
-            "text": "I am convinced beyond a shadow of a doubt that Jesus was physically crucified and died on the cross. That is rock-bottom certain in my books. And it stands completely [at] odds with standard Islamic beliefs.",
+            "text": "Я убеждён вне тени сомнения, что Иисус был физически распят и умер на кресте. Это каменное дно в моих книгах. И это полностью расходится со стандартными исламскими убеждениями.",
             "who": "Bart D. Ehrman",
-            "work": "Does My Work on the Historical Jesus Confirm the Quran?",
-            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
+            "work": "Does My Work on the Historical Jesus Confirm the Коран?",
+            "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/",
+            "orig": "I am convinced beyond a shadow of a doubt that Jesus was physically crucified and died on the cross. That is rock-bottom certain in my books. And it stands completely [at] odds with standard Islamic beliefs."
           },
           {
-            "text": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus.",
+            "text": "Христос, от которого произошло это имя, понёс крайнюю казнь в правление Тиберия от руки одного из наших прокураторов, Понтия Пилата.",
             "who": "Tacitus",
             "work": "Annals 15.44",
-            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44",
+            "orig": "Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus."
           }
         ],
         "data_points": [
           {
-            "fact": "All four canonical Gospels + Paul (1 Cor 15; Phil 2; Gal 3:13) attest crucifixion.",
-            "source": "NT primary",
-            "label": "All four canonical Gospels + Paul (1 Cor 15; Phil 2; Gal 3:13) attest crucifixion.",
-            "note": "NT primary"
+            "fact": "Все четыре канонических Евангелия + Павел (1 Кор 15; Флп 2; Гал 3:13) свидетельствуют о распятии.",
+            "source": "НЗ, первоисточник",
+            "label": "Все четыре канонических Евангелия + Павел (1 Кор 15; Флп 2; Гал 3:13) свидетельствуют о распятии.",
+            "note": "НЗ, первоисточник"
           },
           {
-            "fact": "Josephus, Antiquities 18.3.3, in all Greek MSS, mentions Jesus' condemnation under Pilate (Testimonium has Christian coloring; the execution notice is still widely used).",
+            "fact": "Иосиф Флавий, Древности 18.3.3, во всех греческих рукописях упоминает осуждение Иисуса при Пилате (в Testimonium есть христианская окраска; извещение о казни всё равно широко используют).",
             "source": "Josephus Ant. 18.63–64",
-            "label": "Josephus, Antiquities 18.3.3, in all Greek MSS, mentions Jesus' condemnation under Pilate (Testimonium has Christian coloring; the execution notice is still widely used).",
+            "label": "Иосиф Флавий, Древности 18.3.3, во всех греческих рукописях упоминает осуждение Иисуса при Пилате (в Testimonium есть христианская окраска; извещение о казни всё равно широко используют).",
             "note": "Josephus Ant. 18.63–64"
           },
           {
-            "fact": "Q 4:157 is the collision verse.",
+            "fact": "«Коран 4:157» — стих столкновения.",
             "source": "https://quran.com/4/157",
-            "label": "Q 4:157 is the collision verse.",
+            "label": "«Коран 4:157» — стих столкновения.",
             "note": "https://quran.com/4/157"
           }
         ],
         "manuscripts": [
           {
-            "label": "P46 — early Pauline papyri including crucifixion kerygma",
+            "label": "P46 — ранние павловы папирусы с керигмой распятия",
             "url": "https://en.wikipedia.org/wiki/Papyrus_46",
-            "note": "Content proximity, not autograph",
-            "title": "P46 — early Pauline papyri including crucifixion kerygma"
+            "note": "Близость содержания, не автограф",
+            "title": "P46 — ранние павловы папирусы с керигмой распятия"
           }
         ]
       },
       "muslim": {
-        "claim": "4:157 can deny Jewish success/boast or affirm divine rescue amid appearance; historians reconstruct appearances, not metaphysical outcomes. Revelation corrects the record.",
-        "case": "Todd Lawson: tafsir hardened denial; minority readings differ. If the motion allows revelatory epistemology, consensus is not final.",
+        "claim": "4:157 может отрицать успех / похвальбу иудеев или утверждать божественное избавление при видимости казни; историки реконструируют видимости, а не метафизический исход. Откровение поправляет запись.",
+        "case": "Todd Lawson: тафсир закрепил отрицание; меньшинственные чтения иные. Если регламент допускает эпистемологию откровения, консенсус не финален.",
         "sources": [
           {
-            "label": "Qur'an 4:157–158",
+            "label": "«Коран 4:157–158»",
             "url": "https://quran.com/4/157-158"
           },
           {
-            "label": "Lawson — The Crucifixion and the Qur'an (PDF)",
+            "label": "Lawson — The Crucifixion and the Коран (PDF)",
             "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
           },
           {
@@ -136,944 +227,956 @@ window.TOPIC_DATA = {
         ],
         "quotes": [
           {
-            "text": "…they did not kill him, nor did they crucify him; but it was made to appear so to them…",
-            "who": "Qur'an 4:157",
-            "work": "Primary text",
-            "url": "https://quran.com/4/157"
+            "text": "…они не убили его и не распяли, но это только показалось им…",
+            "who": "«Коран 4:157»",
+            "work": "Первичный текст",
+            "url": "https://quran.com/4/157",
+            "orig": "…they did not kill him, nor did they crucify him; but it was made to appear so to them…"
           },
           {
-            "text": "The point is that tafsir, not the Qur'an, denies the Crucifixion.",
+            "text": "Суть в том, что распятие отрицает тафсир, а не сам Коран.",
             "who": "Todd Lawson",
-            "work": "The Crucifixion and the Qur'an (as commonly cited in this debate)",
-            "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
+            "work": "The Crucifixion and the Коран (как обычно цитируют в этом споре)",
+            "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf",
+            "orig": "The point is that tafsir, not the Qur'an, denies the Crucifixion."
           }
         ],
         "data_points": [
           {
-            "fact": "Majority Sunni tafsir: substitution / non-death on the cross.",
-            "source": "Ṭabarī and later",
-            "label": "Majority Sunni tafsir: substitution / non-death on the cross.",
-            "note": "Ṭabarī and later"
+            "fact": "Большинственный суннитский тафсир: подмена / не-смерть на кресте.",
+            "source": "Табари и позднее",
+            "label": "Большинственный суннитский тафсир: подмена / не-смерть на кресте.",
+            "note": "Табари и позднее"
           },
           {
-            "fact": "Minority academic/Ismāʿīlī readings: verse denies the boast of success, not necessarily a public crucifixion-looking event.",
-            "source": "AJIS survey",
-            "label": "Minority academic/Ismāʿīlī readings: verse denies the boast of success, not necessarily a public crucifixion-looking event.",
-            "note": "AJIS survey"
+            "fact": "Меньшинственные академические / исмаилитские чтения: аят отрицает похвальбу успехом, не обязательно само публичное событие, похожее на распятие.",
+            "source": "обзор AJIS",
+            "label": "Меньшинственные академические / исмаилитские чтения: аят отрицает похвальбу успехом, не обязательно само публичное событие, похожее на распятие.",
+            "note": "обзор AJIS"
           }
         ]
       },
-      "counter_to_christian": "Consensus can be wrong; ancient world believed many false things widely.",
-      "counter_to_muslim": "In a 'historical Jesus' motion, public method outranks later revelation unless renegotiated.",
-      "crux": "Is tonight's tribunal public history or final revelation?",
-      "debate_use": "Lock the tribunal in the first minute; it decides this argument.",
-      "why_it_matters": "If the motion is 'historical Jesus,' this is usually the single highest-leverage fact. Book-preservation fights are a different motion.",
+      "counter_to_christian": "Консенсус может ошибаться; античный мир широко верил во многое ложное.",
+      "counter_to_muslim": "В регламенте «исторический Иисус» публичный метод выше позднего откровения, пока правила не передоговорили.",
+      "crux": "Сегодняшний трибунал — публичная история или окончательное откровение?",
+      "debate_use": "Закрепите трибунал в первую минуту: от него зависит этот довод.",
+      "why_it_matters": "Если тема — «исторический Иисус», это обычно самый сильный рычаг. Споры о сохранности книг — другой регламент.",
       "counters": [
         {
-          "against": "Muslim 'appearance' escape",
-          "claim": "Historians only have appearances, which the Qur'an already grants.",
-          "reply": "Then you concede the historical evidence. The remaining claim is a miracle of illusion against every early source. Say that openly; don't pretend 4:157 is what Tacitus thought."
+          "against": "Мусульманский выход через «видимость»",
+          "claim": "У историков есть только видимости, а Коран их уже признаёт.",
+          "reply": "Тогда вы уступаете исторические свидетельства. Остаётся чудо иллюзии против каждого раннего источника. Скажите это прямо; не притворяйтесь, будто «Коран 4:157» — то, что думал Tacitus."
         }
       ],
       "live": {
-        "if_they_say": "The crucifixion is just what Christians believe.",
-        "you_say": "Name a 1st–2nd c. source that has Jesus dying another way. Ehrman (not a Christian) calls the crucifixion rock-bottom certain. Then read 4:157 aloud and choose: deny the event, or reread the verse.",
-        "dont_overclaim": "Don't pretend 4:157 is unambiguous. Don't pretend historians treat the Qur'an as a Jesus source."
+        "if_they_say": "Распятие — просто то, во что верят христиане.",
+        "you_say": "Назовите источник I–II в., где Иисус умирает иначе. Ehrman (не христианин) называет распятие каменным дном достоверности. Затем прочтите 4:157 вслух и выберите: отрицать событие или перечитать аят.",
+        "dont_overclaim": "Не притворяйтесь, будто 4:157 однозначен. Не притворяйтесь, будто историки берут Коран как источник об Иисусе."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "jewish-monotheist",
       "rank": 2,
-      "cluster": "Identity",
-      "title": "Jesus as apocalyptic Jewish monotheist prophet",
+      "cluster": "Идентичность",
+      "title": "Иисус как апокалиптический иудейский пророк-монотеист",
       "type": "history + theology",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Even as Jewish prophet, Jesus' authority claims, unique sonship language, and earliest worship by Jews push beyond 'mere prophet' — Islam underfits the data.",
-        "case": "Mark 2 authority to forgive; Abba intimacy; Phil 2 early hymn. Sanders/Ehrman agree on apocalyptic prophet core — Christians argue more is also historical.",
+        "claim": "Даже как иудейский пророк, притязания Иисуса на власть, язык уникального сыновства и самое раннее поклонение со стороны иудеев выходят за «просто пророка» — ислам недотягивает до данных.",
+        "case": "Мк 2: власть прощать; близость «Авва»; ранний гимн Флп 2. Sanders / Ehrman согласны по ядру «апокалиптический пророк» — христиане спорят, что исторично и большее.",
         "sources": [
           {
-            "label": "Mark 2:1–12",
+            "label": "Мк 2:1–12",
             "url": "https://www.biblegateway.com/passage/?search=Mark+2%3A1-12&version=NRSVUE"
           },
           {
-            "label": "Philippians 2:6–11",
+            "label": "Флп 2:6–11",
             "url": "https://www.biblegateway.com/passage/?search=Philippians+2%3A6-11&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "Jesus was a Jew. To know him, one must know the Judaism of his day.",
-            "who": "E. P. Sanders (standard formulation of his project)",
-            "work": "Jesus and Judaism / later summaries",
-            "url": "https://www.fortresspress.com/store/product/9780800621445/Jesus-and-Judaism"
+            "text": "Иисус был иудеем. Чтобы знать Его, нужно знать иудаизм Его времени.",
+            "who": "E. P. Sanders (стандартная формулировка его проекта)",
+            "work": "Jesus and Judaism / поздние резюме",
+            "url": "https://www.fortresspress.com/store/product/9780800621445/Jesus-and-Judaism",
+            "orig": "Jesus was a Jew. To know him, one must know the Judaism of his day."
           }
         ],
         "data_points": [
           {
-            "fact": "Hurtado/Bauckham: earliest devotion to Jesus sits inside Jewish monotheism rather than abandoning it.",
+            "fact": "Hurtado / Bauckham: самое раннее почитание Иисуса сидит внутри иудейского монотеизма, а не бросает его.",
             "source": "Hurtado, Lord Jesus Christ",
-            "label": "Hurtado/Bauckham: earliest devotion to Jesus sits inside Jewish monotheism rather than abandoning it.",
+            "label": "Hurtado / Bauckham: самое раннее почитание Иисуса сидит внутри иудейского монотеизма, а не бросает его.",
             "note": "Hurtado, Lord Jesus Christ"
           },
           {
-            "fact": "Phil 2 and 1 Cor 8:6 apply Shema-shaped language to Jesus remarkably early.",
-            "source": "1 Cor 8:6",
-            "label": "Phil 2 and 1 Cor 8:6 apply Shema-shaped language to Jesus remarkably early.",
-            "note": "1 Cor 8:6"
+            "fact": "Флп 2 и 1 Кор 8:6 применяют к Иисусу язык, выстроенный по Шма, — замечательно рано.",
+            "source": "1 Кор 8:6",
+            "label": "Флп 2 и 1 Кор 8:6 применяют к Иисусу язык, выстроенный по Шма, — замечательно рано.",
+            "note": "1 Кор 8:6"
           }
         ]
       },
       "muslim": {
-        "claim": "The best historical fit is a Torah-faithful prophet proclaiming the kingdom — aligning with Islamic Rasul Christology more than Nicene deity.",
-        "case": "Mark 12:29 Shema; Matt 15:24; John 17:3 as used in debate. High Christology is post-Easter development (classic critical line Muslims borrow).",
+        "claim": "Лучшее историческое совпадение — верный Торе пророк, возвещающий Царство: это ближе к исламской расульской христологии, чем к никейскому божеству.",
+        "case": "Мк 12:29, Шма; Мф 15:24; Ин 17:3 как берут в дебате. Высокая христология — послепасхальное развитие (классическая критическая линия, которую заимствуют мусульмане).",
         "sources": [
           {
-            "label": "Mark 12:29–34",
+            "label": "Мк 12:29–34",
             "url": "https://www.biblegateway.com/passage/?search=Mark+12%3A29-34&version=NRSVUE"
           },
           {
-            "label": "John 17:3",
+            "label": "Ин 17:3",
             "url": "https://www.biblegateway.com/passage/?search=John+17%3A3&version=NRSVUE"
           },
           {
-            "label": "Qur'an 3:49–51",
+            "label": "«Коран 3:49–51»",
             "url": "https://quran.com/3/49-51"
           }
         ],
         "quotes": [
           {
-            "text": "He said, 'Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet.'",
-            "who": "Qur'an 19:30",
-            "work": "Cradle speech as Islamic portrait of Isa",
-            "url": "https://quran.com/19/30"
+            "text": "Он сказал: «Воистину, я — раб Аллаха. Он даровал мне Писание и сделал меня пророком».",
+            "who": "«Коран 19:30»",
+            "work": "Речь из колыбели как исламский портрет Исы",
+            "url": "https://quran.com/19/30",
+            "orig": "He said, 'Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet.'"
           }
         ],
         "data_points": [
           {
-            "fact": "Sanders, Vermes, Dunn: Jesus is a Jew among Jews, not a fourth-century council father.",
-            "source": "Historical Jesus consensus stream",
-            "label": "Sanders, Vermes, Dunn: Jesus is a Jew among Jews, not a fourth-century council father.",
-            "note": "Historical Jesus consensus stream"
+            "fact": "Sanders, Vermes, Dunn: Иисус — иудей среди иудеев, а не отец собора IV века.",
+            "source": "поток консенсуса об историческом Иисусе",
+            "label": "Sanders, Vermes, Dunn: Иисус — иудей среди иудеев, а не отец собора IV века.",
+            "note": "поток консенсуса об историческом Иисусе"
           },
           {
-            "fact": "Mark 12:29: Jesus recites the Shema. That is Muslim-usable data.",
-            "source": "Mark 12:29",
-            "label": "Mark 12:29: Jesus recites the Shema. That is Muslim-usable data.",
-            "note": "Mark 12:29"
+            "fact": "Мк 12:29: Иисус читает Шма. Это данные, которыми может пользоваться мусульманин.",
+            "source": "Мк 12:29",
+            "label": "Мк 12:29: Иисус читает Шма. Это данные, которыми может пользоваться мусульманин.",
+            "note": "Мк 12:29"
           }
         ]
       },
-      "counter_to_christian": "Forgiveness authority can be prophetic agency, not ontological deity.",
-      "counter_to_muslim": "Selective use of critical scholarship that also affirms crucifixion is inconsistent if 4:157 is hard denial.",
-      "crux": "Does the historical core stop at prophet, or include claims that imply more?",
-      "debate_use": "List 5 nearly-certain facts both accept, then see who needs fewer ad hoc moves.",
-      "why_it_matters": "Best Muslim 'historical Jesus' case: a Torah-loyal Jewish prophet looks more like Qur'anic Isa than like Nicene God-the-Son.",
+      "counter_to_christian": "Власть прощать может быть пророческим полномочием, а не онтологическим божеством.",
+      "counter_to_muslim": "Выборочное использование критической науки, которая также утверждает распятие, непоследовательно, если 4:157 — жёсткое отрицание.",
+      "crux": "Историческое ядро останавливается на пророке или включает притязания, подразумевающие большее?",
+      "debate_use": "Перечислите 5 почти достоверных фактов, которые обе стороны принимают, и смотрите, кому нужно меньше ad hoc ходов.",
+      "why_it_matters": "Лучший мусульманский довод об «историческом Иисусе»: верный Торе иудейский пророк больше похож на коранического Ису, чем на никейского Бога-Сына.",
       "live": {
-        "if_they_say": "The historical Jesus was just a unitarian prophet like Islam says.",
-        "you_say": "He was a Jew who recited the Shema — granted. The live question is whether the earliest sources also show him receiving devotion and going to a cross. Don't freeze the film at Mark 12:29 and cut Mark 14–15.",
-        "dont_overclaim": "Don't baptize Sanders as a Nicene Christian. Don't baptize him as a Muslim either."
+        "if_they_say": "Исторический Иисус был просто унитарным пророком, как говорит ислам.",
+        "you_say": "Он был иудеем, который читал Шма — принято. Живой вопрос: показывают ли самые ранние источники также, что Ему воздавали почитание и что Он шёл на крест. Не замораживайте плёнку на Мк 12:29 и не вырезайте Мк 14–15.",
+        "dont_overclaim": "Не крестите Sanders в никейского христианина. Не крестите его и в мусульманина."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "resurrection-claim",
       "rank": 3,
-      "cluster": "Core facts",
-      "title": "Death, burial, and resurrection appearances",
+      "cluster": "Опорные факты",
+      "title": "Смерть, погребение и явления воскресения",
       "type": "history + theology",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "Early creed in 1 Cor 15:3–8 is within years of the cross; historical Jesus research that ignores Easter proclamation underplays why the movement exploded.",
-        "case": "Habermas minimal facts approach (debated); empty tomb arguments. Islam's denial of death undercuts the historical explanation of Christian origins.",
+        "claim": "Ранний символ в 1 Кор 15:3–8 — в пределах нескольких лет от креста; исследование исторического Иисуса, игнорирующее пасхальную проповедь, недооценивает, почему движение взорвалось.",
+        "case": "Подход Habermas «минимальных фактов» (спорный); доводы о пустой гробнице. Исламское отрицание смерти подрывает историческое объяснение происхождения христианства.",
         "sources": [
           {
-            "label": "1 Corinthians 15:3–8",
+            "label": "1 Кор 15:3–8",
             "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-8&version=NRSVUE"
           },
           {
-            "label": "SEP — Resurrection (overview entry points via philosophy of religion)",
+            "label": "SEP — Resurrection (вход через философию религии)",
             "url": "https://plato.stanford.edu/entries/miracles/"
           }
         ],
         "quotes": [
           {
-            "text": "For I handed on to you as of first importance what I in turn had received: that Christ died for our sins… that he was buried, and that he was raised on the third day… and that he appeared to Cephas, then to the twelve.",
-            "who": "1 Corinthians 15:3–5",
-            "work": "Early creed embedded in Paul",
-            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A3-8&version=NRSVUE"
+            "text": "Ибо я первоначально преподал вам, что и сам принял, то есть, что Христос умер за грехи наши… и что Он погребён был, и что воскрес в третий день… и что явился Кифе, потом двенадцати.",
+            "who": "1 Кор 15:3–5",
+            "work": "Ранний символ, встроенный у Павла",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%2015%3A3-8&version=NRSVUE",
+            "orig": "For I handed on to you as of first importance what I in turn had received: that Christ died for our sins… that he was buried, and that he was raised on the third day… and that he appeared to Cephas, then to the twelve."
           }
         ],
         "data_points": [
           {
-            "fact": "Most scholars date the 1 Cor 15 tradition to within a few years of the crucifixion.",
-            "source": "Standard Pauline chronology (Habermas / Dunn / Allison discussions)",
-            "label": "Most scholars date the 1 Cor 15 tradition to within a few years of the crucifixion.",
-            "note": "Standard Pauline chronology (Habermas / Dunn / Allison discussions)"
+            "fact": "Большинство учёных датирует предание 1 Кор 15 несколькими годами после распятия.",
+            "source": "стандартная павлова хронология (обсуждения Habermas / Dunn / Allison)",
+            "label": "Большинство учёных датирует предание 1 Кор 15 несколькими годами после распятия.",
+            "note": "стандартная павлова хронология (обсуждения Habermas / Dunn / Allison)"
           },
           {
-            "fact": "Enemy attestation angle: Paul was a former persecutor claiming an appearance.",
-            "source": "Gal 1; 1 Cor 15:8",
-            "label": "Enemy attestation angle: Paul was a former persecutor claiming an appearance.",
-            "note": "Gal 1; 1 Cor 15:8"
+            "fact": "Угол «вражеского свидетельства»: Павел был бывшим гонителем, заявляющим о явлении.",
+            "source": "Гал 1; 1 Кор 15:8",
+            "label": "Угол «вражеского свидетельства»: Павел был бывшим гонителем, заявляющим о явлении.",
+            "note": "Гал 1; 1 Кор 15:8"
           }
         ]
       },
       "muslim": {
-        "claim": "Appearances and enthusiasm do not prove bodily resurrection or deity; alternative explanations exist; Qur'an affirms God raised Jesus without Christian soteriology.",
-        "case": "3:55; 4:158. Legend growth and cognitive science of visions are available to critics.",
+        "claim": "Явления и энтузиазм не доказывают телесного воскресения или божества; есть альтернативные объяснения; Коран утверждает, что Бог вознёс Иисуса — без христианской сотериологии.",
+        "case": "3:55; 4:158. Критикам доступны рост легенды и когнитивная наука видений.",
         "sources": [
           {
-            "label": "Qur'an 3:55",
+            "label": "«Коран 3:55»",
             "url": "https://quran.com/3/55"
           },
           {
-            "label": "Qur'an 4:158",
+            "label": "«Коран 4:158»",
             "url": "https://quran.com/4/158"
           }
         ],
         "quotes": [
           {
-            "text": "Rather, Allah raised him to Himself. And ever is Allah Exalted in Might and Wise.",
-            "who": "Qur'an 4:158",
-            "work": "Raising as the Qur'anic alternative ending",
-            "url": "https://quran.com/4/158"
+            "text": "О нет! Аллах вознёс его к Себе. Аллах — Могущественный, Мудрый.",
+            "who": "«Коран 4:158»",
+            "work": "Вознесение как коранический альтернативный финал",
+            "url": "https://quran.com/4/158",
+            "orig": "Rather, Allah raised him to Himself. And ever is Allah Exalted in Might and Wise."
           }
         ],
         "data_points": [
           {
-            "fact": "Appearances can be visions; empty tomb is not as multiply attested as death.",
-            "source": "Lüdemann / Crossan-type critiques",
-            "label": "Appearances can be visions; empty tomb is not as multiply attested as death.",
-            "note": "Lüdemann / Crossan-type critiques"
+            "fact": "Явления могут быть видениями; пустая гробница засвидетельствована не так множественно, как смерть.",
+            "source": "критики типа Lüdemann / Crossan",
+            "label": "Явления могут быть видениями; пустая гробница засвидетельствована не так множественно, как смерть.",
+            "note": "критики типа Lüdemann / Crossan"
           },
           {
-            "fact": "If Jesus did not die, 'resurrection' is a category error — raising a living prophet is not Easter.",
-            "source": "Islamic logic given 4:157",
-            "label": "If Jesus did not die, 'resurrection' is a category error — raising a living prophet is not Easter.",
-            "note": "Islamic logic given 4:157"
+            "fact": "Если Иисус не умер, «воскресение» — ошибка категории: вознесение живого пророка — не Пасха.",
+            "source": "исламская логика при 4:157",
+            "label": "Если Иисус не умер, «воскресение» — ошибка категории: вознесение живого пророка — не Пасха.",
+            "note": "исламская логика при 4:157"
           }
         ]
       },
-      "counter_to_christian": "Minimal facts debates are apologetic; many historians remain agnostic on resurrection as history.",
-      "counter_to_muslim": "Still need a historical explanation for the rise of resurrection belief in Jerusalem.",
-      "crux": "Must a 'follower of historical Jesus' take a position on Easter as history?",
-      "debate_use": "Separate: (1) disciples believed he rose (2) he rose. Score them apart.",
-      "why_it_matters": "Christianity's historical engine. Islam can grant empty-tomb rumors without granting atonement theology.",
+      "counter_to_christian": "Споры о «минимальных фактах» — апологетика; многие историки остаются агностиками относительно воскресения как истории.",
+      "counter_to_muslim": "Всё равно нужно историческое объяснение, почему в Иерусалиме возникла вера в воскресение.",
+      "crux": "Обязан ли «последователь исторического Иисуса» занимать позицию о Пасхе как истории?",
+      "debate_use": "Разведите: (1) ученики верили, что Он воскрес; (2) Он воскрес. Считайте отдельно.",
+      "why_it_matters": "Исторический двигатель христианства. Ислам может допустить слухи о пустой гробнице, не принимая богословие искупления.",
       "live": {
-        "if_they_say": "Resurrection is a later legend.",
-        "you_say": "Paul's received formula in 1 Cor 15 is early, not Nicea. You can still reject it as vision/legend — but then say why that method doesn't also dissolve other miracle reports you like.",
-        "dont_overclaim": "Don't claim 500 eyewitness affidavits in a modern court sense. Don't pretend Paul is late medieval."
+        "if_they_say": "Воскресение — поздняя легенда.",
+        "you_say": "Принятая Павлом формула в 1 Кор 15 — ранняя, не Никея. Её всё ещё можно отвергнуть как видение / легенду — но тогда скажите, почему тот же метод не растворяет другие чудесные сообщения, которые вам нравятся.",
+        "dont_overclaim": "Не заявляйте 500 свидетельских показаний в смысле современного суда. Не притворяйтесь, будто Павел — позднесредневековый."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "source-proximity",
       "rank": 4,
-      "cluster": "Method",
-      "title": "Source proximity: 1st-century vs 7th-century",
+      "cluster": "Метод",
+      "title": "Близость источников: I век против VII века",
       "type": "history + method",
-      "popularity": "Very high",
+      "popularity": "Очень высокая",
       "christian": {
-        "claim": "First-century sources geographically and chronologically close to Jesus beat a seventh-century Arabian revelation for historical reconstruction.",
-        "case": "Mark, Paul, Q-ish material, Aramaic substrate arguments. Qur'anic Jesus is theologically mediated centuries later.",
+        "claim": "Источники I века, географически и хронологически близкие к Иисусу, бьют аравийское откровение VII века для исторической реконструкции.",
+        "case": "Марк, Павел, материал «Q-образный», доводы об арамейском субстрате. Коранический Иисус теологически опосредован веками позже.",
         "sources": [
           {
-            "label": "Oxford Bibliographies — Historical Jesus (gateway)",
+            "label": "Oxford Bibliographies — Historical Jesus (вход)",
             "url": "https://www.oxfordbibliographies.com/display/document/obo-9780195393361/obo-9780195393361-0022.xml"
           },
           {
-            "label": "Pauline letters chronology context (Bible Gateway Romans)",
+            "label": "Контекст хронологии павловых писем (Bible Gateway, Рим)",
             "url": "https://www.biblegateway.com/passage/?search=Romans+1&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "Paul writes in the 50s; Mark commonly dated ~70; all within living memory windows of a sort the Qur'an cannot match for Jesus.",
-            "source": "Standard NT dating ranges",
-            "label": "Paul writes in the 50s; Mark commonly dated ~70; all within living memory windows of a sort the Qur'an cannot match for Jesus.",
-            "note": "Standard NT dating ranges"
+            "fact": "Павел пишет в 50-е; Марка обычно датируют ~70; всё в окне живой памяти такого рода, какого Коран для Иисуса дать не может.",
+            "source": "стандартные диапазоны датировки НЗ",
+            "label": "Павел пишет в 50-е; Марка обычно датируют ~70; всё в окне живой памяти такого рода, какого Коран для Иисуса дать не может.",
+            "note": "стандартные диапазоны датировки НЗ"
           },
           {
-            "fact": "Ehrman: the Qur'an is not an independent 1st-century Jesus source.",
-            "source": "Ehrman blog on Qur'an/Jesus",
-            "label": "Ehrman: the Qur'an is not an independent 1st-century Jesus source.",
-            "note": "Ehrman blog on Qur'an/Jesus"
+            "fact": "Ehrman: Коран не есть независимый источник I века об Иисусе.",
+            "source": "блог Ehrman о Коране / Иисусе",
+            "label": "Ehrman: Коран не есть независимый источник I века об Иисусе.",
+            "note": "блог Ehrman о Коране / Иисусе"
           }
         ],
         "manuscripts": [
           {
-            "label": "P52 — early John fragment",
+            "label": "P52 — ранний фрагмент Иоанна",
             "url": "https://manuscripts.csntm.org/Manuscript/View/GA_P52",
-            "note": "Text circulating by 2nd c.",
-            "title": "P52 — early John fragment"
+            "note": "Текст в обращении ко II в.",
+            "title": "P52 — ранний фрагмент Иоанна"
           }
         ]
       },
       "muslim": {
-        "claim": "Later revelation from God can correct corrupted memory; also critical dating puts Gospels decades out with theology. Proximity ≠ accuracy.",
-        "case": "If God speaks in the 7th c., historical 'nearness' is not the decisive criterion. Muslims also cite alleged Gospel corruption.",
+        "claim": "Позднее откровение от Бога может поправить испорченную память; к тому же критическая датировка ставит Евангелия на десятилетия позже, с богословием. Близость ≠ точность.",
+        "case": "Если Бог говорит в VII в., историческая «близость» — не решающий критерий. Мусульмане также ссылаются на предполагаемую порчу Евангелий.",
         "sources": [
           {
-            "label": "Qur'an 5:48",
+            "label": "«Коран 5:48»",
             "url": "https://quran.com/5/48"
           },
           {
-            "label": "Qur'an 2:79",
+            "label": "«Коран 2:79»",
             "url": "https://quran.com/2/79"
           }
         ],
         "data_points": [
           {
-            "fact": "Proximity of copies ≠ truth of content; a close false report beats a distant true one only if you already trust the reporters.",
-            "source": "Method",
-            "label": "Proximity of copies ≠ truth of content; a close false report beats a distant true one only if you already trust the reporters.",
-            "note": "Method"
+            "fact": "Близость копий ≠ истинность содержания; близкий ложный отчёт бьёт далёкий истинный только если вы уже доверяете рассказчикам.",
+            "source": "метод",
+            "label": "Близость копий ≠ истинность содержания; близкий ложный отчёт бьёт далёкий истинный только если вы уже доверяете рассказчикам.",
+            "note": "метод"
           },
           {
-            "fact": "The Qur'an claims to correct a corrupted memory, so lateness is expected on the Islamic model.",
-            "source": "Revelation-correction thesis",
-            "label": "The Qur'an claims to correct a corrupted memory, so lateness is expected on the Islamic model.",
-            "note": "Revelation-correction thesis"
+            "fact": "Коран претендует поправить испорченную память, поэтому на исламской модели запаздывание ожидаемо.",
+            "source": "тезис «откровение-поправка»",
+            "label": "Коран претендует поправить испорченную память, поэтому на исламской модели запаздывание ожидаемо.",
+            "note": "тезис «откровение-поправка»"
           }
         ]
       },
-      "counter_to_christian": "Proximity argument assumes naturalist historiography — declare it.",
-      "counter_to_muslim": "If you use critical skepticism on Gospels, apply analogous skepticism to early Islamic reports about Jesus.",
-      "crux": "Can a later revelatory text outrank earlier multiply attested historical sources in a history debate?",
-      "debate_use": "Make both sign a method card: naturalist history / open to miracle / revelation-first.",
-      "why_it_matters": "Chronology hammer: 1st-century Christian texts vs 7th-century Qur'an on a 30s-CE Jew.",
+      "counter_to_christian": "Довод близости предполагает натуралистическую историографию — объявите это.",
+      "counter_to_muslim": "Если вы применяете критический скепсис к Евангелиям, примените аналогичный скепсис к ранним исламским сообщениям об Иисусе.",
+      "crux": "Может ли поздний откровенческий текст в историческом споре перевесить более ранние, множественно засвидетельствованные исторические источники?",
+      "debate_use": "Пусть обе стороны подпишут карточку метода: натуралистическая история / открытость чуду / сначала откровение.",
+      "why_it_matters": "Хронологический молот: христианские тексты I века против Корана VII века о иудее 30-х н. э.",
       "live": {
-        "if_they_say": "The Gospels are late fan-fiction.",
-        "you_say": "Late compared to what? Paul is within ~20–25 years. The Qur'an is ~600 years later. If 'late' kills the Gospels, it does not help Isa-in-the-Qur'an as history.",
-        "dont_overclaim": "Don't claim we have Jesus' diaries. Don't claim 7th-century revelation is a 30s-CE archive."
+        "if_they_say": "Евангелия — поздняя фанфикшн.",
+        "you_say": "Поздние относительно чего? Павел — в пределах ~20–25 лет. Коран — примерно на 600 лет позже. Если «поздно» убивает Евангелия, это не помогает Исе-в-Коране как истории.",
+        "dont_overclaim": "Не утверждайте, что у нас есть дневники Иисуса. Не утверждайте, что откровение VII века — архив 30-х н. э."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "law-torah",
       "rank": 5,
-      "cluster": "Teaching",
-      "title": "Jesus and the Torah",
+      "cluster": "Учение",
+      "title": "Иисус и Тора",
       "type": "history",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Jesus intensifies Torah (Matt 5) and relativizes some boundaries (Mark 7 debates) in ways that neither simple Muslim sharīʿa-continuity nor antinomian myth captures — but Christian Torah-free Gentile mission needs Acts/Paul as development.",
-        "case": "Complex: Matt 5:17–20 vs Mark 7:19 editorial note. Historical Jesus is Jewish, not a Nicene seminary professor.",
+        "claim": "Иисус усиливает Тору (Мф 5) и релятивизирует некоторые границы (споры Мк 7) так, что это не ловится ни простой мусульманской непрерывностью шариата, ни антиномистским мифом — но христианской миссии к язычникам без Торы нужны Деян / Павел как развитие.",
+        "case": "Сложно: Мф 5:17–20 против редакторской пометы Мк 7:19. Исторический Иисус — иудей, а не профессор никейской семинарии.",
         "sources": [
           {
-            "label": "Matthew 5:17–20",
+            "label": "Мф 5:17–20",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A17-20&version=NRSVUE"
           },
           {
-            "label": "Mark 7:1–23",
+            "label": "Мк 7:1–23",
             "url": "https://www.biblegateway.com/passage/?search=Mark+7%3A1-23&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "Do not think that I have come to abolish the law or the prophets; I have come not to abolish but to fulfill.",
-            "who": "Matthew 5:17",
-            "work": "NT primary",
-            "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A17&version=NRSVUE"
+            "text": "Не думайте, что Я пришёл нарушить закон или пророков: не нарушить пришёл Я, но исполнить.",
+            "who": "Мф 5:17",
+            "work": "НЗ, первоисточник",
+            "url": "https://www.biblegateway.com/passage/?search=Matthew%205%3A17&version=NRSVUE",
+            "orig": "Do not think that I have come to abolish the law or the prophets; I have come not to abolish but to fulfill."
           }
         ]
       },
       "muslim": {
-        "claim": "Qur'an presents Jesus as confirming Torah (3:50; 5:46) — closer to a historical Jewish Jesus than Pauline law-free gospel.",
-        "case": "Muslims argue Paul diverted Jesus' Torah-affirming mission. James/Jerusalem Christianity as foil.",
+        "claim": "Коран представляет Иисуса подтверждающим Тору (3:50; 5:46) — ближе к историческому иудейскому Иисусу, чем павлово «беззаконное» благовестие.",
+        "case": "Мусульмане спорят, что Павел свернул с тора-утверждающей миссии Иисуса. Иаков / иерусалимское христианство как контраст.",
         "sources": [
           {
-            "label": "Qur'an 3:50",
+            "label": "«Коран 3:50»",
             "url": "https://quran.com/3/50"
           },
           {
-            "label": "Qur'an 5:46",
+            "label": "«Коран 5:46»",
             "url": "https://quran.com/5/46"
           },
           {
-            "label": "Matthew 5:17–18",
+            "label": "Мф 5:17–18",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+5%3A17-18&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "And [I have come] confirming what was before me of the Torah and to make lawful for you some of what was forbidden to you.",
-            "who": "Qur'an 3:50",
-            "work": "Isa's Torah stance in the Qur'an",
-            "url": "https://quran.com/3/50"
+            "text": "И [я пришёл] подтвердить то, что было до меня из Торы, и разрешить вам часть того, что было вам запрещено.",
+            "who": "«Коран 3:50»",
+            "work": "Позиция Исы относительно Торы в Коране",
+            "url": "https://quran.com/3/50",
+            "orig": "And [I have come] confirming what was before me of the Torah and to make lawful for you some of what was forbidden to you."
           }
         ],
         "data_points": [
           {
-            "fact": "James and Matthew look more Torah-affirming than later Gentile Christianity's pork/Sabbath practice — Muslims use this as 'Paul vs Jesus.'",
-            "source": "Galatians / Acts 15 debates",
-            "label": "James and Matthew look more Torah-affirming than later Gentile Christianity's pork/Sabbath practice — Muslims use this as 'Paul vs Jesus.'",
-            "note": "Galatians / Acts 15 debates"
+            "fact": "Иаков и Матфей выглядят более тора-утверждающими, чем поздняя языческая практика христианства со свининой / субботой — мусульмане берут это как «Павел против Иисуса».",
+            "source": "споры Гал / Деян 15",
+            "label": "Иаков и Матфей выглядят более тора-утверждающими, чем поздняя языческая практика христианства со свининой / субботой — мусульмане берут это как «Павел против Иисуса».",
+            "note": "споры Гал / Деян 15"
           }
         ]
       },
-      "counter_to_christian": "If historical Jesus is Torah-affirming, Gentile church practice needs justification.",
-      "counter_to_muslim": "Qur'anic 'confirming Torah' still rejects key Jewish-Christian claims (crucifixion, sonship).",
-      "crux": "Who is the truer heir of Jesus' Torah stance: Pauline churches or Islamic prophetology?",
-      "debate_use": "Don't let 'Paul vs Jesus' become a substitute for source work on Jesus himself.",
-      "why_it_matters": "Matthew 5 vs Paul vs Qur'anic Jesus-as-Torah-confirmer is a three-way trap.",
+      "counter_to_christian": "Если исторический Иисус утверждает Тору, языческая церковная практика нуждается в оправдании.",
+      "counter_to_muslim": "Кораническое «подтверждение Торы» всё равно отвергает ключевые иудео-христианские утверждения (распятие, сыновство).",
+      "crux": "Кто вернее наследует позицию Иисуса к Торе: павловы церкви или исламская проротология?",
+      "debate_use": "Не дайте «Павел против Иисуса» подменить работу с источниками о самом Иисусе.",
+      "why_it_matters": "Мф 5 против Павла против коранического Иисуса-подтвердителя-Торы — трёхсторонняя ловушка.",
       "live": {
-        "if_they_say": "Paul invented a law-free religion Jesus never taught.",
-        "you_say": "Grant tension: Matthew 5, Mark 7, and Galatians 2 are not the same voice. Then ask whether Qur'anic Isa's infancy miracles and crucifixion denial are closer to 30s-CE Judaism than Paul is.",
-        "dont_overclaim": "Don't flatten Paul into antinomian cartoon. Don't flatten Jesus into a later rabbi."
+        "if_they_say": "Павел изобрёл религию без закона, которой Иисус никогда не учил.",
+        "you_say": "Примите напряжение: Мф 5, Мк 7 и Гал 2 — не один голос. Затем спросите, ближе ли младенческие чудеса коранического Исы и отрицание распятия к иудаизму 30-х н. э., чем Павел.",
+        "dont_overclaim": "Не сплющивайте Павла в антиномистский шарж. Не сплющивайте Иисуса в позднего раввина."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "titles",
       "rank": 6,
-      "cluster": "Identity",
-      "title": "Messiah, Son of Man, Son of God",
+      "cluster": "Идентичность",
+      "title": "Мессия, Сын Человеческий, Сын Божий",
       "type": "history + exegesis",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Historical titles — Messiah, Son of Man — plus early Son of God worship language exceed Islam's 'created messenger' ceiling.",
-        "case": "Mark 14:61–62; Daniel 7 intertext; Romans 1:3–4. Semantic range is debated but not empty.",
+        "claim": "Исторические титулы — Мессия, Сын Человеческий — плюс ранний язык поклонения Сыну Божию превышают исламский потолок «сотворённый посланник».",
+        "case": "Мк 14:61–62; интертекст Дан 7; Рим 1:3–4. Семантический диапазон спорен, но не пуст.",
         "sources": [
           {
-            "label": "Mark 14:61–62",
+            "label": "Мк 14:61–62",
             "url": "https://www.biblegateway.com/passage/?search=Mark+14%3A61-62&version=NRSVUE"
           },
           {
-            "label": "Romans 1:3–4",
+            "label": "Рим 1:3–4",
             "url": "https://www.biblegateway.com/passage/?search=Romans+1%3A3-4&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "…yet for us there is one God, the Father… and one Lord, Jesus Christ…",
-            "who": "1 Corinthians 8:6",
-            "work": "Shema-split used in early worship",
-            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%208%3A6&version=NRSVUE"
+            "text": "…но у нас один Бог Отец… и один Господь Иисус Христос…",
+            "who": "1 Кор 8:6",
+            "work": "«Расщепление Шма», использованное в раннем богослужении",
+            "url": "https://www.biblegateway.com/passage/?search=1%20Corinthians%208%3A6&version=NRSVUE",
+            "orig": "…yet for us there is one God, the Father… and one Lord, Jesus Christ…"
           }
         ]
       },
       "muslim": {
-        "claim": "Messiah in Jewish context is not God; 'son of God' can be honorific; Qur'an accepts Messiahship (3:45) while rejecting metaphysical sonship.",
-        "case": "3:45; 4:171. Muslims claim to keep the historical title and discard later ontology.",
+        "claim": "Мессия в иудейском контексте — не Бог; «сын Божий» может быть почётным; Коран принимает мессианство (3:45), отвергая метафизическое сыновство.",
+        "case": "3:45; 4:171. Мусульмане утверждают, что сохраняют исторический титул и отбрасывают позднюю онтологию.",
         "sources": [
           {
-            "label": "Qur'an 3:45",
+            "label": "«Коран 3:45»",
             "url": "https://quran.com/3/45"
           },
           {
-            "label": "Qur'an 4:171",
+            "label": "«Коран 4:171»",
             "url": "https://quran.com/4/171"
           }
         ],
         "quotes": [
           {
-            "text": "The Messiah, Jesus, the son of Mary, was but a messenger of Allah…",
-            "who": "Qur'an 4:171",
-            "work": "Messiah as human messenger",
-            "url": "https://quran.com/4/171"
+            "text": "Мессия Иса, сын Марьям, был лишь посланником Аллаха…",
+            "who": "«Коран 4:171»",
+            "work": "Мессия как человеческий посланник",
+            "url": "https://quran.com/4/171",
+            "orig": "The Messiah, Jesus, the son of Mary, was but a messenger of Allah…"
           }
         ],
         "data_points": [
           {
-            "fact": "'Son of God' in Jewish idiom can be king/Israel/righteous one — not automatically second person of the Trinity.",
-            "source": "Psalm 2; 2 Sam 7",
-            "label": "'Son of God' in Jewish idiom can be king/Israel/righteous one — not automatically second person of the Trinity.",
-            "note": "Psalm 2; 2 Sam 7"
+            "fact": "«Сын Божий» в иудейском идиоме может быть царём / Израилем / праведником — не автоматически второе лицо Троицы.",
+            "source": "Пс 2; 2 Цар 7",
+            "label": "«Сын Божий» в иудейском идиоме может быть царём / Израилем / праведником — не автоматически второе лицо Троицы.",
+            "note": "Пс 2; 2 Цар 7"
           }
         ]
       },
-      "counter_to_christian": "Title maximalism often reads later Christology back into Semitic honor language.",
-      "counter_to_muslim": "Earliest Christian use of titles in worship is data, not only later councils.",
-      "crux": "What did 'Messiah' and 'Son of God' mean in Jesus' milieu — and what did his followers do with them?",
-      "debate_use": "Define each title on a whiteboard before quoting.",
-      "why_it_matters": "Messiah, Son of Man, Son of God, Lord — each title is a battlefield of meaning.",
+      "counter_to_christian": "Титульный максимализм часто вчитывает позднюю христологию в семитский язык почести.",
+      "counter_to_muslim": "Самое раннее христианское использование титулов в богослужении — данные, а не только поздние соборы.",
+      "crux": "Что значили «Мессия» и «Сын Божий» в среде Иисуса — и что с ними сделали Его последователи?",
+      "debate_use": "Определите каждый титул на доске, прежде чем цитировать.",
+      "why_it_matters": "Мессия, Сын Человеческий, Сын Божий, Господь — каждый титул есть поле боя о значении.",
       "live": {
-        "if_they_say": "Jesus never said 'I am God.'",
-        "you_say": "Ask what would count: John 8:58? Mark 14:62? Being called Lord in a Shema-shaped formula? Then ask whether Qur'anic titles (word, spirit, messiah) are being read equally strictly.",
-        "dont_overclaim": "Don't pretend John and Mark are the same Christology. Don't pretend 'son of God' always means Nicene Son."
+        "if_they_say": "Иисус никогда не говорил: «Я — Бог».",
+        "you_say": "Спросите, что считается: Ин 8:58? Мк 14:62? Именование Господом в формуле, выстроенной по Шма? Затем спросите, читают ли коранические титулы (слово, дух, мессия) столь же строго.",
+        "dont_overclaim": "Не притворяйтесь, будто Иоанн и Марк — одна христология. Не притворяйтесь, будто «сын Божий» всегда значит никейского Сына."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "sayings-authenticity",
       "rank": 7,
-      "cluster": "Method",
-      "title": "Which sayings go back to Jesus?",
+      "cluster": "Метод",
+      "title": "Какие изречения восходят к Иисусу?",
       "type": "history + method",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Enough authentic teaching (parables, kingdom, love commands) survives that Christian discipleship still tracks Jesus better than a Qur'anic portrait missing the cross and kingdom narrative.",
-        "case": "Parable tradition; Lord's prayer; love commands. Critical editions still leave a recognizable Jesus.",
+        "claim": "Достаточно подлинного учения (притчи, Царство, заповеди любви) сохраняется, чтобы христианское ученичество всё ещё лучше держало Иисуса, чем коранический портрет без креста и повествования о Царстве.",
+        "case": "Предание притч; молитва Господня; заповеди любви. Критические издания всё ещё оставляют узнаваемого Иисуса.",
         "sources": [
           {
-            "label": "Mark 12:28–34",
+            "label": "Мк 12:28–34",
             "url": "https://www.biblegateway.com/passage/?search=Mark+12%3A28-34&version=NRSVUE"
           },
           {
-            "label": "Luke 11:2–4",
+            "label": "Лк 11:2–4",
             "url": "https://www.biblegateway.com/passage/?search=Luke+11%3A2-4&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "Multiple attestation and embarrassment still used in debates even after method critique (Allison, Keith, Le Donne).",
-            "source": "Historical Jesus method wars",
-            "label": "Multiple attestation and embarrassment still used in debates even after method critique (Allison, Keith, Le Donne).",
-            "note": "Historical Jesus method wars"
+            "fact": "Множественное свидетельство и критерий смущения всё ещё используют в дебатах даже после критики метода (Allison, Keith, Le Donne).",
+            "source": "войны метода об историческом Иисусе",
+            "label": "Множественное свидетельство и критерий смущения всё ещё используют в дебатах даже после критики метода (Allison, Keith, Le Donne).",
+            "note": "войны метода об историческом Иисусе"
           }
         ]
       },
       "muslim": {
-        "claim": "If Christians admit heavy redaction, they cannot demand Muslims accept Johannine deity sayings as historical Jesus. Islamic selectivity mirrors critical selectivity — with revelation as guide.",
-        "case": "John vs Synoptics gap. Muslims prefer Synoptic-sounding monotheistic sayings.",
+        "claim": "Если христиане признают сильную редактуру, они не могут требовать, чтобы мусульмане принимали Иоанновы речи о божестве как исторического Иисуса. Исламская избирательность зеркалит критическую — с откровением как проводником.",
+        "case": "Разрыв Иоанна и синоптиков. Мусульмане предпочитают монотеистические изречения, звучащие по-синоптически.",
         "sources": [
           {
-            "label": "John 10:30 vs Mark 10:18 contrast pair",
+            "label": "Пара контраста: Ин 10:30 против Мк 10:18",
             "url": "https://www.biblegateway.com/passage/?search=John+10%3A30%3B+Mark+10%3A18&version=NRSVUE"
           },
           {
-            "label": "Qur'an 5:116–117",
+            "label": "«Коран 5:116–117»",
             "url": "https://quran.com/5/116-117"
           }
         ],
         "data_points": [
           {
-            "fact": "Infancy clay-birds and cradle speech have late antique Christian parallels; using 'late legend' on Gospels while keeping Q 3:49/19:29 needs a rule.",
-            "source": "Method symmetry",
-            "label": "Infancy clay-birds and cradle speech have late antique Christian parallels; using 'late legend' on Gospels while keeping Q 3:49/19:29 needs a rule.",
-            "note": "Method symmetry"
+            "fact": "Птицы из глины в младенчестве и речь из колыбели имеют позднеантичные христианские параллели; применять «позднюю легенду» к Евангелиям, удерживая «Коран 3:49» / 19:29, нужно по правилу.",
+            "source": "симметрия метода",
+            "label": "Птицы из глины в младенчестве и речь из колыбели имеют позднеантичные христианские параллели; применять «позднюю легенду» к Евангелиям, удерживая «Коран 3:49» / 19:29, нужно по правилу.",
+            "note": "симметрия метода"
           }
         ]
       },
-      "counter_to_christian": "Recognizable ≠ Nicene.",
-      "counter_to_muslim": "Revelation-as-guide exits historical method; admit the lane change.",
-      "crux": "What percentage of Synoptic Jesus is required to 'follow' him historically?",
-      "debate_use": "Each side lists 10 sayings they accept as authentic — compare overlap.",
-      "why_it_matters": "Whoever controls the authentic-sayings list controls 'what Jesus was.'",
+      "counter_to_christian": "Узнаваемый ≠ никейский.",
+      "counter_to_muslim": "«Откровение как проводник» выходит из исторического метода; признайте смену полосы.",
+      "crux": "Какой процент синоптического Иисуса требуется, чтобы «следовать» Ему исторически?",
+      "debate_use": "Каждая сторона перечисляет 10 изречений, которые принимает как подлинные — сравните пересечение.",
+      "why_it_matters": "Кто контролирует список подлинных изречений, тот контролирует «кем был Иисус».",
       "live": {
-        "if_they_say": "Historians proved Jesus didn't say most of the Gospels.",
-        "you_say": "Which list — Jesus Seminar? Sanders? Dunn? Then apply the same list to Qur'anic Jesus sayings, which those scholars do not treat as 30s-CE transcripts.",
-        "dont_overclaim": "Don't pretend criteria are a machine. Don't pretend there is no recoverable Jesus."
+        "if_they_say": "Историки доказали, что Иисус не говорил большей части Евангелий.",
+        "you_say": "Какой список — Jesus Seminar? Sanders? Dunn? Затем примените тот же список к кораническим речам Иисуса, которые эти учёные не считают стенограммами 30-х н. э.",
+        "dont_overclaim": "Не притворяйтесь, будто критерии — машина. Не притворяйтесь, будто реконструируемого Иисуса нет."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "james-jerusalem",
       "rank": 8,
-      "cluster": "Early movement",
-      "title": "James and the Jerusalem Jesus movement",
+      "cluster": "Раннее движение",
+      "title": "Иаков и иерусалимское движение Иисуса",
       "type": "history",
-      "popularity": "Medium-high",
+      "popularity": "Средне-высокая",
       "christian": {
-        "claim": "Jerusalem leadership (James) was Jesus-following Judaism that still proclaimed crucified-and-risen Messiah — not an Islamic prophetology.",
-        "case": "Galatians 1–2; Josephus on James. Continuity with resurrection kerygma.",
+        "claim": "Иерусалимское руководство (Иаков) было иудаизмом, следующим за Иисусом, который всё же проповедовал распятого и воскресшего Мессию — не исламскую проротологию.",
+        "case": "Гал 1–2; Иосиф Флавий об Иакове. Непрерывность с керигмой воскресения.",
         "sources": [
           {
-            "label": "Galatians 1:18–19; 2:9",
+            "label": "Гал 1:18–19; 2:9",
             "url": "https://www.biblegateway.com/passage/?search=Galatians+1%3A18-19%3B+2%3A9&version=NRSVUE"
           }
         ],
         "quotes": [
           {
-            "text": "Then after three years I did go up to Jerusalem to visit Cephas… But I did not see any other apostle except James the Lord's brother.",
-            "who": "Galatians 1:18–19",
-            "work": "NT primary",
-            "url": "https://www.biblegateway.com/passage/?search=Galatians%201%3A18-19&version=NRSVUE"
+            "text": "Потом, спустя три года, ходил я в Иерусалим видеться с Кифой… Другого же из Апостолов я не видел никого, кроме Иакова, брата Господня.",
+            "who": "Гал 1:18–19",
+            "work": "НЗ, первоисточник",
+            "url": "https://www.biblegateway.com/passage/?search=Galatians%201%3A18-19&version=NRSVUE",
+            "orig": "Then after three years I did go up to Jerusalem to visit Cephas… But I did not see any other apostle except James the Lord's brother."
           }
         ]
       },
       "muslim": {
-        "claim": "A Torah-observant Jerusalem Christianity is closer to Islamic Jesus than later Gentile Christology; Pauline victory was a fork away from Jesus.",
-        "case": "Appeal to Ebionite-like reconstructions (historically fraught but popular in debate).",
+        "claim": "Тора-соблюдающее иерусалимское христианство ближе к исламскому Иисусу, чем поздняя языческая христология; победа Павла была развилкой прочь от Иисуса.",
+        "case": "Апелляция к реконструкциям эбионитского типа (исторически шатко, но популярно в дебате).",
         "sources": [
           {
-            "label": "Qur'an 5:46–47",
+            "label": "«Коран 5:46–47»",
             "url": "https://quran.com/5/46-47"
           },
           {
-            "label": "Acts 21:20 (many thousands zealous for the law)",
+            "label": "Деян 21:20 (многие тысячи ревнителей закона)",
             "url": "https://www.biblegateway.com/passage/?search=Acts+21%3A20&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "James 2 emphasizes deeds; Muslims contrast that with later faith-alone slogans.",
-            "source": "James 2:14–26",
-            "label": "James 2 emphasizes deeds; Muslims contrast that with later faith-alone slogans.",
-            "note": "James 2:14–26"
+            "fact": "Иак 2 делает ударение на делах; мусульмане противопоставляют это поздним лозунгам «только вера».",
+            "source": "Иак 2:14–26",
+            "label": "Иак 2 делает ударение на делах; мусульмане противопоставляют это поздним лозунгам «только вера».",
+            "note": "Иак 2:14–26"
           }
         ]
       },
-      "counter_to_christian": "James' exact Christology is underdetermined.",
-      "counter_to_muslim": "Ebionite projection is often apologetic wishful history.",
-      "crux": "Was the earliest Jesus movement's center of gravity closer to Islam or to Pauline Christ-faith?",
-      "debate_use": "Stick to Galatians/Acts/Josephus before medieval sect labels.",
-      "why_it_matters": "James is a Christian-usable 'Jewish Jesus movement' witness and a Muslim-usable 'not Pauline Trinity' witness.",
+      "counter_to_christian": "Точная христология Иакова недоопределена.",
+      "counter_to_muslim": "Эбионитская проекция часто есть апологетическая желаемая история.",
+      "crux": "Был ли центр тяжести самого раннего движения Иисуса ближе к исламу или к павловой вере во Христа?",
+      "debate_use": "Держитесь Гал / Деян / Иосифа Флавия, прежде чем средневековых ярлыков сект.",
+      "why_it_matters": "Иаков — свидетель «иудейского движения Иисуса», которым могут пользоваться христиане, и свидетель «ещё не павлова Троица», которым могут пользоваться мусульмане.",
       "live": {
-        "if_they_say": "The real Jesus movement was James, and Paul hijacked it.",
-        "you_say": "James is early and Jewish — granted. Galatians still has James in fellowship with Paul, not as a Qur'anic unitarian. 'Not Nicene yet' ≠ 'Islamic Isa.'",
-        "dont_overclaim": "Don't make James a Trinitarian church father. Don't make him a Muslim."
+        "if_they_say": "Настоящее движение Иисуса — это Иаков, а Павел его угнал.",
+        "you_say": "Иаков ранний и иудейский — принято. В Галатах Иаков всё же в общении с Павлом, а не как коранический унитарий. «Ещё не Никея» ≠ «исламский Иса».",
+        "dont_overclaim": "Не делайте Иакова тринитарным отцом церкви. Не делайте его мусульманином."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "miracles",
       "rank": 9,
-      "cluster": "Teaching",
-      "title": "Miracles: shared claim, different meaning",
+      "cluster": "Учение",
+      "title": "Чудеса: общее утверждение, разный смысл",
       "type": "history + theology",
-      "popularity": "Medium",
+      "popularity": "Средняя",
       "christian": {
-        "claim": "Miracles as kingdom signs are multiply attested; historical Jesus research often grants healer/exorcist reputation — fitting Gospels more than a minimal messenger.",
-        "case": "Sanders: Jesus was a miracle worker in reputation. Christian claim: signs cohere with authority.",
+        "claim": "Чудеса как знамения Царства множественно засвидетельствованы; исследование исторического Иисуса часто признаёт репутацию целителя / экзорциста — это лучше ложится на Евангелия, чем на минимального посланника.",
+        "case": "Sanders: Иисус по репутации был чудотворцем. Христианский тезис: знамения согласуются с властью.",
         "sources": [
           {
-            "label": "Mark 1:21–34",
+            "label": "Мк 1:21–34",
             "url": "https://www.biblegateway.com/passage/?search=Mark+1%3A21-34&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "Even skeptical historians often grant Jesus was known as an exorcist/healer (Sanders, Meier's 'marginal Jew' project).",
-            "source": "Consensus-leaning summaries",
-            "label": "Even skeptical historians often grant Jesus was known as an exorcist/healer (Sanders, Meier's 'marginal Jew' project).",
-            "note": "Consensus-leaning summaries"
+            "fact": "Даже скептические историки часто признают, что Иисус был известен как экзорцист / целитель (Sanders, проект Meier «marginal Jew»).",
+            "source": "резюме, склоняющиеся к консенсусу",
+            "label": "Даже скептические историки часто признают, что Иисус был известен как экзорцист / целитель (Sanders, проект Meier «marginal Jew»).",
+            "note": "резюме, склоняющиеся к консенсусу"
           }
         ]
       },
       "muslim": {
-        "claim": "Qur'an affirms Jesus' miracles by God's permission (5:110) — so miracle agreement doesn't award deity or crucifixion to Christians.",
-        "case": "5:110; 3:49. Shared wonder-working, Islamic interpretation.",
+        "claim": "Коран утверждает чудеса Иисуса с дозволения Бога (5:110) — так что согласие о чудесах не присуждает христианам божество или распятие.",
+        "case": "5:110; 3:49. Общее чудотворение, исламская интерпретация.",
         "sources": [
           {
-            "label": "Qur'an 5:110",
+            "label": "«Коран 5:110»",
             "url": "https://quran.com/5/110"
           },
           {
-            "label": "Qur'an 3:49",
+            "label": "«Коран 3:49»",
             "url": "https://quran.com/3/49"
           }
         ],
         "quotes": [
           {
-            "text": "I heal the blind and the leper, and I give life to the dead — by permission of Allah.",
-            "who": "Qur'an 3:49",
-            "work": "Miracles as signs, not deity",
-            "url": "https://quran.com/3/49"
+            "text": "Я исцеляю слепого и прокажённого и оживляю мёртвых — с дозволения Аллаха.",
+            "who": "«Коран 3:49»",
+            "work": "Чудеса как знамения, не божество",
+            "url": "https://quran.com/3/49",
+            "orig": "I heal the blind and the leper, and I give life to the dead — by permission of Allah."
           }
         ],
         "data_points": [
           {
-            "fact": "Clay birds: Infancy Gospel of Thomas parallel to Q 3:49 / 5:110.",
-            "source": "Standard parallel lists",
-            "label": "Clay birds: Infancy Gospel of Thomas parallel to Q 3:49 / 5:110.",
-            "note": "Standard parallel lists"
+            "fact": "Птицы из глины: параллель Infancy Gospel of Thomas к «Коран 3:49» / 5:110.",
+            "source": "стандартные списки параллелей",
+            "label": "Птицы из глины: параллель Infancy Gospel of Thomas к «Коран 3:49» / 5:110.",
+            "note": "стандартные списки параллелей"
           }
         ]
       },
-      "counter_to_christian": "Miracle reputation ≠ ontological status.",
-      "counter_to_muslim": "Agreement on miracles increases pressure to explain why Islamic historiography rejects the cross consensus.",
-      "crux": "Do miracles function as prophetic accreditation only, or as more?",
-      "debate_use": "Mark shared affirmations to isolate real disagreements.",
-      "why_it_matters": "Both books have a miracle-working Jesus. The fight is which miracles and what they mean.",
+      "counter_to_christian": "Репутация чудотворца ≠ онтологический статус.",
+      "counter_to_muslim": "Согласие о чудесах усиливает давление объяснить, почему исламская историография отвергает консенсус о кресте.",
+      "crux": "Чудеса работают только как пророческая аккредитация или как нечто большее?",
+      "debate_use": "Отметьте общие утверждения, чтобы изолировать настоящие разногласия.",
+      "why_it_matters": "В обеих книгах Иисус творит чудеса. Спор — какие чудеса и что они значат.",
       "live": {
-        "if_they_say": "Jesus' miracles prove he is God.",
-        "you_say": "Elisha and Moses do wonders too in both canons. In the Qur'an the refrain is bi-idhnillāh. Miracle ≠ hypostatic union unless you add a philosophy step.",
-        "dont_overclaim": "Don't deny the signs. Don't treat every sign as incarnation."
+        "if_they_say": "Чудеса Иисуса доказывают, что Он Бог.",
+        "you_say": "Елисей и Моисей тоже творят знамения в обоих канонах. В Коране рефрен — bi-idhnillāh. Чудо ≠ ипостасное соединение, пока вы не добавляете философский шаг.",
+        "dont_overclaim": "Не отрицайте знамения. Не трактуйте каждое знамение как воплощение."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "following-today",
       "rank": 10,
-      "cluster": "Discipleship",
-      "title": "What 'following' means: creed vs practice",
+      "cluster": "Ученичество",
+      "title": "Что значит «следовать»: символ против практики",
       "type": "ethics + history",
-      "popularity": "High",
+      "popularity": "Высокая",
       "christian": {
-        "claim": "Following Jesus includes trusting his death/resurrection and embodying Sermon ethics; Islam's Isa lacks the cross-shaped center of the historical movement.",
-        "case": "If the historical movement was cross-centered from the earliest creed, omitting it is not 'following.'",
+        "claim": "Следовать за Иисусом значит доверять Его смерти / воскресению и воплощать этику Нагорной проповеди; у исламского Исы нет крестообразного центра исторического движения.",
+        "case": "Если историческое движение было центрировано на кресте уже с самого раннего символа, опускать это — не «следование».",
         "sources": [
           {
-            "label": "1 Corinthians 15:3–5",
+            "label": "1 Кор 15:3–5",
             "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-5&version=NRSVUE"
           },
           {
-            "label": "Matthew 5–7",
+            "label": "Мф 5–7",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+5&version=NRSVUE"
           }
         ],
         "data_points": [
           {
-            "fact": "Christian claim: following includes trusting the crucified-and-risen one, not only imitating a teacher.",
-            "source": "Pauline / canonical",
-            "label": "Christian claim: following includes trusting the crucified-and-risen one, not only imitating a teacher.",
-            "note": "Pauline / canonical"
+            "fact": "Христианский тезис: следование включает доверие распятому и воскресшему, а не только подражание учителю.",
+            "source": "павлово / каноническое",
+            "label": "Христианский тезис: следование включает доверие распятому и воскресшему, а не только подражание учителю.",
+            "note": "павлово / каноническое"
           }
         ]
       },
       "muslim": {
-        "claim": "Following Jesus means tawhid, prayer, purity, and gospel ethics without later Trinity; Muslims may claim better practice of Jewish-Christian moral monotheism.",
-        "case": "Qur'an 3:51 worship God my Lord and yours. Practice tests vs creedal metaphysics.",
+        "claim": "Следовать за Иисусом значит таухид, молитва, чистота и евангельская этика без поздней Троицы; мусульмане могут утверждать лучшую практику иудео-христианского нравственного монотеизма.",
+        "case": "«Коран 3:51»: поклоняйтесь Богу, моему Господу и вашему. Проверка практикой против символической метафизики.",
         "sources": [
           {
-            "label": "Qur'an 3:51",
+            "label": "«Коран 3:51»",
             "url": "https://quran.com/3/51"
           },
           {
-            "label": "Qur'an 19:36",
+            "label": "«Коран 19:36»",
             "url": "https://quran.com/19/36"
           }
         ],
         "data_points": [
           {
-            "fact": "Islamic claim: following Jesus means tawhid, prayer, and accepting the prophet who comes after — not Nicene worship.",
-            "source": "Q 61:6 used in this slot",
-            "label": "Islamic claim: following Jesus means tawhid, prayer, and accepting the prophet who comes after — not Nicene worship.",
-            "note": "Q 61:6 used in this slot"
+            "fact": "Исламский тезис: следовать за Иисусом значит таухид, молитва и принятие пророка, который приходит после, — не никейское поклонение.",
+            "source": "«Коран 61:6» в этом слоте",
+            "label": "Исламский тезис: следовать за Иисусом значит таухид, молитва и принятие пророка, который приходит после, — не никейское поклонение.",
+            "note": "«Коран 61:6» в этом слоте"
           }
         ]
       },
-      "counter_to_christian": "Creeds can displace Sermon practice — hypocrisy risk.",
-      "counter_to_muslim": "Moral monotheism without the movement's death/resurrection kerygma may be a different religion's Jesus.",
-      "crux": "Is 'following Jesus' primarily orthodoxy about his identity or orthopraxy of his teaching?",
-      "debate_use": "Split the ballot: identity score and practice score.",
-      "why_it_matters": "Tie-breaker when history is messy: what does 'follow Jesus' mean as a life?",
+      "counter_to_christian": "Символы могут вытеснить практику Проповеди — риск лицемерия.",
+      "counter_to_muslim": "Нравственный монотеизм без керигмы смерти / воскресения движения может быть Иисусом другой религии.",
+      "crux": "«Следовать за Иисусом» — прежде всего ортодоксия о Его идентичности или ортопраксия Его учения?",
+      "debate_use": "Разделите бюллетень: балл за идентичность и балл за практику.",
+      "why_it_matters": "Тай-брейк, когда история запутанна: что значит «следовать за Иисусом» как жизнь?",
       "live": {
-        "if_they_say": "We follow Jesus more because we don't worship him.",
-        "you_say": "Define follow: imitate ethics, obey Torah, accept his self-claim, or accept later revelation about him? Those yield four different winners.",
-        "dont_overclaim": "Don't let 'follow' stay undefined. That's how this round is stolen."
+        "if_they_say": "Мы больше следуем за Иисусом, потому что не поклоняемся Ему.",
+        "you_say": "Определите «следовать»: подражать этике, соблюдать Тору, принять Его самопритязание или принять позднее откровение о Нём? Это даёт четырёх разных победителей.",
+        "dont_overclaim": "Не оставляйте «следовать» неопределённым. Так крадут раунд."
       },
-      "importance": "Top 10"
+      "importance": "Топ-10"
     },
     {
       "id": "ally-white-jesus",
       "live": {
-        "if_they_say": "The Ally–White debates already showed the Islamic Jesus wins historically.",
-        "you_say": "Steal White's method-symmetry and Ally's critical-NT questions. Then put crucifixion and 1 Cor 15 on the table. A debate is a map, not a verdict.",
-        "dont_overclaim": "Don't outsource your case to a YouTube comment section."
+        "if_they_say": "Дебаты Ally–White уже показали, что исламский Иисус исторически побеждает.",
+        "you_say": "Берите у White симметрию метода и у Ally критические вопросы к НЗ. Затем положите на стол распятие и 1 Кор 15. Дебат — карта, не вердикт.",
+        "dont_overclaim": "Не отдавайте свой тезис на аутсорс комментариям YouTube."
       }
     },
     {
       "id": "ehrman-birth-narratives",
       "rank": 11,
-      "cluster": "Gospel reliability (Ehrman)",
-      "title": "Ehrman: Matthew vs Luke birth narratives",
+      "cluster": "Надёжность Евангелий (Ehrman)",
+      "title": "Ehrman: рассказы о рождении у Матфея и Луки",
       "type": "history",
-      "popularity": "High",
-      "importance": "high",
-      "why_it_matters": "Christmas harmonies hide mutually exclusive itineraries. If birth stories collide on timing and geography, 'historically reliable Gospels' cannot mean both accounts as stenography.",
+      "popularity": "Высокая",
+      "importance": "высокая",
+      "why_it_matters": "Рождественские гармонии прячут взаимно исключающие маршруты. Если рассказы о рождении сталкиваются по времени и географии, «исторически надёжные Евангелия» не могут значить оба рассказа как стенографию.",
       "christian": {
-        "claim": "Differences are complementary or literary; core virgin birth in Bethlehem and Nazareth upbringing stand. Silence elsewhere does not equal denial.",
-        "case": "Ancient biography allows selection and compression. Magi and shepherds need not be in one scene. Some propose Egypt after the temple visit, or different chronologies for Herod/Quirinius. Genealogies may serve legal vs biological lines.",
+        "claim": "Различия дополнительны или литературны; ядро девственного рождения в Вифлееме и воспитания в Назарете стоит. Молчание в других местах не равно отрицанию.",
+        "case": "Античная биография допускает отбор и сжатие. Волхвы и пастухи не обязаны быть в одной сцене. Некоторые предлагают Египет после посещения храма или разные хронологии для Ирода / Квириния. Родословия могут служить юридической vs биологической линии.",
         "sources": [
           {
-            "label": "Ehrman vs Akin / gospel reliability clip",
+            "label": "Ehrman vs Akin / клип о надёжности Евангелий",
             "url": "https://youtu.be/9OyaV_tMQTM"
           },
           {
-            "label": "Matthew 1–2",
+            "label": "Мф 1–2",
             "url": "https://www.biblegateway.com/passage/?search=Matthew+1-2&version=NRSVUE"
           },
           {
-            "label": "Luke 1–2",
+            "label": "Лк 1–2",
             "url": "https://www.biblegateway.com/passage/?search=Luke+1-2&version=NRSVUE"
           }
         ]
       },
       "muslim": {
-        "claim": "Under public history, Mt and Lk cannot both be right: Egypt until Herod dies vs return to Nazareth at ~40 days. Empire-wide ancestral census and Bethlehem massacre lack external corroboration. Virgin birth is thinly attested (Mt/Lk only).",
-        "case": "Ehrman (debate video): list events in Mt then Lk — start points, Egypt vs temple presentation (Lev 12), genealogies (Jacob/Heli; Solomon/Nathan). Either one is wrong or both are. Useful for undercutting inerrant Christmas narrative without denying a historical Jesus.",
+        "claim": "При публичной истории Мф и Лк не могут быть оба правы: Египет до смерти Ирода против возвращения в Назарет примерно на 40-й день. Общеимперская перепись по предкам и вифлеемская резня не имеют внешнего подтверждения. Девственное рождение слабо засвидетельствовано (только Мф / Лк).",
+        "case": "Ehrman (видео дебата): перечислите события у Мф, затем у Лк — точки старта, Египет против представления в храме (Лев 12), родословия (Иаков / Илий; Соломон / Нафан). Либо один неправ, либо оба. Полезно подрезать безошибочный рождественский нарратив, не отрицая исторического Иисуса.",
         "sources": [
           {
-            "label": "YouTube — Ehrman gospel reliability arguments",
+            "label": "YouTube — доводы Ehrman о надёжности Евангелий",
             "url": "https://youtu.be/9OyaV_tMQTM"
           },
           {
-            "label": "Leviticus 12 (40-day presentation logic)",
+            "label": "Лев 12 (логика представления на ~40-й день)",
             "url": "https://www.biblegateway.com/passage/?search=Leviticus+12&version=NRSVUE"
           }
         ]
       },
-      "counter_to_christian": "Literary license that invents incompatible timelines is still historical unreliability on the motion.",
-      "counter_to_muslim": "Ehrman still affirms a historical Jesus; birth-story failure ≠ mythicism or Qur'anic Isa by default.",
-      "crux": "Can Matthew's Egypt sojourn and Luke's 40-day Nazareth return both be historically true?",
-      "debate_use": "Force two columns on a whiteboard: Mt 1–2 vs Lk 1–2. No mashed Christmas pageant.",
+      "counter_to_christian": "Литературная свобода, которая изобретает несовместимые хронологии, всё равно есть историческая ненадёжность по регламенту.",
+      "counter_to_muslim": "Ehrman всё же утверждает исторического Иисуса; провал рассказов о рождении ≠ мифицизм или коранический Иса по умолчанию.",
+      "crux": "Могут ли пребывание в Египте у Матфея и возвращение в Назарет на 40-й день у Луки оба быть исторически истинными?",
+      "debate_use": "Заставьте два столбца на доске: Мф 1–2 против Лк 1–2. Без смешанного рождественского спектакля.",
       "counters": {
-        "to_christian": "Harmonizations that rewrite Luke's 'returned to Nazareth' after the temple still leave Quirinius/Herod and massacre-evidence problems.",
-        "to_muslim": "Critical doubt about infancy narratives does not automatically vindicate 7th-century Christology."
+        "to_christian": "Гармонизации, которые переписывают лукино «вернулись в Назарет» после храма, всё равно оставляют проблемы Квириний / Ирод и свидетельства о резне.",
+        "to_muslim": "Критическое сомнение в младенческих нарративах само по себе не оправдывает христологию VII века."
       },
       "live": [
-        "Ask: where does the family live before the birth — Bethlehem (Mt) or Nazareth (Lk)?",
-        "Ask: after birth — Egypt for months/years, or temple at day ~40 then Nazareth?"
+        "Спросите: где семья живёт до рождения — Вифлеем (Мф) или Назарет (Лк)?",
+        "Спросите: после рождения — Египет на месяцы / годы или храм примерно на 40-й день, затем Назарет?"
       ]
     },
     {
       "id": "ehrman-resurrection-locales",
       "rank": 12,
-      "cluster": "Gospel reliability (Ehrman)",
-      "title": "Ehrman: Galilee vs Jerusalem resurrection appearances",
+      "cluster": "Надёжность Евангелий (Ehrman)",
+      "title": "Ehrman: явления воскресения в Галилее против Иерусалима",
       "type": "history",
-      "popularity": "High",
-      "importance": "high",
-      "why_it_matters": "Empty-tomb outline is shared; first appearance geography and the women's silence/speech diverge in ways Ehrman treats as irreconcilable for 'reliable history' claims.",
+      "popularity": "Высокая",
+      "importance": "высокая",
+      "why_it_matters": "Контур пустой гробницы общий; география первого явления и молчание / речь женщин расходятся так, что Ehrman считает это непримиримым для заявлений о «надёжной истории».",
       "christian": {
-        "claim": "Multiple appearances across locales are possible; Mark's shorter ending is incomplete, not a denial. Luke emphasizes Jerusalem for Acts continuity; Matthew preserves Galilee tradition.",
-        "case": "Compositional devices and telescoping. 1 Cor 15 lists appearances without forcing one geography. Reliability of the resurrection proclamation can survive narrative variation.",
+        "claim": "Множественные явления в разных местах возможны; более короткое окончание Марка неполно, а не отрицание. Лука делает ударение на Иерусалиме ради непрерывности с Деяниями; Матфей сохраняет галилейское предание.",
+        "case": "Композиционные приёмы и телескопирование. 1 Кор 15 перечисляет явления, не навязывая одну географию. Надёжность провозглашения воскресения может пережить нарративную вариацию.",
         "sources": [
           {
-            "label": "Ehrman debate clip on resurrection differences",
+            "label": "Клип дебата Ehrman о различиях в рассказах о воскресении",
             "url": "https://youtu.be/9OyaV_tMQTM"
           },
           {
-            "label": "1 Corinthians 15:3–8",
+            "label": "1 Кор 15:3–8",
             "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-8&version=NRSVUE"
           }
         ]
       },
       "muslim": {
-        "claim": "Mark: women flee and tell no one (short ending) vs Mt/Lk/Jn: they tell immediately. Mark/Matthew push Galilee; Luke (+ Acts) lock disciples in Jerusalem ('do not leave'). Both first-meeting maps cannot be stenographic history.",
-        "case": "Ehrman's exercise: list each Gospel's post-empty-tomb sequence. Major event geography flipping is not a 'minor detail' if the motion is historical reliability of the narratives.",
+        "claim": "Марк: женщины бегут и никому не говорят (короткое окончание) против Мф / Лк / Ин: они говорят сразу. Марк / Матфей толкают в Галилею; Лука (+ Деян) запирает учеников в Иерусалиме («не отлучайтесь»). Обе карты первой встречи не могут быть стенографической историей.",
+        "case": "Упражнение Ehrman: перечислите у каждого Евангелия последовательность после пустой гробницы. Переворот географии главного события — не «мелочь», если регламент — историческая надёжность нарративов.",
         "sources": [
           {
-            "label": "YouTube — Ehrman on resurrection narratives",
+            "label": "YouTube — Ehrman о нарративах воскресения",
             "url": "https://youtu.be/9OyaV_tMQTM"
           },
           {
-            "label": "Mark 16:1–8",
+            "label": "Мк 16:1–8",
             "url": "https://www.biblegateway.com/passage/?search=Mark+16%3A1-8&version=NRSVUE"
           },
           {
-            "label": "Luke 24 / Acts 1",
+            "label": "Лк 24 / Деян 1",
             "url": "https://www.biblegateway.com/passage/?search=Luke+24%3A36-53%3B+Acts+1%3A1-8&version=NRSVUE"
           }
         ]
       },
-      "counter_to_christian": "If 'do not leave Jerusalem' and 'go to Galilee for the first meeting' are both literal, the timeline breaks.",
-      "counter_to_muslim": "Narrative conflict ≠ proof no appearances occurred; it challenges Gospel-as-camera reliability.",
-      "crux": "Where did the disciples first meet the risen Jesus — Galilee or Jerusalem — and did the women tell anyone?",
-      "debate_use": "Separate 'early belief that something happened' from 'these four scripts are jointly historically precise.'",
+      "counter_to_christian": "Если «не отлучайтесь из Иерусалима» и «идите в Галилею на первую встречу» оба буквальны, хронология ломается.",
+      "counter_to_muslim": "Конфликт нарративов ≠ доказательство, что явлений не было; он бьёт по надёжности «Евангелие как камера».",
+      "crux": "Где ученики впервые встретили воскресшего Иисуса — в Галилее или в Иерусалиме — и сказали ли женщины кому-нибудь?",
+      "debate_use": "Отделите «раннюю веру, что нечто произошло» от «эти четыре сценария совместно исторически точны».",
       "counters": {
-        "to_christian": "Appealing to missing Mark ending concedes the extant Mark story ends without public proclamation.",
-        "to_muslim": "Paul's early creed still needs addressing even if Gospel endings diverge."
+        "to_christian": "Апелляция к отсутствующему окончанию Марка признаёт: дошедший рассказ Марка кончается без публичного провозглашения.",
+        "to_muslim": "Ранний символ Павла всё равно нужно разбирать, даже если окончания Евангелий расходятся."
       },
       "live": [
-        "Have opponent read Mark 16:8 aloud without the longer ending.",
-        "Contrast Matthew 28:16 with Luke 24:49 / Acts 1:4."
+        "Пусть оппонент прочтёт Мк 16:8 вслух без более длинного окончания.",
+        "Противопоставьте Мф 28:16 и Лк 24:49 / Деян 1:4."
       ]
     },
     {
       "id": "ehrman-synoptic-vs-john-deity",
       "rank": 13,
-      "cluster": "Gospel reliability (Ehrman)",
-      "title": "Ehrman: Synoptic kingdom preaching vs Johannine deity claims",
+      "cluster": "Надёжность Евангелий (Ehrman)",
+      "title": "Ehrman: синоптическая проповедь Царства против Иоанновых притязаний на божество",
       "type": "history",
-      "popularity": "Very high",
-      "importance": "high",
-      "why_it_matters": "If Jesus publicly claimed deity as in John, silence in Mark/Q/M/L is historically surprising. Central for 'did the historical Jesus claim to be God?'",
+      "popularity": "Очень высокая",
+      "importance": "высокая",
+      "why_it_matters": "Если Иисус публично претендовал на божество, как в Иоанне, молчание Мк / Q / M / L исторически удивительно. Центрально для вопроса: «претендовал ли исторический Иисус быть Богом?»",
       "christian": {
-        "claim": "Different audiences and themes; Synoptics imply authority (forgiveness, Son of Man, worship) without John's idiom. John interprets truly rather than inventing.",
-        "case": "High Christology appears early outside John (e.g. Phil 2). Explicit 'I AM' style may be Johannine voice while still tracking Jesus' identity. Silence is not always absence.",
+        "claim": "Разные аудитории и темы; синоптики подразумевают власть (прощение, Сын Человеческий, поклонение) без идиома Иоанна. Иоанн истинно толкует, а не изобретает.",
+        "case": "Высокая христология появляется рано и вне Иоанна (напр. Флп 2). Явный стиль «Я есмь» может быть голосом Иоанна, всё же держа идентичность Иисуса. Молчание не всегда отсутствие.",
         "sources": [
           {
-            "label": "Ehrman clip — Synoptics vs John on self-claims",
+            "label": "Клип Ehrman — синоптики против Иоанна о самопритязаниях",
             "url": "https://youtu.be/9OyaV_tMQTM"
           },
           {
-            "label": "Mark 1:15",
+            "label": "Мк 1:15",
             "url": "https://www.biblegateway.com/passage/?search=Mark+1%3A15&version=NRSVUE"
           },
           {
-            "label": "John 8:58; 10:30; 14:9",
+            "label": "Ин 8:58; 10:30; 14:9",
             "url": "https://www.biblegateway.com/passage/?search=John+8%3A58%3B+10%3A30%3B+14%3A9&version=NRSVUE"
           }
         ]
       },
       "muslim": {
-        "claim": "Synoptics: kingdom of God dominates; open deity self-claims are missing. John: I AM sayings, 'before Abraham was, I am,' 'I and the Father are one.' Earlier sources Mk/Q/M/L lack this — Ehrman: John is not reporting what Jesus really said.",
-        "case": "Use for method-consistent Christology debates: critical scholarship often brackets Johannine discourses. Does not by itself prove Qur'anic Isa, but undercuts 'Bible Jesus obviously claimed to be God' as a historical slam-dunk.",
+        "claim": "Синоптики: господствует Царство Божие; открытых самопритязаний на божество нет. Иоанн: речения «Я есмь», «прежде нежели был Авраам, Я есмь», «Я и Отец — одно». Более ранние источники Мк / Q / M / L этого не имеют — Ehrman: Иоанн не сообщает, что Иисус действительно сказал.",
+        "case": "Используйте для христологических дебатов с последовательным методом: критическая наука часто берёт Иоанновы речи в скобки. Само по себе это не доказывает коранического Ису, но подрезает «библейский Иисус очевидно претендовал быть Богом» как исторический нокаут.",
         "sources": [
           {
-            "label": "YouTube — Ehrman on Jesus' self-claims",
+            "label": "YouTube — Ehrman о самопритязаниях Иисуса",
             "url": "https://youtu.be/9OyaV_tMQTM"
           }
         ]
       },
-      "counter_to_christian": "If the clearest deity claims are late and singular, 'historical Jesus claimed to be God' needs non-John scaffolding.",
-      "counter_to_muslim": "Low Synoptic self-talk ≠ Islamic denial of crucifixion; keep claims scoped.",
-      "crux": "Would earlier Gospel sources omit years of public 'I am God' preaching if that were Jesus' main message?",
-      "debate_use": "Define 'claim to be God' before quoting John. Then ask what Synoptic parallel carries the same payload.",
+      "counter_to_christian": "Если самые ясные притязания на божество поздние и единичные, «исторический Иисус претендовал быть Богом» нуждается в каркасе вне Иоанна.",
+      "counter_to_muslim": "Низкая синоптическая саморечь ≠ исламское отрицание распятия; держите тезисы в рамках.",
+      "crux": "Опустили бы более ранние евангельские источники годы публичной проповеди «Я — Бог», если бы это было главным посланием Иисуса?",
+      "debate_use": "Определите «претендовать быть Богом», прежде чем цитировать Иоанна. Затем спросите, какой синоптический параллель несёт ту же нагрузку.",
       "counters": {
-        "to_christian": "Philippians 2 is early Christian confession, not a Synoptic saying of Jesus.",
-        "to_muslim": "Ehrman still rejects mythicism and affirms crucifixion — don't over-claim his brief."
+        "to_christian": "Флп 2 — раннее христианское исповедание, а не синоптическое изречение Иисуса.",
+        "to_muslim": "Ehrman всё же отвергает мифицизм и утверждает распятие — не переигрывайте его бриф."
       },
       "live": [
-        "Contrast Mark 1:15 with John 8:58 in two sentences.",
-        "Ask which sayings survive if John is set aside for historical Jesus work."
+        "Противопоставьте Мк 1:15 и Ин 8:58 двумя предложениями.",
+        "Спросите, какие изречения выживают, если Иоанна отложить для работы об историческом Иисусе."
       ]
     },
     {
       "id": "ehrman-crucifixion-portraits",
       "rank": 14,
-      "cluster": "Gospel reliability (Ehrman)",
-      "title": "Ehrman: Mark's forsaken Jesus vs Luke's composed Jesus",
+      "cluster": "Надёжность Евангелий (Ehrman)",
+      "title": "Ehrman: оставленный Иисус Марка против собранного Иисуса Луки",
       "type": "history",
-      "popularity": "High",
-      "importance": "high",
-      "why_it_matters": "Even at the death scene — Christianity's center — Mark and Luke give incompatible psychological/theological portraits. Harmonized 'seven last words' erase each evangelist's message.",
+      "popularity": "Высокая",
+      "importance": "высокая",
+      "why_it_matters": "Даже в сцене смерти — центре христианства — Марк и Лука дают несовместимые психологические / богословские портреты. Гармонизированные «семь последних слов» стирают послание каждого евангелиста.",
       "christian": {
-        "claim": "Different emphases of the same event; Jesus could say more than one Gospel records. Mark highlights Psalm 22; Luke highlights forgiveness and trust.",
-        "case": "Selective reporting is normal. Historical crucifixion stands (including on Ehrman's view); portrait differences are theological accent, not denial of the event.",
+        "claim": "Разные акценты одного события; Иисус мог сказать больше, чем записывает одно Евангелие. Марк выделяет Пс 22; Лука — прощение и доверие.",
+        "case": "Избирательная запись нормальна. Историческое распятие стоит (в том числе на взгляде Ehrman); различия портретов — богословский акцент, не отрицание события.",
         "sources": [
           {
-            "label": "Ehrman rebuttal — Mark vs Luke death scenes",
+            "label": "Возражение Ehrman — сцены смерти у Марка и Луки",
             "url": "https://youtu.be/9OyaV_tMQTM"
           },
           {
-            "label": "Mark 15:34",
+            "label": "Мк 15:34",
             "url": "https://www.biblegateway.com/passage/?search=Mark+15%3A34&version=NRSVUE"
           },
           {
-            "label": "Luke 23:28–46",
+            "label": "Лк 23:28–46",
             "url": "https://www.biblegateway.com/passage/?search=Luke+23%3A28-46&version=NRSVUE"
           }
         ]
       },
       "muslim": {
-        "claim": "Mark: near-total silence, ends with 'My God, my God, why have you forsaken me?' Luke: speaks to weeping women, 'Father forgive them,' paradise to the criminal, 'into your hands I commit my spirit' — calm control. These are different Jesuses at the climactic moment if read as verbatim history.",
-        "case": "Ehrman: stop smashing Gospels into one film. Each author teaches; joint stenography fails. Still pair with honesty: Ehrman thinks the crucifixion event itself happened.",
+        "claim": "Марк: почти полное молчание, кончается «Боже Мой, Боже Мой! для чего Ты Меня оставил?» Лука: говорит плачущим женщинам, «Отче! прости им», рай разбойнику, «в руки Твои предаю дух Мой» — спокойный контроль. Это разные Иисусы в кульминационный момент, если читать как дословную историю.",
+        "case": "Ehrman: перестаньте сминать Евангелия в один фильм. Каждый автор учит; совместная стенография не работает. При этом честно: Ehrman считает, что само событие распятия произошло.",
         "sources": [
           {
-            "label": "YouTube — Ehrman Mark vs Luke crucifixion",
+            "label": "YouTube — Ehrman, распятие у Марка и Луки",
             "url": "https://youtu.be/9OyaV_tMQTM"
           }
         ]
       },
-      "counter_to_christian": "If every saying is historical, Mark's forsakenness and Luke's serene control compete as the dominant last note.",
-      "counter_to_muslim": "Literary theology at the cross ≠ 'Jesus was not crucified.'",
-      "crux": "Are Mark 15 and Luke 23 two angles on one transcript, or two theological constructions of the death?",
-      "debate_use": "Read Mark's passion ending and Luke's back-to-back without harmonizing. Ask what each author wants you to feel.",
+      "counter_to_christian": "Если каждое изречение исторично, оставленность Марка и безмятежный контроль Луки соперничают как господствующая последняя нота.",
+      "counter_to_muslim": "Литературное богословие у креста ≠ «Иисуса не распинали».",
+      "crux": "Мк 15 и Лк 23 — два ракурса одной стенограммы или две богословские конструкции смерти?",
+      "debate_use": "Прочтите окончание страстей Марка и Луки подряд без гармонизации. Спросите, что каждый автор хочет, чтобы вы почувствовали.",
       "counters": {
-        "to_christian": "'He said all of it' creates a Jesus who both despairs of God and serenely entrusts himself without explaining the shift.",
-        "to_muslim": "Do not trade this card for denying the cross against historical consensus."
+        "to_christian": "«Он сказал всё это» создаёт Иисуса, который и отчаивается в Боге, и безмятежно вверяет себя — без объяснения сдвига.",
+        "to_muslim": "Не меняйте эту карточку на отрицание креста против исторического консенсуса."
       },
       "live": [
-        "Ban 'seven last words' for one minute; force single-Gospel reading.",
-        "Tie back to crucifixion-consensus: event vs speech-portrait."
+        "Запретите «семь последних слов» на одну минуту; заставьте чтение одного Евангелия.",
+        "Верните к консенсусу о распятии: событие против речевого портрета."
       ]
     }
   ],
   "materials": [
     {
       "id": "p52",
-      "title": "Papyrus 𝔓52 (Rylands) — John 18",
-      "kind": "NT papyrus",
-      "date": "Usually early–mid 2nd c. CE (debated)",
-      "significance": "Tiny fragment of John 18; among the earliest surviving NT witnesses. Proves a Johannine text was circulating in Egypt within ~100 years of composition — not photographic proof of events, but strong early textuality evidence.",
-      "debate_use": "Use against 'Gospels invented in 4th century.' Do not overclaim 'proves inerrancy.'",
+      "title": "Папирус 𝔓52 (Rylands) — Ин 18",
+      "kind": "Папирус НЗ",
+      "date": "Обычно начало–середина II в. н. э. (оспаривается)",
+      "significance": "Крошечный фрагмент Ин 18; среди древнейших сохранившихся свидетелей НЗ. Доказывает, что иоанновский текст циркулировал в Египте в пределах ~100 лет от составления — не фотографическое доказательство событий, но сильная ранняя текстуальная улика.",
+      "debate_use": "Против «Евангелия выдумали в IV веке». Не переигрывайте «доказывает безошибочность».",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/P52_recto.jpg",
       "viewer_url": "https://manuscripts.csntm.org/Manuscript/View/GA_P52",
       "sources": [
@@ -1090,16 +1193,16 @@ window.TOPIC_DATA = {
     },
     {
       "id": "sinaiticus",
-      "title": "Codex Sinaiticus (א)",
-      "kind": "Greek Bible codex",
-      "date": "Mid-4th c. CE",
-      "significance": "Nearly complete Greek Bible including NT. Landmark for reconstructing the early text; also contains famous readings (e.g. ending of Mark issues) that honest Christian apologetics must own.",
-      "debate_use": "Open the digital leaf live if possible. Transparency > slogan.",
+      "title": "Синайский кодекс (א)",
+      "kind": "Греческий библейский кодекс",
+      "date": "Середина IV в. н. э.",
+      "significance": "Почти полная греческая Библия, включая НЗ. Ориентир для реконструкции раннего текста; также содержит знаменитые чтения (напр. проблемы окончания Марка), которые честная христианская апологетика должна признать.",
+      "debate_use": "Откройте цифровой лист вживую, если возможно. Прозрачность > лозунг.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Codex_Sinaiticus.jpg/960px-Codex_Sinaiticus.jpg",
       "viewer_url": "https://codexsinaiticus.org/en/manuscript.aspx",
       "sources": [
         {
-          "label": "Codex Sinaiticus Project",
+          "label": "Проект Codex Sinaiticus",
           "url": "https://codexsinaiticus.org/en/"
         }
       ],
@@ -1107,11 +1210,11 @@ window.TOPIC_DATA = {
     },
     {
       "id": "dss",
-      "title": "Dead Sea Scrolls — Great Isaiah Scroll",
-      "kind": "Jewish manuscript corpus",
-      "date": "c. 3rd c. BCE – 1st c. CE",
-      "significance": "Pushes Hebrew Bible textual history back centuries before Islam. Shows substantial continuity with later MT and also real plurality (MT/LXX-like types). Context for Jesus' Judaism.",
-      "debate_use": "Destroys 'OT invented in Middle Ages.' Does not prove zero variation.",
+      "title": "Свитки Мёртвого моря — Великий свиток Исаии",
+      "kind": "Корпус еврейских рукописей",
+      "date": "ок. III в. до н. э. – I в. н. э.",
+      "significance": "Отодвигает текстуальную историю еврейской Библии на века до ислама. Показывает существенную преемственность с поздним МТ и также реальную множественность (типы МТ/LXX). Контекст иудаизма Иисуса.",
+      "debate_use": "Разбивает «ВЗ выдумали в Средние века». Не доказывает ноль варьирования.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Isaiah_Scroll.jpg/960px-Great_Isaiah_Scroll.jpg",
       "viewer_url": "https://www.deadseascrolls.org.il/",
       "sources": [
@@ -1120,7 +1223,7 @@ window.TOPIC_DATA = {
           "url": "https://www.deadseascrolls.org.il/"
         },
         {
-          "label": "Digital DSS (IMJ)",
+          "label": "Цифровые DSH (IMJ)",
           "url": "https://dss.collections.imj.org.il/"
         }
       ],
@@ -1128,24 +1231,24 @@ window.TOPIC_DATA = {
     },
     {
       "id": "birmingham",
-      "title": "Birmingham Qur'an folios (Mingana 1572a)",
-      "kind": "Early Hijazi Qur'an",
-      "date": "Parchment C-14 often cited 568–645 CE",
-      "significance": "High-profile early Qur'anic leaves. Media overclaimed 'oldest Qur'an'; academically: dates parchment, not ink; text is early Uthmanic-type. Strong proximity evidence.",
-      "debate_use": "Affirm impressiveness; force C-14 literacy (parchment vs writing event).",
+      "title": "Бирмингемские коранические листы (Mingana 1572a)",
+      "kind": "Ранний хиджазский Коран",
+      "date": "Пергамен C-14 часто цитируют 568–645 н. э.",
+      "significance": "Громкие ранние коранические листы. СМИ переиграли «древнейший Коран»; академически: датирует пергамен, не чернила; текст раннего усмановского типа. Сильная улика близости.",
+      "debate_use": "Признайте впечатляемость; вынудите грамотность C-14 (пергамен vs событие письма).",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Birmingham_Quran_manuscript_folio_1_recto.jpg/960px-Birmingham_Quran_manuscript_folio_1_recto.jpg",
       "viewer_url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world",
       "sources": [
         {
-          "label": "Birmingham announcement",
+          "label": "Объявление Бирмингема",
           "url": "https://www.birmingham.ac.uk/news-archive/2015/birmingham-quran-manuscript-dated-among-the-oldest-in-the-world"
         },
         {
-          "label": "Islamic Awareness C-14 dossier",
+          "label": "Досье Islamic Awareness по C-14",
           "url": "https://www.islamic-awareness.org/quran/text/mss/radio"
         },
         {
-          "label": "VMR Mingana leaf",
+          "label": "Лист VMR Mingana",
           "url": "http://vmr.bham.ac.uk/Collections/Mingana/Islamic_Arabic_1572a/table/"
         }
       ],
@@ -1153,16 +1256,16 @@ window.TOPIC_DATA = {
     },
     {
       "id": "sanaa",
-      "title": "Ṣanʿāʾ palimpsest (DAM 01-27.1 / C-1)",
-      "kind": "Qur'an palimpsest",
-      "date": "Lower text 7th c. (non-Uthmanic type)",
-      "significance": "Only substantial manuscript witness to a non-Uthmanic Qur'anic text-type. Word/phrase variants; Sadeghi stemmatics argue Uthmanic closer to prototype. Challenges folk clone-identity; supports early multiplicity.",
-      "debate_use": "Both sides can use it — know BOTH uses before the round.",
+      "title": "Палимпсест Ṣanʿāʾ (DAM 01-27.1 / C-1)",
+      "kind": "Коранический палимпсест",
+      "date": "Нижний текст VII в. (неусмановский тип)",
+      "significance": "Единственный существенный рукописный свидетель неусмановского коранического текстотипа. Варианты слов/фраз; стемматика Sadeghi утверждает, что усмановский ближе к прототипу. Бьёт народное клоновое тождество; поддерживает раннюю множественность.",
+      "debate_use": "Обе стороны могут его использовать — знайте ОБА применения до раунда.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Sanaa_manuscript.jpg/960px-Sanaa_manuscript.jpg",
       "viewer_url": "https://en.wikipedia.org/wiki/Sanaa_manuscript",
       "sources": [
         {
-          "label": "Islamic Awareness Sanaa dossier",
+          "label": "Досье Islamic Awareness по Санаа",
           "url": "https://www.islamic-awareness.org/quran/text/mss/soth.html"
         },
         {
@@ -1178,11 +1281,11 @@ window.TOPIC_DATA = {
     },
     {
       "id": "p46",
-      "title": "Papyrus 𝔓46 — Pauline letters",
-      "kind": "NT papyrus",
-      "date": "c. 200 CE (approx.)",
-      "significance": "Early collection of Paul. Relevant to historicity because Paul's letters (50s) are earliest Christian literature and already contain high Christology + crucifixion kerygma.",
-      "debate_use": "Bridge from manuscripts to content: early text + early theology of the cross.",
+      "title": "Папирус 𝔓46 — письма Павла",
+      "kind": "Папирус НЗ",
+      "date": "ок. 200 н. э. (прибл.)",
+      "significance": "Раннее собрание Павла. Релевантно историчности, потому что письма Павла (50-е) — древнейшая христианская литература и уже содержат высокую христологию + керигму распятия.",
+      "debate_use": "Мост от рукописей к содержанию: ранний текст + раннее богословие креста.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/P46.jpg",
       "viewer_url": "https://en.wikipedia.org/wiki/Papyrus_46",
       "sources": [
@@ -1201,59 +1304,59 @@ window.TOPIC_DATA = {
   "debates": [
     {
       "id": "ally-white-jesus",
-      "title": "Jesus in Bible and Qur'an debates",
+      "title": "Дебаты об Иисусе в Библии и Коране",
       "year": null,
-      "venue": "Public apologetics",
+      "venue": "Публичная апологетика",
       "participants": [
         "Shabir Ally",
-        "James White / others"
+        "Иак White / другие"
       ],
       "sides": {
-        "christian": "High Christology + history",
-        "muslim": "Unitarian Synoptic Jesus + Qur'an"
+        "christian": "Высокая христология + история",
+        "muslim": "Унитарный синоптический Иисус + Коран"
       },
-      "motion": "Who was Jesus / who represents him?",
-      "summary": "Ally leverages critical scholarship against deity; Christians press consistency on crucifixion and early worship.",
+      "motion": "Кем был Иисус / кто Его представляет?",
+      "summary": "Ally использует критическую науку против божества; христиане давят на последовательность относительно распятия и раннего поклонения.",
       "what_to_steal": [
-        "Method consistency test",
-        "Force crucifixion before Christology stacking"
+        "Тест последовательности метода",
+        "Заставьте распятие прежде надстройки христологии"
       ],
       "links": [
         {
-          "label": "Ehrman blog on Qur'an vs historical Jesus",
+          "label": "Блог Ehrman — Коран против исторического Иисуса",
           "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
         }
       ]
     },
     {
       "id": "ehrman-akin-reliability",
-      "title": "Are the Gospels historically unreliable? (Ehrman opening arguments)",
+      "title": "Исторически ли ненадёжны Евангелия? (вступительные доводы Ehrman)",
       "year": null,
-      "venue": "YouTube debate clip",
+      "venue": "Клип дебата на YouTube",
       "participants": [
         "Bart D. Ehrman",
         "Jimmy Akin"
       ],
       "sides": {
-        "christian": "Gospels historically reliable (major/intermediate claims)",
-        "muslim": "Use Ehrman's critical wedges on birth, resurrection locales, self-claims, passion portraits"
+        "christian": "Евангелия исторически надёжны (главные / промежуточные утверждения)",
+        "muslim": "Используйте критические клинья Ehrman: рождение, места воскресения, самопритязания, портреты страстей"
       },
-      "motion": "Are the Gospels historically unreliable?",
-      "summary": "Ehrman grants a historical core (Jewish apocalyptic preacher, disciples, Passover Jerusalem, crucifixion) but argues major unreliability in birth narratives (Mt vs Lk), resurrection appearance geography, Synoptic vs Johannine self-claims, and Mark vs Luke crucifixion portrayals.",
+      "motion": "Исторически ли ненадёжны Евангелия?",
+      "summary": "Ehrman признаёт историческое ядро (иудейский апокалиптический проповедник, ученики, пасхальный Иерусалим, распятие), но спорит о крупной ненадёжности рассказов о рождении (Мф против Лк), географии явлений воскресения, синоптических против Иоанновых самопритязаний и портретов распятия у Марка и Луки.",
       "key_moves": [
-        "Whiteboard Mt 1–2 vs Lk 1–2 itineraries",
-        "Galilee vs Jerusalem first appearances",
-        "Kingdom preaching vs Johannine I AM",
-        "Mark forsaken vs Luke composed — don't mash last words"
+        "Доска: маршруты Мф 1–2 против Лк 1–2",
+        "Первые явления: Галилея против Иерусалима",
+        "Проповедь Царства против Иоаннова «Я есмь»",
+        "Оставленный Марк против собранного Луки — не сминайте последние слова"
       ],
       "what_to_steal": [
-        "Separate historical core from narrative reliability",
-        "Force single-Gospel reading before harmonization",
-        "Keep Ehrman's crucifixion affirmation honest when using him"
+        "Отделите историческое ядро от нарративной надёжности",
+        "Заставьте чтение одного Евангелия прежде гармонизации",
+        "Держите честным утверждение Ehrman о распятии, когда его используете"
       ],
       "links": [
         {
-          "label": "Debate video (Ehrman arguments)",
+          "label": "Видео дебата (доводы Ehrman)",
           "url": "https://youtu.be/9OyaV_tMQTM"
         }
       ]
@@ -1261,110 +1364,110 @@ window.TOPIC_DATA = {
   ],
   "opponent_cards": [
     {
-      "trigger": "Historians agree with the Muslim Jesus",
-      "fast_answer": "Name one: crucifixion? Most don't. Don't conflate 'not Nicene' with 'Islamic Isa.'",
-      "follow_up": "Quote Ehrman's crucifixion line.",
+      "trigger": "Историки согласны с мусульманским Иисусом",
+      "fast_answer": "Назовите одного: распятие? Большинство — нет. Не сливайте «не Никея» с «исламский Иса».",
+      "follow_up": "Процитируйте строку Ehrman о распятии.",
       "sources": [
         "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
       ]
     },
     {
-      "trigger": "The Qur'an confirms the historical Jesus",
-      "fast_answer": "It affirms prophethood/messiahship/miracles and collides on crucifixion/deity. Partial overlap ≠ confirmation.",
-      "follow_up": "List overlaps and collisions explicitly.",
+      "trigger": "Коран подтверждает исторического Иисуса",
+      "fast_answer": "Он утверждает пророчество / мессианство / чудеса и сталкивается на распятии / божестве. Частичное пересечение ≠ подтверждение.",
+      "follow_up": "Явно перечислите пересечения и столкновения.",
       "sources": [
         "https://quran.com/4/157",
         "https://quran.com/3/45"
       ]
     },
     {
-      "trigger": "Jesus never said 'I am God'",
-      "fast_answer": "Debate whether that is required. Bring authority claims, worship patterns, and John vs Synoptics honestly.",
-      "follow_up": "Ask what would count as a claim in Jewish idiom.",
+      "trigger": "Иисус никогда не говорил: «Я — Бог»",
+      "fast_answer": "Спорьте, требуется ли это. Честно принесите притязания на власть, паттерны поклонения и Иоанна против синоптиков.",
+      "follow_up": "Спросите, что считалось бы притязанием в иудейском идиоме.",
       "sources": [
-        "Mark 2",
-        "Philippians 2",
-        "John 10:30"
+        "Мк 2",
+        "Флп 2",
+        "Ин 10:30"
       ]
     },
     {
-      "trigger": "Paul invented Christianity",
-      "fast_answer": "Paul persecuted a Jesus movement that already existed; 1 Cor 15 creed is received. Paul ≠ inventor ex nihilo.",
-      "follow_up": "Discuss development without conspiracy.",
+      "trigger": "Павел изобрёл христианство",
+      "fast_answer": "Павел гнал уже существовавшее движение Иисуса; символ 1 Кор 15 — принятый. Павел ≠ изобретатель ex nihilo.",
+      "follow_up": "Обсуждайте развитие без теории заговора.",
       "sources": [
-        "Galatians 1",
-        "1 Corinthians 15:3–8"
+        "Гал 1",
+        "1 Кор 15:3–8"
       ]
     },
     {
-      "trigger": "4:157 is only denying Jewish boasts",
-      "fast_answer": "Possible reading — argue it. Majority tafsir and common Muslim belief still deny the crucifixion event.",
-      "follow_up": "Ask opponent's personal position on whether Jesus died on the cross.",
+      "trigger": "4:157 лишь отрицает иудейскую похвальбу",
+      "fast_answer": "Возможное чтение — аргументируйте его. Большинственный тафсир и обычная мусульманская вера всё же отрицают событие распятия.",
+      "follow_up": "Спросите личную позицию оппонента: умер ли Иисус на кресте.",
       "sources": [
         "https://quran.com/4/157-158",
-        "Lawson PDF"
+        "Lawson, PDF"
       ]
     },
     {
-      "trigger": "John is late and useless",
-      "fast_answer": "For historical Jesus, Synoptics weigh more. Christianity doesn't rest on John alone; nor can Islam cherry-pick John 17:3 only.",
-      "follow_up": "Apply equal skepticism to favorite verses.",
+      "trigger": "Иоанн поздний и бесполезен",
+      "fast_answer": "Для исторического Иисуса синоптики весят больше. Христианство не стоит на одном Иоанне; и ислам не может выборочно брать только Ин 17:3.",
+      "follow_up": "Примените равный скепсис к любимым стихам.",
       "sources": [
-        "Mark 12:29",
-        "John 17:3"
+        "Мк 12:29",
+        "Ин 17:3"
       ]
     },
     {
-      "trigger": "Historical method can't touch miracles, so Christianity loses",
-      "fast_answer": "Then both lose miracle claims including Qur'anic Jesus signs — or both allow them. Keep symmetry.",
-      "follow_up": "Return to crucifixion as non-miracle event claim.",
+      "trigger": "Исторический метод не касается чудес, поэтому христианство проигрывает",
+      "fast_answer": "Тогда обе стороны теряют чудесные утверждения, включая знамения коранического Иисуса — или обе их допускают. Держите симметрию.",
+      "follow_up": "Вернитесь к распятию как к утверждению о не-чудесном событии.",
       "sources": [
-        "Method card"
+        "Карточка метода"
       ]
     },
     {
-      "trigger": "Jesus was a Muslim",
-      "fast_answer": "If Muslim = submitter to God, word game. If Muslim = 7th-c. Sharīʿa follower, anachronism.",
-      "follow_up": "Define Islam in the sentence.",
+      "trigger": "Иисус был мусульманином",
+      "fast_answer": "Если мусульманин = предавший себя Богу, это игра слов. Если мусульманин = последователь шариата VII в., это анахронизм.",
+      "follow_up": "Определите ислам в этом предложении.",
       "sources": [
         "https://quran.com/3/52",
-        "historical method"
+        "исторический метод"
       ]
     },
     {
-      "trigger": "Nicene Christians follow Greek philosophy not Jesus",
-      "fast_answer": "Development used Greek terms; the dispute is whether it tracks apostolic claims. Fight substance.",
-      "follow_up": "Early Jewish Christian worship of Jesus predates Nicaea.",
+      "trigger": "Никейские христиане следуют греческой философии, а не Иисусу",
+      "fast_answer": "Развитие использовало греческие термины; спор в том, держит ли оно апостольские притязания. Бейте по существу.",
+      "follow_up": "Раннее иудео-христианское поклонение Иисусу старше Никеи.",
       "sources": [
-        "Philippians 2",
-        "Hurtado/Bauckham discussions"
+        "Флп 2",
+        "обсуждения Hurtado / Bauckham"
       ]
     },
     {
-      "trigger": "Embarrassment criterion proves nothing",
-      "fast_answer": "Grant criterion wars. Crucifixion still multiply attested including enemies. Don't need one tool.",
-      "follow_up": "Stack attestation channels.",
+      "trigger": "Критерий смущения ничего не доказывает",
+      "fast_answer": "Примите войны критериев. Распятие всё равно множественно засвидетельствовано, включая врагов. Один инструмент не обязателен.",
+      "follow_up": "Сложите каналы свидетельства.",
       "sources": [
         "Tacitus",
-        "Josephus",
-        "Paul",
-        "Mark"
+        "Иосиф Флавий",
+        "Павел",
+        "Марк"
       ]
     },
     {
-      "trigger": "The Christmas stories all fit together",
-      "fast_answer": "List Mt vs Lk: start town, Egypt vs 40-day temple+Nazareth, genealogies. Harmonize on paper — show the seam.",
-      "follow_up": "Ask which itinerary they drop under public history.",
+      "trigger": "Рождественские рассказы все сходятся",
+      "fast_answer": "Перечислите Мф против Лк: город старта, Египет против храма на 40-й день + Назарет, родословия. Гармонизируйте на бумаге — покажите шов.",
+      "follow_up": "Спросите, какой маршрут они бросают при публичной истории.",
       "sources": [
         "https://youtu.be/9OyaV_tMQTM",
-        "Matthew 1–2",
-        "Luke 1–2"
+        "Мф 1–2",
+        "Лк 1–2"
       ]
     },
     {
-      "trigger": "Ehrman proves Islam's Jesus",
-      "fast_answer": "No. He affirms crucifixion and a historical Jesus; he critiques Gospel reliability and high Johannine self-claims.",
-      "follow_up": "Use his wedges without baptizing 4:157.",
+      "trigger": "Ehrman доказывает исламского Иисуса",
+      "fast_answer": "Нет. Он утверждает распятие и исторического Иисуса; он критикует надёжность Евангелий и высокие Иоанновы самопритязания.",
+      "follow_up": "Используйте его клинья, не крестя 4:157.",
       "sources": [
         "https://youtu.be/9OyaV_tMQTM",
         "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
@@ -1372,46 +1475,45 @@ window.TOPIC_DATA = {
     }
   ],
   "checklist": [
-    "Announce epistemology: public history vs revelation-first",
-    "Define historical Jesus vs Christ of faith vs Qur'anic Isa",
-    "Lock crucifixion as first clash under public history",
-    "Prepare 5 shared near-certainties and 5 collisions",
-    "Master 1 Cor 15, Mark 12:29, Mark 14:61–62, Q 4:157, 3:45, 4:171",
-    "Method consistency jab ready (Ally/White style)",
-    "Separate resurrection belief fact from resurrection event claim",
-    "Decide how much critical scholarship you will use without sawing off your branch",
-    "Drill cards; kill 'historians agree with Islam' overclaim",
-    "Split identity vs practice scoring for 'follows'",
-    "Closing: who needs fewer ad hoc moves after method is fixed?",
-    "Bring Ehrman crucifixion quote + Q 4:157 printout",
-    "Drill Ehrman Mt/Lk birth, Galilee vs Jerusalem, Synoptics vs John, Mark vs Luke passion (youtu.be/9OyaV_tMQTM)"
+    "Объявите эпистемологию: публичная история против «сначала откровение»",
+    "Определите исторического Иисуса, Христа веры и коранического Ису",
+    "Закрепите распятие как первое столкновение при публичной истории",
+    "Подготовьте 5 общих почти-достоверностей и 5 столкновений",
+    "Выучите 1 Кор 15, Мк 12:29, Мк 14:61–62, «Коран 4:157», 3:45, 4:171",
+    "Держите наготове укол последовательности метода (стиль Ally / White)",
+    "Отделите факт веры в воскресение от утверждения о событии воскресения",
+    "Решите, сколько критической науки вы возьмёте, не отпиливая себе ветку",
+    "Прогоните карточки; убейте переигрыш «историки согласны с исламом»",
+    "Разведите баллы идентичности и практики для «следует»",
+    "Закрытие: кому нужно меньше ad hoc ходов, когда метод зафиксирован?",
+    "Принесите цитату Ehrman о распятии + распечатку «Коран 4:157»"
   ],
   "positive_cases": {
-    "Christian podium": [
-      "Crucifixion (and early resurrection proclamation) as historical movement center",
-      "First-century source proximity for reconstruction",
-      "Early high devotion/authority claims exceed 'mere prophet' ceiling",
-      "Islamic Isa collides with mainstream historical consensus at 4:157"
+    "Христианская трибуна": [
+      "Распятие (и ранняя проповедь воскресения) как исторический центр движения",
+      "Близость источников I века для реконструкции",
+      "Ранние высокие притязания на почитание / власть превышают потолок «просто пророк»",
+      "Исламский Иса сталкивается с мейнстримным историческим консенсусом на 4:157"
     ],
-    "Muslim podium": [
-      "Historical Jesus as Jewish monotheist prophet fits Qur'anic Messiah-prophet better than Nicene deity",
-      "Torah-confirming portrait vs law-free Pauline mission",
-      "Shared miracle/messiah data without metaphysical sonship",
-      "Critical Gospel scholarship undercuts simple 'Bible Jesus = God' historical claims"
+    "Мусульманская трибуна": [
+      "Исторический Иисус как иудейский пророк-монотеист лучше ложится на коранического Мессию-пророка, чем на никейское божество",
+      "Портрет подтверждающего Тору против беззаконной павловой миссии",
+      "Общие данные о чудесах / мессии без метафизического сыновства",
+      "Критическая евангельская наука подрезает простое историческое «библейский Иисус = Бог»"
     ],
-    "Unity / steelman": [
-      "Both should fear anachronism: Nicene seminary Jesus and 7th-c. fiqh Jesus",
-      "State method before conclusions",
-      "Use critical scholars symmetrically",
-      "Separate overlapping moral teaching from identity claims"
+    "Общее / сильнейшая форма": [
+      "Обе стороны должны бояться анахронизма: никейский семинарский Иисус и Иисус фикха VII в.",
+      "Назовите метод прежде выводов",
+      "Используйте критических учёных симметрично",
+      "Отделите пересекающееся нравственное учение от притязаний на идентичность"
     ]
   },
   "bibliography": [
     {
-      "tier": "History / method",
+      "tier": "История / метод",
       "items": [
         {
-          "label": "Ehrman blog — historical Jesus vs Qur'an",
+          "label": "Блог Ehrman — historical Jesus vs Коран",
           "url": "https://ehrmanblog.org/does-my-work-on-the-historical-jesus-confirm-the-quran/"
         },
         {
@@ -1419,40 +1521,41 @@ window.TOPIC_DATA = {
           "url": "https://www.oxfordbibliographies.com/display/document/obo-9780195393361/obo-9780195393361-0022.xml"
         },
         {
-          "label": "Tacitus Annals 15.44",
+          "label": "Tacitus, Анналы 15.44",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
         },
         {
-          "label": "Lawson PDF — Crucifixion and the Qur'an",
+          "label": "Lawson, PDF — The Crucifixion and the Коран",
           "url": "https://almuslih.org/wp-content/uploads/2024/12/Lawson-T-%E2%80%93-The-Crucifixion-and-the-Quran.pdf"
         }
       ]
     },
     {
-      "tier": "Primary",
+      "tier": "Первоисточники",
       "items": [
         {
-          "label": "1 Corinthians 15; Mark 2; 12; 14; Matthew 5",
+          "label": "1 Кор 15; Мк 2; 12; 14; Мф 5",
           "url": "https://www.biblegateway.com/passage/?search=1+Corinthians+15%3A3-8&version=NRSVUE"
         },
         {
-          "label": "Qur'an 3:45–55; 4:157–158; 4:171; 5:110",
+          "label": "«Коран 3:45»–55; 4:157–158; 4:171; 5:110",
           "url": "https://quran.com/4/157-158"
         }
       ]
     },
     {
-      "tier": "Apologetic",
+      "tier": "Апологетика",
       "items": [
         {
-          "label": "Craig — Qur'an and crucifixion",
+          "label": "Craig — Коран и распятие",
           "url": "https://www.reasonablefaith.org/writings/question-answer/the-quran-and-the-crucifixion-of-jesus"
         },
         {
-          "label": "AJIS crucifixion survey",
+          "label": "Обзор AJIS о распятии",
           "url": "https://ajis.com.au/index.php/ajis/article/view/585"
         }
       ]
     }
   ]
 };
+window.TOPIC_DATA = window.TOPIC_DATA_RU;
