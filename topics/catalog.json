@@ -63,6 +63,33 @@
       "bilingual": true
     },
     {
+      "id": "quran-hebrew-wordplay",
+      "title": {
+        "en": "Does the Qur'an know Hebrew? Interlingual wordplay",
+        "ru": "Знает ли Коран иврит: межъязыковая игра слов"
+      },
+      "thesis": {
+        "en": "Do clustered Hebrew / Aramaic / Syriac echoes — some of them polemical inversions — show that the Qur'an knows prior scripture at word level and deliberately corrects it, or do they show a Late Antique Arabic milieu of loanwords, Targums, and oral Bible?",
+        "ru": "Свидетельствуют ли сгустки ивритских / арамейских / сирийских отголосков — часть из них полемические инверсии — о том, что Коран знает прежнее Писание на уровне слов и сознательно его правит, или о позднеантичной арабской среде заимствований, Таргумов и устной Библии?"
+      },
+      "blurb": {
+        "en": "Does the Qur'an know Hebrew? Word-level echoes and corrections vs Jeffery loanwords and milieu.",
+        "ru": "Знает ли Коран иврит на уровне слов и сознательно правит Писание — или это заимствования Jeffery и среда Таргумов?"
+      },
+      "group": {
+        "en": "Scripture",
+        "ru": "Писание"
+      },
+      "path": "topics/quran-hebrew-wordplay/",
+      "counts": {
+        "arguments": 10,
+        "materials": 1,
+        "cards": 10,
+        "debates": 1
+      },
+      "bilingual": true
+    },
+    {
       "id": "critiques",
       "title": {
         "en": "Christian critiques of Islam",
