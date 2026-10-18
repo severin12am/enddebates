@@ -831,7 +831,8 @@
   if (liveQuotes) {
     const seen = new Set();
     (data.arguments || []).forEach((arg) => {
-      ["christian", "muslim", "israel", "palestine"].forEach((side) => {
+      const quoteSides = [...new Set([...(data.meta.side_keys || []), "christian", "muslim", "israel", "palestine", "claimant", "critic"])];
+      quoteSides.forEach((side) => {
         ((arg[side] && arg[side].quotes) || []).forEach((q) => {
           const key = (q.text || "") + (q.who || "");
           if (!q.text || seen.has(key)) return;
@@ -849,8 +850,14 @@
   }
 
   // Global search
+  function fold(s) {
+    return String(s || "")
+      .normalize("NFD")
+      .replace(/\p{M}/gu, "")
+      .toLowerCase();
+  }
   function hay(obj) {
-    return JSON.stringify(obj).toLowerCase();
+    return fold(JSON.stringify(obj));
   }
   const searchIndex = [];
   if (data.opening_speech) {
@@ -879,6 +886,15 @@
     });
   });
   (data.arguments || []).forEach((arg) => {
+    const keys = data.meta.side_keys || ["christian", "muslim"];
+    const a = arg[keys[0]] || arg.christian || {};
+    const b = arg[keys[1]] || arg.muslim || {};
+    searchIndex.push({
+      kind: t("kind_argument", "Claim"),
+      title: arg.title || arg.id || "",
+      body: [arg.crux, arg.why_it_matters, a.claim, a.case, b.claim, b.case].filter(Boolean).join(" "),
+      tab: "arguments",
+    });
     const live = arg.live || arg.live_lines;
     if (live && live.if_they_say) {
       searchIndex.push({
@@ -888,7 +904,8 @@
         tab: "live",
       });
     }
-    ["christian", "muslim", "israel", "palestine"].forEach((side) => {
+    const quoteSides = [...new Set([...(data.meta.side_keys || []), "christian", "muslim", "israel", "palestine", "claimant", "critic"])];
+    quoteSides.forEach((side) => {
       ((arg[side] && arg[side].quotes) || []).forEach((q) => {
         searchIndex.push({
           kind: t("kind_quote", "Quote"),
@@ -939,7 +956,7 @@
   const hitsEl = $("search-hits");
   if (searchBox && hitsEl) {
     searchBox.addEventListener("input", () => {
-      const q = searchBox.value.trim().toLowerCase();
+      const q = fold(searchBox.value.trim());
       hitsEl.innerHTML = "";
       if (q.length < 2) {
         hitsEl.hidden = true;

@@ -90,6 +90,33 @@
       "bilingual": true
     },
     {
+      "id": "quranic-miracles",
+      "title": {
+        "en": "Qur'anic miracles (i'jaz): literary first — then linguistic, historical, scientific",
+        "ru": "Чудеса Корана (иджаз): сначала литературные"
+      },
+      "thesis": {
+        "en": "What are the strongest 'miracle' claims Muslims actually make for the Qur'an — starting with literary features (ring composition, iltifāt, naẓm, sound) that Nouman Ali Khan popularized — then the argument from Muhammad's sincerity (liar / insane / mistaken / genuine) — and which of them survive when you allow the readings that do not help apologetics?",
+        "ru": "What are the strongest 'miracle' claims Muslims actually make for the Qur'an — starting with literary features (ring composition, iltifāt, naẓm, sound) that Nouman Ali Khan popularized — then the argument from Muhammad's sincerity (liar / insane / mistaken / genuine) — and which of them survive when you allow the readings that do not help apologetics?"
+      },
+      "blurb": {
+        "en": "I'jaz without a pamphlet: ring composition, iltifāt, naẓm first; sincerity (liar / mistaken / genuine); then history and science — hits and misses on the same table.",
+        "ru": "Иджаз без памфлета: кольцевая композиция, ильтифат, назм; искренность (лжец / ошибся / подлинно); затем история и наука — попадания и промахи в одной таблице."
+      },
+      "group": {
+        "en": "Scripture",
+        "ru": "Писание"
+      },
+      "path": "topics/quranic-miracles/",
+      "counts": {
+        "arguments": 46,
+        "materials": 0,
+        "cards": 16,
+        "debates": 1
+      },
+      "bilingual": false
+    },
+    {
       "id": "critiques",
       "title": {
         "en": "Christian critiques of Islam",

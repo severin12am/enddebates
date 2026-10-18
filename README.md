@@ -10,7 +10,13 @@ npx --yes serve .
 
 - Hub: http://localhost:5173/
 - Historicity (with papyri/mushaf gallery): http://localhost:5173/topics/historicity/
+- Qur'anic miracles (i'jaz): http://localhost:5173/topics/quranic-miracles/
 - Trinity vs Tawhid: http://localhost:5173/topics/trinity/
+
+Live:
+
+- GitHub Pages: https://severin12am.github.io/enddebates/
+- Netlify: https://enddebates-kb.netlify.app/
 
 ## Topics
 
@@ -18,6 +24,7 @@ npx --yes serve .
 |------|------|
 | Historicity of Bible vs Qur'an | `topics/historicity/` |
 | Christian critiques of Islam | `topics/critiques/` |
+| Qur'anic miracles (i'jaz) + sincerity | `topics/quranic-miracles/` |
 | Trinity vs Tawhid | `topics/trinity/` |
 | Rules of warfare | `topics/warfare/` |
 | Which is more moral | `topics/morality/` |

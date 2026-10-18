@@ -19,6 +19,7 @@ from scripts.kb import (  # noqa: E402
     morality,
     nonbelievers,
     quran_hebrew_wordplay,
+    quranic_miracles,
     slavery,
     trinity,
     warfare,
@@ -36,6 +37,7 @@ from scripts.kb.i18n_common import (  # noqa: E402
 MODULES = [
     historicity,
     quran_hebrew_wordplay,
+    quranic_miracles,
     critiques,
     trinity,
     warfare,
@@ -56,6 +58,10 @@ CATALOG_META = {
     },
     "quran-hebrew-wordplay": {
         "blurb": "Does the Qur'an know Hebrew? Word-level echoes and corrections vs Jeffery loanwords and milieu.",
+        "group": "Scripture",
+    },
+    "quranic-miracles": {
+        "blurb": "I'jaz without a pamphlet: ring composition, iltifāt, naẓm first; sincerity (liar / mistaken / genuine); then history and science — hits and misses on the same table.",
         "group": "Scripture",
     },
     "critiques": {

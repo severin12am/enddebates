@@ -188,12 +188,12 @@ summary h2, summary h3 {
 @media (min-width: 740px) { .two { grid-template-columns: 1fr 1fr; } }
 
 .side { border-radius: 8px; padding: 0.75rem 0.85rem; }
-.side.christian, .side.israel {
+.side.christian, .side.israel, .side.critic {
 
   background: var(--christian-bg);
   border: 1px solid color-mix(in srgb, var(--christian) 22%, transparent);
 }
-.side.muslim, .side.palestine {
+.side.muslim, .side.palestine, .side.claimant {
   background: var(--muslim-bg);
   border: 1px solid color-mix(in srgb, var(--muslim) 22%, transparent);
 }
@@ -201,8 +201,8 @@ summary h2, summary h3 {
   font-family: var(--font-ui); font-size: 0.68rem; font-weight: 700;
   letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 0.3rem;
 }
-.side.christian .label, .side.israel .label { color: var(--christian); }
-.side.muslim .label, .side.palestine .label { color: var(--muslim); }
+.side.christian .label, .side.israel .label, .side.critic .label { color: var(--christian); }
+.side.muslim .label, .side.palestine .label, .side.claimant .label { color: var(--muslim); }
 .side .claim {
   margin: 0 0 0.4rem; font-family: var(--font-display);
   font-size: 0.96rem; font-weight: 550; line-height: 1.35;
