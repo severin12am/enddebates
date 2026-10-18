@@ -2217,7 +2217,7 @@ DATA = {
             "critic": "Skeptical / academic / literal-archive case",
         },
         "side_keys": ["claimant", "critic"],
-        "default_tab": "brief",
+        "default_tab": "arguments",
         "ui": {
             "tab_arguments": "Miracle claims",
             "tab_verses": "Verses",

@@ -94,7 +94,7 @@
       history.replaceState(null, "", "#" + btn.dataset.tab);
     });
   });
-  const initial = location.hash.replace("#", "") || data.meta.default_tab || "brief";
+  const initial = location.hash.replace("#", "") || "arguments";
   const start =
     document.querySelector(`[data-tab="${initial}"]:not([hidden])`) ||
     document.querySelector("[data-tab]:not([hidden])");

@@ -11,7 +11,7 @@ window.TOPIC_DATA_EN = {
       "Manuscript viewers",
       "Both sides"
     ],
-    "default_tab": "live",
+    "default_tab": "arguments",
     "labels": {
       "christian": "Bible-historicity case",
       "muslim": "Qur'an-historicity case"

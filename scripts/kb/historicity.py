@@ -461,7 +461,7 @@ def topic() -> dict:
             "warning": meta.get("warning")
             or "Historicity ≠ preservation ≠ inspiration ≠ corruption. Define terms in 60 seconds.",
             "chips": ["Live desk", "Sidky / Wallace / Tov", "Manuscript viewers", "Both sides"],
-            "default_tab": "live",
+            "default_tab": "arguments",
             "labels": {
                 "christian": "Bible-historicity case",
                 "muslim": "Qur'an-historicity case",
