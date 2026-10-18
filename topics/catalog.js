@@ -1,5 +1,5 @@
 window.TOPIC_CATALOG = {
-  "default_lang": "ru",
+  "default_lang": "en",
   "ui": {
     "en": {
       "lang_en": "EN",

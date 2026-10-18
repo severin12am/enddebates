@@ -1,8 +1,8 @@
 (() => {
-  const KEY = "ed-lang";
+  const KEY = "ed-lang-v2";
   const params = new URLSearchParams(location.search);
   const q = params.get("lang");
-  let lang = q === "en" || q === "ru" ? q : localStorage.getItem(KEY) || "ru";
+  let lang = q === "en" || q === "ru" ? q : localStorage.getItem(KEY) || "en";
   if (q === "en" || q === "ru") {
     try {
       localStorage.setItem(KEY, q);

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,11 +19,11 @@
   <body>
     <header class="site-header">
       <div class="wrap brand-row">
-        <p class="brand">EndDebates<small data-hub="brand_small">База для дебатов</small></p>
+        <p class="brand">EndDebates<small data-hub="brand_small">Knowledge base</small></p>
         <div class="nav-links">
           <div class="lang-switch" role="group" aria-label="Language">
-            <button type="button" data-set-lang="ru">RU</button>
             <button type="button" data-set-lang="en">EN</button>
+            <button type="button" data-set-lang="ru">RU</button>
           </div>
         </div>
       </div>
@@ -32,19 +32,19 @@
     <main class="wrap">
       <section class="hero">
         <div class="chips">
-          <span class="chip" data-hub="chip_ivc">Ислам и христианство</span>
+          <span class="chip" data-hub="chip_ivc">Islam vs Christianity</span>
           <span class="chip" data-hub="chip_ip">Israel–Palestine</span>
-          <span class="chip" data-hub="chip_live">Подготовка к дебатам</span>
-          <span class="chip" data-hub="chip_steelman">Обе стороны в сильнейшей форме</span>
+          <span class="chip" data-hub="chip_live">Live debate prep</span>
+          <span class="chip" data-hub="chip_steelman">Both sides steelmanned</span>
         </div>
-        <h1 data-hub="hero_title">Сделайте аргументы проверяемыми</h1>
+        <h1 data-hub="hero_title">Make the evidence inspectable</h1>
         <p class="thesis" data-hub="hero_thesis">
-          Один хаб для повторяющихся споров — Писание, Бог, Иисус, этика и Израиль–Палестина —
-          с доводами, рукописями, карточками оппонента и источниками, которые можно открыть во время подготовки или в дебате.
+          One hub for the fights that keep repeating — scripture, God, Jesus, ethics, and Israel–Palestine —
+          with arguments, manuscripts, opponent cards, and sources you can open during prep or mid-debate.
         </p>
         <div class="warn-box" data-hub="hero_warn">
-          Победитель не объявляется. Цель — убрать туман лозунгов: определить термины,
-          представить обе стороны сильно, приложить источники, назвать суть спора. Так дискурс приближается к общей реальности.
+          No declared winners. The point is to collapse slogan fog: define terms, steelman both sides, attach receipts,
+          name the crux. That is how discourse gets closer to shared reality.
         </div>
       </section>
 
@@ -54,8 +54,8 @@
     <footer class="footer">
       <div class="wrap">
         <p data-hub="footer">
-          Пересобрать данные: <code>python scripts/build_kb.py</code>.
-          Тема 01 — в Critiques; в Historicity — галерея папирусов/мушафов.
+          Rebuild data with <code>python scripts/build_kb.py</code>.
+          Legacy Topic 01 lives under Critiques; Historicity includes the papyri/mushaf gallery.
         </p>
       </div>
     </footer>
@@ -66,11 +66,11 @@
       (() => {
         const cat = window.TOPIC_CATALOG;
         if (!cat) return;
-        const lang = (window.ED_LANG && window.ED_LANG.lang) || cat.default_lang || "ru";
-        const ui = (cat.ui && cat.ui[lang]) || (cat.ui && cat.ui.ru) || {};
+        const lang = (window.ED_LANG && window.ED_LANG.lang) || cat.default_lang || "en";
+        const ui = (cat.ui && cat.ui[lang]) || (cat.ui && cat.ui.en) || {};
         const pick = (field) => {
           if (field && typeof field === "object" && ("ru" in field || "en" in field)) {
-            return field[lang] || field.ru || field.en || "";
+            return field[lang] || field.en || field.ru || "";
           }
           return field || "";
         };

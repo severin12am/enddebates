@@ -1,8 +1,8 @@
 (() => {
-  const lang = (window.ED_LANG && window.ED_LANG.lang) || "ru";
+  const lang = (window.ED_LANG && window.ED_LANG.lang) || "en";
   const data =
-    (lang === "en" && window.TOPIC_DATA_EN) ||
     (lang === "ru" && window.TOPIC_DATA_RU) ||
+    window.TOPIC_DATA_EN ||
     window.TOPIC_DATA;
   if (!data) return;
 

@@ -168,12 +168,12 @@ def write_topic(en_topic: dict, ru_topic: dict | None) -> Path:
         encoding="utf-8",
     )
 
-    display = default
+    display = en_out
     template = (ROOT / "topics" / "_template.html").read_text(encoding="utf-8")
     html = (
         template.replace("TOPIC_TITLE", display["meta"]["title"])
         .replace("TOPIC_DESC", display["meta"].get("purpose") or display["meta"]["thesis"])
-        .replace("TOPIC_LANG", display["meta"].get("lang") or "ru")
+        .replace("TOPIC_LANG", display["meta"].get("lang") or "en")
     )
     (out_dir / "index.html").write_text(html, encoding="utf-8")
     return out_dir
@@ -293,7 +293,7 @@ def main() -> None:
         )
 
     catalog_obj = {
-        "default_lang": "ru",
+        "default_lang": "en",
         "ui": {"en": HUB_UI_EN, "ru": HUB_UI_RU},
         "topics": catalog,
     }
